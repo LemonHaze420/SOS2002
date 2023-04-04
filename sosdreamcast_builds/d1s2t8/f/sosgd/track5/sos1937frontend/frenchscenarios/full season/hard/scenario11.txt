@@ -1,0 +1,40 @@
+Name Saison complète, Duesenberg
+Difficulty Difficile
+Description Finir dans les deux premiers du championnat
+Goal Position
+SuccessValue 2
+SuccessString Vous pouvez vous laisser aller à présent, vous avez largement mérité ces honneurs !
+FailureString Le défi n'avait pourtant rien d'insurmontable !
+TrackPosition 0
+Race Courte
+Cars 6
+Car0 3
+Car1 12
+Car2 17
+Car3 60
+Car4 28
+#Car5 40
+#Car6 21
+#Car7 7
+car5 11
+#Car9 44
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,461 @@
+# 158 × is w^
+# 166 ª is y^
+# 143 Å is A^
+
+1 Y P3 oedd y car rasio un-sedd gwirioneddol cyntaf i gael ei bweru gan injan 8-silindr.
+2 Car penigamp ddwy-injan, wedi ei gynllunio i gystadlu yn uniongyrchol gyda'r Mercedes a'r Auto Unions.
+3 Roedd gan y car yma hongiad blaen ymlusgol a chefn echel siglog.
+4 Yn enwog am ei drin anodd, ond o! am b×er
+5 Y diweddaredig math C yn cydffurfio â'r safonau newydd o 3 litr tra-chywasgu, 4.5 litr arferol.
+6 Yn boblogaidd gan yrrwyr amatur am ei allu i rasio'n syth o'r ffatri.
+7 Bugatti mwy pwerus, gyda tanc betrol am deithiwr.
+8 Wedi ei adeiladu i'r Iarll Trossi o Scuderia Ferrari i'r Grand Prix Ewropeaidd, roedd ganddo'r record dosbarth C ar gylchfordd allanol Brooklands. 
+9 Yn gwisgo lliwiau cenedlaethol Thailand, ffrâm felen a chorff glas golau. 
+10 Y ceir tra-chywasglyd yma oedd y gorau o'r Maseratis sedd-canolog.
+11 Wedi ei ddatblygu mewn atebiad i'r Mercedes W25, roedd gan y Maserati yma injan V8 a hongiad hollol-annibynol.
+12 Cafodd y car syfrdanol yma o'r byd rasio ei saerni..o i bara 500 milltir a chafodd atgyweiriad llawn cyn pob ras.  
+13 Cafodd y Mercedes ei adeiladu i fformiwla newydd a oedd yn cyfyngu'r car heb yrrwr, petrol ac olew i 750kg heb gyfyngu maint yr injan. Profodd hwn i fod yn un o'r ceir mwyaf llwyddianus o'r adeg.
+14 Rheolodd y Miller addasadwy hwn rasio Americannaidd, yn aml mewn cydweithrediad â injan Ofenhauser.
+15 Mae'r car injan-awyren 24 litr Napier yn dal record cylchfordd allanol Brooklands - 143.44mya. 
+16 Yr Auto Union llyfn, a ddefnyddir i rasio yn Avus.
+
+# Alfa Romeo P3
+17 140 mya
+18 3165 cc
+19 265 bhp
+20 5,400 rpm
+22 725kg
+23 Å llaw, 4-cyflymdra
+24 Uchel
+
+# Alfa Romeo Bimotore
+25 205 mya
+26 2 x 3,165 cc
+27 2 x 270 bhp
+28 5,400 rpm
+30 1030kg
+31 Å llaw, 3-cyflymdra
+32 Uchel
+
+# Alfa Romeo 12C
+33 150 mya
+34 4064 cc
+35 370 bhp
+36 6,600 rpm
+38 820kg
+39 Å llaw, 4-cyflymdra
+40 Uchel
+
+# AutoUnion C
+41 190 mya
+42 6000 cc
+43 520 bhp
+44 5,000 rpm
+46 750kg
+47 Å llaw, 5-cyflymdra
+48 Uchel
+
+# AutoUnion D
+49 170 mya
+50 3000 cc
+51 485 bhp
+52 7,000 rpm
+54 850kg
+55 Å llaw, 4-cyflymdra
+56 Uchel
+
+# Bugatti 35B
+57 140 mya
+58 2300 cc
+59 120 bhp
+60 5,100 rpm
+62 750kg
+63 Å llaw, 4-cyflymdra
+64 Uchel
+
+# Bugatti 59
+65 150 mya
+66 3,300 cc
+67 250 bhp
+68 6,600 rpm
+70 750kg
+71 Å llaw, 4-cyflymdra
+72 Uchel
+
+# Dusenberg
+73 150 mya
+74 4250 cc
+75 150 bhp
+76 5,000 rpm
+78 950kg
+79 Å llaw, 4-cyflymdra
+80 Uchel
+
+# ERA Remus
+81 135 mya
+82 1,500 cc
+83 166 bhp
+84 6,500 rpm
+86 915 kg
+87 Å llaw, 4-cyflymdra
+88 Uchel
+
+# Maserati 8CM
+89 145 mya
+90 2992 cc
+91 150 bhp
+92 5,800 rpm
+94 785kg
+95 Å llaw, 4-cyflymdra
+96 Uchel
+
+# Maserati V8Ri
+97 140 mya
+98 4,800 cc
+99 320 bhp
+100 5,300 rpm
+102 750kg
+103 Å llaw, 4-cyflymdra
+104 Canolig
+
+# Mercedes 125
+105 166 mya
+106 5660 cc
+107 646 bhp
+108 5,800 rpm
+110 750kg
+111 Å llaw, 4-cyflymdra
+112 Uchel
+
+# Mercedes 154
+113 186 mya
+114 2,962 cc
+115 483 bhp
+116 7,800 rpm
+118 750kg
+119 Å llaw, 5-cyflymdra
+120 Uchel
+
+# Miller
+121 150 mya
+122 1478 cc
+123 230 bhp
+124 8,000 rpm
+126 635kg
+127 Å llaw, 4-cyflymdra
+128 Uchel
+
+# Napier-Railton
+129 168 mya
+130 24,000 cc
+131 590 bhp
+132 2,700 rpm
+134 1,000kg
+135 Å llaw, 3-cyflymdra
+136 Uchel
+
+# AutoUnion SL
+137 212 mya
+138 6000 cc
+139 520 bhp
+140 5,000 rpm
+142 820kg
+143 Å llaw, 5-cyflymdra
+144 Uchel
+
+
+# Function labels
+145 Cyflymdra Uchaf:
+146 Maint Injan:
+147 Bhp:
+148 Max Revs:
+150 Pwysau:
+151 Gêr:
+152 Cymhareb gêr:
+
+# Track labels
+153 Math:
+154 Hyd:
+155 Gwlad:
+156 Cyfeiriad:
+157 Nodweddion:
+
+# Avus
+158 Hirgrwn cyflymdra uchel
+159 11.98 milltir
+160 Yr Almaen
+161 Yn groes i'r cloc
+162 Yn cynnwys dwy fordd 8 medr o led gyda dwy lôn wedi eu gwahanu gan 8 medr o borfa. Y cornel ar oleddf cyflyma yn y byd, gyda lled o 12 medr ac ongl o 43 gradd.
+
+# Brooklands
+163 Cylchffordd cyflymdra uchel
+164 2.75 milltir
+165 Lloegr
+166 Yn groes i'r cloc
+167 Wedi ei osod yng ngefn gwlad Lloegr. Mae ganddo ffordd cychwyn/gorffen unigryw sy'n rhedeg drwy ganol y trac. 100 troedfedd o led gyda oleddf uchel o 20 troedfedd yn cynnwys onglau 90 gradd.
+
+# Donington
+168 Cylchffordd heol
+169 3.125 milltir
+170 Lloegr
+171 Gyda'r cloc
+172 Cylchffordd rhan-goediog yng nghanol Lloegr.
+
+# Montana
+173 Hirgrwn cyflymdra Uchel
+174 1.25 milltir
+175 U.D.A.
+176 Yn groes i'r cloc
+177 Hirgrwn byr syml...gyda thro annisgwyl. Rasio cystadleuol tyn yng nghanol mynyddoedd Montana.
+
+# Montlhery
+178 Cylchffordd a heol cyflymdra uchel
+179 7.8 milltir
+180 Ffrainc
+181 Gyda'r cloc
+182 Ardal wledig hyfryd Ffrainc sy'n rhoi'r cefndir i'r ras rhan-gylchffordd oleddf, rhan-heol wledig yma.
+
+# Monza
+183 Cylchffordd a heol cyflymdra uchel
+184 4.35 milltir
+185 Yr Eidal
+186 Gyda'r cloc
+187 Gwynebwch y rhwystrau gosod heriol a'r ffordd ar oleddf o'r gylchffordd Eidaleg enwog hon.
+
+# Pau
+188 O amgylch y tai
+189 1.72 milltir
+190 Ffrainc
+191 Gyda'r cloc
+192 Wedi ei osod yn y Pyrenees, mae'r graddiant a'r troeon tyn yn cyfrannu at ras heriol.
+
+# Roosevelt
+193 Trac rasio dull F1
+194 3.97 milltir
+195 U.D.A.
+196 Yn groes i'r cloc
+197 Roedd y tywod wedi'i bacio'n dyn a'r graean ar drac Long Island yn brawf go iawn o sgil rasio gyda'i gorneli oleddf a thyn.
+
+# Tripoli
+198 Heol anialdir cyflymdra uchel
+199 8.14 milltir
+200 Libya
+201 Gyda'r cloc
+202 Yn rasio drwy'r tywod a'r gwres yn Nhripoli, yn debygol y gylchffordd mwyaf heriol yr oes.
+
+# The dates of the tracks.
+203 9fed Mai 1937
+204 30ain Mai 1937
+205 13eg Mehefin 1937
+206 3ydd Gorffennaf 1937
+207 11eg Gorffennaf 1937
+208 25ain Gorffennaf 1937
+209 8fed Awst 1937
+210 12fed Medi 1937
+211 26ain Medi 1937
+
+# The permanent buttons
+212 Dewis Trac
+213 Dewis Car
+214 Ras Newydd
+215 Dewisiadau
+216 Llwytho 
+217 Arbed
+218 Ailchwarae dewisiadau
+219 Gadael
+220 OK
+
+# Values for Race Type
+221 Pencampwriaeth
+222 Ras sengl
+223 Senario
+
+# Labels for the track description.
+224 Math:
+225 Hyd:
+226 Gwlad:
+227 Cyfeiriad:
+228 Nodweddion:
+
+# Labels for the car description.
+229 Cyflymdra uchaf:
+230 Maint injan:
+231 P×er:
+232 Max revs:
+233 Pwysau:
+234 Gêr:
+235 Rhowch enw
+
+# race type descriptions
+236 Dewis math ras
+237 Pencampwriaeth newydd
+238 Llwytho senario
+239 Ras sengl
+
+# Load a season scenario
+240 Dewis senario tymor
+241 Lefel anhawster:
+242 Hawdd
+243 Canolig
+244 Anodd
+245 Enw:
+246 Hyd ras:
+247 Cadarnhau senario
+
+# The championship screen
+248 Pencampwriaeth
+249 Grid ras
+250 Safonau mewn cynghrair
+251 Manylion Trac
+252 Manylion car
+253 Math:
+254 Hyd:
+255 Gwlad:
+256 Cyfeiriad:
+257 Nodweddion:
+258 Gadael Tymor
+259 Ymarfer
+260 Goleddfu
+261 Ras
+262 Safonau mewn cynghrair
+263 Safleoedd grid
+
+# Load a scenario
+264 Llwytho senario
+265 Lefel anhawster:
+266 Hawdd
+267 Canolig
+268 Caled
+
+269 Llwytho senarioras
+270 Tudalen nesaf
+271 Tudalen gyntaf
+272 Trac:
+273 Lapiau
+
+# Scenario screen
+274 Gadael senario
+275 Senario
+276 Wedi pasio senario
+277 Wedi methu senario
+278 Manylion senario
+
+# Replay Options Screen
+279 Ailchwarae dewisiadau
+280 Llwytho ailchwarae
+281 Arbed ailchwarae
+282 Dangos ailchwarae
+283 Ailchwarae enw:
+284 Ailchwarae trac:
+285 Ceir yn ailchwarae:
+286 Slotiau ailchwarae rhydd
+287 Dim
+288 Ailchwarae mewn cof:
+289 Ailchwarae dewisiol:
+290 Dileu ailchwarae
+
+# Load or Save game
+291 Llwytho gem
+292 Arbed gem
+293 Dileu gem
+
+# Single Race
+294 Ras sengl
+295 Nifer o geir:
+296 Dechrau ras
+297 Trac presennol:
+298 Nifer o lapiau:
+
+299 Enw'r gem:
+300 Ailddechrau'r gem
+301 A ydych yn siwr?
+302 Ydw
+303 Nac ydw
+304 Saf.
+305 Gyrrwr
+306 Car
+307 Rhif.
+308 Amser Lap
+309 Amser Ras
+310 Anodd iawn
+311 Parhau pencampwriaeth
+312 Canlyniadau ras
+313 Credydau
+314 Throtl
+315 Brêc
+316 Chwith
+317 Dde
+318 Gêr i fyny
+319 Gêr i lawr
+320 Acennu
+321 Edrych yn ôl
+
+322 Awtomatig
+323 Å Llaw
+
+# Options screen
+
+500 Dewisiadau
+501 Cerddoriaeth:
+502 Drychau ôl:
+503 Cysgodion:
+504 Awyr:
+505 Lefel manylion:
+506 M×g:
+507 Rheolwr:
+508 Eglurdeb sgrin:
+509 Adlifoedd grym:
+
+510 Swn dewislen
+511 Drychau
+512 Cysgod car
+513 Olwyn lywio sedd y gyrrwr
+514 Lefel manylion
+515 Effeithiau m×g
+516 Rheolwr
+517 Eglurdeb sgrin
+518 Adlifoedd grym
+519 Cyflunio
+
+520 Ymlaen
+521 I ffwrdd
+523 Ymlaen
+524 I ffwrdd
+525 Ymlaen
+526 I ffwrdd
+527 Ymlaen
+528 I ffwrdd
+529 Isel
+530 Canolig
+531 Uchel
+532 Ymlaen
+533 I ffwrdd
+534 Olwyn lywio
+535 Ffon lywio
+536 Bysellfwrdd
+537 Arbennig
+538 Pad llywio
+539 320x200
+540 512x384
+541 640x480
+542 800x600
+543 1024x768
+544 1280x1024
+545 1600x1200
+546 I ffwrdd
+547 Isel
+548 Uchel
+549 Ymlaen
+550 I ffwrdd
+
+551 Holl swn
+552 Sain ceir
+553 Sain amgylcheddol
+
+554 Ailgynnig ar ras
+555 Dewisiadau graffeg
+556 Dewisiadau gêm
+557 Dewisiadau sain
+558 Rheolwr cyflunio
+559 Gwasgwch unrhyw fotwm neu'r botwm cyflunio
+end

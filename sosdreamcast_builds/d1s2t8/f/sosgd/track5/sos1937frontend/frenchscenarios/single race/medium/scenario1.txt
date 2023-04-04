@@ -1,0 +1,15 @@
+Name Une histoire de gros sous
+# Robert Ward
+Description Vous devez battre le record du tour du circuit de Donington (1:30:01) en moins de 3 tours pour rembourser vos dettes. Faites vos jeux !
+Goal LapTime
+Difficulty Medium
+SuccessValue 9000
+SuccessString Cinq cent guinées et votre nom dans les annales du circuit, que demander de mieux ?
+FailureString Nous vous souhaitons de pouvoir quitter la ville dans l'heure…
+Track Donington
+Laps 3
+Cars 4
+Car0 8
+Car1 11
+Car2 55
+Car3 7

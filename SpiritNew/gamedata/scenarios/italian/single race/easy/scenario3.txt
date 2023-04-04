@@ -1,0 +1,22 @@
+Name A tutto gas!
+# Phil Gilbert
+Description Riuscirai, al volante della Miller, a classificarti fra i primi 4 a Montlhéry? Partirai in pole position.
+Difficulty Media
+Goal Position
+SuccessValue 4
+SuccessString Complimenti a te. Un lavoro niente male, bravo!
+FailureString Oh, accidenti! Hai intenzione di riprovare?
+TrackPosition 1
+Track Montlhery
+Laps 5
+Cars 10
+Car0 29
+Car1 15
+Car2 33
+Car3 10
+Car4 1
+Car5 18
+Car6 54
+Car7 22
+Car8 12
+Car9 20

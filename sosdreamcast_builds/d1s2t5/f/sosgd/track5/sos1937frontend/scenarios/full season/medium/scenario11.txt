@@ -1,0 +1,41 @@
+Name Full Season Duesenberg
+Difficulty medium
+Description 
+CAR TYPE : Duesenberg
+RACE TYPE : Short
+OBJECTIVE : TOP 3
+NUMBER OF CARS : 5
+Goal position
+SuccessValue 3
+SuccessString Congratulations!
+FailureString Bad luck! Try again.
+TrackPosition 0
+Race Short
+Cars 5
+Car0 3
+Car1 12
+Car2 17
+Car3 60
+Car4 28
+#Car5 40
+#Car6 21
+#Car5 7
+#car8 11
+#Car9 44
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,37 @@
+Name Saison complète, Alfa Bimotore
+Difficulty Facile
+Description Etre couronné champion à la fin de la saison
+Goal Position
+SuccessValue 1
+SuccessString Vous avez fait ce qu'il fallait, et au volant d'une voiture pareille en plus. Bien joué !
+FailureString Qui n'est pas à la hauteur, la voiture ou vous ?
+TrackPosition 0
+Race Longue
+Cars 5
+Car0 74
+Car1 7
+Car2 48
+Car3 22
+Car4 32
+#Car5 46
+#Car6 83
+#Car7 58
+#car8 60
+#Car9 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

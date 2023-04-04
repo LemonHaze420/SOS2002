@@ -1,0 +1,33 @@
+Name Full Season Mercedes 154
+Difficulty Easy
+Description Be placed third or higher at the end of the season
+Goal position
+SuccessValue 3
+SuccessString You did what was asked. Now impress the Mercedes bosses by taking on harder challenges.
+FailureString Don't think Mercedes will be asking you back next season.
+TrackPosition 0
+Race Long
+Cars 8
+Car0 20
+Car1 32
+Car2 14
+Car3 57
+Car4 83
+Car5 58
+Car6 16
+Car7 74
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

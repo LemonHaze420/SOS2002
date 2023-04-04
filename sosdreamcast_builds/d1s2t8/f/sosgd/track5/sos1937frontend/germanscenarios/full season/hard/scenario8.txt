@@ -1,0 +1,38 @@
+Name Full Season Bugatti 35B
+Difficulty Hard
+Description Kröne die Saison mit dem Titel!
+Goal position
+SuccessValue 1
+SuccessString Mit Deiner atemberaubenden Fahrweise sicherst Du Dir einen Sieg nach dem anderen!
+FailureString In dieser Klasse haben Amateure nichts zu suchen. Komm wieder, wenn Du bereit bist.
+TrackPosition 0
+Race Medium
+Cars 5
+Car0 27
+Car1 40
+Car2 21
+Car3 22
+Car4 51
+#Car5 7
+#Car6 35
+#Car7 5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

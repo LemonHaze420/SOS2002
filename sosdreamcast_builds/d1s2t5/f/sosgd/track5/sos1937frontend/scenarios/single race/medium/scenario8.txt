@@ -1,0 +1,31 @@
+Name Master The Oval
+# Darren Williams
+Description 
+CAR TYPE : Miller
+CIRCUIT : Montana (USA)
+OBJECTIVE : TOP 1
+LAPS : 12
+START POSITION : 1/5
+Difficulty Medium
+Track Montana
+Laps 12
+Cars 5
+Car0 48
+Car1 15
+Car2 58
+Car3 2
+Car4 41
+#Car5 1
+#Car6 29
+#Car7 50
+#Car8 4
+Goal Position
+TrackPosition 1
+SuccessValue 1
+SuccessString Congratulations!
+FailureString Bad luck! Try Again.
+
+
+
+
+

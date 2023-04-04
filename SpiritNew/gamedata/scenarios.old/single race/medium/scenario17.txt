@@ -1,0 +1,18 @@
+Name Lead Foot
+# Alan Clark
+Description Start the race at the back of the grid and fight your way through the slower cars to finish first at Montana. The Bugatti 35 awaits you.
+Goal Position
+Difficulty Medium
+SuccessValue 1
+SuccessString Congratulations! You drove one hell of a race.
+FailureString Unlucky! So near yet so far. Better luck next time.
+TrackPosition 6
+Track Montana
+Laps 8
+Cars 6
+Car0 27
+Car1 20
+Car2 36
+Car3 3
+Car4 44
+Car5 15

@@ -1,0 +1,18 @@
+Name Take A Dive
+# Robert Ward
+Description After running over the friend of a local gangster, you are forced into a betting syndicate. You must finish in second position in the Alfa Romeo P3 in order to pay off your debt...at leat you start in pole!
+Goal Position
+Difficulty Medium
+SuccessValue 2
+SuccessString You lost! but you're off the hook.......this time
+FailureString Does your wife know where the life insurance policy is???
+TrackPosition 1
+Track Roosevelt
+Laps 1
+Cars 6
+Car0 35
+Car1 49
+Car2 20
+Car3 16
+Car4 12
+Car5 1

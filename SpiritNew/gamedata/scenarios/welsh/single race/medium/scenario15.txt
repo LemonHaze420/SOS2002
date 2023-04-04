@@ -1,0 +1,22 @@
+Name Mynnwch bwynt
+Description Yn gyrru'r Bugatti 35, ennillwch bwynt pencampwriaeth ar y gylchffordd annodd yn Pau. Mae'n rhaid i chi ddechrau o gefn y grid gan i un o'ch teiars ffrwydro yn ystod ymarfer.
+Goal Position
+Difficulty Canolig
+SuccessValue 6
+SuccessString Ardderchog! Mae Bugatti yn eich addoli nawr.
+FailureString Mor agos!! Efallai tro nesa'. 
+TrackPosition 10
+Track Pau
+Laps 8
+Cars 10
+Car0 7
+Car1 20
+Car2 33
+Car3 32
+Car4 14
+Car5 15
+Car6 24
+Car7 41
+Car8 50
+Car9 9
+

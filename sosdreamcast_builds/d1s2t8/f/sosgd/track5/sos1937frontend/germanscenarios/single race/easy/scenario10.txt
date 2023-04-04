@@ -1,0 +1,17 @@
+Name Um den Block
+Difficulty Easy
+Description Autos aus aller Welt kämpfen auf dieser amerikanischen Strecke um den Titel. Fahre mit dem Auto Union als erster über die Ziellinie!
+Goal Position
+SuccessValue 1
+SuccessString Dein unglaubliches Talent begeistert die Menschen in aller Welt.
+FailureString Auf dem Heimweg in die alte Welt denkst Du vermutlich nur ungern an die Rennen in Amerika zurück.
+TrackPosition 2
+Track Roosevelt
+Laps 10
+Cars 5
+Car0 14
+Car1 83
+Car2 7
+Car3 48
+Car4 28
+#Car5 22

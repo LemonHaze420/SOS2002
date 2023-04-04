@@ -1,0 +1,20 @@
+Name Vive la difference!
+# Robert Ward
+Description In seguito a una protesta della Società Francese per il voto femminile, in questa gara di beneficenza la metà dei piloti sono donne. Assicurati la vittoria con ogni mezzo. Guiderai la Bugatti 35 a Montlhéry e partirai in testa.
+Goal Position
+Difficulty Media
+TrackPosition 1
+SuccessValue 1
+SuccessString Victoire! Peccato che adesso le signore ti apprezzino un po' meno...
+FailureString Guidi come un vero idiota! Ha vinto Madame de Bourgogne.
+Track Montlhery
+Laps 4
+Cars 8
+Car0 27
+Car1 5
+Car2 28
+Car3 17
+Car4 2
+Car5 3
+Car6 18
+car7 22

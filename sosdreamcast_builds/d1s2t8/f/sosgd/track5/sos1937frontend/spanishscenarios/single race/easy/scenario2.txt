@@ -1,0 +1,29 @@
+Name Vive La France!
+Difficulty Fácil
+Description La campiña francesa proporciona un hermoso paraje para este Encuentro Europeo utilizando el Auto Union D.
+SuccessValue 1
+SuccessString Felicidades, ¡has ganado una competición protocolaria!
+FailureString Puede que la suerte no te haya acompañado esta vez - ¡date otra oportunidad!
+TrackPosition 1
+Track Montlhery
+Goal Position
+Laps 5
+Cars 5
+Car0 52
+Car1 35
+Car2 15
+#Car3 21
+Car3 9
+Car4 36
+#Car6 20
+#Car7 44
+
+
+
+
+
+
+
+
+
+

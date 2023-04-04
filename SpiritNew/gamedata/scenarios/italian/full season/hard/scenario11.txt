@@ -1,0 +1,40 @@
+Name Stagione sulla Duesenberg
+Difficulty Difficile
+Description Termina la stagione almeno al secondo posto.
+Goal Position
+SuccessValue 2
+SuccessString Bel lavoro!
+FailureString Non importa, andrà meglio la prossima volta!
+TrackPosition 0
+Race Corta
+Cars 10
+Car0 3
+Car1 12
+Car2 17
+Car3 60
+Car4 28
+Car5 40
+Car6 21
+Car7 7
+car8 11
+Car9 44
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

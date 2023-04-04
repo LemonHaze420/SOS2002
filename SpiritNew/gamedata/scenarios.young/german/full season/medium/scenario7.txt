@@ -1,0 +1,37 @@
+Name Volle Saison Auto Union D
+Difficulty Mittel
+Description Beenden Sie die Saison mindestens als Dritter.
+Goal position
+SuccessValue 3
+SuccessString Eine rundum gelungene Saison! Sehr gut!
+FailureString Weiter so! Sie können es schaffen!
+TrackPosition 0
+Race Long
+Cars 10
+Car0 14
+Car1 15
+Car2 20
+Car3 12
+Car4 4
+Car5 35
+Car6 23
+Car7 57
+Car8 83
+car9 58
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

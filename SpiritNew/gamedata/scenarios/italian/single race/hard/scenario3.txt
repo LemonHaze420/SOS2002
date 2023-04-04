@@ -1,0 +1,36 @@
+Name Massacro africano
+Difficulty Difficile
+Description La Mercedes 125 non è la miglior vettura per correre a Tripoli, però dovrai vincere, perché la tua fidanzata minaccia di fuggire con un miliardario egiziano se non arriverai primo. E partirai dal fondo.
+Goal Position
+SuccessValue 1
+SuccessString Che fantastica vittoria, visti gli avversari! Il matrimonio appare vicino e tu non potresti essere più felice.
+FailureString Hai perso la tua donna! Pare che dovrai cercartene un'altra!
+TrackPosition 8
+Track Tripoli
+Laps 6
+Cars 12
+Car0 57
+Car1 9
+Car2 50
+Car3 20
+Car4 16
+Car5 24
+Car6 14
+Car7 58
+Car8 23
+Car9 41
+Car10 4
+Car11 1
+
+
+
+
+
+
+
+
+
+
+
+
+

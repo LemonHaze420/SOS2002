@@ -1,0 +1,21 @@
+Name Duesenbergs Stolz
+# Darren Williams
+Description Beweisen Sie, dass der Duesenberg konkurrenzfähig ist, indem Sie in den Brooklands einen Podiumsplatz erreichen.
+Difficulty Mittel
+Goal Position
+TrackPosition 1
+SuccessValue 3
+SuccessString Gute Show, Sir. Erstklassig gefahren!
+FailureString Ein einziger Fehler kann Sie alles kosten. Versuchen Sie es noch mal.
+Track Brooklands
+Laps 10
+Cars 8
+Car0 3
+Car1 53
+Car2 10
+Car3 22
+Car4 17
+Car5 40
+Car6 2
+Car7 29
+

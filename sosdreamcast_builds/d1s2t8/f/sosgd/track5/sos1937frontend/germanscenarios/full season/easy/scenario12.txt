@@ -1,0 +1,36 @@
+Name Full Season Miller
+Difficulty Easy
+Description Beende die Saison als 4. oder besser.
+Goal position
+SuccessValue 4
+SuccessString Groﬂartige Leistung! Jetzt muﬂt Du beweisen, daﬂ Du auch in schwierigeren Szenarien mithalten kannst!
+FailureString Im Miller steckt mehr als Du denkst. Versuche es noch einmal und Du wirst staunen!
+TrackPosition 0
+Race Short
+Cars 6
+Car0 2
+Car1 22
+Car2 11
+Car3 55
+Car4 43
+Car5 7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

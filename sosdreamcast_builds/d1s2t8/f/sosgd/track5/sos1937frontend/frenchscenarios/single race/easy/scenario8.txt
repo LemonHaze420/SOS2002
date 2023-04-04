@@ -1,0 +1,28 @@
+Name Le débarquement en Italie
+Difficulty Easy
+Description  Les meilleures voitures italiennes s'affrontent sur ce circuit. Vous partez en pole à Monza au volant de la Bonner Special, ferez-vous lever les foules ?
+Goal Position
+SuccessValue 1
+SuccessString Bravo ! Il n'était déjà pas évident que vous surviviez, alors que vous gagniez !
+FailureString Oui, les paysages étaient magnifiques, mais vous auriez peut-être du vous concentrer sur la route.
+TrackPosition 1
+Track Monza
+Laps 8
+Cars 6
+Car0 55
+Car1 18
+Car2 30
+Car3 17
+Car4 49
+Car5 31
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+Name Volle Saison ERA Remus
+Difficulty Mittel
+Description Beenden Sie die Saison mindestens als Fünfter.
+Goal position
+SuccessValue 5
+SuccessString Eine saubere Leistung!
+FailureString Mehr Glück in der nächsten Saison!
+TrackPosition 0
+Race Short
+Cars 8
+Car0 53
+Car1 12
+Car2 39
+Car3 21
+Car4 35
+Car5 46
+Car6 51
+Car7 42
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

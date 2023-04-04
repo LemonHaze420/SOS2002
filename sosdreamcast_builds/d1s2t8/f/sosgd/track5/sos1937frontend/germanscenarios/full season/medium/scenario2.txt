@@ -1,0 +1,35 @@
+Name Full Season Mercedes 154
+Difficulty Medium
+Description Be placed second overall at the end of the season or better.
+Goal position
+SuccessValue 2
+SuccessString Eine souveräne Saison im vermutlich besten Auto der Zeit!
+FailureString Niemand versteht, wie Du in diesem Auto derart versagen konntest!
+TrackPosition 0
+Race Medium
+Cars 5
+Car0 50
+Car1 1
+Car2 92
+Car3 4
+#Car4 41
+Car4 16
+#Car5 52
+#Car7 33
+#car8 23
+#Car9 66
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+Name European Challenge
+Difficulty Medium
+Description Race the Miller and finish the race in the top three at Donington. Unfortunately, you start from the back of the grid.
+Goal Position
+SuccessValue 3
+SuccessString Great, you achieved your goal!
+FailureString Better luck next time
+TrackPosition 10
+Track Donington
+Laps 10
+Cars 10
+Car0 29
+Car1 31
+Car2 36
+Car3 35
+Car4 21
+Car5 49
+Car6 2
+Car7 39
+Car8 27
+Car9 44
+
+
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+Name Continental Battle
+Difficulty Hard
+Description A wide variety of Europe's top cars compete for victory on the interesting urban circuit at Pau. Your car's the Alfa Romeo P3 and only a victory will do. Start from grid position 4.
+Goal Position
+SuccessValue 1
+SuccessString Excellent driving! You sure you haven't done this before?
+FailureString Keep practising! It can only get easier!
+TrackPosition 4
+Track Pau
+Laps 6
+Cars 6
+Car0 21
+Car1 83
+Car2 17
+Car3 11
+Car4 22
+Car5 8
+
+
+
+
+
+
+
+
+
+

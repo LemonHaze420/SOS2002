@@ -1,0 +1,35 @@
+Name Volle Saison Bugatti 35B
+Difficulty Einfach
+Description Beenden Sie die Saison mindestens als Sechster.
+Goal position
+SuccessValue 6
+SuccessString Grundsolide Arbeit!
+FailureString Glauben Sie, Sie können das besser?
+TrackPosition 0
+Race Short
+Cars 8
+Car0 7
+Car1 34
+Car2 24
+Car3 27
+Car4 11
+Car5 22
+Car6 5
+Car7 16
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

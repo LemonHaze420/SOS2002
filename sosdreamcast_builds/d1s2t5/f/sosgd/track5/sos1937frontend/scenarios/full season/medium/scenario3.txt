@@ -1,0 +1,35 @@
+Name Full Season Alfa Romeo P3
+Difficulty Medium
+Description 
+CAR TYPE : Alfa Romeo P3
+RACE TYPE : Medium
+OBJECTIVE : TOP 2
+NUMBER OF CARS : 5
+Goal position
+SuccessValue 2
+SuccessString Congratulations!
+FailureString Bad luck! Try again.
+TrackPosition 0
+Race Medium
+Cars 5
+Car0 12
+Car1 35
+Car2 28
+Car3 51
+Car4 7
+#Car5 36
+#Car6 42
+#Car7 3
+#car8 27
+#Car9 25
+
+
+
+
+
+
+
+
+
+
+

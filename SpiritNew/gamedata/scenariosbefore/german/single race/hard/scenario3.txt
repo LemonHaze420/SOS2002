@@ -1,0 +1,34 @@
+Name Afrika-Safari
+Difficulty Schwierig
+Description Der Mercedes 125 ist nicht gerade der beste Wagen für diese Strecke. Sie müssen in Tripolis gewinnen, da Ihre Verlobte Sie sonst wegen eines reichen Arabers verlässt. Sie starten hinten.
+Goal Position
+SuccessValue 1
+SuccessString Ein fantastischer Sieg über harte Gegner! Ihre Hochzeit ist gesichert - was könnte schöner sein?
+FailureString Sie ist weg! Sieht aus, als müssten Sie sich eine andere suchen.
+TrackPosition 8
+Track Tripolis
+Laps 6
+Cars 10
+Car0 57
+Car1 9
+Car2 50
+Car3 20
+Car4 1
+Car5 4
+Car6 14
+Car7 58
+Car8 23
+Car9 41
+
+
+
+
+
+
+
+
+
+
+
+
+

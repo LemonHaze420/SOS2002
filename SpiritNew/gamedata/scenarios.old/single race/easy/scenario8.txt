@@ -1,0 +1,29 @@
+Name Vive la France!
+Difficulty Easy
+Description The French countryside provides a beautiful backdrop for this European challenge using the Auto Union D.
+Goal Position
+SuccessValue 1
+SuccessString Congratulations you beat some stiff competition!
+FailureString Maybe luck wasn't on your side this time - give it another go!
+TrackPosition 0
+Track Montlhery
+Laps 3
+Cars 8
+Car0 52
+Car1 35
+Car2 15
+Car3 21
+Car4 9
+Car5 36
+Car6 20
+Car7 44
+
+
+
+
+
+
+
+
+
+

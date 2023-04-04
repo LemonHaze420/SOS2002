@@ -1,0 +1,22 @@
+Name Orgullo Alemán
+# Andrew Stainer
+Description Demuestra la superioridad de la ingeniería de tu país sobre el resto de Europa en Avus. Conduce el Mercedes 154 al primer puesto desde el fondo de la parrilla y mantén esa posición hasta llegar a la bandera a cuadros.
+Difficulty Difícil
+Goal Position
+SuccessValue 1
+SuccessString Bien hecho. Has conseguido que tu patria se sienta orgullosa. 
+FailureString Has convertido en una burla los logros de tu nación. Puede que pierdas tu trabajo por esto
+Track Avus
+TrackPosition 6
+Laps 10
+Cars 6
+Car0 15
+Car1 52
+Car2 19
+Car3 11
+Car4 24
+Car5 32
+#Car6 21
+#Car7 22
+#Car8 18
+#Car9 41

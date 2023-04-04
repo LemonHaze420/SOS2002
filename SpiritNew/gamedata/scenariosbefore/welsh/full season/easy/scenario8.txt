@@ -1,0 +1,37 @@
+Name Tymor llawn Bugatti 35B
+Difficulty Hawdd 
+Description Gorffennwch y tymor yn y chweched safle neu well 
+Goal Position
+SuccessValue 6
+SuccessString Gyrru da, cadarn. 
+FailureString Roedd y gyrru hynna yn ofnadwy. 
+TrackPosition 0
+Race Short
+Cars 8
+Car0 7
+Car1 34
+Car2 24
+Car3 27
+Car4 11
+Car5 22
+Car6 5
+Car7 16
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,159 @@
+[RECOVERABLE ERROR] convert_colour(): Normalized RGB color out of range (0.0-1.0). Color in question is (1.044e+034,3.64338e-044,1.4013e-045). Setting all color components to 1.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\BK-fence.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\TEXTURES\Bk-Grass.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\TEXTURES\Bk-RdSid.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\TEXTURES\Bk-Road[1] copy2.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\BK-Vic1.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\Bk-VicR.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\BK-Vic2.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\Bk-VAdv.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\Bk-XCrd.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\Bk-Xrail.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\Bk-Xroof.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\Bk-Xside.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\BK-Cfnce.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\BK-Gcrd.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\Bk-Gfrt.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\Bk-Gside.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\Bk-Groof.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\BK-Gfce.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\BK-Bwal.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\BK-BT.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\BK-BsR.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\BK-BsL.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\BK-Bstr.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\Bk-Cside.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\BK-Cr&r.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\Bk-CB.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\Bk-CBl.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\BK-Bstr1.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\Bk-RivS.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\BK-River.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\BK-Conc.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\BK-Rock.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\BK-Tt.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\BK-Bridg.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\BK-Grass.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\BK-P1.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\BK-P2.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\BK-ShlF.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\Bk-Pf.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\Bk-PHr.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\Bk-PHf.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\Bk-PHs.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\Bk-Er.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\Bk-Es.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\Bk-IBMf.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\Bk-IBMr.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\Bk-IBMs.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\Bk-IBMXf.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\Bk-IBMXr.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\Bk-IBMXs.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\Bk-JSf.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\Bk-JSr.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\Bk-JSs.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\Bk-CSHf.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\Bk-CSHr.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\Bk-CSHs.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\Bk-BPr.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\Bk-BPs.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\Bk-ATf.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\Bk-DPch.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\Bk-DPr.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\BK-CHrof.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\BK-CHft1.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\Bk-CHtop.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\BK-CHsid.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\BK-CHft2.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\BK-CHft3.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'D:\SPIRITOFSPEED\NEWBROOKLANDS\BK-VBs.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'D:\SPIRITOFSPEED\NEWBROOKLANDS\BK-VBt.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\BK-Road.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\BK-BYbdgf.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\BK-BYbdgs.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\Bk-Abr.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\Bk-Abs.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\Bk-Hr.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\Bk-Hs.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\BK-ACt.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\Bk-ACf2.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'd:\SPIRITOFSPEED\NEWBROOKLANDS\Bk-ACf1.psd'.

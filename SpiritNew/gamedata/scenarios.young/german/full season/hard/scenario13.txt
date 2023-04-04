@@ -1,0 +1,37 @@
+Name Volle Saison Maserati 8CM
+Difficulty Schwierig
+Description Beenden Sie die Saison mindestens als Zweiter.
+Goal position
+SuccessValue 2
+SuccessString Das war eine Spitzensaison!
+FailureString Üben Sie weiter, und Sie werden es schaffen!
+TrackPosition 0
+Race Short
+Cars 8
+Car0 55
+Car1 58
+Car2 44
+Car3 48
+Car4 53
+Car5 57
+Car6 42
+Car7 49
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

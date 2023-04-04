@@ -1,0 +1,28 @@
+Name The American Dream
+Difficulty Hard
+Description Starting in second place on the grid, aim to win in the Miller. Montana awaits you, Sir!
+Goal Position
+SuccessValue 1
+SuccessString Even with the odds stacked against you, you rose to conquer!!
+FailureString People only love the underdogs that win.
+TrackPosition 2
+Track Montana
+Laps 20
+Cars 5
+Car0 2
+Car1 15
+Car2 9
+Car3 41
+Car4 55
+#Car5 52
+#Car5 16
+#Car7 57
+
+
+
+
+
+
+
+
+

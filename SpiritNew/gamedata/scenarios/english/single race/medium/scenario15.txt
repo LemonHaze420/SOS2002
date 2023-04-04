@@ -1,0 +1,22 @@
+Name Get A Point
+Description Driving a Bugatti 35, earn a championship point on the challenging track at Pau. You must start at the back of the grid due to blowing a tyre in qualifying.
+Goal Position
+Difficulty Medium
+SuccessValue 6
+SuccessString Excellent! Bugatti worship you from now on!
+FailureString So near but so far... maybe another day.
+TrackPosition 10
+Track Pau
+Laps 8
+Cars 10
+Car0 7
+Car1 20
+Car2 33
+Car3 32
+Car4 14
+Car5 15
+Car6 24
+Car7 41
+Car8 50
+Car9 9
+

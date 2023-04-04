@@ -1,0 +1,26 @@
+Name The European Challenge In Britain
+Difficulty Hard
+Description Using the Mercedes 154, finish first at Donington to secure your reputation as a fearsome driver. Theres only one catch, you must start from the back of the grid.
+Goal Position
+SuccessValue 1
+SuccessString Your powerful performance puts the pretenders in their place!!
+FailureString Your reputation is in tatters.
+TrackPosition 5
+Track Donington
+Laps 15
+Cars 5
+Car0 20
+Car1 4
+Car2 12
+Car3 41
+#Car4 43
+Car4 16
+#Car6 58
+#Car7 33
+
+
+
+
+
+
+

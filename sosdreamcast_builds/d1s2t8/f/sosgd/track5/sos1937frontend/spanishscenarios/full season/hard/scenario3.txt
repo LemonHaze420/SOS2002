@@ -1,0 +1,37 @@
+Name Full Season Alfa Romeo P3
+Difficulty Hard
+Description Finaliza siendo uno de los tres primeros al final de la temporada
+Goal position
+SuccessValue 3
+SuccessString Tu actuación te asegura una larga y próspera carrera con Alfa. ¡Bien hecho!
+FailureString Forzado a rayar en el circuito de kart, ¡quizá debieras retirarte!
+TrackPosition 0
+Race Medium
+Cars 5
+Car0 35
+Car1 7
+Car2 15
+Car3 36
+Car4 27
+#Car5 21
+#Car6 20
+#Car7 44
+#car5 58
+#Car9 32
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

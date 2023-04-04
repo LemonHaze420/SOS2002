@@ -1,0 +1,34 @@
+Name Saison Complète, Mercedes 125
+Difficulty Moyen
+Description Courez sur les 9 circuits au volant de la Mercedes 125 et terminez dans les deux premiers.
+Goal Position
+SuccessValue 2
+SuccessString Palmarès fantastique !
+FailureString Vous ferez mieux l'an prochain !
+TrackPosition 0
+Race Moyenne
+Cars 10
+Car0 57
+Car1 9
+Car2 14
+Car3 4
+Car4 15
+Car5 92
+Car6 16
+Car7 41
+Car8 83
+Car9 32
+
+
+
+
+
+
+
+
+
+
+
+
+
+

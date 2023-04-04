@@ -1,0 +1,15 @@
+Name Schnelles Geld
+# Robert Ward
+Description Nach einer Pechsträhne am Roulette-Tisch musst Du in Donington unbedingt die Siegprämie gewinnen. Stelle in nur 3 Runden den Rundenrekord von 1:30:01 ein, damit Du einen schmierigen Kredithai bezahlen kannst.
+Goal LapTime
+Difficulty Medium
+SuccessValue 9000
+SuccessString 500 Guineas, ein Eintrag im Buch der Rekorde und ein ausgeglichenes Konto ...
+FailureString Hoffentlich bist Du bei Deiner Abreise schneller!
+Track Donington
+Laps 3
+Cars 4
+Car0 8
+Car1 11
+Car2 55
+Car3 7

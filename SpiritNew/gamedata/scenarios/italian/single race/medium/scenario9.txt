@@ -1,0 +1,14 @@
+Name La velocità è tutto
+Difficulty Media
+Description La Mercedes Benz fa correre le sue superauto contro la possente Auto Union D. Passa al volante della Mercedes 154 e batti l'Auto Union D in una gara di 10 giri sull'Avus.
+Goal Position
+SuccessValue 1
+SuccessString Congratulazioni! Certamente avevi a disposizione tutta la potenza necessaria.
+FailureString Che peccato, l'Auto Union è stata più veloce. Andrà meglio la prossima volta!
+TrackPosition 1
+Track Avus
+Laps 10
+Cars 2
+Car0 15
+Car1 23
+

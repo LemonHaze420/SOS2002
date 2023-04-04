@@ -1,0 +1,38 @@
+Name Full Season Alfa Romeo Bimotore
+Difficulty Hard
+Description Finaliza siendo uno de los dos primeros al final de la temporada
+Goal position
+SuccessValue 2
+SuccessString ¡Una potente y dominante actuación en el Supercoche de Alfa! ¡Buen trabajo!
+FailureString Quizá no te merezcas conducir este supercoche. ¡Demuestra que nos equivocamos!
+TrackPosition 0
+Race Short
+Cars 5
+Car0 74
+Car1 23
+Car2 14
+Car3 15
+#Car4 9
+#Car5 41
+Car4 36
+#Car7 50
+#car5 28
+#Car9 44
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

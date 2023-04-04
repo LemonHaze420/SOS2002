@@ -1,0 +1,14 @@
+Name Agility Versus Speed 
+Difficulty medium
+Description Mercedes Benz race their supercar against the mighty streamlined Auto Union at Avus. You'll need to use all of your cunning to beat the SL.
+Goal Position
+SuccessValue 1
+SuccessString Congratulations! How did you do that?
+FailureString Bad luck, better luck next time!
+TrackPosition 1
+Track Avus
+Laps 10
+Cars 2
+Car0 45
+Car1 47
+

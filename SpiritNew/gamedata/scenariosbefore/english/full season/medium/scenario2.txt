@@ -1,0 +1,35 @@
+Name Full Season Mercedes 154
+Difficulty Medium
+Description Be placed second overall at the end of the season or better.
+Goal position
+SuccessValue 2
+SuccessString A comfortable season in perhaps THE car of the era!
+FailureString How you could perform this badly in this car is beyond your team bosses!
+TrackPosition 0
+Race Medium
+Cars 10
+Car0 50
+Car1 1
+Car2 92
+Car3 4
+Car4 41
+Car5 16
+Car6 52
+Car7 33
+car8 23
+Car9 66
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

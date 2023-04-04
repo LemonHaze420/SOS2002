@@ -1,0 +1,26 @@
+Name L'Angleterre Accueille l'Europe
+Difficulty Difficile
+Description Terminez premier à Donington au volant de la Mercedes 154 et confirmez votre réputation de pilote redoutable. Un seul problème, vous partirez depuis le fond de la grille.
+Goal Position
+SuccessValue 1
+SuccessString Votre prouesse a remis vos rivaux à leur place !
+FailureString Votre réputation s'est écroulée comme un château de cartes.
+TrackPosition 8
+Track Donington
+Laps 15
+Cars 8
+Car0 20
+Car1 4
+Car2 12
+Car3 41
+Car4 43
+Car5 16
+Car6 58
+Car7 33
+
+
+
+
+
+
+

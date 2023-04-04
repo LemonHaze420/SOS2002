@@ -1,0 +1,23 @@
+Name Herrscher mit zwei Motoren
+Difficulty Schwierig
+Description Fahren Sie den Alfa Bimotore und schlagen Sie die Deutschen auf dem Avus. Ein Platz auf dem Siegertreppchen sollte genügen, um Ihre Sponsoren bei Laune zu halten - starten werden Sie allerdings hinten.
+Goal Position
+SuccessValue 3
+SuccessString Sehr gut, das wird so schnell niemand vergessen! 
+FailureString Ihre Sponsoren - wie auch Ihre Fans - werden Ihnen in Italien einen gebührenden Empfang bereiten!
+TrackPosition 9
+Track Avus
+Laps 5
+Cars 9
+Car0 66
+Car1 50
+Car2 23
+Car3 52
+Car4 18
+Car5 11
+car6 83
+Car7 58
+Car8 4
+
+
+

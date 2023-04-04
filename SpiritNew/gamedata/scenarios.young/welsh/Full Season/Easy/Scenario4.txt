@@ -1,0 +1,39 @@
+Name Tymor llawn Alfa Romeo Bimotore
+Difficulty Hawdd 
+Description Ennill y tymor  
+Goal Safle 
+SuccessValue 1
+SuccessString Gyrru da, cryf drwy'r tymor. 
+FailureString Ceisiwch wneud yn well y tymor nesaf. 
+TrackPosition 0
+Race Long
+Cars 10
+Car0 74
+Car1 7
+Car2 48
+Car3 22
+Car4 32
+Car5 46
+Car6 83
+Car7 58
+car8 60
+Car9 2
+car10 30
+car11 55
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

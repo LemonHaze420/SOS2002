@@ -1,0 +1,13 @@
+Name Vuelta Récord 
+Description Rompe el récord de vuelta de un minuto nueve segundos en Brooklands ¡con sólo tres vueltas para hacerlo! Tu coche es un Alfa Romeo P3.
+Goal LapTime
+Difficulty Medio
+SuccessValue 6700
+SuccessString Récord de la primera vuelta, ¡siguiente parada, la barrera del sonido!
+FailureString Ah bien. Al menos, siempre existe el mañana. 
+TrackPosition 1
+Track Brooklands
+Laps 3
+Cars 2
+Car0 43
+Car1 31

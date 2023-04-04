@@ -1,0 +1,32 @@
+Name Crwydro'r Paith
+Difficulty Anodd
+Description Mae ceir Americanaidd a Phrydeinig yn brwydro am oruchafiaeth ar y gylchffordd anodd Americanaidd hon yn Roosevelt. Defnyddiwch yr ERA i geisio ennill y ras. Prawf anodd, ond mae hyn yn bosib gan eich bod yn dechrau o'r safle blaen!
+Goal Safle
+SuccessValue 1
+SuccessString Gyrru gwych! Mae'r dorf yn eich caru chi!
+FailureString Does dim ots, gwell lwc y tro nesaf!
+TrackPosition 1
+Track Roosevelt
+Laps 7
+Cars 9
+Car0 22
+Car1 36
+Car2 44
+Car3 53
+Car4 2
+Car5 60
+Car6 37
+Car7 56
+Car8 48
+
+
+
+
+
+
+
+
+
+
+
+

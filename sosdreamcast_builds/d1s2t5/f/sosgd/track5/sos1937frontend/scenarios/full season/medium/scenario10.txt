@@ -1,0 +1,38 @@
+Name Full Season ERA Remus
+Difficulty Medium
+Description 
+CAR TYPE : ERA Remus
+RACE TYPE : Short
+OBJECTIVE : TOP 5
+NUMBER OF CARS : 6
+Goal position
+SuccessValue 5
+SuccessString Congratulations!
+FailureString Bad luck! Try again.
+TrackPosition 0
+Race Short
+Cars 6
+Car0 53
+Car1 12
+Car2 39
+Car3 21
+#Car4 35
+#Car5 46
+Car4 51
+Car5 42
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

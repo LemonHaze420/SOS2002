@@ -1,0 +1,35 @@
+LWSC
+1
+
+FirstFrame 1
+LastFrame 100
+FrameStep 1
+FramesPerSecond 30
+
+LoadObject AVUSLowPoly.lwo
+ShowObject 7 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+
+AmbientColor 0 0 0
+AmbIntensity 0.3
+
+ShowCamera 1
+CameraMotion (unnamed)
+  9
+  1
+  10 10 -10  -45 35.2644 0  1 1 1
+  0 0 0.0 0.0 0.0
+EndBehavior 1
+ZoomFactor 2
+
+SolidBackdrop 1
+BackdropColor 121 121 121
+
+FogType 0
+
+ViewMode 5

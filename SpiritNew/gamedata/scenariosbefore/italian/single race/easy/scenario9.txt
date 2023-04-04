@@ -1,0 +1,26 @@
+Name Sfida nel Montana 
+Difficulty Facile
+Description Cerca di battere la Bugatti 35B e la ERA Remus con la Duesenberg. Partendo dalla pole position non dovrebbe essere troppo difficile. Dovrai soltanto finire fra i primi cinque e la tua auto rende bene sulla pista del Montana!
+Goal Position
+SuccessValue 5
+SuccessString Hai domato un'auto ombrosa, portandola alla vittoria su un circuito ingannevolmente semplice. Questo è lo spirito della velocità!
+FailureString La Duesenberg è un'auto problematica. Cerca di guidarla con più attenzione!
+TrackPosition 1
+Track Montana
+Laps 30
+Cars 8
+Car0 40
+Car1 48
+Car2 2
+Car3 7
+Car4 25
+Car5 60
+Car6 34
+Car7 46
+
+
+
+
+
+
+

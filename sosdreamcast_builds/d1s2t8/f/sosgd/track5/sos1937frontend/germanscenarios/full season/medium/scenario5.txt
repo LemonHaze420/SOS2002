@@ -1,0 +1,40 @@
+Name Full Season Alfa Romeo 12C
+Difficulty Medium
+Description Beende die Saison als 4. oder besser.
+Goal position
+SuccessValue 4
+SuccessString Avanti! Viva Alfa!
+FailureString Was für eine armselige Vorstellung. So gewinnt man kein Rennen!
+TrackPosition 0
+Race Medium
+Cars 5
+Car0 49
+Car1 7
+Car2 42
+Car3 21
+Car4 22
+#Car5 5
+#Car6 53
+#Car7 3
+#Car5 55
+#car9 46
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

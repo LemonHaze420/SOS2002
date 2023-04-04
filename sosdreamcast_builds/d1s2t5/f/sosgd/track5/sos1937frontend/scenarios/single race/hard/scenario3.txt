@@ -1,0 +1,36 @@
+Name African Rampage
+Difficulty Hard
+Description 
+CAR TYPE : Mercedes-Benz 125
+CIRCUIT : Tripoli (Libya)
+OBJECTIVE : TOP 1
+LAPS : 6
+START POSITION : 5/5
+Goal Position
+SuccessValue 1
+SuccessString Congratulations!
+FailureString Bad luck! Try again.
+TrackPosition 5
+Track Tripoli
+Laps 6
+Cars 5
+Car0 57
+Car1 9
+Car2 50
+Car3 20
+Car4 1
+#Car5 4
+#Car5 14
+#Car7 58
+#Car8 23
+#Car9 41
+
+
+
+
+
+
+
+
+
+

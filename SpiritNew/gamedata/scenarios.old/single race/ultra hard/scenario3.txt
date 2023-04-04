@@ -1,0 +1,20 @@
+Name A Long Laboured Drive
+Description A Napier at Pau....that shouldn't be allowed! Your Napier's going to have to be quick off the grid to finish first here.  
+Goal Position
+Difficulty Ultra
+SuccessValue 1
+TrackPosition 1
+SuccessString How did you get that big car around those tight corners. Amazing driving. It doesn't get much better than that.
+FailureString You're still not that great, are you? You need to get the right line to complete this one.
+Track Pau
+Laps 5
+Cars 6
+Car0 19
+Car1 1
+Car2 16
+Car3 2
+Car4 28
+Car5 9
+
+
+

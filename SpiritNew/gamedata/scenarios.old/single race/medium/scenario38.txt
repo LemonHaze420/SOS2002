@@ -1,0 +1,22 @@
+Name Dust Devils
+# Andrew Stainer
+Description Race for the chance to join the Dust Devils Racing Team at their home circuit of Roosevelt. Use your Mercedes 154 to finish in the top 3 from a start postion of 6.
+Difficulty Medium
+Goal Position
+SuccessValue 3
+SuccessString Congratualations, you have been selected for the team.
+FailureString Bad luck. You have not been successful on this occassion.
+TrackPosition 6
+Track Roosevelt
+Laps 5
+Cars 10
+Car0 15
+Car1 29
+Car2 22
+Car3 40
+Car4 24
+Car5 25
+Car6 12
+Car7 36
+Car8 27
+Car9 20

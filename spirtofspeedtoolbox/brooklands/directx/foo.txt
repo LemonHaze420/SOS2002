@@ -1,0 +1,52 @@
+#
+#	Track texture parameters.
+#	1	-	TEX_WALLTYPE	(it's a wall, you can hit it)
+#	2	-	TEX_GRASSTYPE	(it's grass)
+#	4	-	TEX_TRACKTYPE	(it's track)
+
+
+
+bk-bridg.3df	:	1
+bk-bsl.3df	:	0
+bk-bsr.3df	:	0
+bk-bstr.3df	:	0
+bk-bstr1.3df	:	1
+bk-bt.3df	:	1
+bk-bwal.3df	:	1
+bk-cb.3df	:	1
+bk-cbl.3df	:	1
+bk-cfnce.3df	:	1
+bk-chft1.3df	:	1
+bk-chft2.3df	:	1
+bk-chft3.3df	:	1
+bk-chrof.3df	:	0
+bk-chsid.3df	:	1
+bk-chtop.3df	:	0
+bk-conc.3df	:	1
+bk-cr&r.3df	:	0
+bk-cside.3df	:	1
+bk-fence.3df	:	1
+bk-gcrd.3df	:	1
+bk-gfce.3df	:	1
+bk-gfrt.3df	:	1
+bk-grass.3df	:	3
+bk-groof.3df	:	0
+bk-gside.3df	:	1
+bk-p1.3df	:	1
+bk-p2.3df	:	1
+bk-rdsid.3df	:	2
+bk-river.3df	:	0
+bk-rivs.3df	:	0
+bk-road.3df	:	4
+bk-rock.3df	:	1
+bk-tb.3df	:	1
+bk-tt.3df	:	0
+bk-vadv.3df	:	1
+bk-vic1.3df	:	1
+bk-vicr.3df	:	0
+bk-xcrd.3df	:	0
+bk-xrail.3df	:	0
+bk-xroof.3df	:	0
+bk-xside.3df	:	1
+bk-vbs.3df	:	1
+

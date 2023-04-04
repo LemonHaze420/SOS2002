@@ -1,0 +1,23 @@
+Name The Continental Challenge
+Difficulty Medium
+Description You've decided to test drive the ERA Remus with a view to buying it. The track's Donington and you're starting in pole position. You figure that if you can secure a podium finish, it may well be a good investment. 
+Track Donington
+Goal Position
+SuccessValue 3
+SuccessString Well Done! You've purchased a great car.
+FailureString Not impressed - you don't buy the car, and decide to look elsewhere.
+TrackPosition 1
+Laps 10
+Cars 12
+Car0 22
+Car1 60
+Car2 10
+Car3 40
+Car4 24
+Car5 23
+Car6 52
+Car7 20
+Car8 58
+Car9 17
+Car10 32
+Car11 16

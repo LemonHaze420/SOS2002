@@ -1,0 +1,38 @@
+Name Full Season ERA Remus
+Difficulty Easy
+Description Finish the season in fifth position or better
+Goal position
+SuccessValue 5
+SuccessString A great performance in the baby of the championship!
+FailureString The Remus is hard work but more effort will be rewarded!
+TrackPosition 0
+Race Short
+Cars 5
+Car0 60
+Car1 42
+Car2 35
+Car3 22
+#Car4 43
+Car4 7
+#Car6 5
+#Car7 27
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

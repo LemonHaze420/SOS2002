@@ -1,0 +1,27 @@
+Name Sunday Driving At It's Best
+Difficulty Easy
+Description Montlhery is an easy place to win in the Mercedes 154. Start in pole and make sure nobody gets past you!
+Goal Position
+SuccessValue 1
+SuccessString Congratulations! You should step up a level.
+FailureString Better luck next time! It isn't that hard, though.
+TrackPosition 1
+Track Montlhery
+Laps 3
+Cars 6
+Car0 20
+Car1 40
+Car2 60
+Car3 51
+Car4 21
+Car5 7
+
+
+
+
+
+
+
+
+
+

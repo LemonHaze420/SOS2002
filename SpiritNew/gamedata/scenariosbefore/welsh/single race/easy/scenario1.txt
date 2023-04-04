@@ -1,0 +1,21 @@
+Name Brwydr y cewri
+Difficulty Hawdd
+Description Deg o'r peiriannau mwyaf pwerus yn brwydro am oruchafiaeth yn Avus. Defnyddiwch yr Alfa Romeo Bimotore i orffen yn y 4 cyntaf. O leiaf fe allwch ddechrau o'r blaen!
+Goal Position
+SuccessValue 4
+SuccessString Llongyfarchiadau, rydych chi wedi curo'r Almaenwyr ar eu tir eu hunain.
+FailureString Gwaetha'r modd, methoch chi guro'r Almaenwyr ar eu tir eu hunain.
+TrackPosition 1
+Track Avus
+Laps 5
+Cars 10
+Car0 83
+Car1 32
+Car2 20
+Car3 24
+Car4 33
+Car5 1
+Car6 9
+Car7 41
+Car8 14
+Car9 74

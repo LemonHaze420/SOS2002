@@ -1,0 +1,39 @@
+Name Full Season Alfa Romeo Bimotore
+Difficulty Medium
+Description Finaliza siendo uno de los tres primeros al final de la temporada
+Goal position
+SuccessValue 3
+SuccessString ¡Una buena y sólida conducción toda la temporada!
+FailureString ¡Inténtalo mejor la próxima temporada!
+TrackPosition 0
+Race Medium
+Cars 5
+Car0 92
+Car1 9
+Car2 50
+Car3 11
+#Car4 15
+Car4 58
+#Car5 10
+#Car7 3
+#car8 23
+#Car9 59
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

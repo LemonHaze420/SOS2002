@@ -1,0 +1,30 @@
+Name Full Season Mercedes 125
+Difficulty Hard
+Description Beende die Saison als neuer Champion!
+Goal position
+SuccessValue 1
+SuccessString Du bist die gesamte Saison hervorragend gefahren und erntest nun die verdienten Lorbeeren!
+FailureString Mercedes verhandelt bereits mit anderen Fahrern. Es sieht schlecht aus für Dich!
+TrackPosition 0
+Race Short
+Cars 4
+Car0 24
+Car1 1
+Car2 14
+Car3 20
+#Car4 15
+#Car5 66
+
+
+
+
+
+
+
+
+
+
+
+
+
+

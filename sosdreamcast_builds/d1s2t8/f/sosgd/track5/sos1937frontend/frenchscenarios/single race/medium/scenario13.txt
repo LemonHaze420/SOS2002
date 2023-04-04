@@ -1,0 +1,28 @@
+Name Les fous du volant
+Difficulty Medium
+Description Montez sur le podium de Monza au volant de votre Auto Union C.
+Goal Position
+SuccessValue 3
+SuccessString Bravo !
+FailureString Il vous manque un peu d'entraînement, semble-t-il !
+TrackPosition 1
+Track Monza
+Laps 8
+Cars 5
+Car0 4
+Car1 15
+Car2 50
+Car3 51
+Car4 32
+#Car5 11
+
+
+
+
+
+
+
+
+
+
+

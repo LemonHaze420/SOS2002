@@ -1,0 +1,39 @@
+Name Stagione sull'Alfa Romeo 12C
+Difficulty Difficile
+Description Dovrai finire la stagione davanti a tutti.
+Goal Position
+SuccessValue 1
+SuccessString Ottima guida, campione!
+FailureString Hai bisogno di più allenamento.
+TrackPosition 0
+Race Corta
+Cars 10
+Car0 31
+Car1 30
+Car2 22
+Car3 34
+Car4 16
+Car5 10
+Car6 36
+Car7 44
+Car8 25
+car9 40
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

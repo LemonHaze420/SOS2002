@@ -1,0 +1,19 @@
+Name Masacre en Bonner Miller
+# Darren Williams
+Difficulty Medio
+Description Una batalla entre relámpagos en Montana. Gana un Bonner Special tras comenzar la carrera el cuarto en la parrilla.
+Goal Position
+TrackPosition 4
+SuccessValue 1
+SuccessString Una victoria de alta velocidad para el hombre con gasolina en sus venas. 
+FailureString Una derrota es una derrota, no importa lo cerca de ganar que estuvieras. 
+Track Montana
+Laps 15
+Cars 6
+Car0 10
+Car1 29
+Car2 37
+Car3 17
+Car4 55
+#Car5 30
+Car5 2

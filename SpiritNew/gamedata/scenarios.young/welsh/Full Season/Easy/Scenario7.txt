@@ -1,0 +1,39 @@
+Name Tymor llawn Auto Union D
+Difficulty Hawdd 
+Description Gorffennwch yn y pump cyntaf ar ddiwedd y tymor. 
+Goal Safle 
+SuccessValue 5
+SuccessString Gyrru da, cadarn. 
+FailureString Fe wnaethoch yn weddol dda, cadwch i ymarfer. 
+TrackPosition 0
+Race Medium
+Cars 10
+Car0 23
+Car1 43
+Car2 20
+Car3 24
+Car4 52
+Car5 50
+Car6 16
+Car7 35
+Car8 1
+car9 40
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

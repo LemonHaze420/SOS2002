@@ -1,0 +1,40 @@
+Name Stagione sulla Bugatti 59
+Difficulty Medio
+Description Termina la stagione come vincitore.
+Goal Position
+SuccessValue 1
+SuccessString Bel lavoro!
+FailureString Andrà meglio la prossima stagione!
+TrackPosition 0
+Race Corta
+Cars 10
+Car0 36
+Car1 16
+Car2 1
+Car3 74
+Car4 3
+Car5 55
+Car6 37
+Car7 22
+car8 31
+car9 20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

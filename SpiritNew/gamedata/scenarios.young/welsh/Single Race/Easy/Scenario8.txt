@@ -1,0 +1,28 @@
+Name Yr Eidalwyr ar dir cartref
+Difficulty Hawdd
+Description  Y gorau o geir Eidaleg yn brwydro ar y cylchffordd anodd hon. Byddwch chi'n Maserati 8CM, ond ni ddylai enill fod yn rhy anodd yn Monza. Dechreuwch o'r blaen.
+Goal Safle
+SuccessValue 1
+SuccessString Gyrru da! Gwnaethoch yn dda i ddal yn fyw, heb son am enill!
+FailureString Mae golygfeydd Eidaleg yn hyfryd, ond ceisiwch edrych ar y ffordd am unwaith...
+TrackPosition 1
+Track Monza
+Laps 8
+Cars 6
+Car0 55
+Car1 74
+Car2 30
+Car3 17
+Car4 83
+Car5 66
+
+
+
+
+
+
+
+
+
+
+

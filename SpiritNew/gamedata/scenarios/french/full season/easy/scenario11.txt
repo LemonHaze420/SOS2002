@@ -1,0 +1,39 @@
+Name Saison complète, Duesenberg
+Difficulty Facile
+Description Terminez la saison dans les 4 premiers.
+Goal Position
+SuccessValue 4
+SuccessString Bien joué !
+FailureString Vous ferez mieux l'an prochain !
+TrackPosition 0
+Race Courte
+Cars 8
+Car0 40
+Car1 60
+Car2 43
+Car3 17
+Car4 39
+Car5 35
+Car6 51
+Car7 46
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

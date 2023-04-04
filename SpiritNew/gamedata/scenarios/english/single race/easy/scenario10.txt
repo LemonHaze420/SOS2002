@@ -1,0 +1,29 @@
+Name Around The Block
+Difficulty Easy
+Description Cars from around the world participate in this American challenge. Be placed first driving the Auto Union.
+Goal Position
+SuccessValue 1
+SuccessString Your pan global talent bestrides the atlantic like a pair of magnificent trousers.
+FailureString As you sail back to the old country the shadow of the Americas blacken your outlook.
+TrackPosition 0
+Track Roosevelt
+Laps 10
+Cars 6
+Car0 14
+Car1 83
+Car2 7
+Car3 48
+Car4 28
+Car5 22
+
+
+
+
+
+
+
+
+
+
+
++

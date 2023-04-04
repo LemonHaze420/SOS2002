@@ -1,0 +1,30 @@
+Name Full Season Mercedes 125
+Difficulty Hard
+Description Win the season and become champion.
+Goal position
+SuccessValue 1
+SuccessString Excellent driving all season, and a fully deserved reward!
+FailureString Mercedes bosses are courting other drivers. Your future looks bleak!
+TrackPosition 0
+Race Short
+Cars 6
+Car0 24
+Car1 1
+Car2 14
+Car3 20
+Car4 15
+Car5 66
+-
+
+
+
+
+
+
+
+
+
+
+
+
+

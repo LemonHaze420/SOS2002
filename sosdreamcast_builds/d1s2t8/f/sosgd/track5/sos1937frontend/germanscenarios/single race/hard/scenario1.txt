@@ -1,0 +1,23 @@
+Name Zweimotorige Dominanz
+Difficulty hard
+Description Erteile den Deutschen auf der Avus mit dem Alfa Romeo Bimotore eine kleine Lektion. Mit einem Platz auf dem Siegertreppchen gewinnst Du zahlungskräftige Sponsoren. Leider hast Du eine schlechte Startposition.
+Goal Position
+SuccessValue 3
+SuccessString Glückwunsch, wir haben einen neuen Champion! 
+FailureString Die Sponsoren – und vor allem die Fans – werden Dich nach Italien zurückjagen!
+TrackPosition 5
+Track Avus
+Laps 5
+Cars 5
+Car0 66
+Car1 50
+Car2 23
+#Car3 52
+Car3 18
+Car4 11
+#car6 83
+#Car5 58
+#Car8 4
+
+
+

@@ -1,0 +1,38 @@
+Name Full Season ERA Remus
+Difficulty Hard
+Description Finaliza siendo uno de los tres primeros al final de la temporada
+Goal position
+SuccessValue 3
+SuccessString El logro prominente de una temporada. ¡Un verdadero gran esfuerzo!
+FailureString ¡Te han colocado en tu lugar de verdad! ¿Puedes recuperarte de esta derrota?
+TrackPosition 0
+Race Short
+Cars 5
+Car0 22
+Car1 43
+Car2 24
+Car3 39
+Car4 11
+#Car5 27
+#Car6 2
+#Car7 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

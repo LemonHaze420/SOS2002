@@ -1,0 +1,33 @@
+Name Volle Saison Mercedes 154
+Difficulty Einfach
+Description Beenden Sie die Saison mindestens als Dritter.
+Goal position
+SuccessValue 3
+SuccessString Eine grundsolide Leistung!
+FailureString Mit etwas mehr Glück klappt´s beim nächsten Mal!
+TrackPosition 0
+Race Lang
+Cars 8
+Car0 20
+Car1 32
+Car2 14
+Car3 57
+Car4 83
+Car5 58
+Car6 16
+Car7 74
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

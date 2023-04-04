@@ -1,0 +1,310 @@
+Function OptionsScreen
+
+Call CleanUpButtons
+Let CurrentScreen = String Options
+
+WriteLocale 290,62,500,HeaderFont
+Line 232,86,456,86,63488
+Line 232,87,456,87,63488
+
+WriteLocale 220,108,510,RightFont,250
+WriteLocale 220,150,511,RightFont,250
+WriteLocale 220,192,512,RightFont,250
+WriteLocale 220,234,513,RightFont,250
+WriteLocale 220,276,514,RightFont,250
+WriteLocale 220,318,515,RightFont,250
+WriteLocale 220,360,516,RightFont,250
+WriteLocale 220,402,517,RightFont,250
+WriteLocale 220,448,518,RightFont,250
+WriteLocale 220,490,551,RightFont,250
+
+
+Let MusicValue = String NoChange
+Let MirrorsValue = String NoChange
+Let ShadowsValue = String NoChange
+Let WheelValue = String NoChange
+Let DetailValue = String NoChange
+Let SmokeValue = String NoChange
+Let ControllerValue = String NoChange
+Let ResolutionValue = String NoChange
+Let ForceFeedbackValue = String NoChange
+Let SoundValue = String NoChange
+
+Call DrawMusicButton
+Call DrawMirrorsButton
+Call DrawShadowsButton
+Call DrawWheelButton
+Call DrawDetailButton
+Call DrawSmokeButton
+Call DrawControllerButton
+Call DrawResolutionButton
+Call DrawForceFeedbackButton
+Call DrawSoundButton
+
+Return
+
+##############################################
+# Draw each button.
+
+
+Function ChangedButton
+If MusicValue != NoChange SetRegistryKey Music,MusicValue
+If MirrorsValue != NoChange SetRegistryKey RearViewSwitch,MirrorsValue
+If ShadowsValue != NoChange SetRegistryKey ShadowsSwitch,ShadowsValue
+If WheelValue != NoChange SetRegistryKey SteeringWheel,WheelValue
+If DetailValue != NoChange SetRegistryKey DetailLevel,DetailValue
+If SmokeValue != NoChange SetRegistryKey SmokeFX,SmokeValue
+If ControllerValue != NoChange SetRegistryKey ControlMethod,ControllerValue
+If ResolutionValue != NoChange SetRegistryKey ScreenMode,ResolutionValue
+If ForceFeedbackValue != NoChange SetRegistryKey ForceFeedback,ForceFeedbackValue
+If SoundValue != NoChange SetRegistryKey Sounds_VolumeSwitch,SoundValue
+Call OptionsScreen
+Return
+
+Function DrawMusicButton
+Destroy MusicButton
+Let OldMusicValue = RegistryKey Music
+If OldMusicValue = On
+{
+	Let ButtonText = LocaleString 520
+	Let MusicButton = Button 500,108,250,30,ButtonText,LeftFont,LeftFont,ChangedButton,none,MusicValue=Off
+}
+If OldMusicValue = Off
+{
+	Let ButtonText = LocaleString 521
+	Let MusicButton = Button 500,108,250,30,ButtonText,LeftFont,LeftFont,ChangedButton,none,MusicValue=On
+}
+
+DestroyString OldMusicValue
+DestroyString ButtonText
+
+Disable MusicButton
+
+Return
+
+Function DrawMirrorsButton
+Destroy MirrorsButton
+Let OldMirrorsValue = RegistryKey RearViewSwitch
+If OldMirrorsValue = On
+{
+	Let ButtonText = LocaleString 523
+	Let MirrorsButton = Button 500,150,250,30,ButtonText,LeftFont,LeftFont,ChangedButton,none,MirrorsValue=Off
+}
+If OldMirrorsValue = Off
+{
+	Let ButtonText = LocaleString 524
+	Let MirrorsButton = Button 500,150,250,30,ButtonText,LeftFont,LeftFont,ChangedButton,none,MirrorsValue=On
+}
+DestroyString OldMirrorsValue
+DestroyString ButtonText
+Return
+
+Function DrawShadowsButton
+Destroy ShadowsButton
+Let OldShadowsValue = RegistryKey ShadowsSwitch
+If OldShadowsValue = On
+{
+	Let ButtonText = LocaleString 525
+	Let ShadowsButton = Button 500,192,250,30,ButtonText,LeftFont,LeftFont,ChangedButton,none,ShadowsValue=Off
+}
+If OldShadowsValue = Off
+{
+	Let ButtonText = LocaleString 526
+	Let ShadowsButton = Button 500,192,250,30,ButtonText,LeftFont,LeftFont,ChangedButton,none,ShadowsValue=On
+}
+
+Disable ShadowsButton
+
+Return
+
+Function DrawWheelButton
+Destroy WheelButton
+Let OldWheelValue = RegistryKey SteeringWheel
+If OldWheelValue = On
+{
+	Let ButtonText = LocaleString 527
+	Let WheelButton = Button 500,234,250,30,ButtonText,LeftFont,LeftFont,ChangedButton,none,WheelValue=Off
+}
+If OldWheelValue = Off
+{
+	Let ButtonText = LocaleString 528
+	Let WheelButton = Button 500,234,250,30,ButtonText,LeftFont,LeftFont,ChangedButton,none,WheelValue=On
+}
+DestroyString ButtonText
+DestroyString OldWheelValue
+
+Return
+
+Function DrawDetailButton
+Destroy DetailButton
+Let OldDetailValue = RegistryKey DetailLevel
+If OldDetailValue = Low
+{
+	Let ButtonText = LocaleString 529
+	Let DetailButton = Button 500,276,250,30,ButtonText,LeftFont,LeftFont,ChangedButton,none,DetailValue=Medium
+}
+If OldDetailValue = Medium
+{
+	Let ButtonText = LocaleString 530
+	Let DetailButton = Button 500,276,250,30,ButtonText,LeftFont,LeftFont,ChangedButton,none,DetailValue=High
+}
+If OldDetailValue = High
+{
+	Let ButtonText = LocaleString 531
+	Let DetailButton = Button 500,276,250,30,ButtonText,LeftFont,LeftFont,ChangedButton,none,DetailValue=Low
+}
+DestroyString ButtonText
+DestroyString OldDetailValue
+
+Disable DetailButton
+
+Return
+
+Function DrawSmokeButton
+Destroy SmokeButton
+Let OldSmokeValue = RegistryKey SmokeFX
+If OldSmokeValue = On
+{
+	Let ButtonText = LocaleString 532
+	Let SmokeButton = Button 500,318,250,30,ButtonText,LeftFont,LeftFont,ChangedButton,none,SmokeValue=Off
+}
+If OldSmokeValue = Off
+{
+	Let ButtonText = LocaleString 533
+	Let SmokeButton = Button 500,318,250,30,ButtonText,LeftFont,LeftFont,ChangedButton,none,SmokeValue=On
+}
+DestroyString ButtonText
+DestroyString OldSmokeValue
+Return
+
+Function DrawControllerButton
+Destroy ControllerButton
+Let OldControllerValue = RegistryKey ControlMethod
+If OldControllerValue = "Steering Wheel"
+{
+	Let ButtonText = LocaleString 534
+	Let ControllerButton = Button 500,360,250,30,ButtonText,LeftFont,LeftFont,ChangedButton,none,ControllerValue=Joystick
+}
+If OldControllerValue = Joystick
+{
+	Let ButtonText = LocaleString 535
+	Let ControllerButton = Button 500,360,250,30,ButtonText,LeftFont,LeftFont,ChangedButton,none,ControllerValue=Keyboard
+}
+If OldControllerValue = Keyboard
+{
+	Let ButtonText = LocaleString 536
+	Let ControllerButton = Button 500,360,250,30,ButtonText,LeftFont,LeftFont,ChangedButton,none,"ControllerValue=Steering Wheel"
+}
+If OldControllerValue = Mouse
+{
+	Let ButtonText = LocaleString 537
+	Let ControllerButton = Button 500,360,250,30,ButtonText,LeftFont,LeftFont,ChangedButton,none,ControllerValue=Joypad
+}
+If OldControllerValue = Joypad
+{
+	Let ButtonText = LocaleString 538
+	Let ControllerButton = Button 500,360,250,30,ButtonText,LeftFont,LeftFont,ChangedButton,none,"ControllerValue=Steering Wheel"
+}
+DestroyString ButtonText
+DestroyString OldControllerValue
+Return
+
+Function DrawResolutionButton
+Destroy ResolutionButton
+Let OldResolutionValue = RegistryKey ScreenMode
+If OldResolutionValue = 320x200
+{
+	Let ButtonText = LocaleString 539
+	Let ResolutionButton = Button 500,402,250,30,ButtonText,LeftFont,LeftFont,ChangedButton,none,ResolutionValue=512x384
+}
+If OldResolutionValue = 512x384
+{
+	Let ButtonText = LocaleString 540
+	Let ResolutionButton = Button 500,402,250,30,ButtonText,LeftFont,LeftFont,ChangedButton,none,ResolutionValue=800x600
+}
+If OldResolutionValue = 640x480
+{
+	Let ButtonText = LocaleString 541
+	Let ResolutionButton = Button 500,402,250,30,ButtonText,LeftFont,LeftFont,ChangedButton,none,ResolutionValue=800x600
+}
+If OldResolutionValue = 800x600
+{
+	Let ButtonText = LocaleString 542
+	Let ResolutionButton = Button 500,402,250,30,ButtonText,LeftFont,LeftFont,ChangedButton,none,ResolutionValue=512x384
+}
+If OldResolutionValue = 1024x768
+{
+	Let ButtonText = LocaleString 543
+	Let ResolutionButton = Button 500,402,250,30,ButtonText,LeftFont,LeftFont,ChangedButton,none,ResolutionValue=1280x1024
+}
+If OldResolutionValue = 1280x1024
+{
+	Let ButtonText = LocaleString 544
+	Let ResolutionButton = Button 500,402,250,30,ButtonText,LeftFont,LeftFont,ChangedButton,none,ResolutionValue=1600x1200
+}
+If OldResolutionValue = 1600x1200
+{
+	Let ButtonText = LocaleString 545
+	Let ResolutionButton = Button 500,402,250,30,ButtonText,LeftFont,LeftFont,ChangedButton,none,ResolutionValue=320x200
+}
+DestroyString OldResolutionValue
+DestroyString ButtonText
+
+Return
+
+Function DrawForceFeedbackButton
+Destroy ForceFeedbackButton
+Let OldForceFeedbackValue = RegistryKey ForceFeedback
+If OldForceFeedbackValue = Off
+{
+	Let ButtonText = LocaleString 546
+	Let ForceFeedbackButton = Button 500,444,250,30,ButtonText,LeftFont,LeftFont,ChangedButton,none,ForceFeedbackValue=Low
+}
+If OldForceFeedbackValue = Low
+{
+	Let ButtonText = LocaleString 547
+	Let ForceFeedbackButton = Button 500,444,250,30,ButtonText,LeftFont,LeftFont,ChangedButton,none,ForceFeedbackValue=High
+}
+If OldForceFeedbackValue = High
+{
+	Let ButtonText = LocaleString 548
+	Let ForceFeedbackButton = Button 500,444,250,30,ButtonText,LeftFont,LeftFont,ChangedButton,none,ForceFeedbackValue=Off
+}
+DestroyString OldForceFeedbackValue
+DestroyString ButtonText
+Return
+
+Function DrawSoundButton
+Destroy SoundButton
+Let OldSoundValue = RegistryKey Sounds_VolumeSwitch
+If OldSoundValue = Off
+{
+	Let ButtonText = LocaleString 550
+	Let SoundButton = Button 500,486,250,30,ButtonText,LeftFont,LeftFont,ChangedButton,none,SoundValue=On
+}
+If OldSoundValue = On
+{
+	Let ButtonText = LocaleString 549
+	Let SoundButton = Button 500,486,250,30,ButtonText,LeftFont,LeftFont,ChangedButton,none,SoundValue=Off
+}
+DestroyString OldSoundValue
+DestroyString ButtonText
+Return
+
+##############################################
+
+Function DestroyOptionsButtons
+Destroy MusicButton
+Destroy MirrorsButton
+Destroy ShadowsButton
+Destroy WheelButton
+Destroy DetailButton
+Destroy SmokeButton
+Destroy ControllerButton
+Destroy ResolutionButton
+Destroy ForceFeedbackButton
+Destroy SoundButton
+RestoreBackground 196,33,771,538
+Return
+
+

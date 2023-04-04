@@ -1,0 +1,29 @@
+Name Course Européenne
+Difficulty Moyen
+Description Terminez la course de Donington dans les 3 premiers à bord de la Miller. Malheureusement, vous partirez en fond de grille.
+Goal Position
+SuccessValue 3
+SuccessString Bravo, vous avez atteint votre objectif !
+FailureString Vous aurez plus de chance la prochaine fois
+TrackPosition 10
+Track Donington
+Laps 10
+Cars 10
+Car0 29
+Car1 31 
+Car2 36
+Car3 35
+Car4 21
+Car5 49
+Car6 2
+Car7 39
+Car8 27
+Car9 44
+
+
+
+
+
+
+
+

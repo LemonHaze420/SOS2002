@@ -1,0 +1,30 @@
+Name Le Meilleur de la Technique Allemande
+Difficulty Moyen
+Description Dans cette course opposant la crème du sport automobile allemand, arrivez au moins quatrième au volant de la Mercedes 125 à Roosevelt. Vous partirez en deuxième position.
+Goal Position
+SuccessValue 4
+SuccessString Bravo ! Vous allez bientôt mériter une augmentation.
+FailureString Ne vous désespérez pas, vous ferez mieux la prochaine fois.
+TrackPosition 2
+Track Roosevelt
+Laps 6
+Cars 8
+Car0 33
+Car1 52
+Car2 15
+Car3 32
+Car4 50
+Car5 9
+Car6 24
+Car7 58
+
+
+
+
+
+
+
+
+
+
+

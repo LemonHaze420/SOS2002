@@ -1,0 +1,40 @@
+Name Tymor llawn Bugatti 35B
+Difficulty Canolig 
+Description Gorffennwch y tymor yn y seithfed safle neu well. 
+Goal Position 
+SuccessValue 7
+SuccessString GYrru da! 
+FailureString Roedd y gyrru 'na yn ofnadwy. 
+TrackPosition 0
+Race Long
+Cars 10
+Car0 39
+Car1 12
+Car2 11
+Car3 59
+Car4 46
+Car5 5
+Car6 60
+Car7 22
+Car8 37
+Car9 43
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

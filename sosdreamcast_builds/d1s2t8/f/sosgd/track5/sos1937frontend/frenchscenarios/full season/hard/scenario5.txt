@@ -1,0 +1,39 @@
+Name Saison complète, Alfa Romeo 12C
+Difficulty Difficile
+Description Etre couronné champion à la fin de la saison
+Goal Position
+SuccessValue 1
+SuccessString Vous avez dominé ce championnat de la tête et des épaules !
+FailureString Il n'y a pas de place pour les faibles dans l'univers de la compétition.
+TrackPosition 0
+Race Courte
+Cars 5
+Car0 31
+Car1 30
+Car2 22
+#Car3 34
+Car3 16
+#Car5 10
+Car4 36
+#Car7 44
+#Car8 25
+#car9 40
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

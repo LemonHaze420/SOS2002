@@ -1,0 +1,14 @@
+Name Rasio er anrhydedd 
+# Andrew Stainer
+Description Rydych wedi cael eich amharchu yn gyhoeddus gan ddihiryn lleol.  Mae'n rhaid ichi ail-ennill eich parch ar y trac. Curwch yr Alfa Romeo P3 yn eich Maserati V8Ri yn Monza.
+Difficulty Canolig 
+Goal Safle 
+SuccessValue 1
+SuccessString Mae eich parch yn gyfan. Mae eich gwrthwynebwr yn erfyn maddeuant.  
+FailureString Mae eich methiant yn duo enw da eich teulu am flynyddoedd. 
+TrackPosition 1
+Track Monza
+Laps 6
+Cars 2
+Car0 42
+Car1 12

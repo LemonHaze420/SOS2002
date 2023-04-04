@@ -1,0 +1,22 @@
+Name Almeno un punto
+Description Al volante di una Bugatti 35B dovrai guadagnare almeno un punto di campionato sulla difficile pista di Pau. Purtroppo in qualifica ti è esplosa una gomma, così dovrai partire dal fondo.
+Goal Position
+Difficulty Media
+SuccessValue 6
+SuccessString Eccellente! Bugatti adesso ti adora!
+FailureString Non è andata molto bene... ti rifarai un'altra volta.
+TrackPosition 10
+Track Pau
+Laps 8
+Cars 10
+Car0 7
+Car1 20
+Car2 33
+Car3 32
+Car4 14
+Car5 15
+Car6 24
+Car7 41
+Car8 50
+Car9 9
+

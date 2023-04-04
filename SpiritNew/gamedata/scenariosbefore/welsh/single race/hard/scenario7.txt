@@ -1,0 +1,27 @@
+Name Brwydyr y cyfandir
+Difficulty Anodd
+Description Amrywiaeth eang o geir gorau Ewrop yn cystadlu am fuddugoliaeth ar y cylchffordd ddinesol diddorol yma yn Pau. Eich car yw'r Alfa Romeo P3 a dim ond buddugoliaeth wnaiff y tro. Dechreuwch o safle grid 4.
+Goal Position
+SuccessValue 1
+SuccessString Gyrru gwych! A ydych wedi gwneyd hyn o'r blaen?
+FailureString Cariwch ymlaen i ymarfer! Fe ddaw yn haws!
+TrackPosition 4
+Track Pau
+Laps 12
+Cars 6
+Car0 21
+Car1 83
+Car2 17
+Car3 11
+Car4 22
+Car5 8
+
+
+
+
+
+
+
+
+
+

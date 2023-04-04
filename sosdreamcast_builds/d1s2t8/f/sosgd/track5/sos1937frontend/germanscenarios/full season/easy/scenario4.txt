@@ -1,0 +1,21 @@
+Name Full Season Alfa Romeo Bimotore
+Difficulty Easy
+Description Beende die Saison als neuer Champion!
+Goal position
+SuccessValue 1
+SuccessString Dieses Ergebnis war zu erwarten – bei diesem phantastischen Auto. Grossartige Leistung!
+FailureString Das Auto ist nicht für diese schwache Leistung verantwortlich.
+TrackPosition 0
+Race Long
+Cars 5
+Car0 74
+Car1 7
+Car2 48
+Car3 22
+Car4 32
+#Car5 46
+#Car5 83
+#Car7 58
+#car8 60
+#Car9 2
+

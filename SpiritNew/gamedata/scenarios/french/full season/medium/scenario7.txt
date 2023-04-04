@@ -1,0 +1,40 @@
+Name Saison complète, Union D
+Difficulty Moyen
+Description Terminez la saison dans les 3 premiers.
+Goal Position
+SuccessValue 3
+SuccessString Excellent pilotage, bien joué !
+FailureString Pas mal, continuez à vous entraîner.
+TrackPosition 0
+Race Longue
+Cars 10
+Car0 14
+Car1 15
+Car2 20
+Car3 12
+Car4 4
+Car5 35
+Car6 23
+Car7 57
+Car8 83
+car9 58
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

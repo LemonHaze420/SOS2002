@@ -1,0 +1,34 @@
+Name Full Season Mercedes 154
+Difficulty Hard
+Description Be placed first overall at the end of the season.
+Goal position
+SuccessValue 1
+SuccessString The ultimate reward in the ultimate car!
+FailureString The unforgiving racing world shun you from now on!
+TrackPosition 0
+Race Short
+Cars 4
+Car0 15
+#Car1 50
+Car1 32
+Car2 16
+Car3 74
+#Car5 58
+#Car4 66
+#Car7 57
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

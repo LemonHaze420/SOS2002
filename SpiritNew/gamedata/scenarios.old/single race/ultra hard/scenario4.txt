@@ -1,0 +1,16 @@
+Name Sluggish Bucket Challenge
+Description The quick but limited Autounion Streamlined is not considered a car for cornering. Defy the accepted logic by beating the slicker Alfa and ERA Remus. 
+Goal Position
+Difficulty Ultra
+SuccessValue 1
+TrackPosition 4
+SuccessString The way you slung that big old beast around reminds me of the charioteers of yesteryear.
+FailureString The wrong driver in the wrong car on the wrong circuit. You don't have much going for you, do you?
+Track Roosevelt
+Laps 4
+Cars 4
+Car0 6
+Car1 12
+Car2 22
+Car3 3
+

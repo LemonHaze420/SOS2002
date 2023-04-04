@@ -1,0 +1,27 @@
+Name Bataille Germano-Italienne
+Difficulty Facile
+Description L'Allemagne affronte l'Italie sur ce circuit urbain de France. Terminez dans les deux premiers au volant de la Mercedes 125 à Pau et votre fierté restera intacte. Un seul problème : vous partirez du fond de la grille.
+Goal Position
+SuccessValue 2
+SuccessString Bien joué ! Dix bouteilles de schnaps et une côtelette de porc vous attendent à Berlin !
+FailureString Vous finirez chauffeur de bus à Dusseldorf...
+TrackPosition 8
+Track Pau
+Laps 12
+Cars 8
+Car0 33
+Car1 43
+Car2 16
+Car3 32
+Car4 58
+Car5 10
+Car6 17
+Car7 35
+
+
+
+
+
+
+
+

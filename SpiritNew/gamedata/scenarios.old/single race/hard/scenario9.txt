@@ -1,0 +1,19 @@
+Name Leaping Lizards
+# Alan Clark
+Description A deadly game of leap frog with your opponents with a fight to the bitter end. Use a Mercedes 154 to finish first. Stay out of trouble at the start of the race as you start from the back of the grid.
+Difficulty Hard
+Goal Position
+SuccessValue 1
+SuccessString Congratulations! You've leapt straight into the record books.
+FailureString Unlucky! You leaped straight from the frying pan into the fire. 
+TrackPosition 6
+Track Avus
+Laps 12
+Cars 6
+Car0 20
+Car1 41
+Car2 9
+Car3 14
+Car4 8
+Car5 18
+

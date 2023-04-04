@@ -1,0 +1,38 @@
+Name Saison complète, Alfa Romeo 12C
+Difficulty Moyen
+Description Terminez la saison dans les 4 premiers.
+Goal Position
+SuccessValue 4
+SuccessString Excellent pilotage durant cette saison !
+FailureString La saison prochaine sera meilleure si vous vous entraînez.
+TrackPosition 0
+Race Moyenne
+Cars 10
+Car0 49
+Car1 7
+Car2 42
+Car3 21
+Car4 22
+Car5 5
+Car6 53
+Car7 3
+Car8 55
+car9 46
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

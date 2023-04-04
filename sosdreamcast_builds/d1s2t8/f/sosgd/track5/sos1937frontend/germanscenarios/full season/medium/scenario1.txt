@@ -1,0 +1,34 @@
+Name Full Season Mercedes 125
+Difficulty Medium
+Description Bestreite alle neun Rennen mit dem Mercedes 125 und sichere Dir am Ende der Saison Rang 1 oder 2.
+Goal position
+SuccessValue 2
+SuccessString Was für eine grossartige Saison!
+FailureString Das Ansehen von Mercedes und seinen Fahrern ist erschüttert!
+TrackPosition 0
+Race Medium
+Cars 5
+Car0 57
+Car1 9
+#Car2 14
+Car2 4
+Car3 15
+Car4 92
+#Car6 16
+#Car7 41
+#Car8 83
+#Car9 32
+
+
+
+
+
+
+
+
+
+
+
+
+
+

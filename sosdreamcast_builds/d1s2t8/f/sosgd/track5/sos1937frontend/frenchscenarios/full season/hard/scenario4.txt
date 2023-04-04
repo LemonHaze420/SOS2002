@@ -1,0 +1,38 @@
+Name Saison complète, Alfa Bimotore
+Difficulty Difficile
+Description Finir dans les deux premiers du championnat
+Goal Position
+SuccessValue 2
+SuccessString Vous avez montré au monde entier ce que valaient les Alfa. Beau travail !
+FailureString Vous ne méritez peut-être pas de piloter ce bijou, après tout...
+TrackPosition 0
+Race Courte
+Cars 5
+Car0 74
+Car1 23
+Car2 14
+Car3 15
+#Car4 9
+#Car5 41
+Car4 36
+#Car7 50
+#car8 28
+#Car9 44
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

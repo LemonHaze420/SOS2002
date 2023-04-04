@@ -1,0 +1,19 @@
+Name Catch Me If You Can
+Description This really is a difficult one! You've come this far, now challenge the fastest cars in the world to a duel at Avus. You're in your 154 and start in pole.....doen't get much harder than this.  
+Goal Position
+Difficulty Ultra
+SuccessValue 1
+TrackPosition 1
+SuccessString You really are the cream of the crop. The Ultimate driving crown is yours!
+FailureString Come on.... you can complete this scenario. It just takes a bit of practice.
+Track Avus
+Laps 3
+Cars 7
+Car0 15
+Car1 6
+Car2 47
+Car3 45
+Car4 77
+Car5 13
+Car6 88
+

@@ -1,0 +1,13 @@
+Name You Against The Track
+# Darren Williams
+Description Montlhery has everything - fast straights and tight corners. Prove your skill by posting a lap better than 3:20 in a Mercedes 154.
+Difficulty Medium
+Track Montlhery
+Laps 5
+Cars 1
+Car0 20
+Goal Lap Time
+TrackPosition 1
+SuccessValue 20000
+SuccessString Scorching lap, you belong amongst the best.
+FailureString Perhaps driving a hearse suits you more.

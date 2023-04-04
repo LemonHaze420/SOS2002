@@ -1,0 +1,28 @@
+Name Athrylith Cyflymdra
+Difficulty Canolig
+Description Curwch y gorau o'r Eidalwyr yn Monza a gorffennwch yn y tri cyntaf yn defnyddio'r Auto Union C.
+Goal Position
+SuccessValue 3
+SuccessString Da iawn chi - Dyna berfformiad ysgubol!
+FailureString Ychydig rhagor o ymarfer ac fe fyddwch yna.
+TrackPosition 1
+Track Monza
+Laps 8
+Cars 6
+Car0 4
+Car1 15
+Car2 50
+Car3 51
+Car4 32
+Car5 11
+
+
+
+
+
+
+
+
+
+
+

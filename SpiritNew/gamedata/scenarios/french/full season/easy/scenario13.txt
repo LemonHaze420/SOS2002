@@ -1,0 +1,40 @@
+Name Saison complète, Bonner Special
+Difficulty Facile
+Description Terminez la saison dans les 4 premiers.
+Goal Position
+SuccessValue 4
+SuccessString Excellent pilotage cette saison !
+FailureString Ne vous laissez pas abattre !
+TrackPosition 0
+Race Longue
+Cars 10
+Car0 10
+Car1 5
+Car2 21
+Car3 24
+Car4 32
+Car5 60
+Car6 2
+Car7 49
+Car8 40
+Car9 7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+Name Saison complète, Mercedes 125
+Difficulty Difficile
+Description Etre couronné champion à la fin de la saison
+Goal Position
+SuccessValue 1
+SuccessString Vous avez fait la preuve de votre talent de pilote et en avez été récompensé !
+FailureString Les dirigeants de Mercedes planchent déjà à votre succession !
+TrackPosition 0
+Race Courte
+Cars 4
+Car0 24
+Car1 1
+Car2 14
+Car3 20
+#Car4 15
+#Car5 66
+
+
+
+
+
+
+
+
+
+
+
+
+
+

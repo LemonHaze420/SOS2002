@@ -1,0 +1,22 @@
+Name Großer Preis der Neulinge
+Difficulty Einfach
+Description Schlagen Sie eine Auswahl europäischer Wagen mit dem Mercedes 154. Sie starten in Donington als Zweiter im Startfeld. Einfach!
+Goal Position
+SuccessValue 1
+SuccessString Was für eine nette Fahrt durchs Land...
+FailureString Allein gewinnt auch der Mercedes nicht. Fahren müssen Sie ihn schon ...
+TrackPosition 2
+Track Donington
+Laps 10
+Cars 6
+Car0 15
+Car1 53
+Car2 10
+Car3 16
+Car4 9
+Car5 1
+
+
+
+
+

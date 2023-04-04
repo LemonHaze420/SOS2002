@@ -1,0 +1,13 @@
+Name Record du tour
+Description Battez le record du tour de Brooklands (1:07) en mois de 3 tours au volant de l'Alfa P3.
+Goal LapTime
+Difficulty Medium
+SuccessValue 6700
+SuccessString Vous avez pulvérisé le record du tour ! A quand le mur du son ?
+FailureString Profitez bien de ce qui pourrait être votre dernier coucher de soleil.
+TrackPosition 1
+Track Brooklands
+Laps 3
+Cars 2
+Car0 43
+Car1 31

@@ -1,0 +1,38 @@
+Name Full Season Duesenberg
+Difficulty Easy
+Description Beende die Saison als 4. oder besser.
+Goal position
+SuccessValue 4
+SuccessString Ein groﬂartiger Erfolg mit einem schwer zu fahrenden Auto!
+FailureString Etwas mehr Geduld und Du wirst der neue Champion. Also, ab ins Training!
+TrackPosition 0
+Race Short
+Cars 5
+Car0 40
+Car1 60
+Car2 43
+Car3 17
+Car4 39
+#Car5 35
+#Car5 51
+#Car7 46
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

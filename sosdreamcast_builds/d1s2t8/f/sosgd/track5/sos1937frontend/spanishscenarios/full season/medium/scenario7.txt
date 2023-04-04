@@ -1,0 +1,40 @@
+Name Full Season Auto Union D
+Difficulty Medium
+Description Finaliza siendo uno de los tres primeros al final de la temporada
+Goal position
+SuccessValue 3
+SuccessString ¡Te has merecido completamente tu lugar en el podio! ¡Felicidades!
+FailureString Un poco más de esfuerzo y lo conseguirás. 
+TrackPosition 0
+Race Long
+Cars 5
+Car0 14
+Car1 15
+#Car2 20
+Car2 12
+Car3 4
+#Car5 35
+#Car6 23
+Car4 57
+#Car5 83
+#car9 58
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

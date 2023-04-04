@@ -1,0 +1,36 @@
+Name Saison Complète, Alfa Romeo P3
+Difficulty Moyen
+Description Soyez premier ou second en fin de saison.
+Goal Position
+SuccessValue 2
+SuccessString Excellent pilotage cette saison !
+FailureString Faites un peu plus d'efforts l'an prochain !
+TrackPosition 0
+Race Moyenne
+Cars 10
+Car0 12
+Car1 35
+Car2 28
+Car3 51
+Car4 7
+Car5 36
+Car6 42
+Car7 3
+car8 27
+Car9 25
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

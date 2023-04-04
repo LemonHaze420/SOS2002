@@ -1,0 +1,37 @@
+Name Volle Saison Auto Union C
+Difficulty Mittel
+Description Beenden Sie die Saison mindestens als Zweiter.
+Goal position
+SuccessValue 2
+SuccessString Ausgezeichnet!
+FailureString Das war nicht schlecht! Trainieren Sie weiter!
+TrackPosition 0
+Race Short
+Cars 10
+Car0 58
+Car1 1
+Car2 55
+Car3 9
+Car4 33
+Car5 28
+Car6 35
+Car7 10
+Car8 16
+car9 56
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+Name Master The Oval
+# Darren Williams
+Description Speed in the corner versus power in the straight. Take the Miller to first place at Montana in this 12 lap race. At least you start in pole position!
+Difficulty Medium
+Track Montana
+Laps 12
+Cars 5
+Car0 48
+Car1 15
+Car2 58
+Car3 2
+Car4 41
+#Car5 1
+#Car6 29
+#Car7 50
+#Car8 4
+Goal Position
+TrackPosition 1
+SuccessValue 1
+SuccessString You have made the unfancied car a winner.
+FailureString You weren't good enough this time around, give it another shot....

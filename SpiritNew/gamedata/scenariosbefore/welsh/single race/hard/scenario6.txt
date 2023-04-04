@@ -1,0 +1,30 @@
+Name Amserau anodd o'ch blaen!
+Difficulty Anodd
+Description  Mae cefngwlad Ffrainc yn Montlhery yn darparu cefndir hyfryd i'r her Ewropeaidd yma. A allwch fynd a'r Bugatti 59 i orffen ar y podiwm. Mae'n galed i yrru ond fe oleddfoch yn y safle cyntaf.
+Goal Position
+SuccessValue 3
+SuccessString Da iawn! Fe wnaiff y fuddugoliaeth yma lonni'ch calon yn ystod blynyddoedd eich henoed.
+FailureString Collwch chi fyth blas cas y maeddiad.
+TrackPosition 1
+Track Montlhery
+Laps 6
+Cars 8
+Car0 44
+Car1 9
+Car2 43
+Car3 56
+Car4 50
+Car5 52
+Car6 41
+Car7 35
+
+
+
+
+
+
+
+
+
+
+

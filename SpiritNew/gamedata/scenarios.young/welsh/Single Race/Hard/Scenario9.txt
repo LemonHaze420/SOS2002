@@ -1,0 +1,20 @@
+Name Amser Parti
+# Alan Clark
+Description All eich Alfa Romeo 12C gael ei yrru i fod yn y ddau gyntaf yn Monza. Byddwch yn dechrau o'r ail safle ar y grid felly y cyfan su'n angen yw i chi amddiffyn eich safle ar y trac. so you just have to protect your track position.
+Difficulty Anodd
+Goal Safle
+SuccessValue 2
+SuccessString Caiff y wledd i ddathlu eich buddigoliaeth ei chofio am flynyddoedd i ddod.
+FailureString Mae'r dorf angerddol yn gweiddi am eich gwaed.
+TrackPosition 2
+Track Monza
+Laps 5
+Cars 8
+Car0 8
+Car1 49
+Car2 33
+Car3 40
+Car4 43
+Car5 42
+Car6 26
+Car7 12

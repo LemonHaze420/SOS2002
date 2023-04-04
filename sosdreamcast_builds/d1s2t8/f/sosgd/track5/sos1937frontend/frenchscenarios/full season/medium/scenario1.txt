@@ -1,0 +1,35 @@
+Name Saison complète, Mercedes 125
+Difficulty Moyen
+Description Participez aux neuf courses au volant de la Mercedes 125 et finissez dans les deux premiers du championnat.
+Goal Position
+SuccessValue 2
+SuccessString Quelle superbe saison !
+FailureString Vous avez déshonoré à jamais la réputation de l'usine Mercedes !
+TrackPosition 0
+Race Moyenne
+Cars 5
+Car0 57
+Car1 9
+#Car2 14
+Car2 4
+Car3 15
+Car4 92
+#Car6 16
+#Car7 41
+#Car8 83
+#.#Car9 32
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+Name Rownd Y Bloc
+Difficulty Hawdd
+Description Ceir o ledled y byd sy'n cymryd rhan yn yr her Americanaidd yma. Gorffenwch yn gyntaf yn gyrru'r Auto Union.
+Goal Position
+SuccessValue 1
+SuccessString Mae'ch talent byd-eang yn pontio'r atlantig fel pâr o drowsys bendigedig.
+FailureString Tra byddwch yn hwylio yn ol i'r hen wlad, mae cysgod America yn tywyllu'r olygfa.
+TrackPosition 0
+Track Roosevelt
+Laps 10
+Cars 6
+Car0 14
+Car1 83
+Car2 7
+Car3 48
+Car4 28
+Car5 22
+
+
+
+
+
+
+
+
+
+
+
++

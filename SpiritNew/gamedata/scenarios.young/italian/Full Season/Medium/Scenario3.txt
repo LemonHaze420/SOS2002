@@ -1,0 +1,33 @@
+Name Volle Saison Alfa Romeo P3
+Difficulty Mittel
+Description Beenden Sie die Saison mindestens als Zweiter.
+Goal position
+SuccessValue 2
+SuccessString Das war eine saubere Saison!
+FailureString Strengen Sie sich nächsten Mal mehr an!
+TrackPosition 0
+Race Medium
+Cars 10
+Car0 12
+Car1 35
+Car2 28
+Car3 51
+Car4 7
+Car5 36
+Car6 42
+Car7 3
+car8 27
+Car9 25
+
+
+
+
+
+
+
+
+
+
+
+
+

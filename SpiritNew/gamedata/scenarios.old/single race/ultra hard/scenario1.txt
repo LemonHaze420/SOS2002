@@ -1,0 +1,14 @@
+Name Prove The Point!
+# Darren Williams
+Description Power is not everything. Can the better handling Miller beat the might of the 154 at Tripoli?
+Difficulty Ultra
+Track Tripoli
+Laps 2
+Cars 2
+Car0 48
+Car1 41
+Goal Position
+TrackPosition 1
+SuccessValue 1
+SuccessString Sir, you are a true gentleman. Brain beats brawn again.
+FailureString Outpowered and ashamed, you should improve your driving skills.

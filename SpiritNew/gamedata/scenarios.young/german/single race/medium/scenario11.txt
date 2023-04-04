@@ -1,0 +1,19 @@
+Name Maserati-Miller-Massaker
+# Darren Williams
+Difficulty Mittel
+Description Alle Ms sind in Montana vertreten. Ein Duell der Giganten. Gewinnen Sie in einem Maserati 8CM von der vierten Startposition aus.
+Goal Position
+TrackPosition 4
+SuccessValue 1
+SuccessString Ein rasanter Sieg für den Mann mit dem Tiger im Tank.
+FailureString Knapp daneben ist auch daneben - und weit daneben erst recht.
+Track Montana
+Laps 15
+Cars 7
+Car0 10
+Car1 29
+Car2 37
+Car3 17
+Car4 55
+Car5 30
+Car6 2

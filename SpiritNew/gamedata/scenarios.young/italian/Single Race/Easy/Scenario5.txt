@@ -1,0 +1,32 @@
+Name Ein Marsch durch die Wildnis
+Difficulty Einfach
+Description Für die anspruchsvolle, lange Strecke in Tripolis braucht es einen guten Fahrer. Sie fahren den Mercedes 154, um nach einem Start von der achten Position zu gewinnen - lassen Sie sich keinen Strich durch die Rechnung machen!
+Goal Position
+SuccessValue 1
+SuccessString Ihr Sieg lässt erkennen, dass Sie für Größeres bereit sind.
+FailureString Ihre Niederlage wird Ihrem Ansehen schaden. Trainieren Sie härter!
+TrackPosition 8
+Track Tripolis
+Laps 6
+Cars 10
+Car0 15
+Car1 9
+Car2 12
+Car3 92
+Car4 16
+Car5 22
+Car6 7
+Car7 2
+Car8 1
+Car9 3
+
+
+
+
+
+
+
+
+
+
+

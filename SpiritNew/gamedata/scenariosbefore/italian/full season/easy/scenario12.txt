@@ -1,0 +1,36 @@
+Name Stagione sulla Miller
+Difficulty Facile
+Description Termina la stagione almeno al quarto posto in classifica.
+Goal Position
+SuccessValue 4
+SuccessString Hai guidato benissimo!
+FailureString Non importa: andrà meglio la prossima stagione!
+TrackPosition 0
+Race Corta
+Cars 5
+Car0 2
+Car1 22
+Car2 11
+Car3 55
+Car4 43
+Car5 7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

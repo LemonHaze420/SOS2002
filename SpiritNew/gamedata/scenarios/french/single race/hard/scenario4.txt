@@ -1,0 +1,29 @@
+Name Le rêve américain
+Difficulty Difficile
+Description En partant en deuxième position, tâchez de vaincre à bord de la Miller. Le Montana vous attend, Sir !
+Goal Position
+SuccessValue 1
+SuccessString Malgré toutes les embûches, vous êtes parvenu à gagner !
+FailureString Les gens n'aiment que les vainqueurs.
+TrackPosition 2
+Track Montana
+Laps 20
+Cars 8
+Car0 2
+Car1 15
+Car2 9
+Car3 41
+Car4 55
+Car5 52
+Car6 16
+Car7 57
+
+
+
+
+
+
+
+
+
+

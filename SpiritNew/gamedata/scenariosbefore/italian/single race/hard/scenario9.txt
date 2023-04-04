@@ -1,0 +1,20 @@
+Name Avanti tutta
+# Alan Clark
+Description Riuscirà la tua Alfa Romeo 12C a finire nelle prime due posizioni a Monza? Partirai al secondo posto sulla griglia, dunque dovrai soltanto proteggere il tuo piazzamento iniziale.
+Difficulty Difficile
+Goal Position
+SuccessValue 2
+SuccessString La festa per celebrare la tua vittoria verrà ricordata per molte generazioni.
+FailureString Il tuo pubblico in patria è pronto a fischiarti.
+TrackPosition 2
+Track Monza
+Laps 5
+Cars 8
+Car0 8
+Car1 49
+Car2 33
+Car3 40
+Car4 43
+Car5 42
+Car6 26
+Car7 12

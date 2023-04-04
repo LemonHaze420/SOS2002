@@ -1,0 +1,34 @@
+Name Tymor llawn Alfa Romeo P3
+Difficulty Hawdd 
+Description I gael eich gosod yn gyntaf ar ddiwedd y tymor. 
+Goal Safle 
+SuccessValue 1
+SuccessString LLongyfarchiadau, Pencampwr! 
+FailureString Ceissiwch wneud yn well y tymor nesaf. 
+TrackPosition 0
+Race Long
+Cars 8
+Car0 21
+Car1 5
+Car2 53
+Car3 43
+Car4 22
+Car5 51
+Car6 7
+Car7 39
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

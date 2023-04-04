@@ -1,0 +1,38 @@
+Name Full Season Alfa Romeo Bimotore
+Difficulty Hard
+Description Achieve second place or better by the end of the season.
+Goal position
+SuccessValue 2
+SuccessString Good solid driving all season!
+FailureString Try a bit harder next season!
+TrackPosition 0
+Race Short
+Cars 10
+Car0 74
+Car1 23
+Car2 14
+Car3 15
+Car4 9
+Car5 41
+Car6 36
+Car7 50
+car8 28
+Car9 44
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

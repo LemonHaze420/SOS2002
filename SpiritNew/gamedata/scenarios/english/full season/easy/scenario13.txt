@@ -1,0 +1,40 @@
+Name Full Season Bonner Special
+Difficulty Easy
+Description Complete the season fourth or better.
+Goal position
+SuccessValue 4
+SuccessString A pleasant little seasons' work! Now take the next step up in skill.
+FailureString Don't give up! There's life in this car yet!
+TrackPosition 0
+Race Long
+Cars 10
+Car0 10
+Car1 5
+Car2 21
+Car3 24
+Car4 32
+Car5 60
+Car6 2
+Car7 49
+Car8 40
+Car9 7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

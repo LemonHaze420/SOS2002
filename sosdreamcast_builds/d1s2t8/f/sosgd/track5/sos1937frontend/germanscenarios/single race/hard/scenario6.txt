@@ -1,0 +1,30 @@
+Name Testzeit!
+Difficulty Hard
+Description Versuche, beim Grossen Preis von Europa im französischen Monthlery, einen Platz auf dem Siegertreppchen zu ergattern. Keine einfache Aufgabe, aber immerhin startest Du mit einem Bugatti 59 von der Pole-Position.
+Goal Position
+SuccessValue 3
+SuccessString Grossartig! An diesen grossen Triumph wirst Du noch viele Jahre zurückdenken.
+FailureString Du wirst diese bittere Niederlage vermutlich niemals vergessen.
+TrackPosition 1
+Track Montlhery
+Laps 6
+Cars 5
+Car0 44
+Car1 9
+Car2 43
+Car3 56
+Car4 50
+#Car5 52
+#Car6 41
+#Car7 35
+
+
+
+
+
+
+
+
+
+
+

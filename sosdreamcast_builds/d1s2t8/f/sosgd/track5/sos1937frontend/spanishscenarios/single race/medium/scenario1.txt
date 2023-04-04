@@ -1,0 +1,15 @@
+Name Dinero Rápido
+# Robert Ward
+Description Una racha de mala suerte en la ruleta te envía a Donington tras el dinero del premio. Bate el récord de una vuelta de 1:30:01 en sólo tres vueltas para pagar a una hiena prestamista de manos largas...
+Goal LapTime
+Difficulty Medio
+SuccessValue 9000
+SuccessString Quinientas guineas, un lugar en el libro de las marcas y tu rango de crédito intacto...
+FailureString ¡Más vale que esperes poder salir de la ciudad más rápido que esto!
+Track Donington
+Laps 3
+Cars 4
+Car0 8
+Car1 11
+Car2 55
+Car3 7

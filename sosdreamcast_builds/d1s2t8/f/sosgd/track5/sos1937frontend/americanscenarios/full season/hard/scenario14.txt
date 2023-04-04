@@ -1,0 +1,40 @@
+Name Full Season Watson Flyer
+Difficulty Hard
+Description Become champion at the end of the season
+Goal position
+SuccessValue 1
+SuccessString A truly awesome achievement in this junior car!
+FailureString This time is was beyond you. Will there be a second time?
+TrackPosition 0
+Race Short
+Cars 6
+Car0 42
+Car1 55
+Car2 27
+Car3 34
+Car4 3
+#Car5 51
+#Car5 49
+#Car7 30
+#Car8 39
+#Car9 53
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

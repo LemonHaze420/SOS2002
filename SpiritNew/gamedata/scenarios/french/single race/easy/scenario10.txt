@@ -1,0 +1,29 @@
+Name Comme à la maison
+Difficulty Facile
+Description Des voitures du monde entier participent à cette course américaine. Arrivez premier au volant de l'Auto Union.
+Goal Position
+SuccessValue 1
+SuccessString Votre talent international a enflammé l'Atlantique.
+FailureString Vous retournez vers l'ancien continent en affichant une bien triste mine.
+TrackPosition 0
+Track Roosevelt
+Laps 10
+Cars 6
+Car0 14
+Car1 83
+Car2 7
+Car3 48
+Car4 28
+Car5 22
+
+
+
+
+
+
+
+
+
+
+
++

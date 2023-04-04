@@ -1,0 +1,35 @@
+Name Full Season Alfa Romeo P3
+Difficulty Medium
+Description Finaliza siendo uno de los dos primeros al final de la temporada
+Goal position
+SuccessValue 2
+SuccessString ¡Un esfuerzo tremendo por tu parte!
+FailureString Un fallo entendible quizás, pero ¡no permitas que suceda demasiado a menudo!
+TrackPosition 0
+Race Medium
+Cars 5
+Car0 12
+Car1 35
+Car2 28
+Car3 51
+Car4 7
+#Car5 36
+#Car6 42
+#Car7 3
+#car8 27
+#Car9 25
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

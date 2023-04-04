@@ -1,0 +1,34 @@
+Name Stagione sulla Mercedes 125
+Difficulty Media
+Description Corri su tutte le nove piste con la Mercedes 125 e finisci la stagione nei primi due posti.
+Goal Position
+SuccessValue 2
+SuccessString Hai corso benissimo questa stagione!
+FailureString Avrai più fortuna la prossima stagione!
+TrackPosition 0
+Race Media
+Cars 10
+Car0 57
+Car1 9
+Car2 14
+Car3 4
+Car4 15
+Car5 92
+Car6 16
+Car7 41
+Car8 83
+Car9 32
+
+
+
+
+
+
+
+
+
+
+
+
+
+

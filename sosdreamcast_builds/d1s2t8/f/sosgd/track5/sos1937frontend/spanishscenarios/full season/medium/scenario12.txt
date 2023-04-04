@@ -1,0 +1,38 @@
+Name Full Season Miller
+Difficulty Medium
+Description Finaliza siendo uno de los tres primeros al final de la temporada
+Goal position
+SuccessValue 3
+SuccessString Cuando había presión, ¡actuaste como un campeón!
+FailureString ¡Las malas actuaciones persiguen tu carrera desde ahora!
+TrackPosition 0
+Race Long
+Cars 5
+Car0 48
+Car1 40
+Car2 51
+Car3 53
+Car4 56
+#Car5 21
+#Car6 10
+#Car7 39
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+Name Racing For Honour
+# Andrew Stainer
+Description 
+CAR TYPE : Watson Flyer
+CIRCUIT : Monza (Italy)
+OBJECTIVE : TOP 1
+LAPS : 6
+START POSITION : 1/2
+Difficulty Medium
+Goal Position
+SuccessValue 1
+SuccessString Congratulations!
+FailureString Bad luck! Try again.
+TrackPosition 1
+Track Monza
+Laps 6
+Cars 2
+Car0 42
+Car1 12
+
+
+
+

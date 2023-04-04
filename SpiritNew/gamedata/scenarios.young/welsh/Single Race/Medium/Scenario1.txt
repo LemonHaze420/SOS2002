@@ -1,0 +1,16 @@
+Name Arian Parod
+# Robert Ward
+Description Mae lwc ddrwg ar y bwrdd rwlet yn eich danfon i Donington i chwilio am wobr ariannol. Curwch y record lap o 1:30:01 mewn 3 lap yn unig, i dalu usuriwr gyda dwylo mawr...
+Goal Amser lap
+Difficulty Canolig
+SuccessValue 9000
+Trackposition 3
+SuccessString Pum cant gini,lle yn y llyfrau cofnodion a'ch statws credyd yn gyfan....
+FailureString Mae'n well i chi obeithio y gallwch adael y dref yng nghynt na hynna.
+Track Donington
+Laps 3
+Cars 4
+Car0 8
+Car1 11
+Car2 55
+Car3 7

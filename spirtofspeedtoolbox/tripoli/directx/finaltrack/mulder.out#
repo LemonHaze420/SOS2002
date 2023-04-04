@@ -1,0 +1,81 @@
+MULDER v6.0 (c) Broadsword Interactive 1997/1998
+no output filename given, using object.vo
+material-texture 0 xof_default NONE
+material-texture 1 n_2Dirt 2Dirt.tga
+material-texture 2 Gr_Banner Gr_Banner.tga
+material-texture 3 Telegraph_Pole TelegraphPole.tga
+material-texture 4 Bollard2 Bollard2.tga
+material-texture 5 a Gr_Wall.tga
+material-texture 6 n_2Skids 2TrackSkids.tga
+material-texture 7 n_2Track 2Track.tga
+material-texture 8 SandBank SandBank.tga
+material-texture 9 GrassSand GrassSand.tga
+material-texture 10 L_TriPalm L_PalmAl.tga
+material-texture 11 R_TriPalm R_PalmAl.tga
+material-texture 12 N_BushL N_BushL.tga
+material-texture 13 N_BushR N_BushR.tga
+material-texture 14 Concrete WhiteBorder.tga
+material-texture 15 Gr_Crowd crowd.tga
+material-texture 16 GreyConcrete wall17.tga
+material-texture 17 T_TowerSide01 timetowertower1.tga
+material-texture 18 T_TowerGallery timingtowergallery01.tga
+material-texture 19 T_TowerPanel timetower01.tga
+material-texture 20 T_TowerSide timetowerside.tga
+material-texture 21 PitsRoof pitsroof01.tga
+material-texture 22 PitsStone PitsStones.tga
+material-texture 23 advAPL advAPL.tga
+material-texture 24 advAuto log01a.tga
+material-texture 25 advFinnis advFinnis.tga
+material-texture 26 advInter log08a.tga
+material-texture 27 advJJS advJJS.tga
+material-texture 28 advLumi log03a.tga
+material-texture 29 advReed advReed.tga
+material-texture 30 advScurlock advScurlock.tga
+material-texture 31 PitsAdverts NONE
+material-texture 32 PitsSide pitsside01.tga
+material-texture 33 PitsHole pithole.tga
+material-texture 34 PitsBrick pitbrick01.tga
+Got 26804 vertices, 16670 polygons
+got 34 materials, 16670 polygon entries - incomplete?? (this isn't a problem)
+5038 normals, 16670 vertices processed
+26804 texture coords processed
+File processed OK
+scale set to 1.000000
+written 18418 geoverts
+written 5038 normals
+TEXTURES REQUIRED
+2Dirt.3df
+Gr_Banner.3df
+TelegraphPole.3df
+Bollard2.3df
+Gr_Wall.3df
+2TrackSkids.3df
+2Track.3df
+SandBank.3df
+GrassSand.3df
+L_PalmAl.3df
+R_PalmAl.3df
+N_BushL.3df
+N_BushR.3df
+WhiteBorder.3df
+crowd.3df
+wall17.3df
+timetowertower1.3df
+timingtowergallery01.3df
+timetower01.3df
+timetowerside.3df
+pitsroof01.3df
+PitsStones.3df
+advAPL.3df
+log01a.3df
+advFinnis.3df
+log08a.3df
+advJJS.3df
+log03a.3df
+advReed.3df
+advScurlock.3df
+pitsside01.3df
+pithole.3df
+pitbrick01.3df
+offset : 45c94
+Extents : -1011.564148<x<2491.131348 2.116430<y<55.102318 -3096.723389<z<3488.416504

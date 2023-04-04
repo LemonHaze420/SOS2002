@@ -1,0 +1,23 @@
+Name The Europeans At Donington
+Difficulty Easy
+Description Using the Auto Union C, try and beat this variety of European cars. You start from third on the grid at Donington and must beat just 1 car to win the scenario.
+Goal Position
+SuccessValue 5
+SuccessString The massed hordes of supporters cheer your name long into the night!
+FailureString Continental flair has triumphed against British gumption.
+TrackPosition 3
+Track Donington
+Laps 6
+Cars 6
+Car0 58
+Car1 25
+Car2 30
+Car3 33
+Car4 41
+Car5 52
+
+
+
+
+
+

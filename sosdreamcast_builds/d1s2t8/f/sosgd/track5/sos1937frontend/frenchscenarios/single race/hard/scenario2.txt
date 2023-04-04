@@ -1,0 +1,26 @@
+Name La bataille d'Angleterre
+Difficulty Hard
+Description Remportez la course de Donington au volant de votre Mercedes 154 en partant en dernière position.
+Goal Position
+SuccessValue 1
+SuccessString Vous avez donné une leçon à tout le plateau !
+FailureString Votre réputation vient d'en prendre un coup.
+TrackPosition 5
+Track Donington
+Laps 15
+Cars 5
+Car0 20
+Car1 4
+Car2 12
+Car3 41
+#Car4 43
+Car4 16
+#Car6 58
+#Car7 33
+
+
+
+
+
+
+

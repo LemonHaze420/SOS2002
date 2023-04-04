@@ -1,0 +1,32 @@
+Name Dust Devils
+# Andrew Stainer
+Description 
+CAR TYPE : Mercedes-Benz 154
+CIRCUIT : Roosevelt (USA)
+OBJECTIVE : TOP 3
+LAPS : 8
+START POSITION : 6/6
+Difficulty Medium
+Goal Position
+SuccessValue 3
+SuccessString Congratulations!
+FailureString Bad luck! Try again.
+TrackPosition 6
+Track Roosevelt
+Laps 8
+Cars 6
+Car0 15
+Car1 29
+Car2 22
+Car3 40
+Car4 24
+Car5 25
+#Car5 12
+#Car7 36
+#Car8 27
+#Car9 20
+
+
+
+
+

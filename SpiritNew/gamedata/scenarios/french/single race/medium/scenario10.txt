@@ -1,0 +1,14 @@
+Name Course pour l'honneur
+# Andrew Stainer
+Description Un voyou local vous a manqué de respect en public. Restaurez votre honneur sur la piste. Battez l'Alfa Romeo P3 à bord de votre Watson Special à Monza.
+Difficulty Moyen
+Goal Position
+SuccessValue 1
+SuccessString Votre honneur est intact. Votre rival implore votre pardon. 
+FailureString Votre échec marquera le nom de votre famille pendant des années.
+TrackPosition 1
+Track Monza
+Laps 6
+Cars 2
+Car0 42
+Car1 12

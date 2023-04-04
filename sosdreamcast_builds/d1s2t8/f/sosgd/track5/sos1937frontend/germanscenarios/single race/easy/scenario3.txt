@@ -1,0 +1,20 @@
+Name Mit Vollgas ins Abenteuer
+Difficulty Easy
+Description Setze dich auf der Strecke von Brooklands gegen europäische und amerikanische Spitzenfahrer durch. Da Du von der hinteren Startreihe ins Rennen gehst, ist ein guter Start sehr wichtig.
+Goal Position
+SuccessValue 1
+SuccessString Glückwunsch! Du hast in Brooklands gezeigt, was in Dir steckt!
+FailureString Es ist wirklich schwierig, mit diesem Auto auf dieser Strecke zu verlieren!
+TrackPosition 5
+Track Brooklands
+Laps 20
+Cars 5
+Car0 9
+Car1 24
+Car2 2
+Car3 40
+Car4 35
+#Car5 18
+
+
+

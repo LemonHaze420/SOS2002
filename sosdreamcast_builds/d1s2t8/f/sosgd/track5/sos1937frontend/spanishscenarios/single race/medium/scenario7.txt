@@ -1,0 +1,33 @@
+Name La cosa está caliente...
+Difficulty Medio
+Description Esta penosa y larga carrera tendrá sus efectos en los más experimentados conductores. Concéntrate en este duro y árido paisaje e intenta ganar en el Auto Union D. Comienzas en la posición 4, así que date prisa.
+Goal Position
+SuccessValue 1
+SuccessString ¡Fantástica victoria sobre alguna dura competición!
+FailureString Puede que esto fuera un poco penoso. ¡Buena suerte para la próxima vez!
+TrackPosition 4
+Track Tripoli
+Laps 6
+Cars 5
+Car0 23
+Car1 43
+Car2 39
+Car3 20
+Car4 24
+#Car5 25
+#Car6 4
+#Car7 31
+#Car8 83
+#Car9 10
+
+
+
+
+
+
+
+
+
+
+
+

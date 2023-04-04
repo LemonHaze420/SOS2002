@@ -1,0 +1,37 @@
+Name Tymor llawn Alfa Romeo 12C
+Difficulty Hawdd 
+Description I orffen ar ddiwedd y tymor yn y chwech cyntaf. 
+Goal Position
+SuccessValue 6
+SuccessString Gyrru cryf, da drwy'r tymor. 
+FailureString Beth ydych chi'n galw hynna? 
+TrackPosition 0
+Race Short
+Cars 8
+Car0 8
+Car1 22
+Car2 5
+Car3 17
+Car4 27
+Car5 34
+Car6 43
+Car7 46
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

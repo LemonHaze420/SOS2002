@@ -1,0 +1,34 @@
+Name Saison complète, Mercedes 154
+Difficulty Difficile
+Description Etre couronné champion à la fin de la saison
+Goal Position
+SuccessValue 1
+SuccessString La récompense suprême vous est acquise !
+FailureString Vous ne laisserez pas un souvenir impérissable dans les mémoires !
+TrackPosition 0
+Race Courte
+Cars 4
+Car0 15
+#Car1 50
+Car1 32
+Car2 16
+Car3 74
+#Car5 58
+#Car6 66
+#Car7 57
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

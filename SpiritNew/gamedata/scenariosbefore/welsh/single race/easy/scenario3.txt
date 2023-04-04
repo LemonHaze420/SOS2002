@@ -1,0 +1,22 @@
+Name Ewch amdani!
+# Phil Gilbert
+Description Rasiwch y Miller a gorffennwch y ras yn y 4 cyntaf yn Montlhery. Rydych yn dechrau o'r safle blaen.
+Difficulty Medium
+Goal Position
+SuccessValue 4
+SuccessString Da iawn... Dim problemmau fan yna!
+FailureString Gwell lwc tro nesa'.
+TrackPosition 1
+Track Montlhery
+Laps 5
+Cars 10
+Car0 29
+Car1 15
+Car2 33
+Car3 10
+Car4 1
+Car5 18
+Car6 54
+Car7 22
+Car8 12
+Car9 20

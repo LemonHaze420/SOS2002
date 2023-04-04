@@ -1,0 +1,40 @@
+Name Tymor llawn Bonner Special
+Difficulty Hawdd 
+Description Gorffennwch y tymor yn y pedwarydd safle neu well. 
+Goal Position
+SuccessValue 4
+SuccessString Gyrru da drwy'r tymor. Good driving all season!
+FailureString Peidiwch ildio! 
+TrackPosition 0
+Race Long
+Cars 10
+Car0 10
+Car1 5
+Car2 21
+Car3 24
+Car4 32
+Car5 60
+Car6 2
+Car7 49
+Car8 40
+Car9 7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

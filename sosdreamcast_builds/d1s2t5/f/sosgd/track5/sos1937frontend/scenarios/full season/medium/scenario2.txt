@@ -1,0 +1,36 @@
+Name Full Season Mercedes 154
+Difficulty Medium
+Description 
+CAR TYPE : Mercedes-Benz 154
+RACE TYPE : Medium
+OBJECTIVE : TOP 2
+NUMBER OF CARS : 5
+Goal position
+SuccessValue 2
+SuccessString Congratulations!
+FailureString Bad luck! Try again.
+TrackPosition 0
+Race Medium
+Cars 5
+Car0 50
+Car1 1
+Car2 92
+Car3 4
+#Car4 41
+Car4 16
+#Car5 52
+#Car7 33
+#car8 23
+#Car9 66
+
+
+
+
+
+
+
+
+
+
+
+

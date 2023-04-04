@@ -1,0 +1,35 @@
+LWSC
+1
+
+FirstFrame 1
+LastFrame 100
+FrameStep 1
+FramesPerSecond 30
+
+LoadObject P:\SpirtOfSpeedToolbox\Tripoli\track\track.lwo
+ShowObject 7 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+
+AmbientColor 255 255 255
+AmbIntensity 0.3
+
+ShowCamera 1
+CameraMotion (unnamed)
+  9
+  1
+  20 15 -20  -45 27.9383 0  1 1 1
+  0 0 0.0 0.0 0.0
+EndBehavior 1
+ZoomFactor 4
+
+SolidBackdrop 1
+BackdropColor 0 0 0
+
+FogType 0
+
+ViewMode 5

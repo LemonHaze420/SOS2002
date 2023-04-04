@@ -1,0 +1,29 @@
+Name World Challenge
+Difficulty Medium
+Description Cars from around the world participate in this American challenge. Be placed in the top two using the Miller. The circuit's Roosevelt and you start from fourth.
+Goal Position
+SuccessValue 2
+SuccessString Well done! An crushing blow for your competitors.
+FailureString Better luck next race!
+TrackPosition 4
+Track Roosevelt
+Laps 6
+Cars 6
+Car0 29
+Car1 44
+Car2 74
+Car3 34
+Car4 7
+Car5 40
+
+
+
+
+
+
+
+
+
+
+
+

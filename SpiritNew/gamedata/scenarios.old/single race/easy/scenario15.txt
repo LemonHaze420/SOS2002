@@ -1,0 +1,26 @@
+Name A Mixed Bag
+Difficulty Easy
+Description Try and beat a wide variety of European and American cars at Brooklands using the Mercedes 154. Starting from pole position, you shouldn't find this difficult at all!
+Goal Position
+SuccessValue 1
+SuccessString What little you had to do, you did well. 
+FailureString Come on, theres not too much to winning this scenario! Try again!
+TrackPosition 1
+Track Brooklands
+Laps 6
+Cars 10
+Car0 50
+Car1 16
+Car2 18
+Car3 25
+Car4 43
+Car5 49
+Car6 9
+Car7 23
+Car8 15
+Car9 21
+
+
+
+
+

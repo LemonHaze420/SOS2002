@@ -1,0 +1,41 @@
+Name Stagione sull'Auto Union D
+Difficulty Media
+Description Termina la stagione in una delle prime tre posizioni.
+Goal Position
+SuccessValue 3
+SuccessString Hai guidato bene, bravo!
+FailureString Non è andata poi così male: continua ad allenarti.
+TrackPosition 0
+Race Lunga
+Cars 12
+Car0 14
+Car1 15
+Car2 20
+Car3 12
+Car4 4
+Car5 35
+Car6 23
+Car7 57
+Car8 83
+car9 58
+Car10 33
+Car11 92
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

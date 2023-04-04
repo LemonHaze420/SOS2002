@@ -1,0 +1,30 @@
+Name Ora di collaudi
+Difficulty Difficile
+Description  La campagna francese di Montlhéry è un eccellente contorno per questa sfida europea. Riuscirai a portare la Bugatti 59 sul podio? Non è un'auto facile da guidare, perlomeno sei riuscito ad ottenere la pole.
+Goal Position
+SuccessValue 3
+SuccessString Bel lavoro! Questo trionfo scalderà il cuore a tutto il pubblico.
+FailureString Non dimenticherai mai il gusto amaro di questa sconfitta.
+TrackPosition 1
+Track Montlhery
+Laps 6
+Cars 8
+Car0 44
+Car1 9
+Car2 43
+Car3 56
+Car4 50
+Car5 52
+Car6 41
+Car7 35
+
+
+
+
+
+
+
+
+
+
+

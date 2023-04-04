@@ -1,0 +1,22 @@
+Name Les Dust Devils
+# Andrew Stainer
+Description Finissez dans les 3 premiers avec la Mercedes 154 sur le circuit de Roosevelt pour rejoindre l'équipe des Dust Devils. Vous partez 6e.
+Difficulty Medium
+Goal Position
+SuccessValue 3
+SuccessString Félicitations, vous avez gagné votre place dans l'écurie !
+FailureString Ce sera peut-être pour la prochaine fois, qui sait ?
+TrackPosition 6
+Track Roosevelt
+Laps 8
+Cars 6
+Car0 15
+Car1 29
+Car2 22
+Car3 40
+Car4 24
+Car5 25
+#Car5 12
+#Car7 36
+#Car8 27
+#Car9 20

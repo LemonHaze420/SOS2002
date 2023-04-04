@@ -1,0 +1,38 @@
+Name Full Season Miller
+Difficulty Medium
+Description Finish the season within the top three.
+Goal position
+SuccessValue 3
+SuccessString When the pressure was on you performed like a champion!
+FailureString Underachievement haunts your career from now on!
+TrackPosition 0
+Race Long
+Cars 8
+Car0 48
+Car1 40
+Car2 51
+Car3 53
+Car4 56
+Car5 21
+Car6 10
+Car7 39
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

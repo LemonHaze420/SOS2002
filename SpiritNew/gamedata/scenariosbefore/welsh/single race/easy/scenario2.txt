@@ -1,0 +1,29 @@
+Name Vive la France!
+Difficulty Hawdd
+Description Mae cefngwlad Ffrainc yn darparu cefndir hyfryd i'r her Ewropeaidd yma yn defnyddio'r Auto Union D.
+Goal Position
+SuccessValue 1
+SuccessString Llongyfarchiadau! Rydych wedi enill cystadleuaeth gref!
+FailureString Efallai nad oedd lwc ar eich ochr y tro yma - rhowch gynnig arall arni!
+TrackPosition 0
+Track Montlhery
+Laps 5
+Cars 8
+Car0 52
+Car1 35
+Car2 15
+Car3 21
+Car4 9
+Car5 36
+Car6 20
+Car7 44
+
+
+
+
+
+
+
+
+
+

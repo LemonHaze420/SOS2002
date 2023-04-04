@@ -1,0 +1,28 @@
+Name Italianos en su tierra madre
+Difficulty Fácil
+Description  Los mejores coches italianos pelean en este circuito de prueba. Tu conducirás el Bonner Special, pero una victoria no supone mucho problema en Monza. Comienzas desde la Pole position.
+Goal Position
+SuccessValue 1
+SuccessString ¡Buena conducción! ¡Lo hiciste bien para sobrevivir, no digamos para ganar!
+FailureString El paisaje italiano es bonito, pero intenta mirar a la carretera de vez en cuando...
+TrackPosition 1
+Track Monza
+Laps 8
+Cars 6
+Car0 55
+Car1 18
+Car2 30
+Car3 17
+Car4 49
+Car5 31
+
+
+
+
+
+
+
+
+
+
+

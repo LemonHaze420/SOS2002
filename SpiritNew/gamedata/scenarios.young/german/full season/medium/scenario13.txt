@@ -1,0 +1,37 @@
+Name Volle Saison Maserati 8CM
+Difficulty Mittel
+Description Beenden Sie die Saison mindestens als Dritter.
+Goal position
+SuccessValue 3
+SuccessString Eine erstklassige Rennsaison!
+FailureString Geben Sie nicht auf!
+TrackPosition 0
+Race Medium
+Cars 8
+Car0 10
+Car1 1
+Car2 24
+Car3 11
+Car4 40
+Car5 43
+Car6 44
+Car7 49
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+Name Pau Challenge
+Difficulty Hard
+Description Aim to win in the Bugatti 59. This car's tough to drive but at least you get to start on the front row.
+Goal Position
+SuccessValue 1
+SuccessString Congratulations! No problems with this twisty circuit then?
+FailureString Try slowing down for the corners next time...
+TrackPosition 2
+Track Pau
+Laps 6
+Cars 10
+Car0 36
+Car1 12
+Car2 46
+Car3 59
+Car4 28
+Car5 2
+Car6 7
+Car7 21
+Car8 8
+Car9 49
+
+
+
+
+
+
+
+
+

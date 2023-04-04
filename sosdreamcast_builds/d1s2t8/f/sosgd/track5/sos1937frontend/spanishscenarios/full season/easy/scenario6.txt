@@ -1,0 +1,39 @@
+Name Full Season Auto Union C
+Difficulty Easy
+Description Finaliza siendo uno de los dos primeros al final de la temporada
+Goal position
+SuccessValue 2
+SuccessString Una actuación perfectamente respetable, pero ¿podrás hacerlo en las ligas superiores? Intenta carreras más difíciles. 
+FailureString Si no puedes hacerlo con esta compañía, no tienes ninguna oportunidad entre los chicos grandes. Practica. 
+TrackPosition 0
+Race Medium
+Cars 5
+Car0 32
+Car1 8
+Car2 21
+Car3 16
+Car4 28
+#Car5 60
+#Car6 59
+#Car7 55
+#Car8 22
+#car9 17
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

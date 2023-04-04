@@ -1,0 +1,183 @@
+MULDER v2.2 (c) Broadsword Interactive 1997/1998
+no output filename given, using object.vo
+Got 11788 vertices, 8871 polygons
+got 88 materials, 8871 polygon entries - incomplete?? (this isn't a problem)
+4620 normals, 8871 vertices processed
+11788 texture coords processed
+File processed OK
+scale set to 1.000000
+TEXTURES REQUIRED
+BK-fence.3df
+Bk-Grass.3df
+Bk-RdSid.3df
+Bk-Road.3df
+BK-Vic1.3df
+Bk-VicR.3df
+BK-Vic2.3df
+Bk-VAdv.3df
+Ash[p].3df
+Bk-XCrd.3df
+Bk-Xrail.3df
+Bk-Xroof.3df
+Bk-Xside.3df
+BK-Cfnce.3df
+BK-Gcrd.3df
+Bk-Gfrt.3df
+Bk-Gside.3df
+Bk-Groof.3df
+BK-Gfce.3df
+BK-Bwal.3df
+BK-BT.3df
+BK-BsR.3df
+BK-BsL.3df
+BK-Bstr.3df
+Bk-Cside.3df
+BK-Cr&r.3df
+Bk-CB.3df
+Bk-CBl.3df
+BK-Bstr1.3df
+Bk-RivS.3df
+BK-River.3df
+BK-Conc.3df
+BK-Rock.3df
+Pine[L].3df
+Pine[R].3df
+BK-Bridg.3df
+BK-Grass.3df
+BK-P1.3df
+BK-P2.3df
+BK-ShlF.3df
+Bk-Pf.3df
+Ash[L].3df
+Ash[R].3df
+Bk-PHf.3df
+Bk-PHr.3df
+Bk-PHs.3df
+Bk-Er.3df
+Bk-Es.3df
+Bk-IBMf.3df
+Bk-IBMr.3df
+Bk-IBMs.3df
+Bk-IBMXf.3df
+Bk-IBMXr.3df
+Bk-IBMXs.3df
+Bk-JSf.3df
+Bk-JSr.3df
+Bk-JSs.3df
+Bk-CSHf.3df
+Bk-CSHr.3df
+Bk-CSHs.3df
+Bk-BPr.3df
+Bk-BPs.3df
+Bk-ATf.3df
+Bk-DPch.3df
+Bk-DPr.3df
+BK-CHrof.3df
+BK-CHft1.3df
+Bk-CHtop.3df
+BK-CHsid.3df
+BK-CHft2.3df
+BK-CHft3.3df
+BK-VBs.3df
+BK-VBt.3df
+BK-Road.3df
+BK-BYbdgf.3df
+BK-BYbdgs.3df
+Bk-Abr.3df
+Bk-Abs.3df
+Bk-Hr.3df
+Bk-Hs.3df
+BK-ACt.3df
+Bk-ACf2.3df
+Bk-ACf1.3df
+Pine[p].3df
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+size : 84
+Extents : -952.344910<x<964.194519 -10.927817<y<77.497086 -1098.838867<z<453.370544

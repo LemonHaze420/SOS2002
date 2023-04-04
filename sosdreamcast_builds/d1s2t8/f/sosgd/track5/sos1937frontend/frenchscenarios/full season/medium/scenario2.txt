@@ -1,0 +1,36 @@
+Name Saison complète, Mercedes 154
+Difficulty Moyen
+Description Finir dans les deux premiers du championnat
+Goal Position
+SuccessValue 2
+SuccessString Une saison facile au volant de LA voiture du siècle.
+FailureString Comment peut-on être aussi mauvais lorsque l'on dispose d'une telle voiture ?
+TrackPosition 0
+Race Moyenne
+Cars 5
+Car0 50
+Car1 1
+Car2 92
+Car3 4
+#Car4 41
+Car4 16
+#Car6 52
+#Car7 33
+#car8 23
+#Car9 66
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

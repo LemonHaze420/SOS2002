@@ -1,0 +1,17 @@
+Name Coupe du Village
+# Andrew Stainer
+Description Race your fellow villagers on the circuit before the main event. You've borrowed a Miller for the day and already qualified in third place.
+Difficulty Medium
+Goal Position
+Position 1
+SuccessString Congratulations. You are this year's winner.
+FailureString Never mind. Console yourself with free drinks at the inn.
+Track Montlhery
+TrackPosition 3
+Laps 5
+Cars 5
+Car0 29
+Car1 36
+Car2 25
+Car3 10
+Car4 2

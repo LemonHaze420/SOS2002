@@ -1,0 +1,33 @@
+Name Stagione sulla Mercedes 154
+Difficulty Facile
+Description Termina la stagione fra i primi tre in classifica.
+Goal Position
+SuccessValue 3
+SuccessString Hai guidato bene in tutta la stagione!
+FailureString La prossima stagione dovrai far meglio!
+TrackPosition 0
+Race Lunga
+Cars 8
+Car0 20
+Car1 32
+Car2 14
+Car3 57
+Car4 83
+Car5 58
+Car6 16
+Car7 74
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+Name Vacaciones de Verano
+Description Compite con los mejores campeones del World Motor Sport en las últimas máquinas de carreras de su tiempo. Conduce tu 154 a la victoria desde el fondo de la parrilla.
+Difficulty Medio
+Goal Position
+SuccessValue 1
+SuccessString Ésta fue una buena conducción. Condujiste bien y ahora eres adorado por miles. 
+FailureString Corres por la pista con la cabeza cubierta, demasiado avergonzado para mirar a nadie a los ojos. 
+TrackPosition 5
+Track Montlhery
+Laps 10
+Cars 5
+Car0 15
+Car1 16
+Car2 58
+Car3 1
+Car4 41
+#Car5 33
+#Car6 57
+#Car7 50
+#Car8 4

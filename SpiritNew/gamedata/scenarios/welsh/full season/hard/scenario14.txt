@@ -1,0 +1,39 @@
+Name Tymor llawn Watson Flyer
+Difficulty Anodd 
+Description Byddwch yn bencampwr ar ddiwedd y tymor. 
+Goal Position
+SuccessValue 1
+SuccessString Gyrru gwych champ!
+FailureString Anlwcus! 
+TrackPosition 0
+Race Short
+Cars 10
+Car0 42
+Car1 55
+Car2 27
+Car3 34
+Car4 3
+Car5 51
+Car6 49
+Car7 30
+Car8 39
+Car9 53
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

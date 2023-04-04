@@ -1,0 +1,34 @@
+Name Full Season Alfa Romeo P3
+Difficulty Easy
+Description Be placed first overall at the end of the season.
+Goal position
+SuccessValue 3
+SuccessString Congratulations, Champion!
+FailureString Try a bit harder next season!
+TrackPosition 0
+Race Long
+Cars 8
+Car0 21
+Car1 5
+Car2 53
+Car3 43
+Car4 22
+Car5 51
+Car6 7
+Car7 39
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

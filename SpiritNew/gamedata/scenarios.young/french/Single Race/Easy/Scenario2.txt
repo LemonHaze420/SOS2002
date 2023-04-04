@@ -1,0 +1,29 @@
+Name Vive la France !
+Difficulty Facile
+Description La campagne française agrémente ce défi européen, pour lequel vous piloterez l'Auto Union D.
+Goal Position
+SuccessValue 1
+SuccessString Félicitations, car les adversaires étaient coriaces !
+FailureString La chance n'était probablement pas de votre côté... Essayez de nouveau !
+TrackPosition 0
+Track Montlhéry
+Laps 5
+Cars 8
+Car0 52
+Car1 35
+Car2 15
+Car3 21
+Car4 9
+Car5 36
+Car6 20
+Car7 44
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+Name Domina el Oval
+# Darren Williams
+Description Velocidad en la curva contra potencia en las rectas. Lleva al Miller a la primera posición en Montana en esta carrera de 12 vueltas. Por lo menos empiezas en la pole position.
+Difficulty Medio
+Track Montana
+Laps 12
+Cars 5
+Car0 48
+Car1 15
+Car2 58
+Car3 2
+Car4 41
+#Car5 1
+#Car6 29
+#Car7 50
+#Car8 4
+Goal Position
+TrackPosition 1
+SuccessValue 1
+SuccessString Has hecho del coche menos lujoso todo un ganador.
+FailureString No has sido lo suficientemente bueno esta vez, date otra oportunidad....
+

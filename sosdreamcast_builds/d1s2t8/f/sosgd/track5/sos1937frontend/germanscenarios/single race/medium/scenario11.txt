@@ -1,0 +1,19 @@
+Name Das Bonner-Miller-Massaker
+# Darren Williams
+Difficulty Medium
+Description Schauplatz dieses atemberaubenden Rennens ist Montana. Fahre von der vierten Startposition in einem Bonner Special auf den ersten Platz.
+Goal Position
+TrackPosition 4
+SuccessValue 1
+SuccessString Ein rasanter Sieg für den Mann mit dem Feuer im Tank.
+FailureString Niederlage bleibt Niederlage; ob knapp oder nicht.
+Track Montana
+Laps 15
+Cars 6
+Car0 10
+Car1 29
+Car2 37
+Car3 17
+Car4 55
+#Car5 30
+Car5 2

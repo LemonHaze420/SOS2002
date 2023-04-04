@@ -1,0 +1,39 @@
+Name Full Season Bugatti 35B
+Difficulty Hard
+Description 
+CAR TYPE : Bugatti 35B
+RACE TYPE : Medium
+OBJECTIVE : TOP 1
+NUMBER OF CARS : 5
+Goal position
+SuccessValue 1
+SuccessString Congratulations!
+FailureString Bad luck! Try Again.
+TrackPosition 0
+Race Medium
+Cars 5
+Car0 27
+Car1 40
+Car2 21
+Car3 22
+Car4 51
+#Car5 7
+#Car6 35
+#Car7 5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

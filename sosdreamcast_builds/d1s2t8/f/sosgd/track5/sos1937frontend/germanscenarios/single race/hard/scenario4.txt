@@ -1,0 +1,28 @@
+Name Der amerikanische Traum
+Difficulty Hard
+Description Fahre mit dem Miller von der zweiten Startreihe zum Sieg. Montana wartet, Sir!
+Goal Position
+SuccessValue 1
+SuccessString Obwohl alles gegen Dich sprach, hast Du das Rennen gewonnen!
+FailureString Die Menschen lieben siegreiche Underdogs.
+TrackPosition 2
+Track Montana
+Laps 20
+Cars 5
+Car0 2
+Car1 15
+Car2 9
+Car3 41
+Car4 55
+#Car5 52
+#Car5 16
+#Car7 57
+
+
+
+
+
+
+
+
+

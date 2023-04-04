@@ -1,0 +1,30 @@
+Name ¡Vienen tiempos de prueba!
+Difficulty Difícil
+Description  La campiña francesa en Montlhery proporciona un hermoso paisaje para el Encuentro Europeo. ¿Puedes llevar al Bugatti 59 al podio? Es una conducción dura, pero te clasificaste en primer lugar.
+Goal Position
+SuccessValue 3
+SuccessString ¡Bien hecho! Esta victoria alegrará a tu corazón durante los años de tu vejez.
+FailureString Nunca perderá el sabor amargo de esta derrota.
+TrackPosition 1
+Track Montlhery
+Laps 6
+Cars 5
+Car0 44
+Car1 9
+Car2 43
+Car3 56
+Car4 50
+#Car5 52
+#Car6 41
+#Car7 35
+
+
+
+
+
+
+
+
+
+
+

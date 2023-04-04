@@ -1,0 +1,39 @@
+Name Saison complète, Auto Union C
+Difficulty Facile
+Description Finir dans les deux premiers du championnat
+Goal Position
+SuccessValue 2
+SuccessString Une bien belle performance, mais la concurrence était-elle à la hauteur de votre talent ?
+FailureString Il va falloir vous entraîner sérieusement avant de défier les vrais pilotes.
+TrackPosition 0
+Race Moyenne
+Cars 5
+Car0 32
+Car1 8
+Car2 21
+Car3 16
+Car4 28
+#Car5 60
+#Car6 59
+#Car7 55
+#Car8 22
+#car9 17
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

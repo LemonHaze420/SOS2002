@@ -1,0 +1,25 @@
+Name American Challenge
+Difficulty Hard
+Description Aim to win in the Maserati 8CM at Montana. You start in third and have a total of 5 cars to beat.
+Goal Position
+SuccessValue 1
+SuccessString A world class effort that secures your place in the record books. 
+FailureString A decidedly average peformance that does you no credit.
+TrackPosition 3
+Track Montana
+Laps 12
+Cars 6
+Car0 10
+Car1 2
+Car2 37
+Car3 40
+Car4 25
+Car5 3
+
+
+
+
+
+
+
+

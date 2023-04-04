@@ -1,0 +1,15 @@
+Name Alfa's Glory
+Description Race the Alfa Romeo Bimotore through the twisty roads of Pau, and finish in at least second position - good luck!
+Goal Position
+Difficulty Medium
+SuccessValue 2
+SuccessString Well done! Alfa Romeo will not forget this....
+FailureString Keep trying - you'll get there.
+TrackPosition 1
+Track Pau
+Laps 5
+Cars 4
+Car0 92
+Car1 54
+Car2 15
+Car3 23

@@ -1,0 +1,22 @@
+Name King Of The Desert
+# Andrew Stainer
+Description An annual tournament in which the winner receives the revered title, 'King of the Desert'. To win this title, drive your Mercedes 154 to victory at Tripoli from the back of the grid.
+Difficulty Medium
+Goal Position
+SuccessValue 1
+SuccessString Congratualations, you are a great driver and 'King of the Desert'.
+FailureString Bad luck. The competition was too much for you...this time!
+TrackPosition 7
+Track Tripoli
+Laps 5
+Cars 10
+Car0 15
+Car1 29
+Car2 22
+Car3 25
+Car4 33
+Car5 40
+Car6 35
+Car7 56
+Car8 39
+Car9 41

@@ -1,0 +1,19 @@
+Name Bonner Miller Massacre
+# Darren Williams
+Difficulty Medium
+Description All the M's as Montana hosts a lightning quick battle. Win in a Bonner Special at Montana having started the race in fourth on the grid.
+Goal Position
+TrackPosition 4
+SuccessValue 1
+SuccessString A high speed victory for the man with fire in his tank.
+FailureString A loss is a loss, no matter how close.
+Track Montana
+Laps 15
+Cars 6
+Car0 10
+Car1 29
+Car2 37
+Car3 17
+Car4 55
+#Car5 30
+Car5 2

@@ -1,0 +1,20 @@
+Name Let´s twist again
+# Alan Clark
+Description Kann es mit dem Alfa Romeo 12C gelingen, in Monza einen der ersten beiden Plätze zu belegen? Sie starten an zweiter Position und müssen dann lediglich Ihre Position verteidigen.
+Difficulty Schwierig
+Goal Position
+SuccessValue 2
+SuccessString An Ihre Erfolgsfeier wird man sich noch in Generationen erinnern.
+FailureString Ihren Fans dürstet es nach Ihrem Blut!
+TrackPosition 2
+Track Monza
+Laps 5
+Cars 8
+Car0 8
+Car1 49
+Car2 33
+Car3 40
+Car4 43
+Car5 42
+Car6 26
+Car7 12

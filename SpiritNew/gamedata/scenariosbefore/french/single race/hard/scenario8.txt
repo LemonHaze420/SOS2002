@@ -1,0 +1,23 @@
+Name La Fierté des Duesenberg
+# Darren Williams
+Description Prouvez les capacités de l'humble Duesenberg en terminant sur le podium à Brooklands.
+Difficulty Moyen
+Goal Position
+TrackPosition 1
+SuccessValue 3
+SuccessString Bien joué, Sir. Une performance remarquable.
+FailureString Même une seule faute peut coûter cher. Tentez de nouveau votre chance.
+Track Brooklands
+Laps 10
+Cars 8
+Car0 3
+Car1 53
+Car2 10
+Car3 22
+Car4 17
+Car5 40
+Car6 2
+Car7 29
+
+
+

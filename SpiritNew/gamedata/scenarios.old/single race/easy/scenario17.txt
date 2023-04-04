@@ -1,0 +1,26 @@
+Name Pau Challenge
+Difficulty Easy
+Description Aim to win or be placed second in the Mercedes 154 at Pau. The only snag is that you're starting from seventh on the grid!
+Goal Position
+SuccessValue 2
+SuccessString Congratulations. Some superb driving carried you through there.
+FailureString You must learn that power has to be matched with control.
+TrackPosition 7
+Track Pau
+Laps 8
+Cars 8
+Car0 20
+Car1 66
+Car2 24
+Car3 83
+Car4 10
+Car5 9
+Car6 55
+Car7 1
+
+
+
+
+
+
+

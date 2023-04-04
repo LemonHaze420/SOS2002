@@ -1,0 +1,33 @@
+Name Full Season Mercedes 154
+Difficulty Easy
+Description Finaliza siendo uno de los dos primeros al final de la temporada
+Goal position
+SuccessValue 3
+SuccessString Hiciste lo que se te pidió. Ahora impresiona a los jefes de Mercedes aceptando mayores desafíos. 
+FailureString No creas que Mercedes te va a pedir que vuelvas la próxima temporada. 
+TrackPosition 0
+Race Long
+Cars 5
+Car0 20
+Car1 32
+Car2 14
+Car3 57
+Car4 83
+#Car5 58
+#Car6 16
+#Car5 74
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

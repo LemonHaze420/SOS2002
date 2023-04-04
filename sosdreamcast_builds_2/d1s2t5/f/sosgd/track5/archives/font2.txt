@@ -1,0 +1,20 @@
+#
+# A font file
+#
+
+bitmap:overlay00
+kerning:2
+lineheight:27
+space:17
+width:256
+height:256
+
+# additional characters
+
+char-A	:	11,66,35,13	# "lap"
+char-B	:	66,66,43,13	# "best"
+char-C	:	129,66,46,13	# "race"
+char-D	:	53,99,34,10	# "mph"
+char-E	:	103,98,42,10	# "kph"
+
+

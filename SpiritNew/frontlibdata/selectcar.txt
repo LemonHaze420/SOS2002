@@ -1,0 +1,142 @@
+Function SelectCarScreen
+Call CleanUpButtons
+Let CurrentScreen = String SelectCar
+
+Let DisplayedCarString = String CarNumber#SelectedCar
+Let DisplayedCarString = String DisplayedCarString#FullName
+Write 238,65,DisplayedCarString,HeaderFont
+DestroyString DisplayedCarString
+
+Line 233,87,456,87,63488
+Line 234,88,456,88,63488
+
+WriteLocale 233,108,229,RightFont
+WriteLocale 233,129,230,RightFont
+WriteLocale 233,150,231,RightFont
+WriteLocale 233,171,232,RightFont
+WriteLocale 233,192,233,RightFont
+WriteLocale 233,213,234,RightFont
+
+Let CarTypeNumber = String CarNumber#SelectedCar
+Let ChosenCar = String CarTypeNumber
+Call FindChosenCar
+Let CarTypeNumber = String ChosenCar
+DestroyString ChosenCar
+
+Write 340,108,Car#CarTypeNumber#mph,RightFont
+Write 340,129,Car#CarTypeNumber#Engine,RightFont
+Write 340,150,Car#CarTypeNumber#bhp,RightFont
+Write 340,171,Car#CarTypeNumber#Revs,RightFont
+Write 340,192,Car#CarTypeNumber#Weight,RightFont
+
+Let SelectedGears = RegistryKey Gearbox
+Let GearButton = Button 340,213,80,14,SelectedGears,RightFont,RightFont,ChangeGearbox
+DestroyString SelectedGears
+
+Write 233,288,Car#CarTypeNumber#Description,RightFont,207,200
+
+DestroyString CarTypeNumber
+
+
+DestroyString Count
+For Count = 0 To NumberOfCarsChooseable
+{
+	Let CarSelectionButton#Count = Button 494,288+Count*16,160,14,Car#Count#LongString,RightFont,RightFont,NewCarChosen,none,NewCar=Count
+	If Car#Count#ShortString != "Mercedes154"
+		Disable CarSelectionButton#Count
+}
+DestroyString Count
+
+# Frame the AVI
+Line 493,73,735,73,65535
+Line 735,73,735,255,65535
+Line 735,255,493,255,65535
+Line 493,255,493,73,65535
+
+PlayMovie 494,74,CarNumber#SelectedCar,20
+
+
+# Draw the player name box.
+Line 231,503,455,503,65535
+Line 455,503,455,528,65535
+Line 455,528,231,528,65535
+Line 231,528,231,503,65535
+
+WriteLocale 301,484,235,LeftFont
+Let PlayerName = RegistryKey Key_PlayerName
+Let ChangeNameButton = Button 234,507,220,20,PlayerName,LeftFont,LeftFont,ChangePlayerName
+DestroyString PlayerName
+
+Call DrawQuickRaceButton
+
+Return
+
+###############################################################
+
+Function ChangeGearbox
+Destroy GearButton
+Let SelectedGears = RegistryKey Gearbox
+If SelectedGears = Manual
+{
+	SetRegistryKey Gearbox,Automatic
+	Let GearButton = Button 340,213,80,14,Automatic,RightFont,RightFont,ChangeGearbox
+}
+If SelectedGears = Automatic
+{
+	SetRegistryKey Gearbox,Manual
+	Let GearButton = Button 340,213,80,14,Manual,RightFont,RightFont,ChangeGearbox
+}
+DestroyString SelectedGears
+
+Return
+
+Function NewCarChosen
+Let NewSelectedCar = String Car#NewCar#ShortString
+Let NewSelectedCar = String Z_#NewSelectedCar#Number
+Let SelectedCar = String NewSelectedCar
+SetRegistryKey Key_SelectedCar,SelectedCar
+DestroyString NewCar
+DestroyString NewSelectedCar
+
+Call DrawButtonValues
+Call SelectCarScreen
+
+Return
+
+Function ChangePlayerName
+Destroy ChangeNameButton
+Let PlayerName = RegistryKey Key_PlayerName
+Let NameEntryBox = DialogueBox 234,507,220,20,LeftFont,PlayerName,PlayerNameChanged
+Return
+
+Function PlayerNameChanged
+SetRegistryKey Key_PlayerName,PlayerName
+DestroyString PlayerName
+Destroy NameEntryBox
+
+Call SelectCarScreen
+Return
+
+###############################################################
+
+
+Function DestroySelectCarButtons
+
+DestroyString Count
+For Count = 0 To NumberOfCarsChooseable
+{
+	Destroy CarSelectionButton#Count
+}
+DestroyString Count
+
+Destroy GearButton
+Destroy NameEntryBox
+Destroy ChangeNameButton
+Destroy QuickRaceButton
+
+StopMovie
+RestoreBackground 196,33,771,538
+
+Return
+
+

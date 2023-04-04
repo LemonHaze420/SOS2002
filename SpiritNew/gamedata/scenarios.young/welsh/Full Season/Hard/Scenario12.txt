@@ -1,0 +1,40 @@
+Name Tymor llawn Miller
+Difficulty Anodd 
+Description Gorffennwch y tymor yn un o'r ddau cyntaf. 
+Goal Safle 
+SuccessValue 2
+SuccessString Gyrru gwych drwy'r tymor. 
+FailureString Peidiwch digalonni! 
+TrackPosition 0
+Race Medium
+Cars 10
+Car0 48
+Car1 44
+Car2 57
+Car3 59
+Car4 1
+Car5 46
+Car6 30
+Car7 51
+Car8 29
+Car9 12
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

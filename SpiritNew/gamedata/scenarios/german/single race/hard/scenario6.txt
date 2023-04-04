@@ -1,0 +1,29 @@
+Name Schwere Zeiten voraus!
+Difficulty Schwierig
+Description Die französische Landschaft bei Montlhéry bietet einen schönen Hintergrund für dieses Europa-Rennen. Bringen Sie den Bugatti 59 aufs Siegertreppchen! Es ist nicht leicht, doch Sie haben sich für die erste Startposition qualifiziert.
+Goal Position
+SuccessValue 3
+SuccessString Gut gemacht! Dieser Triumph wird Sie noch in Jahren lächeln lassen!
+FailureString Der bittere Geschmack dieser Niederlage wird sie noch lang begleiten.
+TrackPosition 1
+Track Montlhery
+Laps 6
+Cars 8
+Car0 44
+Car1 9
+Car2 43
+Car3 56
+Car4 50
+Car5 52
+Car6 41
+Car7 35
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,201 @@
+##############################
+# Tracks Variables ###########
+##############################
+
+Function InitialiseSeasonTracks
+Let SeasonTrack0 = String Tripoli
+Let SeasonDate0 = LocaleString 203
+Let SeasonLaps0Short = String 3
+Let SeasonLaps0Medium = String 5
+Let SeasonLaps0Long = String 10
+Let QualifyTime0 = String 19400
+Let QualifyGap0 = String 200
+
+Let SeasonTrack1 = String Avus
+Let SeasonDate1 = LocaleString 204
+Let SeasonLaps1Short = String 4
+Let SeasonLaps1Medium = String 8
+Let SeasonLaps1Long = String 12
+Let QualifyTime1 = String 15500
+Let QualifyGap1 = String 160
+
+Let SeasonTrack2 = String Montana
+Let SeasonDate2 = LocaleString 205
+Let SeasonLaps2Short = String 10
+Let SeasonLaps2Medium = String 22
+Let SeasonLaps2Long = String 30
+Let QualifyTime2 = String 3100
+Let QualifyGap2 = String 80
+
+Let SeasonTrack3 = String Roosevelt
+Let SeasonDate3 = LocaleString 206
+Let SeasonLaps3Short = String 6
+Let SeasonLaps3Medium = String 12
+Let SeasonLaps3Long = String 20
+Let QualifyTime3 = String 9800
+Let QualifyGap3 = String 120
+
+Let SeasonTrack4 = String France
+Let SeasonDate4 = LocaleString 207
+Let SeasonLaps4Short = String 3
+Let SeasonLaps4Medium = String 6
+Let SeasonLaps4Long = String 10
+Let QualifyTime4 = String 20400
+Let QualifyGap4 = String 200
+
+Let SeasonTrack5 = String Pau
+Let SeasonDate5 = LocaleString 208
+Let SeasonLaps5Short = String 8
+Let SeasonLaps5Medium = String 14
+Let SeasonLaps5Long = String 25
+Let QualifyTime5 = String 6600
+Let QualifyGap5 = String 100
+
+Let SeasonTrack6 = String Donington
+Let SeasonDate6 = LocaleString 209
+Let SeasonLaps6Short = String 6
+Let SeasonLaps6Medium = String 12
+Let SeasonLaps6Long = String 20
+Let QualifyTime6 = String 8200
+Let QualifyGap6 = String 120
+
+Let SeasonTrack7 = String Brooklands
+Let SeasonDate7 = LocaleString 210
+Let SeasonLaps7Short = String 8
+Let SeasonLaps7Medium = String 14
+Let SeasonLaps7Long = String 25
+Let QualifyTime7 = String 5300
+Let QualifyGap7 = String 90
+
+Let SeasonTrack8 = String Monza
+Let SeasonDate8 = LocaleString 211
+Let SeasonLaps8Short = String 3
+Let SeasonLaps8Medium = String 6
+Let SeasonLaps8Long = String 10
+Let QualifyTime8 = String 11000
+Let QualifyGap8 = String 145
+Return
+
+Function MakeTrackStrings
+Let Track0Name = String Avus
+Let Track1Name = String Brooklands
+Let Track2Name = String Donington
+Let Track3Name = String Montana
+Let Track4Name = String France
+Let Track5Name = String Monza
+Let Track6Name = String Pau
+Let Track7Name = String Roosevelt
+Let Track8Name = String Tripoli
+
+Let NumberOfTracks = String 8
+
+DestroyString CurrentTrack
+For CurrentTrack = 0 To NumberOfTracks
+{
+	Call MakeGenericTrackSettings
+}
+DestroyString CurrentTrack
+
+Call InitialiseSeasonTracks
+
+Return
+
+Function MakeGenericTrackSettings
+Let Track#CurrentTrack#Type = LocaleString CurrentTrack*5+158
+Let Track#CurrentTrack#Length = LocaleString CurrentTrack*5+159
+Let Track#CurrentTrack#Country = LocaleString CurrentTrack*5+160
+Let Track#CurrentTrack#Direction = LocaleString CurrentTrack*5+161
+Let Track#CurrentTrack#Features = LocaleString CurrentTrack*5+162
+Return
+
+Function FindChosenTrack
+DestroyString CheckedTrack
+DestroyString ChosenTrack
+For CheckedTrack = 0 To 20
+{
+	if TrackName = Track#CheckedTrack#Name Let ChosenTrack = String CheckedTrack
+}
+DestroyString CheckedTrack
+Return
+
+
+##############################
+# Drop down Menu functions ###
+##############################
+
+Function ChooseTrackDropDown
+If ButtonActive = ChooseTrack Return
+Call DisableRightPanelButtons
+Call DestroyLeftMenuButtons
+Call DestroyRightMenuDropDowns
+Let ButtonActive = String ChooseTrack
+Let TrackDropDown = Shade 196,65,110,NumberOfTracks*20+30,25
+DestroyString CurrentTrack
+For CurrentTrack = 0 To NumberOfTracks
+{
+Let Track#CurrentTrack#Button = Button 205,CurrentTrack*20+70,185,15,Track#CurrentTrack#Name,LeftFont,LeftFont,ChooseTrack,none,ChosenTrack=CurrentTrack
+}
+DestroyString CurrentTrack
+Return
+
+Function DestroyChooseTrackDropDownButtons
+DestroyString CurrentTrack
+For CurrentTrack = 0 To NumberOfTracks
+{
+Destroy Track#CurrentTrack#Button
+}
+DestroyString CurrentTrack
+Destroy TrackDropdown
+Return
+
+
+
+
+##############################
+# Choosing Tracks ############
+##############################
+
+Function DrawTrackButton
+Destroy TrackButton
+Let TrackButton = Button 42,70,155,20,Track#ChosenTrack#Name,LeftFont,LeftFont,ShowTrack,ChooseTrackDropDown
+Return
+
+Function ShowTrack
+if ButtonActive = True Return
+Let ButtonActive = String False
+Call DestroyAllButtons
+
+PlayMovie 494,73,Track#ChosenTrack#Name,20
+RestoreBackground 196,33,771,538
+Let FrameColour = String 65535
+Call FrameAvi
+Write 267,63,Track#ChosenTrack#Name,HeaderFont
+Line 232,86,456,86,63488
+Line 232,87,456,87,63488
+Call DrawTrackLabels
+Write 295,106,Track#ChosenTrack#Type,RightFont
+Write 295,127,Track#ChosenTrack#Length,RightFont
+Write 295,147,Track#ChosenTrack#Country,RightFont
+Write 295,169,Track#ChosenTrack#Direction,RightFont
+Write 295,189,Track#ChosenTrack#Features,RightFont,160
+Return
+
+Function ChooseTrack
+Let ButtonActive = String False
+StopMovie
+SetRegistryKey RaceMode,SingleRace
+Call SingleRace
+Call DestroyAllButtons
+SetRegistryKey Track,Track#ChosenTrack#Name
+Destroy TrackButton
+Call DrawTrackButton
+Call ShowTrack
+Return
+
+Function DrawTrackLabels
+WriteLocale 231,106,153,RightFont
+WriteLocale 232,127,154,RightFont
+WriteLocale 232,147,155,RightFont
+WriteLocale 232,169,156,RightFont
+WriteLocale 232,190,157,RightFont
+Return

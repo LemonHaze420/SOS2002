@@ -1,0 +1,23 @@
+Name Goruchafiaeth Injan-ddwbl
+Difficulty Anodd
+Description Defnyddiwch eich Alfa Romeo Bimotore i guro'r Almaenwyr yn Avus. Bydd gorffen ar y podiwm yn ddigon i gadw eich arian noddi yn dod i mewn - er gwaethaf dechrau o gefn y grid.
+Goal Safle
+SuccessValue 3
+SuccessString Llongyfarchiadau, there's a new kid in town!! 
+FailureString Bydd y noddwyr, heb son am eich dilynwyr, yn eich erlid chi yn ol i'r Eidal!
+TrackPosition 9
+Track Avus
+Laps 5
+Cars 9
+Car0 66
+Car1 50
+Car2 23
+Car3 52
+Car4 18
+Car5 11
+car6 83
+Car7 58
+Car8 4
+
+
+

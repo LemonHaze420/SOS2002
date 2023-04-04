@@ -1,0 +1,32 @@
+Name Full Season Mercedes 125
+Difficulty Easy
+Description Win the season and become champion
+Goal position
+SuccessValue 1
+SuccessString Fantastic - a seasons' worth of effort has made you champion!
+FailureString Blood, sweat and tears but no reward. Try Again!
+TrackPosition 0
+Race Long
+Cars 5
+Car0 33
+Car1 18
+Car2 35
+Car3 27
+Car4 25
+#Car5 31
+#Car5 22
+#Car7 39
+#Car8 40
+#Car6 10
+
+
+
+
+
+
+
+
+
+
+
+

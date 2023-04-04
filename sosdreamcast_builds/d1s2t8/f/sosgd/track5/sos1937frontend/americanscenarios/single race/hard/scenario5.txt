@@ -1,0 +1,32 @@
+Name Home On The Range
+Difficulty Hard
+Description American and British cars battle it out for supremacy at the testing American circuit of Roosevelt. Use the ERA aim to win this race. A stiff test, but this is possible when starting from pole!
+Goal Position
+SuccessValue 1
+SuccessString Brilliant Driving! The crowd love you!
+FailureString Never mind, better luck next race!
+TrackPosition 1
+Track Roosevelt
+Laps 7
+Cars 5
+Car0 22
+Car1 36
+Car2 44
+Car3 53
+Car4 2
+#Car5 60
+#Car5 37
+#Car7 56
+#Car8 48
+
+
+
+
+
+
+
+
+
+
+
+

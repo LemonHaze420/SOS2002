@@ -1,0 +1,39 @@
+Name Stagione sulla Bonner Special
+Difficulty Difficile
+Description Termina la stagione primo o secondo nella classifica generale.
+Goal Position
+SuccessValue 2
+SuccessString Hai guidato bene questa stagione!
+FailureString Non ti arrendere!
+TrackPosition 0
+Race Corta
+Cars 8
+Car0 55
+Car1 58
+Car2 44
+Car3 48
+Car4 53
+Car5 57
+Car6 42
+Car7 49
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,33 @@
+Name Tymor llawn Mercedes 154
+Difficulty Hawdd 
+Description Gorffennwch yn drydydd neu well ar ddiwedd y tymor. 
+Goal Safle 
+SuccessValue 3
+SuccessString Gyrru cryf da drwy'r tymor. 
+FailureString Ceisiwch wneud yn well y tymor nesaf! 
+TrackPosition 0
+Race Long
+Cars 8
+Car0 20
+Car1 32
+Car2 14
+Car3 57
+Car4 83
+Car5 58
+Car6 16
+Car7 74
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

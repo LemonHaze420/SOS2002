@@ -1,0 +1,33 @@
+Name Saison complète, Mercedes 125
+Difficulty Facile
+Description Etre couronné champion à la fin de la saison
+Goal Position
+SuccessValue 1
+SuccessString Extraordinaire ! Le titre de champion récompense votre superbe saison !
+FailureString Beaucoup d'efforts mais pas de réconfort. Dommage
+TrackPosition 0
+Race Longue
+Cars 5
+Car0 33
+Car1 18
+Car2 35
+Car3 27
+Car4 25
+#Car5 31
+#Car6 22
+#Car7 39
+#Car8 40
+#Car9 10
+
+
+
+
+
+
+
+
+
+
+
+
+

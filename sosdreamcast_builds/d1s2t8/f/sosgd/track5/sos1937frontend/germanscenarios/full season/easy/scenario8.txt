@@ -1,0 +1,37 @@
+Name Full Season Bugatti 35B
+Difficulty Easy
+Description Beende die Saison als 4. oder besser.
+Goal position
+SuccessValue 4
+SuccessString Besser kann man in einem 35B nicht fahren! Phantastische Leistung!
+FailureString Was ist schlimmer – das Auto oder Deine Fahrweise?
+TrackPosition 0
+Race Short
+Cars 5
+Car0 7
+Car1 34
+Car2 24
+Car3 27
+Car4 11
+#Car5 22
+#Car6 5
+#Car7 16
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,37 @@
+Name Full Season Alfa Romeo 12C
+Difficulty Easy
+Description Finaliza el cuarto o mejor al final de la temporada
+Goal position
+SuccessValue 4
+SuccessString Buen cochecillo, ¿no crees? Pero tú también has tenido algo que ver en esto. Bien hecho.
+FailureString Chico, eh chico. ¿Qué va a ser del mundo si no puedes conducir este coche?
+TrackPosition 0
+Race Short
+Cars 5
+Car0 8
+Car1 22
+Car2 5
+Car3 17
+Car4 27
+#Car5 34
+#Car5 43
+#Car7 46
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

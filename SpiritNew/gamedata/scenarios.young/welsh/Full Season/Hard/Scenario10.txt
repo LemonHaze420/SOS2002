@@ -1,0 +1,38 @@
+Name Tymor llawn ERA Remus
+Difficulty Anodd 
+Description Gorffennwch y tymor yn y trydydd safle neu well. 
+Goal Safle 
+SuccessValue 3
+SuccessString Gyrru gwych y tymor hwn. 
+FailureString Peidiwch poeni, gwell lwc y tymor nesaf. 
+TrackPosition 0
+Race Short
+Cars 8
+Car0 22
+Car1 43
+Car2 24
+Car3 39
+Car4 11
+Car5 27
+Car6 2
+Car7 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

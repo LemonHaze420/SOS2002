@@ -1,0 +1,30 @@
+Name Deutsche Ingenieurskunst
+Difficulty Medium
+Description In diesem Rennen geht es für die Elite der deutschen Fahrer um Ruhm und Ehre. Fahre mit dem Mercedes 125 in Roosevelt als 4. oder besser über die Ziellinie. Du beginnst das Rennen auf dem zweiten Startplatz.
+Goal Position
+SuccessValue 3
+TrackPosition 2
+SuccessString Gute Fahrt! Und schon winkt eine Gehaltserhöhung.
+FailureString Keine Panik – im nächsten Rennen läuft es sicher besser!
+Track Roosevelt
+Laps 6
+Cars 5
+Car0 33
+Car1 52
+Car2 15
+Car3 32
+Car4 50
+#Car5 9
+#Car6 24
+#Car7 58
+
+
+
+
+
+
+
+
+
+
+

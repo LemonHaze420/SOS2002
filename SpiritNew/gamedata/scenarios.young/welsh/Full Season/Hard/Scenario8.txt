@@ -1,0 +1,38 @@
+Name Tymor llawn Bugatti 35B
+Difficulty Anodd 
+Description Gorffennwch y tymor yn bencampwr. 
+Goal Safle 
+SuccessValue 1
+SuccessString Gyrru medrus iawn. 
+FailureString Gwnaethoch ymladd yn ddewr. 
+TrackPosition 0
+Race Medium
+Cars 8
+Car0 27
+Car1 40
+Car2 21
+Car3 22
+Car4 51
+Car5 7
+Car6 35
+Car7 5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

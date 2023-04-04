@@ -1,0 +1,38 @@
+Name Saison Complète, ERA Remus
+Difficulty Moyen
+Description Terminez la saison dans les 5 premiers
+Goal Position
+SuccessValue 5
+SuccessString Excellent pilotage cette saison !
+FailureString Vous ferez mieux l'an prochain !
+TrackPosition 0
+Race Courte
+Cars 8
+Car0 53
+Car1 12
+Car2 39
+Car3 21
+Car4 35
+Car5 46
+Car6 51
+Car7 42
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

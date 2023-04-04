@@ -1,0 +1,39 @@
+Name Tymor llawn Alfa Romeo 12C
+Difficulty Canolig 
+Description I orffen yn y pedwar cyntaf ar ddiwedd y tymor. 
+Goal Safle 
+SuccessValue 4
+SuccessString Gyrru da, cadarn y tymor hwn. 
+FailureString Gwell lwc y tymor nesaf, mae angen ychydig mwy o ymarfer. 
+TrackPosition 0
+Race Medium
+Cars 10
+Car0 49
+Car1 7
+Car2 42
+Car3 21
+Car4 22
+Car5 5
+Car6 53
+Car7 3
+Car8 55
+car9 46
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

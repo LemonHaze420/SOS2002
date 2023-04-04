@@ -1,0 +1,33 @@
+Name Faites chauffer la gomme
+Difficulty Medium
+Description Cette course très exigeante nécessite que vous donniez le meilleur de vous-même. Vous partez 4e au volant de votre Auto Union D et vous devez vous imposer devant une concurrence acharnée.
+Goal Position
+SuccessValue 1
+SuccessString Vous avez triomphé malgré une opposition farouche !
+FailureString Vous n'étiez peut-être pas au niveau, après tout…
+TrackPosition 4
+Track Tripoli
+Laps 6
+Cars 5
+Car0 23
+Car1 43
+Car2 39
+Car3 20
+Car4 24
+#Car5 25
+#Car6 4
+#Car7 31
+#Car8 83
+#Car9 10
+
+
+
+
+
+
+
+
+
+
+
+

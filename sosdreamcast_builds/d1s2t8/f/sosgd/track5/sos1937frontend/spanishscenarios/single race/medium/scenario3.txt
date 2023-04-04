@@ -1,0 +1,22 @@
+Name Dust Devils
+# Andrew Stainer
+Description Corre por la oportunidad de unirte al equipo de carreras Dust Devils en su circuito de Roosevelt. Usa tu Mercedes 154 para acabar entre los tres primeros desde una posición de salida en sexto lugar.
+Difficulty Medio
+Goal Position
+SuccessValue 3
+SuccessString Felicidades, has sido seleccionado para el equipo. 
+FailureString Mala suerte. No has salido bien parado en esta ocasión. 
+TrackPosition 6
+Track Roosevelt
+Laps 8
+Cars 6
+Car0 15
+Car1 29
+Car2 22
+Car3 40
+Car4 24
+Car5 25
+#Car5 12
+#Car7 36
+#Car8 27
+#Car9 20

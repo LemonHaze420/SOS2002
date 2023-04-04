@@ -1,0 +1,20 @@
+Name Viva la Diferencia
+# Robert Ward
+Description Tras una protesta de la Sociedad Francesa de Mujeres Sufragistas, la mitad de los participantes en esta carrera son damas –aunque conducen como caballeros- pero asegúrate la victoria por todos los medios a tu alcance. Estás en Montlhery, en un Bugatti 35 y comienzas desde el frente de la parrilla.
+Goal Position
+Difficulty Medio
+TrackPosition 1
+SuccessValue 1
+SuccessString Victoria! Aunque no eres el hombre más popular entre las mujeres. 
+FailureString ¡Señor, conduce como un idiota!  Madame de Bourgogne es la ganadora.
+Track Montlhery
+Laps 4
+Cars 5
+Car0 27
+Car1 5
+Car2 28
+Car3 17
+Car4 2
+#Car5 3
+#Car6 18
+#car7 22

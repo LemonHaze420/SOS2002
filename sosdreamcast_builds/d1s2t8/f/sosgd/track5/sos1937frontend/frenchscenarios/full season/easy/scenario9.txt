@@ -1,0 +1,39 @@
+Name Saison complète, Bugatti 59
+Difficulty Facile
+Description Finir dans les deux premiers du championnat
+Goal Position
+SuccessValue 2
+SuccessString Cette performance est à la hauteur de votre réputation. Félicitations !
+FailureString Vous n'êtes plus en odeur de sainteté auprès de la direction de Bugatti. Espérons pour vous qu'ils vous laisseront une deuxième chance !
+TrackPosition 0
+Race Moyenne
+Cars 5
+Car0 28
+Car1 21
+Car2 46
+Car3 7
+Car4 11
+#Car5 53
+#Car6 43
+#Car7 5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

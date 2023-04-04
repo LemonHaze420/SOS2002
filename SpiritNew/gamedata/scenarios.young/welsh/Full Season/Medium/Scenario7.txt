@@ -1,0 +1,39 @@
+Name Tymor llawn Auto Union D
+Difficulty Canolig 
+Description Gorffennwch yn y tri cyntaf ar ddiwedd y tymor. 
+Goal Safle 
+SuccessValue 3
+SuccessString Gyrru da, cadarn, daliwch ati. 
+FailureString Fe wnaethoch yn dda, cadwch i ymarfer. 
+TrackPosition 0
+Race Long
+Cars 10
+Car0 14
+Car1 15
+Car2 20
+Car3 12
+Car4 4
+Car5 35
+Car6 23
+Car7 57
+Car8 83
+car9 58
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+Name Tour d'Europe
+Difficulty Medium
+Description Finissez sur le podium de Donington avec votre Miller. Vous partez bon dernier.
+Goal Position
+SuccessValue 3
+SuccessString Bravo, vous y êtes parvenu !
+FailureString Une prochaine fois, peut-être
+TrackPosition 5
+Track Donington
+Laps 10
+Cars 5
+Car0 29
+Car1 31
+Car2 36
+Car3 35
+Car4 21
+#Car5 49
+#Car6 2
+#Car5 39
+#Car8 27
+#Car9 44
+
+
+
+
+
+
+
+

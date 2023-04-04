@@ -1,0 +1,33 @@
+Name Full Season Mercedes 154
+Difficulty Easy
+Description Versuche am Saisonende auf dem Siegertreppchen zu stehen!
+Goal position
+SuccessValue 3
+SuccessString Du hast getan, was von Dir erwartet wurde. Jetzt mußt Du Mercedes durch eine noch bessere Leistung beeindrucken.
+FailureString Erwarte nicht, daß Du in der kommenden Saison erneut für Mercedes fährst.
+TrackPosition 0
+Race Long
+Cars 5
+Car0 20
+Car1 32
+Car2 14
+Car3 57
+Car4 83
+#Car5 58
+#Car6 16
+#Car5 74
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

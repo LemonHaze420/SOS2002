@@ -1,0 +1,25 @@
+Name Deutsch-italienisches Duell
+Difficulty Einfach
+Description Die Deutschen treten in Frankreich gegen die Italiener an. Erreichen Sie mit dem Mercedes 125 mindestens Platz 2. Ihr Problem: Sie müssen das Feld von hinten aufräumen.
+Goal Position
+SuccessValue 2
+SuccessString Gut gemacht! Durch diesen Sieg ist Ihnen weitreichende Anerkennung sicher!
+FailureString So etwas wird nicht gern gesehen. Womöglich werden Sie schon sehr bald nur noch Busfahrer sein ...
+TrackPosition 8
+Track Pau
+Laps 12
+Cars 8
+Car0 33
+Car1 43
+Car2 16
+Car3 32
+Car4 58
+Car5 10
+Car6 17
+Car7 35
+
+
+
+
+
+

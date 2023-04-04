@@ -1,0 +1,36 @@
+Name Volle Saison Bugatti 59
+Difficulty Einfach
+Description Beenden Sie die Saison mindestens als Zweiter.
+Goal position
+SuccessValue 2
+SuccessString Das war eine gute Leistung!
+FailureString Sie haben sich gut geschlagen - doch leider hatten Sie Pech!
+TrackPosition 0
+Race Medium
+Cars 8
+Car0 28
+Car1 21
+Car2 46
+Car3 7
+Car4 11
+Car5 53
+Car6 43
+Car7 5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

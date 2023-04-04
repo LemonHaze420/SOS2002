@@ -1,0 +1,34 @@
+Name Full Season Mercedes 154
+Difficulty Hard
+Description Beende die Saison als Weltmeister!
+Goal position
+SuccessValue 1
+SuccessString Der ultimative Preis in einem ultimativen Auto!
+FailureString Tja, nun muﬂt Du den Spott der ganzen Welt ertragen!
+TrackPosition 0
+Race Short
+Cars 4
+Car0 15
+#Car1 50
+Car1 32
+Car2 16
+Car3 74
+#Car5 58
+#Car4 66
+#Car7 57
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

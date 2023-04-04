@@ -1,0 +1,25 @@
+Name Der Große Preis von Montana
+Difficulty Einfach
+Description Schlagen Sie Bugatti 35B und ERA mit dem Duesenberg. Das sollte von der Pole Position aus nicht schwierig sein. Sie müssen lediglich als einer der ersten Fünf ins Ziel kommen, und die Strecke ist für den Wagen wie geschaffen!
+Goal Position
+SuccessValue 5
+SuccessString Sie haben den sensiblen Duesenberg gebändigt. Ihnen liegt es wirklich im Blut!
+FailureString Der Duesenberg ist ein Sensibelchen - gehen Sie achtsamer mit ihm um!
+TrackPosition 1
+Track Montana
+Laps 30
+Cars 8
+Car0 40
+Car1 48
+Car2 2
+Car3 7
+Car4 25
+Car5 60
+Car6 34
+Car7 46
+
+
+
+
+
+

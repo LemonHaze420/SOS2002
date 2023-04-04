@@ -1,0 +1,21 @@
+Name Le Choc des Titans. 
+Difficulty Facile
+Description Dix des voitures les plus puissantes s'affrontent à Avus. Pilotez l'Alfa Romeo Bimotore et terminez au moins quatrième. Vous aurez la pole position, cela devrait aider !
+Goal Position
+SuccessValue 4
+SuccessString Félicitations, vous avez vaincu les Allemands sur leur terrain.
+FailureString Pas de chance. Vous n'avez pas pu battre les Allemands chez eux.
+TrackPosition 1
+Track Avus
+Laps 5
+Cars 10
+Car0 83
+Car1 32
+Car2 20
+Car3 24
+Car4 33
+Car5 1
+Car6 9
+Car7 41
+Car8 14
+Car9 74

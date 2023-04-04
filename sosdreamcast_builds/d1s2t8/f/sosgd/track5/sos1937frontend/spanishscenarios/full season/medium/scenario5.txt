@@ -1,0 +1,40 @@
+Name Full Season Alfa Romeo 12C
+Difficulty Medium
+Description Finaliza el cuarto o mejor al final de la temporada
+Goal position
+SuccessValue 4
+SuccessString ¡Adelante! ¡Viva Alfa!
+FailureString Una mala actuación. Tenemos que cuestionar la actuación de los conductores. 
+TrackPosition 0
+Race Medium
+Cars 5
+Car0 49
+Car1 7
+Car2 42
+Car3 21
+Car4 22
+#Car5 5
+#Car6 53
+#Car7 3
+#Car5 55
+#car9 46
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

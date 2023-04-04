@@ -1,0 +1,23 @@
+Name Suprématie à Deux Moteurs
+Difficulty Difficile
+Description Exploitez votre Alfa Romeo Bimotore pour vaincre les Allemands à Avus. Terminer sur le podium devrait suffire à satisfaire vos sponsors, malgré un départ en fond de grille.
+Goal Position
+SuccessValue 3
+SuccessString Félicitations, une nouvelle étoile est née !! 
+FailureString Vos sponsors, comme vos fans, ne vont pas vous accueillir avec des fleurs !
+TrackPosition 9
+Track Avus
+Laps 5
+Cars 9
+Car0 66
+Car1 50
+Car2 23
+Car3 52
+Car4 18
+Car5 11
+car6 83
+Car7 58
+Car8 4
+
+
+

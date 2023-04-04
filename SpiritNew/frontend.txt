@@ -1,0 +1,54 @@
+
+**** Omissions in the functionality of the front end. ****
+
+The following are *not yet functional*
+
+
+New Race / Single Race
+
+Clicking on the car name cycles between the different cars: i.e. clicking on
+"Mercedes 125" changes to "Mercedes 154". This car will then use the 154.
+Clicking on the driver name changes to the next driver of the car. I.e.
+clicking on "Gunter Schmidt" changes to the next skin (driver).
+
+Load Game
+
+When the user clicks on the filename (currently only "none" is available),
+the name of the filename will appear on the left as it is selected. I.e.
+clicking on a label (on the right side) saying "Montlhery start" will
+make a field appear in the (currently blank) left side, saying "Montlhery
+Start".
+Load game will load in the saved game and return the user either to the
+Select Track screen, or the Championship screen, depending on when the 
+game was saved.
+
+Delete game will delete the saved game, after requesting confirmation
+("REALLY delete game?")
+
+Save Game
+As Above.
+
+
+Replay Options
+
+Clicking on the Replay Slot will update the stats on the left side. These
+will be (as an example)
+Replay Name:  Good Montlhery Replay
+Replay Track: Montlhery
+Cars in Replay: 1x Mercedes Benz 154, 1x Auto Union C
+
+The above text refers to the replay currently in memory. There is also
+text below this which refers to the currently selected replay, which 
+will be loaded or replaced.
+
+Load Replay loads a replay into memory to be shown.
+Save Replay overwrites the selected replay with the replay currently 
+in memory.
+
+Show Replay starts the replay.
+
+Delete Replay deletes the replay and frees the slot.
+
+Any questions, please phone Dave Rowe on 
+(01570) 493505 or 0411 545975
+

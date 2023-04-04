@@ -1,0 +1,38 @@
+Name Saison Complète, Bugatti 59
+Difficulty Moyen
+Description Terminez au moins quatrième de la saison.
+Goal Position
+SuccessValue 4
+SuccessString Bravo pour votre pilotage !
+FailureString Vous vous êtes bien battu, dommage !
+TrackPosition 0
+Race Longue
+Cars 8
+Car0 56
+Car1 17
+Car2 59
+Car3 29
+Car4 46
+Car5 8
+Car6 10
+Car7 18
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

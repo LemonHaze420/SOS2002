@@ -1,0 +1,40 @@
+Name Saison Complète, Auto Union C
+Difficulty Facile
+Description Soyez premier ou deuxième en fin de saison.
+Goal Position
+SuccessValue 2
+SuccessString Excellent !
+FailureString Pas mal, continuez à vous entraîner.
+TrackPosition 0
+Race Moyenne
+Cars 10
+Car0 32
+Car1 8
+Car2 21
+Car3 16
+Car4 28
+Car5 60
+Car6 59
+Car7 55
+Car8 22
+car9 17
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

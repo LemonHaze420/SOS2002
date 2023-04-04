@@ -1,0 +1,21 @@
+Name Vive la Difference
+# Robert Ward
+Description Yn dilyn gwrthdystiad gan Gymdeithas Merched Ffrengig, mae hanner y gyrrwyr yn y ras elusen hon yn ferched - gyrrwch fel g×r bonheddig - ond mynnwc
+h ennill mewn unrhyw fodd.Rydych yn y Bugatti 35 yn Montlhery ac yn dechrau and starting o flaen y grid.
+Goal Position
+Difficulty Canolig
+TrackPosition 1
+SuccessValue 1
+SuccessString Victoire! Nid ydych y dyn mwyaf poblogaidd gyda'r merched serch hynny.
+FailureString Syr rydych yn gyrru fel ff×l! Mae Mme de Bourgogne yn fuddugolus.
+Track Montlhery
+Laps 4
+Cars 8
+Car0 27
+Car1 5
+Car2 28
+Car3 17
+Car4 2
+Car5 3
+Car6 18
+car7 22

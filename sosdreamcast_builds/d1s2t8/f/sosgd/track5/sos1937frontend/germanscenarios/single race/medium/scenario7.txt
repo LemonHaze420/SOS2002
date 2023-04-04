@@ -1,0 +1,33 @@
+Name Unter glühender Sonne
+Difficulty Medium
+Description Diese spektakuläre Strecke verlangt den Fahrern alles ab. Setze Deine ganzes Können ein, um auf dieser harten und unbarmherzigen Strecke zu gewinnen. Du gehst mit einem Auto Union von der 4. Startposition ins Rennen.
+Goal Position
+SuccessValue 1
+SuccessString Was für ein grossartiger Sieg!
+FailureString Vielleicht war die Herausforderung zu gross für Dich. Im nächsten Rennen hast Du sicher mehr Glück!
+TrackPosition 4
+Track Tripoli
+Laps 6
+Cars 5
+Car0 23
+Car1 43
+Car2 39
+Car3 20
+Car4 24
+#Car5 25
+#Car6 4
+#Car7 31
+#Car8 83
+#Car9 10
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,38 @@
+Name Full Season Bugatti 35B
+Difficulty Hard
+Description Gana la Temporada y proclámate Campeón
+Goal position
+SuccessValue 1
+SuccessString ¡Una conducción tremendamente hábil te trae su justa recompensa!
+FailureString En este nivel no hay espacio para amateurs. Vuelve cuando estés listo. 
+TrackPosition 0
+Race Medium
+Cars 5
+Car0 27
+Car1 40
+Car2 21
+Car3 22
+Car4 51
+#Car5 7
+#Car6 35
+#Car7 5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

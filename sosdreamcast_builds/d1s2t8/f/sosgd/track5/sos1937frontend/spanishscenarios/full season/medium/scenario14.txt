@@ -1,0 +1,40 @@
+Name Full Season Watson Flyer
+Difficulty Medium
+Description Finaliza siendo uno de los dos primeros al final de la temporada
+Goal position
+SuccessValue 2
+SuccessString ¡Un excelente esfuerzo en un coche que no perdona!
+FailureString ¿Ha salido ya el sol para tu carrera del futuro?
+TrackPosition 0
+Race Short
+Cars 5
+Car0 42
+Car1 10
+Car2 60
+Car3 51
+Car4 53
+Car5 8
+#Car6 18
+#Car7 17
+Car6 27
+#Car9 39
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+Name Le massacre des Miller
+# Darren Williams
+Difficulty Medium
+Description Imposez-vous au volant de votre Bonner Special sur le tracé du Montana en partant 4e.
+Goal Position
+TrackPosition 4
+SuccessValue 1
+SuccessString Une victoire incontestable !
+FailureString Il n'y a que deux types de pilotes : ceux qui gagnent et ceux qui perdent.
+Track Montana
+Laps 15
+Cars 6
+Car0 10
+Car1 29
+Car2 37
+Car3 17
+Car4 55
+#Car5 30
+Car5 2

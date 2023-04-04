@@ -1,0 +1,29 @@
+Name Mal schnell um den Block
+Difficulty Einfach
+Description Wagen aus aller Welt nehmen an diesem Rennen in den USA teil. Sie müssen mit dem Auto Union gewinnen!
+Goal Position
+SuccessValue 1
+SuccessString Qualität setzt sich durch, egal wo auf der Welt man sich befindet!
+FailureString Auf dem Weg zurück in die alte Welt werden Sie über so einiges nachdenken müssen.
+TrackPosition 0
+Track Roosevelt
+Laps 10
+Cars 6
+Car0 14
+Car1 83
+Car2 7
+Car3 48
+Car4 28
+Car5 22
+
+
+
+
+
+
+
+
+
+
+
++

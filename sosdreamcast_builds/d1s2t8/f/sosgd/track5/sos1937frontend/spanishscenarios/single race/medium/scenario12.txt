@@ -1,0 +1,22 @@
+Name ¿Puedes con Donington?
+# Phil Gilbert
+Description Un Duesenberg no es el mejor coche del mundo, pero será bastante contra algunos de los coches mejor dirigidos en Donington. Comienzas el primero, pero necesitas mantenerte hasta llegar a la bandera de llegada.
+Difficulty Medio
+Goal Position
+SuccessValue 1
+SuccessString Buen espectáculo alegre. Fue demasiado fácil...
+FailureString Necesitas ser mucho más rápido que esto. Inténtalo de nuevo. 
+TrackPosition 1
+Track Donington
+Laps 10
+Cars 5
+Car0 25
+Car1 8
+Car2 35
+Car3 56
+Car4 49
+#Car5 20
+#Car6 18
+
+
+

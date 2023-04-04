@@ -1,0 +1,465 @@
+1 La P3 fut la première véritable voiture de course monoplace animée par un huit cylindres.
+2 Voiture équipée de deux moteurs, conçue pour rivaliser avec les Mercedes et les Auto Union.
+3 Cette voiture avait une suspension avant tirée et un pont arrière oscillant.
+4 Réputée pour son pilotage délicat, mais quelle puissance !
+5 Type C modifié, conforme à la nouvelle réglementation (3 litres avec compresseur, 4,5 litres sans compresseur).
+6 Très appréciée des pilotes privés pour sa capacité à courir telle qu'elle sortait d'usine.
+7 Une Bugatti plus puissante, avec un réservoir d'essence à la place du passager.
+8 Fabriquée pour le Comte Trossi, de la Scuderia Ferrari, pour les Grands Prix Européen, elle a remporté le record de Classe C sur le grand tracé de Brooklands.
+9 Elle arbore les couleurs nationales de la Thaïlande : châssis jaune et carrosserie bleu ciel.
+10 Ces voitures à compresseur ont été les meilleures Maserati à siège central.
+11 Développée pour contrer la Mercedes W25, cette Maserati est équipée d'un moteur V8 et d'une suspension à quatre roues indépendantes.
+12 Véritable phénomène dans le monde de la compétition automobile, cette voiture était conçue pour tenir 500 miles, et était entièrement reconstruite pour chaque course.
+13 Cette Mercedes était construite selon une nouvelle formule limitant le poids à vide à 750 kg, mais sans restriction relative au moteur. Elle fut l'une des voitures les plus réussies de l'époque.
+14 Cette Miller très évolutive domina la scène américaine, souvent équipée d'un moteur Ofenhauser.
+15 Cette voiture animée par un moteur d'avion Napier de 24 litres a détenu le record du tour sur le grand tracé de Brooklands, avec une vitesse de 143,44 mph.
+16 L'Auto Union profilée, utilisée lors du grand prix d'Avus.
+
+# Alfa Romeo P3
+17 140 mph
+18 3165 cm3
+19 265 CV
+20 5400 tr/mn
+22 725kg
+23 Manuelle, 4 rapports
+24 Court
+
+# Alfa Romeo Bimotore
+25 205 mph
+26 2 x 3165 cm3
+27 2 x 270 CV
+28 5400 tr/mn
+30 1030kg
+31 Manuelle, 3 rapports
+32 Court
+
+# Alfa Romeo 12C
+33 150 mph
+34 4064 cm3
+35 370 CV
+36 6600 tr/mn
+38 820kg
+39 Manuelle, 4 rapports
+40 Court
+
+# AutoUnion C
+41 190 mph
+42 6000 cm3
+43 520 CV
+44 5000 tr/mn
+46 750kg
+47 Manuelle, 5 rapports
+48 Court
+
+# AutoUnion D
+49 170 mph
+50 3000 cm3
+51 485 CV
+52 7000 tr/mn
+54 850kg
+55 Manuelle, 4 rapports
+56 Court
+
+# Bugatti 35B
+57 140 mph
+58 2300 cm3
+59 120 CV
+60 5100 tr/mn
+62 750kg
+63 Manuelle, 4 rapports
+64 Court
+
+# Bugatti 59
+65 150 mph
+66 3300 cm3
+67 250 CV
+68 6600 tr/mn
+70 750kg
+71 Manuelle, 4 rapports
+72 Court
+
+# Dusenberg
+73 150 mph
+74 4250 cm3
+75 150 CV
+76 5000 tr/mn
+78 950kg
+79 Manuelle, 4 rapports
+80 Court
+
+# ERA Remus
+81 135 mph
+82 1500 cm3
+83 166 CV
+84 6500 tr/mn
+86 915 kg
+87 Manuelle, 4 rapports
+88 Court
+
+# Maserati 8CM
+89 145 mph
+90 2992 cm3
+91 150 CV
+92 5800 tr/mn
+94 785kg
+95 Manuelle, 4 rapports
+96 Court
+
+# Maserati V8Ri
+97 140 mph
+98 4800 cm3
+99 320 CV
+100 5300 tr/mn
+102 750kg
+103 Manuelle, 4 rapports
+104 Moyen
+
+# Mercedes 125
+105 166 mph
+106 5660 cm3
+107 646 CV
+108 5800 tr/mn
+110 750kg
+111 Manuelle, 4 rapports
+112 Court
+
+# Mercedes 154
+113 186 mph
+114 2962 cm3
+115 483 CV
+116 7800 tr/mn
+118 750kg
+119 Manuelle, 5 rapports
+120 Court
+
+# Miller
+121 150 mph
+122 1478 cm3
+123 230 CV
+124 8000 tr/mn
+126 635kg
+127 Manuelle, 4 rapports
+128 Court
+
+# Napier-Railton
+129 168 mph
+130 24000 cm3
+131 590 CV
+132 2700 tr/mn
+134 1000kg
+135 Manuelle, 3 rapports
+136 Court
+
+# AutoUnion SL
+137 212 mph
+138 6000 cm3
+139 520 CV
+140 5000 tr/mn
+142 820kg
+143 Manuelle, 5 rapports
+144 Court
+
+
+# Function labels
+145 Vitesse Max. :
+146 Cylindrée :
+147 CV :
+148 Régime Max. :
+150 Poids :
+151 Boite :
+152 Rapport de Trans. :
+
+# Track labels
+153 Type :
+154 Développement :
+155 Pays :
+156 Sens :
+157 Caractéristiques :
+
+# Avus
+158 Ovale à grande vitesse
+159 11,98 miles
+160 Allemagne
+161 Anti-horaire
+162 Composé de deux pistes à deux voies de 8 mètres de large, séparées par une bande de 8 mètres d'herbe. Virage relevé le plus rapide du monde, avec une largeur de 12 mètres et un angle de 43°.
+
+# Brooklands
+163 Circuit à grande vitesse
+164 2,75 miles
+165 Royaume-Uni
+166 Anti-horaire
+167 Situé en pleine campagne anglaise. Comporte une ligne droite de départ/arrivée unique située au centre de la piste. Largeur : 30 m, avec des remblais de 6 m de haut et des virages à angle droit.
+
+# Donington
+168 Circuit routier
+169 3,125 miles
+170 Royaume-Uni
+171 Horaire
+172 Circuit traversant en partie un parc boisé au coeur de l'Angleterre.
+
+# Montana
+173 Ovale à grande vitesse
+174 1,25 miles
+175 Etats-Unis 
+176 Anti-horaire
+177 Un simple ovale court... avec un zigzag.  Des courses très serrées dans les montagnes du Montana.
+
+# Montlhery
+178 Route et circuit à grande vitesse
+179 7,8 miles
+180 France
+181 Horaire
+182 La superbe campagne française sert de toile de fond à ce tracé empruntant à la fois un circuit relevé et une section routière.
+
+# Monza
+183 Route et circuit à grande vitesse
+184 4,35 miles
+185 Italie
+186 Horaire
+187 Affrontez les difficiles chicanes et les portions relevées de ce célèbre circuit du nord de l'Italie. 
+
+# Pau
+188 En ville
+189 1,72 miles
+190 France
+191 Horaire
+192 Au pied des Pyrénées, ses pentes et ses virages serrés promettent une course délicate.
+
+# Roosevelt
+193 Circuit de type F1
+194 3,97 miles
+195 Etats-Unis 
+196 Anti-horaire
+197 Les virages relevés ou très serrés de cette piste de sable et de gravier tassé, située à Long Island, mettait à rude épreuve le talent des pilotes.
+
+# Tripoli
+198 Routier rapide, dans le désert
+199 8,14 miles
+200 Libye
+201 Horaire
+202 Dans la poussière de sable et la chaleur de Tripoli, ce circuit était probablement le plus éprouvant de l'époque.
+
+# The dates of the tracks.
+203 9 mai 1937
+204 30 mai 1937
+205 13 juin 1937
+206 3 juillet 1937
+207 11 juillet 1937
+208 25 juillet 1937
+209 8 août 1937
+210 12 septembre 1937
+211 26 septembre 1937
+
+# The permanent buttons
+212 Sélection d'un Circuit
+213 Sélection d'une Voiture
+214 Nouvelle Course
+215 Options
+216 Chargement d'une Partie
+217 Enregistrement d'une Partie
+218 Options de Rediffusion
+219 Quitter
+220 OK
+
+# Values for Race Type
+221 Championnat
+222 Course Unique
+223 Scénario
+
+# Labels for the track description.
+224 Type :
+225 Développement :
+226 Pays :
+227 Sens :
+228 Caractéristiques :
+
+# Labels for the car description.
+229 Vitesse Max. :
+230 Cylindrée :
+231 Puissance :
+232 Régime Max. :
+233 Poids :
+234 Rapp. de Boîte :
+235 Saisie d'un Nom
+
+# race type descriptions
+236 Sélection du Type de Course
+237 Nouveau Championnat
+238 Chargement d'un Scénario
+239 Course Unique
+
+# Load a season scenario
+240 Sélection d'un Scénario de Saison
+241 Degré de Difficulté :
+242 Facile
+243 Moyen
+244 Difficile
+245 Nom :
+246 Durée de Course :
+247 Confirmer le Scénario
+
+# The championship screen
+248 Championnat
+249 Grille de Départ
+250 Classement de la Saison
+251 Caract. Circuit
+252 Caract. Voiture
+253 Type :
+254 Développement :
+255 Pays :
+256 Sens :
+257 Caractéristiques :
+258 Quitter la Saison
+259 Entraînement
+260 Qualification
+261 Course
+262 Classement de la Saison
+263 Positions sur la Grille
+
+# Load a scenario
+264 Chargement d'un Scénario
+265 Degré de Difficulté :
+266 Facile
+267 Moyen
+268 Difficile
+
+269 Chargement d'un Scénario de Course
+270 Page Suivante
+271 Première Page
+272 Circuit :
+273 Tours
+
+# Scenario screen
+274 Quitter le Scénario
+275 Scénario
+276 Scénario Réussi
+277 Scénario Echoué
+278 Détails du Scénario
+
+# Replay Options Screen
+279 Options de Rediffusion
+280 Chargement
+281 Enregistrement
+282 Présentation
+283 Nom de la Rediff. :
+284 Circuit de Rediff. :
+285 Voitures :
+286 Emplacements Libres
+287 Néant
+288 Rediff. en Mémoire :
+289 Rediff Sélectionnée :
+290 Effacer Rediffusion
+
+# Load or Save game
+291 Chargement d'une Partie
+292 Enregistrement d'une Partie
+293 Effacement d'une Partie
+
+# Single Race
+294 Course Unique
+295 Nombre de Voitures :
+296 Lancer la Course
+297 Circuit Actuel :
+298 Nombre de Tours :
+
+299 Nom de la Partie :
+300 Reprendre la Partie
+
+301 Etes-Vous Certain(e) ?
+302 Oui
+303 Non
+
+304 Pos.
+305 Pilote
+306 Voiture
+307 N°
+308 Temps au Tour
+309 Temps de Course
+
+310 Ultra Difficile
+
+311 Continuer le Championnat
+
+312 Résultats de Course
+
+313 Crédits
+
+314 Accélérateur
+315 Freins
+316 Gauche
+317 Droite
+318 Rapport Sup.
+319 Rapport Inf.
+320 Accentuer
+321 Coup d'Oeil en Arr.
+
+# Options screen
+
+500 Options
+501 Musique :
+502 Rétroviseurs :
+503 Ombres :
+504 Ciel :
+505 Niv. Détails :
+506 Fumée :
+507 Périphérique :
+508 Résolution d'Ecran :
+509 Retour de Force :
+
+510 SON DU MENU
+511 RETROVISEURS
+512 OMBRE DE LA VOITURE
+513 VOLANT DANS LE COCKPIT
+514 NIVEAU DE DETAILS
+515 EFFETS DE FUMEE
+516 PERIPHERIQUE
+517 RESOLUTION D'ECRAN
+518 RETOUR DE FORCE
+
+519 Configuration
+
+520 Oui
+521 Non
+523 Oui
+524 Non
+525 Oui
+526 Non
+527 Oui
+528 Non
+529 Faible
+530 Moyen
+531 Elevé
+532 Oui
+533 Non
+534 Volant
+535 Joystick
+536 Clavier
+537 Personnalisé
+538 Joypad
+539 320x200
+540 512x384
+541 640x480
+542 800x600
+543 1024x768
+544 1280x1024
+545 1600x1200
+546 Non
+547 Faible
+548 Elevé
+549 Oui
+550 Non
+
+551 TOUS LES SONS
+552 VOLUME DE LA VOITURE
+553 SONS EXTERIEURS
+
+554 Retenter la Course
+
+555 Options d'Affichage
+556 Options de Jeu
+557 Options Sonores
+
+558 Config. Périphérique
+559 Appuyez sur une Touche ou un Bouton
+
+end

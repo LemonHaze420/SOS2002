@@ -1,0 +1,31 @@
+Name Das Leben an der Spitze
+Difficulty Schwierig
+Description Amerikaner und Briten wollen es wissen - die Roosevelt-Strecke ist der Ort, an dem Sie mit Ihrem ERA gewinnen müssen. Eine echte Herausforderung, doch mit der Spitzen-Startposition kann es gehen!
+Goal Position
+SuccessValue 1
+SuccessString Brillant gefahren! Die Fans lieben Sie!
+FailureString Macht nichts, mehr Glück beim nächsten Mal!
+TrackPosition 1
+Track Roosevelt
+Laps 7
+Cars 9
+Car0 22
+Car1 36
+Car2 44
+Car3 53
+Car4 2
+Car5 60
+Car6 37
+Car7 56
+Car8 48
+
+
+
+
+
+
+
+
+
+
+

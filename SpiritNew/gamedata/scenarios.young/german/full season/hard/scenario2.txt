@@ -1,0 +1,32 @@
+Name Volle Saison Mercedes 154
+Difficulty Schwierig
+Description Beenden Sie die Saison als Sieger.
+Goal position
+SuccessValue 1
+SuccessString Meinen Glückwunsch, Champ!
+FailureString Strengen Sie sich in der nächsten Saison mehr an!
+TrackPosition 0
+Race Short
+Cars 8
+Car0 15
+Car1 50
+Car2 32
+Car3 16
+Car4 74
+Car5 58
+Car6 66
+Car7 57
+
+
+
+
+
+
+
+
+
+
+
+
+
+

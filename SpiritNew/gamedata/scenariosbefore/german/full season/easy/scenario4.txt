@@ -1,0 +1,35 @@
+Name Volle Saison Alfa Romeo Bimotore
+Difficulty Einfach
+Description Gewinnen Sie die Saison!
+Goal position
+SuccessValue 1
+SuccessString Eine grundsolide Leistung!
+FailureString Probieren Sie´s einfach noch mal!
+TrackPosition 0
+Race Lang
+Cars 10
+Car0 74
+Car1 7
+Car2 48
+Car3 22
+Car4 32
+Car5 46
+Car6 83
+Car7 58
+car8 60
+Car9 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+Name Il meglio dell'ingegneria tedesca
+Difficulty Media
+Description Questa è una gara tutta germanica, in cui le migliori auto tedesche si affrontano per mietere onori. Partendo dalla seconda posizione, classificati almeno quarto con la Mercedes 125 a Roosevelt.
+Goal Position
+SuccessValue 4
+SuccessString Hai guidato bene! Continua così e riceverai un aumento.
+FailureString Non ti disperare: andrà meglio la prossima volta!
+TrackPosition 2
+Track Roosevelt
+Laps 6
+Cars 8
+Car0 33
+Car1 52
+Car2 15
+Car3 32
+Car4 50
+Car5 9
+Car6 24
+Car7 58
+
+
+
+
+
+
+
+
+
+
+

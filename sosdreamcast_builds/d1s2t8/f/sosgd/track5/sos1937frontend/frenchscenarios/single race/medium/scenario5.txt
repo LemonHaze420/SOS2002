@@ -1,0 +1,30 @@
+Name Made in Germany
+Difficulty Medium
+Description Finissez dans les 3 premiers à Roosevelt avec votre Mercedes 125. Vous partez 2e.
+Goal Position
+SuccessValue 3
+SuccessString Bien joué, vous allez pouvoir négocier une belle augmentation !
+FailureString La prochaine course sera peut-être la vôtre…
+TrackPosition 2
+Track Roosevelt
+Laps 6
+Cars 5
+Car0 33
+Car1 52
+Car2 15
+Car3 32
+Car4 50
+#Car5 9
+#Car6 24
+#Car7 58
+
+
+
+
+
+
+
+
+
+
+

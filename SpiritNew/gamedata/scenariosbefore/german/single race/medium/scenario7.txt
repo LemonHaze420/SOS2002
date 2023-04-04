@@ -1,0 +1,27 @@
+Name Sommerwind
+Difficulty Mittel
+Description Montlhéry, Südfrankreich, im Hochsommer. Sie müssen Ihren Duesenberg auf einen der ersten drei Plätze fahren. Sie starten von der dritten Position.
+Goal Position
+SuccessValue 3
+SuccessString Wunderbar! Sie haben die Elite des Motorsports geschlagen!
+FailureString Ihnen weht ein steifer Wind ins Gesicht. Versuchen Sie es noch mal.
+TrackPosition 3
+Track Montlhery
+Laps 6
+Cars 6
+Car0 3
+Car1 49
+Car2 16
+Car3 36
+Car4 30
+Car5 48
+
+
+
+
+
+
+
+
+
+

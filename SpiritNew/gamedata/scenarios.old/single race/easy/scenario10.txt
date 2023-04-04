@@ -1,0 +1,29 @@
+Name The Desert Challenge 
+Difficulty Easy
+Description Can you start from third on the grid and win at Tripoli using the Auto Union D?
+Goal Position
+SuccessValue 1
+SuccessString Your mastery of this car and circuit elevates you to the pantheon of the Spirit of Speed Gods.
+FailureString The blasting sand and heat etch the memory of your defeat into the annals of time.
+TrackPosition 3
+Track Tripoli
+Laps 2
+Cars 6
+Car0 14
+Car1 40
+Car2 59
+Car3 22
+Car4 34
+Car5 2
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,38 @@
+Name Tymor llawn Bugatti 59
+Difficulty Hawdd 
+Description Gorffennwch yn ail neu well ar ddiwedd y tymor. 
+Goal Position
+SuccessValue 2
+SuccessString Gurru da, medrus. 
+FailureString Fe wnaethoch ymladd yn ddewr, hen dro! 
+TrackPosition 0
+Race Medium
+Cars 8
+Car0 28
+Car1 21
+Car2 46
+Car3 7
+Car4 11
+Car5 53
+Car6 43
+Car7 5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

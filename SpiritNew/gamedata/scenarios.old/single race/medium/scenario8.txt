@@ -1,0 +1,30 @@
+Name Italians In Italy
+Difficulty Medium
+Description The best of Italian cars battle it out at this testing circuit. Try and take the Alfa Romeo P3 from the back of the grid to first at Monza.
+Goal Position
+SuccessValue 1
+SuccessString Congratulations! Great drive!
+FailureString Keep practising!
+TrackPosition 8
+Track Monza
+Laps 4
+Cars 8
+Car0 21
+Car1 31
+Car2 44
+Car3 46
+Car4 5
+Car5 43
+Car6 11
+Car7 29
+
+
+
+
+
+
+
+
+
+
+

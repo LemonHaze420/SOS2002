@@ -1,0 +1,15 @@
+Name Fast Money
+# Robert Ward
+Description A bad run of luck at the roulette table sends you to Donington in search of prize money. Beat the lap record of 1:30:01 in only 3 laps, to pay off a loan shark with big hands...
+Goal LapTime
+Difficulty Medium
+SuccessValue 9000
+SuccessString Five hundred guineas, a place in the record books and your credit rating intact...
+FailureString You'd better hope you can get out of town faster than that!
+Track Donington
+Laps 3
+Cars 4
+Car0 8
+Car1 11
+Car2 55
+Car3 7

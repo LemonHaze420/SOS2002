@@ -1,0 +1,40 @@
+Name Stagione sulla Bonner Special
+Difficulty Facile
+Description Termina la stagione almeno al quarto posto in classifica.
+Goal Position
+SuccessValue 4
+SuccessString Hai guidato bene in tutta la stagione!
+FailureString Non ti arrendere!
+TrackPosition 0
+Race Lunga
+Cars 10
+Car0 10
+Car1 5
+Car2 21
+Car3 24
+Car4 32
+Car5 60
+Car6 2
+Car7 49
+Car8 40
+Car9 7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+Name Volle Saison Alfa Romeo P3
+Difficulty Schwierig
+Description Beenden Sie die Saison mindestens als Dritter.
+Goal position
+SuccessValue 3
+SuccessString Das war eine grundsolide Rennsaison!
+FailureString Dafür müssen Sie sich noch etwas mehr anstrengen!
+TrackPosition 0
+Race Medium
+Cars 10
+Car0 35
+Car1 7
+Car2 15
+Car3 36
+Car4 27
+Car5 21
+Car6 20
+Car7 44
+car8 58
+Car9 32
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

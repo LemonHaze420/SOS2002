@@ -1,0 +1,20 @@
+Name Twist & Shout
+# Alan Clark
+Description Can your Alfa Romeo 12C be driven into the top 2 at Monza. You'll start in second place on the grid so you just have to protect your track position.
+Difficulty Hard
+Goal Position
+SuccessValue 2
+SuccessString The feast to celebrate your victory will be remembered for generations to come.
+FailureString The passionate home crowd bay for your blood.
+TrackPosition 2
+Track Monza
+Laps 5
+Cars 8
+Car0 8
+Car1 49
+Car2 33
+Car3 40
+Car4 43
+Car5 42
+Car6 26
+Car7 12

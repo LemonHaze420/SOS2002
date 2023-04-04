@@ -1,0 +1,35 @@
+Name Full Season Mercedes 125
+Difficulty Medium
+Description 
+CAR TYPE : Mercedes-Benz 125
+RACE TYPE : Medium
+OBJECTIVE : TOP 2
+NUMBER OF CARS : 5
+Goal position
+SuccessValue 2
+SuccessString Congratulations!
+FailureString Bad luck! Try again.
+TrackPosition 0
+Race Medium
+Cars 5
+Car0 57
+Car1 9
+#Car2 14
+Car2 4
+Car3 15
+Car4 92
+#Car6 16
+#Car7 41
+#Car8 83
+#Car9 32
+
+
+
+
+
+
+
+
+
+
+

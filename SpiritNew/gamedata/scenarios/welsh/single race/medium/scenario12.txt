@@ -1,0 +1,22 @@
+Name A allwch chi drin Donington?
+# Phil Gilbert
+Description Nid Duesenberg yw'r car gorau yn  y byd, felly a fydd e'n ddigon da yn erbyn rhai o'r ceir gwell yn Donington. Rydych yn dechrau o'r safle blaen ond mae'n rhaid i chi aros yno i'r fflag sgwarog.
+Difficulty Canolig
+Goal Position
+SuccessValue 1
+SuccessString Da iawn. Roedd hynna yn rhy hawdd.
+FailureString Mae'n rhaid i chi fod yn llawer cyflymach. Triwch eto.
+TrackPosition 1
+Track Donington
+Laps 10
+Cars 7
+Car0 25
+Car1 8
+Car2 35
+Car3 56
+Car4 49
+Car5 20
+Car6 18
+
+
+

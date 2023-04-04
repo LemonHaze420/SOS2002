@@ -1,0 +1,27 @@
+Name Genie & Tempo
+Difficulty Mittel
+Description Schlagen Sie die Elite der Italiener in Monza und holen Sie sich einen der ersten drei Plätze mit dem Auto Union C.
+Goal Position
+SuccessValue 3
+SuccessString Gut gemacht - Sie stürmen geradezu ins Ziel!
+FailureString Etwas mehr Übung, und Sie werden es schaffen!
+TrackPosition 1
+Track Monza
+Laps 8
+Cars 6
+Car0 4
+Car1 15
+Car2 50
+Car3 51
+Car4 32
+Car5 11
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+Name La Fierté de l'Allemagne
+# Andrew Stainer
+Description Prouvez la supériorité technologique de votre pays au reste de l'Europe sur le circuit d'Avus. Amenez la Mercedes 154 en tête depuis le fond de la grille de départ, et conservez cette position jusqu'au drapeau à damiers.
+Difficulty Moyen
+Goal Position
+SuccessValue 1
+SuccessString Bien joué. Votre pays est fier de vous.
+FailureString Le monde entier rit de la technique allemande. Cela risque de vous coûter votre volant.
+Track Avus
+TrackPosition 7
+Laps 10
+Cars 10
+Car0 15
+Car1 52
+Car2 19
+Car3 11
+Car4 24
+Car5 32
+Car6 21
+Car7 22
+Car8 18
+Car9 41

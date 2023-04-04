@@ -1,0 +1,17 @@
+Name A Real Test For Alfa
+Difficulty Medium
+Description Race the cream of world motorsport champions in the ultimate race machines at Montlhery. Aim to be placed in the top three using the Alfa Romeo 12C. A pole position start should help.
+Goal Position
+SuccessValue 3
+SuccessString Congratulations you beat the cream of motorsport!
+FailureString The competition was pretty stiff, try again!
+TrackPosition 1
+Track Montlhery
+Laps 6
+Cars 6
+Car0 8
+Car1 16
+Car2 18
+Car3 27
+Car4 58
+Car5 39

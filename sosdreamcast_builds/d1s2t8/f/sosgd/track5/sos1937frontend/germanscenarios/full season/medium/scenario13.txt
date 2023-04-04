@@ -1,0 +1,39 @@
+Name Full Season Bonner Special
+Difficulty Medium
+Description Versuche am Saisonende auf dem Siegertreppchen zu stehen!
+Goal position
+SuccessValue 3
+SuccessString Du hast Dir den Platz auf dem Podium redlich verdient!
+FailureString Kein Champagner und kein Ruhm nach dieser Saison!
+TrackPosition 0
+Race Medium
+Cars 5
+Car0 10
+Car1 1
+Car2 24
+Car3 11
+Car4 40
+#Car5 43
+#Car6 44
+#Car7 49
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

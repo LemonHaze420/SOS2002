@@ -1,0 +1,38 @@
+Name Stagione sulla Bugatti 59
+Difficulty Facile
+Description Cerca di arrivare almeno secondo alla fine della stagione.
+Goal Position
+SuccessValue 2
+SuccessString Sei stato abile al volante!
+FailureString Ti sei battuto bene ma non hai avuto fortuna.
+TrackPosition 0
+Race Media
+Cars 8
+Car0 28
+Car1 21
+Car2 46
+Car3 7
+Car4 11
+Car5 53
+Car6 43
+Car7 5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+Name Outright Speed Is The Key.
+Difficulty medium
+Description Mercedes Benz race their supercar against the mighty streamlined Auto Union. Take charge of the Auto Union SL and beat the Mercedes SL in a 10 lap race at Avus.
+Goal Position
+SuccessValue 1
+SuccessString Congratulations! You certainly had the power when it counted.
+FailureString Bad luck, the Mercedes was quicker, better luck next time!
+TrackPosition 1
+Track Avus
+Laps 10
+Cars 2
+Car0 69
+Car1 47

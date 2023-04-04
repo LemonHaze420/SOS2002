@@ -1,0 +1,248 @@
+Key_SingleRaceLaps 4
+Key_SingleRaceCar4 19
+Key_SingleRaceCar5 20
+Key_SingleRaceCar7 22
+Key_SingleRaceCar8 23
+Key_SingleRaceCar9 24
+Key_SingleRaceCar10 25
+Key_SingleRaceCar11 26
+ExhaustDepth 0
+Key_PlayerName Player
+Music On
+SmokeFX On
+Sounds_VolumeSwitch On
+ShadowsSwitch On
+SteeringWheel On
+RearViewSwitch On
+EAX On
+DetailLevel High
+CarVolume High
+ControlMethod Keyboard
+Gearbox Automatic
+4 1
+RaceCar10 Duesenberg_25
+Key_ReplayCar10 25
+RaceCar11 NapierRailton_26
+Key_ReplayCar11 26
+Position_12 0
+BestLap_10 0
+PositionInRace_10 8
+FinishedTime_10 0
+Position_11 11
+BestLap_11 0
+PositionInRace_11 11
+FinishedTime_11 0
+Key_SingleRaceCar2 35
+Key_SingleRaceCar3 43
+Key_SingleRaceCar6 74
+Key_SingleRaceCar12 NULL
+QualifiedPosition10 10
+QualifiedPosition11 11
+Key_PositionOfCar10 10
+Key_PositionOfCar11 11
+ForceFeedback Off
+Key_SelectedCar 4
+Key_SingleRaceCar1 32
+Key_CarInGridPosition11 11
+Key_CarInGridPosition12 12
+Key_SingleRaceCarNULL NULL
+Keyboard_con-throttle 30
+con-throttle 30
+Keyboard_con-throttle_String A
+Keyboard_con-brake 44
+con-brake 44
+Keyboard_con-brake_String Z
+Keyboard_con-left 51
+con-left 51
+Keyboard_con-left_String ,
+Keyboard_con-right 52
+con-right 52
+Keyboard_con-right_String .
+Keyboard_con-gearup 40
+con-gearup 40
+Keyboard_con-gearup_String '
+Keyboard_con-geardown 53
+con-geardown 53
+Keyboard_con-geardown_String /
+Keyboard_con-more 42
+con-more 42
+Keyboard_con-more_String leftshift
+Keyboard_con-glance 57
+con-glance 57
+Keyboard_con-glance_String space
+Wheel_con-throttle -2
+Wheel_con-throttle_String Controller Forward/Back axis
+Wheel_con-brake -2
+Wheel_con-brake_String Controller Forward/Back axis
+Wheel_con-left -1
+Wheel_con-left_String Controller Left/Right axis
+Wheel_con-right -1
+Wheel_con-right_String Controller Left/Right axis
+Wheel_con-gearup 240
+Wheel_con-gearup_String Wheel Button 1
+Wheel_con-geardown 241
+Wheel_con-geardown_String Wheel Button 2
+Wheel_con-more 242
+Wheel_con-more_String Wheel Button 3
+Wheel_con-glance 243
+Wheel_con-glance_String Wheel Button 4
+Key_CarInGridPosition0 None
+Key_SingleRaceCarNone None
+2 1
+Key_CarInGridPositionNumberOfCars 0
+"Scenarios\Single Race\Easy\Scenario1.txt" NotAttempted
+"Scenarios\Single Race\Easy\Scenario2.txt" NotAttempted
+"Scenarios\Single Race\Easy\Scenario3.txt" NotAttempted
+"Scenarios\Single Race\Easy\Scenario4.txt" NotAttempted
+"Scenarios\Single Race\Easy\Scenario5.txt" NotAttempted
+"Scenarios\Single Race\Easy\Scenario6.txt" NotAttempted
+"Scenarios\Single Race\Easy\Scenario7.txt" NotAttempted
+"Scenarios\Single Race\Easy\Scenario8.txt" NotAttempted
+"Scenarios\Single Race\Easy\Scenario9.txt" NotAttempted
+"Scenarios\Single Race\Easy\Scenario10.txt" NotAttempted
+"Scenarios\Single Race\Easy\Scenario11.txt" NotAttempted
+"Scenarios\Single Race\Easy\Scenario12.txt" NotAttempted
+"Scenarios\Single Race\Easy\Scenario13.txt" NotAttempted
+"Scenarios\Single Race\Easy\Scenario14.txt" NotAttempted
+"Scenarios\Single Race\Easy\Scenario15.txt" NotAttempted
+"Scenarios\Single Race\Medium\Scenario1.txt" NotAttempted
+"Scenarios\Single Race\Medium\Scenario2.txt" NotAttempted
+"Scenarios\Single Race\Medium\Scenario3.txt" NotAttempted
+"Scenarios\Single Race\Medium\Scenario4.txt" NotAttempted
+"Scenarios\Single Race\Medium\Scenario5.txt" NotAttempted
+"Scenarios\Single Race\Medium\Scenario6.txt" NotAttempted
+"Scenarios\Single Race\Medium\Scenario7.txt" NotAttempted
+"Scenarios\Single Race\Medium\Scenario8.txt" NotAttempted
+"Scenarios\Single Race\Medium\Scenario9.txt" NotAttempted
+"Scenarios\Single Race\Medium\Scenario10.txt" NotAttempted
+"Scenarios\Single Race\Medium\Scenario11.txt" NotAttempted
+"Scenarios\Single Race\Medium\Scenario12.txt" NotAttempted
+"Scenarios\Single Race\Medium\Scenario13.txt" NotAttempted
+"Scenarios\Single Race\Medium\Scenario14.txt" NotAttempted
+"Scenarios\Single Race\Medium\Scenario15.txt" NotAttempted
+"Scenarios\Single Race\Hard\Scenario1.txt" NotAttempted
+"Scenarios\Single Race\Hard\Scenario2.txt" NotAttempted
+"Scenarios\Single Race\Hard\Scenario3.txt" NotAttempted
+"Scenarios\Single Race\Hard\Scenario4.txt" NotAttempted
+"Scenarios\Single Race\Hard\Scenario5.txt" NotAttempted
+"Scenarios\Single Race\Hard\Scenario6.txt" NotAttempted
+"Scenarios\Single Race\Hard\Scenario7.txt" NotAttempted
+"Scenarios\Single Race\Hard\Scenario8.txt" NotAttempted
+"Scenarios\Single Race\Hard\Scenario9.txt" NotAttempted
+"Scenarios\Single Race\Hard\Scenario10.txt" NotAttempted
+"Scenarios\Single Race\Hard\Scenario11.txt" NotAttempted
+"Scenarios\Single Race\Hard\Scenario12.txt" NotAttempted
+"Scenarios\Single Race\Hard\Scenario13.txt" NotAttempted
+"Scenarios\Single Race\Hard\Scenario14.txt" NotAttempted
+"Scenarios\Single Race\Hard\Scenario15.txt" NotAttempted
+ScreenMode 800x600
+Key_RaceState Championship
+Key_CurrentTrack 0
+Key_CurrentSeasonTrack 0
+Key_SingleRaceTrack 8
+Difficulty NULL
+Key_SingleRaceCar0 4
+Laps 4
+Key_SingleRaceCars 10
+_Cars 10
+Key_SelectedTrack 8
+RaceCar0 AutoUnionC_4
+Key_ReplayCar0 4
+RaceCar1 AutoUnionC_32
+Key_ReplayCar1 32
+RaceCar2 AlfaP3_35
+Key_ReplayCar2 35
+RaceCar3 AlfaP3_43
+Key_ReplayCar3 43
+RaceCar4 NapierRailton_19
+Key_ReplayCar4 19
+RaceCar5 Mercedes154_20
+Key_ReplayCar5 20
+RaceCar6 AlfaBimotore_74
+Key_ReplayCar6 74
+RaceCar7 ERARemus_22
+Key_ReplayCar7 22
+RaceCar8 AutounionD_23
+Key_ReplayCar8 23
+RaceCar9 Mercedes125_24
+Key_ReplayCar9 24
+Track Tripoli
+Key_ReplayTrack Tripoli
+NumberOfCars 10
+Key_ReplayCars 10
+RaceType SingleRace
+Position_10 0
+PositionInRace_0 10
+BestLap_0 24771
+FinishedTime_0 0
+Position_2 1
+PositionInRace_1 2
+BestLap_1 18504
+FinishedTime_1 99651
+Position_3 2
+PositionInRace_2 3
+BestLap_2 18864
+FinishedTime_2 99932
+Position_1 3
+PositionInRace_3 1
+BestLap_3 18609
+FinishedTime_3 29
+Position_7 4
+PositionInRace_4 7
+BestLap_4 22385
+FinishedTime_4 101127
+Position_5 5
+PositionInRace_5 5
+BestLap_5 21326
+FinishedTime_5 100608
+Position_6 6
+PositionInRace_6 6
+BestLap_6 20767
+FinishedTime_6 100722
+Position_9 7
+PositionInRace_7 9
+BestLap_7 18591
+FinishedTime_7 102043
+Position_4 8
+PositionInRace_8 4
+BestLap_8 21443
+FinishedTime_8 100053
+Position_8 9
+PositionInRace_9 8
+BestLap_9 24189
+FinishedTime_9 101623
+Key_ActualQualification 10
+QualifiedPosition0 10
+QualifiedPosition1 1
+QualifiedPosition2 2
+QualifiedPosition3 3
+QualifiedPosition4 4
+QualifiedPosition5 5
+QualifiedPosition6 6
+QualifiedPosition7 7
+QualifiedPosition8 8
+QualifiedPosition9 9
+Key_CarInGridPosition10 0
+Key_PositionOfCar0 10
+Key_CarInGridPosition1 1
+Key_PositionOfCar1 1
+Key_CarInGridPosition2 2
+Key_PositionOfCar2 2
+Key_CarInGridPosition3 3
+Key_PositionOfCar3 3
+Key_CarInGridPosition4 4
+Key_PositionOfCar4 4
+Key_CarInGridPosition5 5
+Key_PositionOfCar5 5
+Key_CarInGridPosition6 6
+Key_PositionOfCar6 6
+Key_CarInGridPosition7 7
+Key_PositionOfCar7 7
+Key_CarInGridPosition8 8
+Key_PositionOfCar8 8
+Key_CarInGridPosition9 9
+Key_PositionOfCar9 9
+Key_CreditsDone Done
+Key_RaceType SingleRace
+Replay False
+Key_MusicPiece NULL

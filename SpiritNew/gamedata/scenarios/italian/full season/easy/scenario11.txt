@@ -1,0 +1,38 @@
+Name Stagione sulla Duesenberg
+Difficulty Facile
+Description Termina la stagione almeno al quarto posto in classifica.
+Goal Position
+SuccessValue 4
+SuccessString Bel lavoro!
+FailureString Non importa. Andrà meglio la prossima stagione!
+TrackPosition 0
+Race Corta
+Cars 8
+Car0 40
+Car1 60
+Car2 43
+Car3 17
+Car4 39
+Car5 35
+Car6 51
+Car7 46
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

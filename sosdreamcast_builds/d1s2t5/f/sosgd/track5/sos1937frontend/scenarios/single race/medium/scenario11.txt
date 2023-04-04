@@ -1,0 +1,28 @@
+Name Bonner Miller Massacre
+# Darren Williams
+Difficulty Medium
+Description 
+CAR TYPE : Bonner Special
+CIRCUIT : Montana (USA)
+OBJECTIVE : TOP 1
+LAPS : 15
+START POSITION : 4/6
+Goal Position
+TrackPosition 4
+SuccessValue 1
+SuccessString Congratulations!
+FailureString Bad luck! Try again.
+Track Montana
+Laps 15
+Cars 6
+Car0 10
+Car1 29
+Car2 37
+Car3 17
+Car4 55
+#Car5 30
+Car5 2
+
+
+
+

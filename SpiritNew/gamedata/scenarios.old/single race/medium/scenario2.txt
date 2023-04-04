@@ -1,0 +1,28 @@
+Name Speed Genius
+Difficulty Medium
+Description Beat the best of the Italians at Monza and finish in the top three using the Auto Union C.
+Goal Position
+SuccessValue 3
+SuccessString Well done - you stormed it!
+FailureString A bit more practice and you'll be there!
+TrackPosition 1
+Track Monza
+Laps 6
+Cars 6
+Car0 4
+Car1 15
+Car2 50
+Car3 51
+Car4 32
+Car5 11
+
+
+
+
+
+
+
+
+
+
+

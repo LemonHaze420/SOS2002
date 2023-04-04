@@ -1,0 +1,37 @@
+Name Saison complète, Alfa Romeo 12C
+Difficulty Facile
+Description Terminez la saison dans les 6 premiers.
+Goal Position
+SuccessValue 6
+SuccessString Voilà ce que j'appelle du pilotage !
+FailureString Qu'est-ce que ça signifie ?
+TrackPosition 0
+Race Courte
+Cars 8
+Car0 8
+Car1 22
+Car2 5
+Car3 17
+Car4 27
+Car5 34
+Car6 43
+Car7 46
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

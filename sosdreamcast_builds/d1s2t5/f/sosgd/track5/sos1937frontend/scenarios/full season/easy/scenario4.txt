@@ -1,0 +1,27 @@
+Name Full Season Alfa Romeo Bimotore
+Difficulty Easy
+Description 
+CAR TYPE : Alfa Romeo Bimotore
+RACE TYPE : Long
+OBJECTIVE : TOP 1
+NUMBER OF CARS : 5
+Goal position
+SuccessValue 1
+SuccessString Congratulations!
+FailureString Bad luck! Try again.
+TrackPosition 0
+Race Long
+Cars 5
+Car0 74
+Car1 7
+Car2 48
+Car3 22
+Car4 32
+#Car5 46
+#Car5 83
+#Car7 58
+#car8 60
+#Car9 2
+
+
+

@@ -1,0 +1,39 @@
+Name Full Season Maserati 8CM
+Difficulty Medium
+Description Complete the season third or better.
+Goal position
+SuccessValue 3
+SuccessString You fully deserved your place on the podium!
+FailureString No champagne or glory for you after that season!
+TrackPosition 0
+Race Medium
+Cars 8
+Car0 10
+Car1 1
+Car2 24
+Car3 11
+Car4 40
+Car5 43
+Car6 44
+Car7 49
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

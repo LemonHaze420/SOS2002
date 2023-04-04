@@ -1,0 +1,39 @@
+Name Tymor llawn Alfa Romeo 12C
+Difficulty Anodd 
+Description I orffen y tymor yn bencampwr. 
+Goal Position
+SuccessValue 1
+SuccessString Gyrru gwych champ!
+FailureString Mae angen ychydig mwy o ymarfer. 
+TrackPosition 0
+Race Short
+Cars 10
+Car0 31
+Car1 30
+Car2 22
+Car3 34
+Car4 16
+Car5 10
+Car6 36
+Car7 44
+Car8 25
+car9 40
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

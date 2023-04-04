@@ -1,0 +1,36 @@
+Name African Rampage
+Difficulty Hard
+Description The Mercedes 125 isn't best suited to this kind of landscape. You must win at Tripoli as your fiancee has threatened to run off with an Egyptian millionaire if you don't. Start at the back of the grid.
+Goal Position
+SuccessValue 1
+SuccessString Fantastic win over some tough competition! Marriage looms and you couldn't be happier.
+FailureString You've lost her! Looks like you'll have to find yourself another gal!
+TrackPosition 8
+Track Tripoli
+Laps 2
+Cars 12
+Car0 57
+Car1 9
+Car2 50
+Car3 20
+Car4 16
+Car5 24
+Car6 14
+Car7 58
+Car8 23
+Car9 41
+Car10 4
+Car11 1
+
+
+
+
+
+
+
+
+
+
+
+
+

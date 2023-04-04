@@ -1,0 +1,21 @@
+Name Clash Of The Titans
+Difficulty Easy
+Description Five of the most powerful machines battling for supremacy at Avus. Use the Alfa Romeo Bimotore to finish in the top 3. At least you can start from pole!
+Goal Position
+SuccessValue 3
+SuccessString Congratulations, you beat the Germans on home ground.
+FailureString Bad luck. You failed to beat the Germans on their home territory.
+TrackPosition 1
+Track Avus
+Laps 5
+Cars 5
+Car0 83
+Car1 32
+Car2 20
+Car3 24
+#Car4 33
+Car4 1
+#Car5 9
+#Car7 41
+#Car8 14
+#Car9 74

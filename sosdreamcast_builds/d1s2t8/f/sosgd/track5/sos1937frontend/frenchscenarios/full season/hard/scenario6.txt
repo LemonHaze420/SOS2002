@@ -1,0 +1,39 @@
+Name Saison complète, Auto Union C
+Difficulty Difficile
+Description Etre couronné champion à la fin de la saison
+Goal Position
+SuccessValue 1
+SuccessString C'est exceptionnel ! Vous êtes l'idole d'une nouvelle génération !
+FailureString Vous n'avez toujours pas fait vos preuves, mon jeune ami...
+TrackPosition 0
+Race Courte
+Cars 5
+Car0 4
+Car1 33
+Car2 9
+Car3 20
+Car4 52
+#Car5 35
+#Car6 41
+#Car7 16
+#Car8 24
+#car9 57
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

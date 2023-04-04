@@ -1,0 +1,38 @@
+Name Saison complète, Alfa Romeo 12C
+Difficulty Moyen
+Description Finir dans les quatre premiers du championnat
+Goal Position
+SuccessValue 4
+SuccessString Avanti ! Viva Alfa !
+FailureString Décevant. Et si c'était le pilote qui était en question ?
+TrackPosition 0
+Race Moyenne
+Cars 5
+Car0 49
+Car1 7
+Car2 42
+Car3 21
+Car4 22
+#Car5 5
+#Car6 53
+#Car7 3
+#Car8 55
+#car9 46
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

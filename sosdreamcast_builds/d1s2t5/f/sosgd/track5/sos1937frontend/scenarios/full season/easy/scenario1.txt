@@ -1,0 +1,33 @@
+Name Full Season Mercedes 125
+Difficulty Easy
+Description 
+CAR TYPE : Mercedes-Benz 125
+RACE TYPE : Long
+OBJECTIVE : TOP
+Number of Cars : 5
+Goal position
+SuccessValue 1
+SuccessString Congratulations!
+FailureString Bad luck! Try again.
+TrackPosition 0
+Race Long
+Cars 5
+Car0 33
+Car1 18
+Car2 35
+Car3 27
+Car4 25
+#Car5 31
+#Car5 22
+#Car7 39
+#Car8 40
+#Car6 10
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+Name Massacre Bonner Special-Miller
+# Darren Williams
+Difficulty Moyen
+Description Gagnez dans une Bonner Special après être parti en quatrième position.
+Goal Position
+TrackPosition 4
+SuccessValue 1
+SuccessString Une victoire éclatante ! Votre voiture crache des flammes !
+FailureString Même de peu, une défaite demeure une défaite.
+Track Montana
+Laps 15
+Cars 7
+Car0 10
+Car1 29
+Car2 37
+Car3 17
+Car4 55
+Car5 30
+Car6 2
+

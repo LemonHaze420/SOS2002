@@ -1,0 +1,29 @@
+Name The European Challenge In Britain
+Difficulty Hard
+Description 
+CAR TYPE : Mercedes-Benz 154
+CIRCUIT : Donington (UK)
+OBJECTIVE : TOP 1
+LAPS : 15
+START POSITION : 5/5
+Goal Position
+SuccessValue 1
+SuccessString Congratulations!
+FailureString Bad luck! Try again.
+TrackPosition 5
+Track Donington
+Laps 15
+Cars 5
+Car0 20
+Car1 4
+Car2 12
+Car3 41
+#Car4 43
+Car4 16
+#Car6 58
+#Car7 33
+
+
+
+
+

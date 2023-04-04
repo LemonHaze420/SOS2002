@@ -1,0 +1,21 @@
+Name Meister des Rundkurses
+# Darren Williams
+Description Nur mit einem hohen Tempo in den Kurven und auf den Geraden kannst Du das 12-Runden-Rennen von Montana im Miller gewinnen. Immerhin startest Du von der Pole-Position.
+Difficulty Medium
+Track Montana
+Laps 12
+Cars 5
+Car0 48
+Car1 15
+Car2 58
+Car3 2
+Car4 41
+#Car5 1
+#Car6 29
+#Car7 50
+#Car8 4
+Goal Position
+TrackPosition 1
+SuccessValue 1
+SuccessString Toll, Du kannst sogar mit einem schlechten Auto gewinnen.
+FailureString Heute warst Du nicht gut genug; vielleicht beim nächsten Mal ....

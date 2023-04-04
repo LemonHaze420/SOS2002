@@ -1,0 +1,39 @@
+Name Stagione sull'Auto Union C
+Difficulty Difficile
+Description Termina la stagione in vetta alla classifica.
+Goal Position
+SuccessValue 1
+SuccessString Eccellente!
+FailureString Non è andata poi così male: continua ad allenarti.
+TrackPosition 0
+Race Corta
+Cars 10
+Car0 4
+Car1 33
+Car2 9
+Car3 20
+Car4 52
+Car5 35
+Car6 41
+Car7 16
+Car8 24
+car9 57
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,38 @@
+Name Stagione sulla Miller
+Difficulty Media
+Description Termina la stagione fra i primi tre in classifica.
+Goal Position
+SuccessValue 3
+SuccessString Hai guidato molto bene!
+FailureString Non importa: andrà meglio la prossima stagione!
+TrackPosition 0
+Race Lunga
+Cars 8
+Car0 48
+Car1 40
+Car2 51
+Car3 53
+Car4 56
+Car5 21
+Car6 10
+Car7 39
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

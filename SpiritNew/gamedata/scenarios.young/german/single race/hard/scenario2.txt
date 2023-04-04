@@ -1,0 +1,25 @@
+Name Großer Preis in England
+Difficulty Schwierig
+Description Fahren Sie den Mercedes 154 zu einem Sieg in Donington, um Ihren Ruf als gefürchteter Fahrer zu erhalten. Der Haken bei der Sache: Sie starten ganz hinten.
+Goal Position
+SuccessValue 1
+SuccessString Eine glänzende Leistung, die allen anderen zeigt, wo sie hingehören.
+FailureString Ihr Ruf kann gegen die Wirklichkeit nicht bestehen.
+TrackPosition 8
+Track Donington
+Laps 15
+Cars 8
+Car0 20
+Car1 4
+Car2 12
+Car3 41
+Car4 43
+Car5 16
+Car6 58
+Car7 33
+
+
+
+
+
+

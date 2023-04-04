@@ -1,0 +1,39 @@
+Name Saison complète, Auto Union C
+Difficulty Difficile
+Description Remportez le titre cette saison.
+Goal Position
+SuccessValue 1
+SuccessString Excellent !
+FailureString Pas mal, continuez à vous entraîner.
+TrackPosition 0
+Race Courte
+Cars 10
+Car0 4
+Car1 33
+Car2 9
+Car3 20
+Car4 52
+Car5 35
+Car6 41
+Car7 16
+Car8 24
+car9 57
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

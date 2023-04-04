@@ -1,0 +1,36 @@
+Name Saison complète, Mercedes 154
+Difficulty Moyen
+Description Soyez premier ou second à la fin de la saison.
+Goal Position
+SuccessValue 2
+SuccessString Excellent pilotage durant cette saison !
+FailureString Faites un peu plus d'efforts l'an prochain !
+TrackPosition 0
+Race Moyenne
+Cars 10
+Car0 50
+Car1 1
+Car2 92
+Car3 4
+Car4 41
+Car5 16
+Car6 52
+Car7 33
+car8 23
+Car9 66
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

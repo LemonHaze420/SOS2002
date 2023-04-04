@@ -1,0 +1,36 @@
+Name Volle Saison Miller
+Difficulty Einfach
+Description Beenden Sie die Saison mindestens als Vierter.
+Goal position
+SuccessValue 4
+SuccessString Sehr gut gefahren!
+FailureString Mehr Glück beim nächsten Mal!
+TrackPosition 0
+Race Kurz
+Cars 5
+Car0 2
+Car1 22
+Car2 11
+Car3 55
+Car4 43
+Car5 7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

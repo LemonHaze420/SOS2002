@@ -1,0 +1,21 @@
+Name Choque de Titanes
+Difficulty Fácil
+Description Diez de las más poderosas máquinas compitiendo por la supremacía en Avus. Usa el Alfa Romeo Bimotor para finalizar entre los tres primeros. ¡Al menos comenzaste desde la Pole position!
+SuccessValue 3
+SuccessString Felicidades, has derrotado a los alemanes en su propio campo.
+FailureString Mala suerte. No has conseguido derrotar a los alemanes en su propio territorio.
+TrackPosition 1
+Goal Position
+Track Avus
+Laps 5
+Cars 5
+Car0 83
+Car1 32
+Car2 20
+Car3 24
+#Car4 33
+Car4 1
+#Car5 9
+#Car7 41
+#Car8 14
+#Car9 74

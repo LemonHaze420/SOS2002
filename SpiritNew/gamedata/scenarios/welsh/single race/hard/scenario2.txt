@@ -1,0 +1,26 @@
+Name Yr her Ewropeaidd ym Mhrydain
+Difficulty Anodd
+Description Gan ddefnyddio'r Mercedes 154, gorffenwch yn gyntaf yn Donington i sicrhau eich enw da fel gyrrwr arswydus. Un broblem, mae'n rhaid dechrau o gefn y grid.
+Goal Position
+SuccessValue 1
+SuccessString Mae'ch perfformiad cryf yn rhoi'r smalwyr yn eu lle!!
+FailureString Mae'ch enw da yn racs.
+TrackPosition 8
+Track Donington
+Laps 15
+Cars 8
+Car0 20
+Car1 4
+Car2 12
+Car3 41
+Car4 43
+Car5 16
+Car6 58
+Car7 33
+
+
+
+
+
+
+

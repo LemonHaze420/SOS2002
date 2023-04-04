@@ -1,0 +1,28 @@
+Name La température monte !
+Difficulty Moyen
+Description Montlhéry, au beau milieu de l'été. Arrivez dans les trois premiers au volant de la Duesenberg. Vous partirez en troisième position.
+Goal Position
+SuccessValue 3
+SuccessString Félicitations ! Vous avez vaincu la crème du sport automobile !
+FailureString La compétition était rude, réessayez !
+TrackPosition 3
+Track Montlhery
+Laps 6
+Cars 6
+Car0 3
+Car1 49
+Car2 16
+Car3 36
+Car4 30
+Car5 48
+
+
+
+
+
+
+
+
+
+
+

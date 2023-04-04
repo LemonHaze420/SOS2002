@@ -1,0 +1,28 @@
+Name The Italians At Monza
+Difficulty Easy
+Description  The best of Italian cars battle it out at Monza. Use the Bimotore to secure victory. You start in pole.
+Goal Position
+SuccessValue 1
+SuccessString Congratulazioni! Your skill matches the might of this supercar!
+FailureString You lost and now must ponder your chances of ever mastering the Bimotore.
+TrackPosition 1
+Track Monza
+Laps 5
+Cars 6
+Car0 83
+Car1 10
+Car2 66
+Car3 17
+Car4 74
+Car5 30
+
+
+
+
+
+
+
+
+
+
+

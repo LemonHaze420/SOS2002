@@ -1,0 +1,27 @@
+Name Storming Around The Oval
+Difficulty Easy
+Description 
+CAR TYPE : Auto Union D
+CIRCUIT : Brooklands (UK)
+OBJECTIVE : TOP 1
+LAPS : 20
+START POSITION : 5/5
+Goal Position
+SuccessValue 1
+SuccessString Congratulations!
+FailureString Bad luck! Try again.
+TrackPosition 5
+Track Brooklands
+Laps 20
+Cars 5
+Car0 9
+Car1 24
+Car2 2
+Car3 40
+Car4 35
+#Car5 18
+
+
+
+
+

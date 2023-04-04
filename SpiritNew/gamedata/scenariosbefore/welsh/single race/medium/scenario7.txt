@@ -1,0 +1,28 @@
+Name Mae pethau'n poethu.
+Difficulty Canolig
+Description Montlhery, yn Ne Ffrainc yng nghanol haf. Ceisiwch gael eich rhoi yn y tri cyntaf yn defnyddio'r Duesenberg. Rydych yn dechrau o'r trydydd safle.
+Goal Position
+SuccessValue 3
+SuccessString Llongyfarchiadau! Rydych wedi curo hufen y byd rasio.
+FailureString Roedd y gystadleuaeth yn drwm, triwch eto.
+TrackPosition 3
+Track Montlhery
+Laps 6
+Cars 6
+Car0 3
+Car1 49
+Car2 16
+Car3 36
+Car4 30
+Car5 48
+
+
+
+
+
+
+
+
+
+
+

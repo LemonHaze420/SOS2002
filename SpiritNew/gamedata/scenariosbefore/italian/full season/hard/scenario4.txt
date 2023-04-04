@@ -1,0 +1,38 @@
+Name Stagione sull'Alfa Romeo Bimotore
+Difficulty Difficile
+Description Raggiungi almeno il secondo posto in classifica alla fine della stagione.
+Goal Position
+SuccessValue 2
+SuccessString Hai guidato bene questa stagione!
+FailureString La prossima stagione guida meglio!
+TrackPosition 0
+Race Corta
+Cars 10
+Car0 74
+Car1 23
+Car2 14
+Car3 15
+Car4 9
+Car5 41
+Car6 36
+Car7 50
+car8 28
+Car9 44
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

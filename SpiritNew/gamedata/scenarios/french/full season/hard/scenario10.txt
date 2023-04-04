@@ -1,0 +1,38 @@
+Name Saison complète, ERA Remus
+Difficulty Difficile
+Description Terminez la saison dans les 3 premiers.
+Goal Position
+SuccessValue 3
+SuccessString Excellent pilotage cette saison !
+FailureString Vous ferez mieux l'an prochain !
+TrackPosition 0
+Race Courte
+Cars 8
+Car0 22
+Car1 43
+Car2 24
+Car3 39
+Car4 11
+Car5 27
+Car6 2
+Car7 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

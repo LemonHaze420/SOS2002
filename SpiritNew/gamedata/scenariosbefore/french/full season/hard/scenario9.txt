@@ -1,0 +1,42 @@
+Name Saison complète, Bugatti 59
+Difficulty Moyen
+Description Remportez le titre cette saison
+Goal Position
+SuccessValue 1
+SuccessString Bien joué !
+FailureString Vous ferez mieux l'an prochain !
+TrackPosition 0
+Race Courte
+Cars 10
+Car0 36
+Car1 16
+Car2 1
+Car3 74
+Car4 3
+Car5 55
+Car6 37
+Car7 22
+car8 31
+car9 20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

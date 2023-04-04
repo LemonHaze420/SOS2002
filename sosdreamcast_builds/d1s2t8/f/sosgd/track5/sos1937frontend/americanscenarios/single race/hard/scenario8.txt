@@ -1,0 +1,22 @@
+Name Duesenbergs Pride
+# Darren Williams
+Description Prove the competitiveness of the humble Duesenberg by finishing on the podium at Brooklands.
+Difficulty Medium
+Goal Position
+TrackPosition 1
+SuccessValue 3
+SuccessString Well done Sir. A gutsy performance.
+FailureString One mistake can cost you dearly. Try again.
+Track Brooklands
+Laps 10
+Cars 5
+Car0 3
+Car1 53
+Car2 10
+Car3 22
+Car4 17
+#Car5 40
+#Car6 2
+#Car7 29
+
+

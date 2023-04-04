@@ -1,0 +1,22 @@
+Name Ewch amdani!
+# Phil Gilbert
+Description You're in the Miller, can you finish in the top 4 at Montlhery? You start in pole position.
+Difficulty Medium
+Goal Position
+SuccessValue 4
+SuccessString Hark at you. Not bad at all, well done!
+FailureString Dear oh dear! Are you going to try again?
+TrackPosition 1
+Track Montlhery
+Laps 5
+Cars 10
+Car0 29
+Car1 15
+Car2 33
+Car3 10
+Car4 1
+Car5 18
+Car6 54
+Car7 22
+Car8 12
+Car9 20

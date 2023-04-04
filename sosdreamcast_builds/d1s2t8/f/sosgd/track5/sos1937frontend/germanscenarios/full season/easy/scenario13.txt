@@ -1,0 +1,40 @@
+Name Full Season Bonner Special
+Difficulty Easy
+Description Beende die Saison als 4. oder besser.
+Goal position
+SuccessValue 4
+SuccessString Eine wirklich tolle Saison! Zeige jetzt in einer höheren Klasse, was Du kannst.
+FailureString Nicht verzweifeln! In diesem Auto steckt mehr!
+TrackPosition 0
+Race Long
+Cars 6
+Car0 10
+Car1 5
+Car2 21
+Car3 24
+Car4 32
+Car5 60
+#Car6 2
+#Car7 49
+#Car8 40
+#Car9 7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

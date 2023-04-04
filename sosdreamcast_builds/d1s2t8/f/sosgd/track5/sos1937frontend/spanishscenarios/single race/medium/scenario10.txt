@@ -1,0 +1,14 @@
+Name Corriendo por honor
+# Andrew Stainer
+Description Un gorila matón te falta el respeto en público. Debes recuperar tu honor en la pista. Gana al Alfa Romeo P3 en tu Watson Flyer en Monza.
+Difficulty Medio
+Goal Position
+SuccessValue 1
+SuccessString Tu honor permanece intacto. Tu rival suplica tu perdón. 
+FailureString Tu error pesará en el nombre de tu familia durante los años venideros. 
+TrackPosition 1
+Track Monza
+Laps 6
+Cars 2
+Car0 42
+Car1 12

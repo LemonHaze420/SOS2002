@@ -1,0 +1,33 @@
+Name Tro bach yn yr anialwch
+Difficulty Hawdd
+Description Bydd y trac hir llethol yn Nhripoli yn anodd i'r gorau o yrrwyr. Ceisiwch eich sgil yn erbyn y tirwedd caled anfaddeuol hwn a cheisiwch enill yn y Mercedes 154. Dechreuwch yn yr wythfed safle.
+Goal Position
+SuccessValue 1
+SuccessString Mae'ch buddugoliaeth yn codi balchder yng nghalonau Prydeinwyr gwladfaol.
+FailureString Mae methiant yma yn siwr o ganu'r gloch i bresenoldeb Prydeinwyr yn y cyfandir mawr yma.
+TrackPosition 8
+Track Tripoli
+Laps 6
+Cars 10
+Car0 15
+Car1 9
+Car2 12
+Car3 92
+Car4 16
+Car5 22
+Car6 7
+Car7 2
+Car8 1
+Car9 3
+
+
+
+
+
+
+
+
+
+
+
+

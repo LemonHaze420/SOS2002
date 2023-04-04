@@ -1,0 +1,29 @@
+Name Sfida europea
+Difficulty Media
+Description Corri con la Miller e termina la gara nelle prime tre posizioni a Donington. Purtroppo dovrai partire in fondo.
+Goal Position
+SuccessValue 3
+SuccessString Grandioso: hai raggiunto il tuo obiettivo!
+FailureString Andrà meglio la prossima volta!
+TrackPosition 10
+Track Donington
+Laps 10
+Cars 10
+Car0 29
+Car1 31
+Car2 36
+Car3 35
+Car4 21
+Car5 49
+Car6 2
+Car7 39
+Car8 27
+Car9 44
+
+
+
+
+
+
+
+

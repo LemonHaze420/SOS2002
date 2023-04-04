@@ -1,0 +1,20 @@
+Name Vive la différence
+# Robert Ward
+Description La moitié des pilotes de cette course de charité sont des femmes. Conduisez comme un gentleman, mais obtenez la victoire par tous les moyens. Vous piloterez la Bugatti 35 à Montlhéry et partirez du début de la grille.
+Goal Position
+Difficulty Moyen
+TrackPosition 1
+SuccessValue 1
+SuccessString Victoire ! Mais vous n'êtes plus l'homme le plus populaire auprès des dames.
+FailureString Où avez-vous appris à conduire ? C'est Mme de Bourgogne qui a gagné.
+Track Montlhery
+Laps 4
+Cars 8
+Car0 27
+Car1 5
+Car2 28
+Car3 17
+Car4 2
+Car5 3
+Car6 18
+car7 22

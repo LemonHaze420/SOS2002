@@ -1,0 +1,21 @@
+Avus Track Build Method
+
+Stage 1:
+Clone REFERANCE Trees with Spline(if no spline selected  trees go haywire).
+Move selection to desired location.
+Take central spine and collapse all in modifier stack.
+
+Check to see if linkage is still working
+
+Stage 2:
+Clone COPY lofts and align with tree spline.
+Modify all lofts replace PATH with new collapsed spine.[use modify panels settings]
+
+Check to see if linkage is still working.
+
+
+
+To modify track, select central spline [oject name spline modifyX]
+Open modify panel and activate subobject POINTS.
+The original points can be edited by highlighting and using the basic move tool.
+To add points to spline use refine tool

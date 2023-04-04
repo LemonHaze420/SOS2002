@@ -1,0 +1,30 @@
+Name On se pousse !
+Difficulty Hard
+Description  Le magnifique circuit de Montlhéry est le cadre d'une lutte dantesque. Montez sur le podium avec votre Bugatti 59 en partant de la première place.
+Goal Position
+SuccessValue 3
+SuccessString Bien joué ! Votre triomphe restera gravé dans les mémoires.
+FailureString Ah, que la défaite a un goût amer
+TrackPosition 1
+Track Montlhery
+Laps 6
+Cars 5
+Car0 44
+Car1 9
+Car2 43
+Car3 56
+Car4 50
+#Car5 52
+#Car6 41
+#Car7 35
+
+
+
+
+
+
+
+
+
+
+

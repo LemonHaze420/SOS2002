@@ -1,0 +1,22 @@
+Name Gib Gummi!
+# Phil Gilbert
+Description Sie starten von ganz vorn im Miller, können Sie einen der ersten 4 Plätze in Montlhery erreichen?
+Difficulty Mittel
+Goal Position
+SuccessValue 4
+SuccessString Nicht übel. Gar nicht übel. Man könnte sogar sagen: Gut gemacht!
+FailureString Au Backe! Das wollen Sie sicher nochmal probieren, stimmt´s?
+TrackPosition 1
+Track Montlhery
+Laps 5
+Cars 10
+Car0 29
+Car1 15
+Car2 33
+Car3 10
+Car4 1
+Car5 18
+Car6 54
+Car7 22
+Car8 12
+Car9 20

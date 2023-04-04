@@ -1,0 +1,26 @@
+Name Ma cabane au Montana
+Difficulty Easy
+Description Essayez donc de vaincre la Bugatti 35B et l'Era avec votre Duesenberg. Vous devez finir dans les cinq premiers en partant de la pole position.
+Goal Position
+SuccessValue 3
+SuccessString Vous avez piloté de main de maître la voiture la plus délicate du plateau. Encore bravo !
+FailureString La Duesenberg est fragile, vous savez ?
+TrackPosition 1
+Track Montana
+Laps 30
+Cars 5
+Car0 40
+Car1 48
+Car2 2
+Car3 7
+Car4 25
+#Car5 60
+#Car6 34
+#Car7 46
+
+
+
+
+
+
+

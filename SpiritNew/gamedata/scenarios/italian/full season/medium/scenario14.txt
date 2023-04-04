@@ -1,0 +1,40 @@
+Name Stagione sulla Watson Flyer
+Difficulty Media
+Description Termina la stagione almeno al secondo posto.
+Goal Position
+SuccessValue 2
+SuccessString Hai guidato bene per tutta la stagione!
+FailureString Non ti arrendere!
+TrackPosition 0
+Race Corta
+Cars 8
+Car0 42
+Car1 10
+Car2 60
+Car3 51
+Car4 53
+Car5 8
+Car6 18
+Car7 17
+Car8 27
+Car9 39
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

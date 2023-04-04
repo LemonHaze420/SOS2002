@@ -1,0 +1,40 @@
+Name Full Season Duesenberg
+Difficulty medium
+Description Finish the season in third position or better
+Goal position
+SuccessValue 3
+SuccessString Well done! A great achievement on your part!
+FailureString Your days are numbered, your career a distant memory.
+TrackPosition 0
+Race Short
+Cars 10
+Car0 3
+Car1 12
+Car2 17
+Car3 60
+Car4 28
+Car5 40
+Car6 21
+Car7 7
+car8 11
+Car9 44
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

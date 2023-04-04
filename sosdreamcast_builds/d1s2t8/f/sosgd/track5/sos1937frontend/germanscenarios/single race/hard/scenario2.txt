@@ -1,0 +1,26 @@
+Name Grosser Preis von Europa in England
+Difficulty Hard
+Description Gewinne mit dem Mercedes 154 das Rennen von Donington, um Deinen Ruf als furchtloser Fahrer zu verteidigen. Einen Haken hat die Sache natürlich: Du gehst von der letzten Startreihe ins Rennen.
+Goal Position
+SuccessValue 1
+SuccessString Mit einer grossartigen Leistung weist Du Deine Herausforderer in deren Grenzen!
+FailureString Tja, jetzt ist Dein Ruf beim Teufel.
+TrackPosition 5
+Track Donington
+Laps 15
+Cars 5
+Car0 20
+Car1 4
+Car2 12
+Car3 41
+#Car4 43
+Car4 16
+#Car6 58
+#Car7 33
+
+
+
+
+
+
+

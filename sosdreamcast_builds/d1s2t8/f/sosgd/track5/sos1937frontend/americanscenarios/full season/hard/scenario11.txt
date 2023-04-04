@@ -1,0 +1,40 @@
+Name Full Season Duesenberg
+Difficulty Hard
+Description Finish the season in second position or better
+Goal position
+SuccessValue 2
+SuccessString Enjoy your achievement - you deserve all the credit in the world!
+FailureString It was a demanding challenge, but failure is not acceptable!
+TrackPosition 0
+Race Short
+Cars 6
+Car0 3
+Car1 12
+Car2 17
+Car3 60
+Car4 28
+#Car5 40
+#Car6 21
+#Car7 7
+car5 11
+#Car9 44
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

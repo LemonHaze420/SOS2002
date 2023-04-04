@@ -1,0 +1,39 @@
+Name Saison complète, Watson Flyer
+Difficulty Facile
+Description Terminez la saison dans les 4 premiers.
+Goal Position
+SuccessValue 4
+SuccessString Excellent pilotage cette saison !
+FailureString Ne vous laissez pas abattre !
+TrackPosition 0
+Race Courte
+Cars 8
+Car0 5
+Car1 17
+Car2 22
+Car3 11
+Car4 34
+Car5 18
+Car6 30
+Car7 31
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

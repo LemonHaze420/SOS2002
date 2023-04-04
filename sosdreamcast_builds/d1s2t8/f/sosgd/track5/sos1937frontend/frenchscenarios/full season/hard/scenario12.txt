@@ -1,0 +1,40 @@
+Name Saison complète, Miller
+Difficulty Difficile
+Description Finir dans les deux premiers du championnat
+Goal Position
+SuccessValue 2
+SuccessString Vous avez bien mérité ce podium. Félicitations !
+FailureString Vous êtes fier de vous ? Vous êtes bien le seul !
+TrackPosition 0
+Race Moyenne
+Cars 5
+Car0 48
+Car1 44
+Car2 57
+Car3 59
+Car4 1
+#Car5 46
+#Car6 30
+#Car7 51
+#Car8 29
+#Car9 12
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

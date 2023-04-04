@@ -1,0 +1,38 @@
+Name Volle Saison Duesenberg
+Difficulty Schwierig
+Description Beenden Sie die Saison mindestens als Zweiter.
+Goal position
+SuccessValue 2
+SuccessString Gut gemacht!
+FailureString Vielleicht klappt´s beim nächsten Anlauf!
+TrackPosition 0
+Race Short
+Cars 10
+Car0 3
+Car1 12
+Car2 17
+Car3 60
+Car4 28
+Car5 40
+Car6 21
+Car7 7
+car8 11
+Car9 44
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

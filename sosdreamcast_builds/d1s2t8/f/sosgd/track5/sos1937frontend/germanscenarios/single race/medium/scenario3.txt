@@ -1,0 +1,22 @@
+Name Dust Devils
+# Andrew Stainer
+Description Du hast die einmalige Chance, mit einem guten Rennen in Roosevelt ins Team der Dust Devils aufgenommen zu werden, wenn Du mit dem Mercedes 154 mindestens den dritten Platz belegst. Du gehst übrigens von der 6. Startposition ins Rennen.
+Difficulty Medium
+Goal Position
+SuccessValue 3
+SuccessString Glückwunsch, Du bist im Team.
+FailureString Pech. Das war heute leider nicht Dein Tag.
+TrackPosition 6
+Track Roosevelt
+Laps 8
+Cars 6
+Car0 15
+Car1 29
+Car2 22
+Car3 40
+Car4 24
+Car5 25
+#Car5 12
+#Car7 36
+#Car8 27
+#Car9 20

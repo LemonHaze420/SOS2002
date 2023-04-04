@@ -1,0 +1,35 @@
+Name Full Season Alfa Romeo P3
+Difficulty Medium
+Description Be placed second overall at the end of the season or better.
+Goal position
+SuccessValue 2
+SuccessString A tremendously gutsy effort on you part!
+FailureString A perhaps understandable failure, but don't let this happen too often!
+TrackPosition 0
+Race Medium
+Cars 5
+Car0 12
+Car1 35
+Car2 28
+Car3 51
+Car4 7
+#Car5 36
+#Car6 42
+#Car7 3
+#car8 27
+#Car9 25
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

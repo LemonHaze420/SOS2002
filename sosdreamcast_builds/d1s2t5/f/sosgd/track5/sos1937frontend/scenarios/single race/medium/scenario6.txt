@@ -1,0 +1,36 @@
+Name European Challenge
+Difficulty Medium
+Description 
+CAR TYPE : Miller
+CIRCUIT : Donington (UK)
+OBJECTIVE : TOP 3
+LAPS : 10
+START POSITION : 5/5
+Goal Position
+SuccessValue 3
+SuccessString Congratulations!
+FailureString Bad luck! Try again.
+TrackPosition 5
+Track Donington
+Laps 10
+Cars 5
+Car0 29
+Car1 31
+Car2 36
+Car3 35
+Car4 21
+#Car5 49
+#Car6 2
+#Car5 39
+#Car8 27
+#Car9 44
+
+
+
+
+
+
+
+
+
+

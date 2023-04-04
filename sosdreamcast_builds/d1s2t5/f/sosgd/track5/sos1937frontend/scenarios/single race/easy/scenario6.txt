@@ -1,0 +1,30 @@
+Name The Novice Challenge Stakes
+Difficulty Easy
+Description 
+CAR TYPE : Mercedes-Benz 154
+CIRCUIT : Donington (UK)
+OBJECTIVE : TOP 1
+LAPS : 10
+START POSITION : 2/5
+Goal Position
+SuccessValue 1
+SuccessString Congratulations!
+FailureString Bad luck! Try again.
+TrackPosition 2
+Track Donington
+Laps 10
+Cars 5
+Car0 15
+Car1 53
+Car2 10
+Car3 16
+Car4 9
+#Car5 1
+
+
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+Name Rennen auf dem Kontinent
+Difficulty Hard
+Description Die Elite des europäischen Rennsports kämpft auf der interessanten Strecke von Pau um den Sieg. Du gehst vom 4. Startplatz ins Rennen und musst am Steuer des Alfa Romeo P3 um jeden Preis gewinnen.
+Goal Position
+SuccessValue 1
+SuccessString Hervorragende Vorstellung! Besser geht es kaum.
+FailureString Training ist alles. Du kannst nur besser werden!
+TrackPosition 4
+Track Pau
+Laps 12
+Cars 5
+Car0 21
+Car1 83
+Car2 17
+Car3 11
+Car4 22
+#Car5 8
+
+
+
+
+
+
+
+
+
+

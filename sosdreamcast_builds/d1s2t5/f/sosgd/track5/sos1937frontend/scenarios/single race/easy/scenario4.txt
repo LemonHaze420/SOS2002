@@ -1,0 +1,33 @@
+Name Burn It Up!
+# Phil Gilbert
+Description 
+CAR TYPE : Miller
+CIRCUIT : Montlhery (France)
+OBJECTIVE : TOP 4
+LAPS : 5
+START POSITION : 1/5
+Difficulty Medium
+Goal Position
+SuccessValue 4
+SuccessString Congratulations!
+FailureString Bad luck! Try again.
+TrackPosition 1
+Track Montlhery
+Laps 5
+Cars 5
+Car0 29
+Car1 15
+Car2 33
+Car3 10
+Car4 1
+#Car5 18
+#Car6 54
+#Car7 22
+#Car8 12
+#Car9 20
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+Name Reto en Montana
+Difficulty Fácil
+Description Destinado a batir al Bugatti 35B y al Era usando el Duesenberg. No será muy difícil desde la Pole position. Sólo tienes que terminar entre los tres primeros y Montana le sentará bien a tu coche!
+Goal Position
+SuccessValue 3
+SuccessString Has domado al último coche que no perdona en un circuito aparentemente peliagudo. ¡Tienes el Espíritu de la Velocidad!
+FailureString El Duesenberg está resbaladizo, así que por favor, ¡¡intenta conducir con más cuidado!!
+TrackPosition 1
+Track Montana
+Laps 30
+Cars 5
+Car0 40
+Car1 48
+Car2 2
+Car3 7
+Car4 25
+#Car5 60
+#Car6 34
+#Car7 46
+
+
+
+
+
+
+

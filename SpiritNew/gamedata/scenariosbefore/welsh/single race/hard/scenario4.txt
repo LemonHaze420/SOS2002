@@ -1,0 +1,28 @@
+Name Y freuddwyd Americanaidd
+Difficulty Anodd
+Description Yn dechrau o'r ail safle ar y grid, ceisiwch ennill yn y Miller. Mae Montana yn aros amdanoch, Syr!
+Goal Safle
+SuccessValue 1
+SuccessString Hyd yn oed gyda'r ods yn eich erbyn, Fe goncwerioch!!
+FailureString Gwell lwc y tro nesaf. Roeddech yn erbyn cystadleuaeth gref.
+TrackPosition 2
+Track Montana
+Laps 20
+Cars 8
+Car0 2
+Car1 15
+Car2 9
+Car3 41
+Car4 55
+Car5 52
+Car6 16
+Car7 57
+
+
+
+
+
+
+
+
+

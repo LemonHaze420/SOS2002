@@ -1,0 +1,32 @@
+Name Montana Challenge
+Difficulty Easy
+Description 
+CAR TYPE : Duesenberg
+CIRCUIT : Montana (USA)
+OBJECTIVE : TOP 3
+LAPS : 30
+START POSITION : 1/5
+Goal Position
+SuccessValue 3
+SuccessString Congratulations!
+FailureString Bad luck! Try again.
+TrackPosition 1
+Track Montana
+Laps 30
+Cars 5
+Car0 40
+Car1 48
+Car2 2
+Car3 7
+Car4 25
+#Car5 60
+#Car6 34
+#Car7 46
+
+
+
+
+
+
+
+

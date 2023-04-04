@@ -1,0 +1,35 @@
+Name Full Season Mercedes 154
+Difficulty Hard
+Description 
+CAR TYPE : Mercedes-Benz 154
+RACE TYPE : Short
+OBJECTIVE : TOP 1
+NUMBER OF CARS : 4
+Goal position
+SuccessValue 1
+SuccessString Congratulations!
+FailureString Bad luck! Try again.
+TrackPosition 0
+Race Short
+Cars 4
+Car0 15
+#Car1 50
+Car1 32
+Car2 16
+Car3 74
+#Car5 58
+#Car4 66
+#Car7 57
+
+
+
+
+
+
+
+
+
+
+
+
+

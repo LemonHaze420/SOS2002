@@ -1,0 +1,39 @@
+Name Full Season Alfa Romeo 12C
+Difficulty Hard
+Description 
+CAR TYPE : Alfa Romeo 12C
+RACE TYPE : Short
+OBJECTIVE : TOP 1
+NUMBER OF CARS : 5
+Goal position
+SuccessValue 1
+SuccessString Congratulations!
+FailureString Bad luck! Try again.
+TrackPosition 0
+Race Short
+Cars 5
+Car0 31
+Car1 30
+Car2 22
+#Car3 34
+Car3 16
+#Car5 10
+Car4 36
+#Car7 44
+#Car5 25
+#car9 40
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

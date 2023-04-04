@@ -1,0 +1,19 @@
+Name Lladdfa Maserati Miller 
+# Darren Williams
+Difficulty Canolig 
+Description M dros y lle pan fydd Montana yn cynnal brwydr fel y goleuni. Ennillwch yn y Maserati 8CM yn Montana wedi dechrau'r ras yn y pedwarydd safle ar y grid.
+Goal Safle 
+TrackPosition 4
+SuccessValue 1
+SuccessString Buddugoliaeth cyflymdra uchel i'r dyn a tha^n yn ei danc.
+FailureString Colli yw colli, 'does dim gwahaniaeth pa mor agos.
+Track Montana
+Laps 15
+Cars 7
+Car0 10
+Car1 29
+Car2 37
+Car3 17
+Car4 55
+Car5 30
+Car6 2

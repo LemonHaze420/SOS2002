@@ -1,0 +1,21 @@
+Name Kennen Sie Donington?
+# Phil Gilbert
+Description Ein Duesenberg ist nicht unbedingt ein Spitzenwagen - wird er sich gegen stärkere Wagen in Donington durchsetzen können? Sie starten vorn - aber werden Sie dort auch bleiben?
+Difficulty Mittel
+Goal Position
+SuccessValue 1
+SuccessString Ein feines Ergebnis! Es war wohl doch zu einfach!
+FailureString Sie müssen noch viel schneller sein! Versuchen Sie es noch mal!
+TrackPosition 1
+Track Donington
+Laps 10
+Cars 7
+Car0 25
+Car1 8
+Car2 35
+Car3 56
+Car4 49
+Car5 20
+Car6 18
+
+

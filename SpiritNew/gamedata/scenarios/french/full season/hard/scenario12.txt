@@ -1,0 +1,40 @@
+Name Saison complète, Miller
+Difficulty Difficile
+Description Terminez la saison parmi les 2 premiers.
+Goal Position
+SuccessValue 2
+SuccessString Vous avez superbement piloté !
+FailureString Ne vous laissez pas abattre !
+TrackPosition 0
+Race Moyenne
+Cars 10
+Car0 48
+Car1 44
+Car2 57
+Car3 59
+Car4 1
+Car5 46
+Car6 30
+Car7 51
+Car8 29
+Car9 12
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+Name Pied au plancher !
+# Phil Gilbert
+Description A bord de la Miller, pourrez-vous terminer dans les 4 premiers à Montlhéry ? Vous partirez en pole position.
+Difficulty Moyen
+Goal Position
+SuccessValue 4
+SuccessString Bravo ! Pas mal du tout, bien joué !
+FailureString Mon Dieu ! Comptez-vous essayer de nouveau ?
+TrackPosition 1
+Track Montlhery
+Laps 5
+Cars 10
+Car0 29
+Car1 15
+Car2 33
+Car3 10
+Car4 1
+Car5 18
+Car6 54
+Car7 22
+Car8 12
+Car9 20

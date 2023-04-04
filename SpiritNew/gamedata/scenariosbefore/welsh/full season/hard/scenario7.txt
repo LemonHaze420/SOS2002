@@ -1,0 +1,37 @@
+Name Tymor llawn Auto Union D
+Difficulty Anodd 
+Description Ennillwch y bencampwriaeth. 
+Goal Position
+SuccessValue 1
+SuccessString Gyrru gwych, pencampwriaeth wedi ei haeddu. 
+FailureString Cadwch i ymarfer eich mannau gwan. 
+TrackPosition 0
+Race Short
+Cars 8
+Car0 52
+Car1 41
+Car2 14
+Car3 10
+Car4 2
+Car5 50
+Car6 66
+Car7 74
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

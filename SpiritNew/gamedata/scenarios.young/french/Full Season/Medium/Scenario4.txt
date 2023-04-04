@@ -1,0 +1,39 @@
+Name Saison Complète, Alfa Romeo Bimotore
+Difficulty Moyen
+Description Soyez au moins troisième à la fin de la saison.
+Goal Position
+SuccessValue 3
+SuccessString Excellent pilotage cette saison !
+FailureString Faites un peu plus d'efforts l'an prochain !
+TrackPosition 0
+Race Moyenne
+Cars 10
+Car0 92
+Car1 9
+Car2 50
+Car3 11
+Car4 15
+Car5 58
+Car6 10
+Car7 3
+car8 23
+Car9 59
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,40 @@
+Name Full Season Miller
+Difficulty Hard
+Description Finaliza siendo uno de los dos primeros al final de la temporada
+Goal position
+SuccessValue 2
+SuccessString Tu sitio en el podio es absolutamente merecido ¡Gran esfuerzo!
+FailureString Tu fallo debe picarte mucho. ¿Puedes demostrar que nos equivocamos?
+TrackPosition 0
+Race Medium
+Cars 5
+Car0 48
+Car1 44
+Car2 57
+Car3 59
+Car4 1
+#Car5 46
+#Car6 30
+#Car7 51
+#Car8 29
+#Car9 12
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

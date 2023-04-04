@@ -1,0 +1,35 @@
+Name Mynd yn wyllt yn Affrica
+Difficulty Anodd
+Description Dydy'r Mercedes 125 ddim yn addas i'r math yma o dirwedd. Mae'n rhaid ennill yn Nhripoli gan fod eich dyweddi wedi bygwth rhedeg i ffwrdd gyda miliwnydd o'r Aifft os na wnewch. Dechreuwch o gefn y grid.
+Goal Safle
+SuccessValue 1
+SuccessString Buddugoliaeth anhygoel yn erbyn cystadleuaeth gref! Mae priodas yn galw ac ni allwch fod yn fwy hapus.
+FailureString Rydych wedi ei cholli! Mae'n edrych yn debyg y bydd yn rhaid i chi ffeindio merch arall!
+TrackPosition 8
+Track Tripoli
+Laps 6
+Cars 10
+Car0 57
+Car1 9
+Car2 50
+Car3 20
+Car4 1
+Car5 4
+Car6 14
+Car7 58
+Car8 23
+Car9 41
+
+
+
+
+
+
+
+
+
+
+
+
+
+

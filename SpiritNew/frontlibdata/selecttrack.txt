@@ -1,0 +1,129 @@
+Function SelectTrackScreen
+Call CleanUpButtons
+Let CurrentScreen = String SelectTrack
+Write 270,65,Track#SelectedTrack#Name,HeaderFont
+Line 233,87,456,87,63488
+Line 234,88,456,88,63488
+
+Call EnablePermanentButtons
+
+Call DrawButtonValues
+
+# Draw the labels for the track data.
+WriteLocale 232,107,224,RightFont,288,21
+WriteLocale 232,128,225,RightFont,288,21
+WriteLocale 232,149,226,RightFont,288,21
+WriteLocale 232,170,227,RightFont,288,21
+WriteLocale 232,191,228,RightFont,288,21
+
+Write 296,107,Track#SelectedTrack#Type,RightFont
+Write 296,128,Track#SelectedTrack#Length,RightFont
+Write 296,149,Track#SelectedTrack#Country,RightFont
+Write 296,170,Track#SelectedTrack#Direction,RightFont
+Write 296,191,Track#SelectedTrack#Features,RightFont,160
+
+# Frame the AVI
+Line 493,73,735,73,65535
+Line 735,73,735,255,65535
+Line 735,255,493,255,65535
+Line 493,255,493,73,65535
+
+PlayMovie 494,74,Track#SelectedTrack#Name,20
+
+Call DrawTrackButtons
+
+Call DrawQuickRaceButton
+
+Return
+
+Function DrawTrackButtons
+DestroyString CurrentTrack
+For CurrentTrack = 0 to NumberOfTracks
+{
+	Let SelectNewTrackButton#CurrentTrack = Button 493,319+CurrentTrack*21,200,18,Track#CurrentTrack#Name,RightFont,RightFont,NewTrackChosen,none,NewTrack=CurrentTrack
+	If Track#CurrentTrack#Name != France Disable SelectNewTrackButton#CurrentTrack 
+}
+DestroyString CurrentTrack
+Return
+
+Function NewTrackChosen
+Let SelectedTrack = String NewTrack
+SetRegistryKey Key_SelectedTrack,NewTrack
+DestroyString NewTrack
+Call DrawButtonValues
+Call SelectTrackScreen
+Return
+
+########################################################
+# Quick Race
+
+Function DrawQuickRaceButton
+Return
+Let QuickRaceButton = Button 630,561,100,15,"Quick Race",LeftFont,LeftFont,StartQuickRace
+Return
+
+Function StartQuickRace
+Let SelectedTrack = String 4
+Let SelectedCar = String 15
+SetRegistryKey RaceCar0,Mercedes154_15
+SetRegistryKey RaceCar1,Mercedes125_24
+SetRegistryKey Track,Track#SelectedTrack#Name
+SetRegistryKey Laps,5
+SetRegistryKey NumberOfCars,2
+SetRegistryKey QualifiedPosition0,2
+SetRegistryKey QualifiedPosition1,1
+SetRegistryKey RaceType,SingleRace
+SetRegistryKey Key_SelectedTrack,SelectedTrack
+SetRegistryKey Key_CurrentTrack,SelectedTrack
+SetRegistryKey Key_SelectedCar,SelectedCar
+
+EnableMouse Off
+
+StopMovie
+
+BitmapInclude .\GameData\PostCards
+LoadBackground Track#SelectedTrack#Name
+
+RestoreBackground 0,0,800,600
+
+RunGame DoneQuickRace
+
+
+Function DoneQuickRace
+Call InitialiseAll
+
+Call MakeTrackStrings
+Call MakeCarStrings
+Call InitialiseDrivers
+
+Call DrawBasicLayout
+Call DrawButtonValues
+
+Let SelectedTrack = RegistryKey Key_CurrentTrack
+Let PracticeDone = String True
+
+Call SelectTrackScreen
+
+EnableMouse Off
+DisplayScreen
+EnableMouse On
+DisplayScreen
+
+Wait
+
+########################################################
+
+
+Function DestroySelectTrackButtons
+DestroyString CurrentTrack
+For CurrentTrack = 0 to NumberOfTracks
+{
+	Destroy SelectNewTrackButton#CurrentTrack
+}
+DestroyString CurrentTrack
+
+Destroy QuickRaceButton
+StopMovie
+RestoreBackground 196,33,771,538
+Return
+

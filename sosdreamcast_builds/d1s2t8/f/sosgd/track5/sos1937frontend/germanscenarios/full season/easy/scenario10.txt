@@ -1,0 +1,38 @@
+Name Full Season ERA Remus
+Difficulty Easy
+Description Beende die Saison als 4. oder besser.
+Goal position
+SuccessValue 4
+SuccessString Was für eine phantastische Vorstellung in einem grossartigen Auto!
+FailureString Der Remus ist schwierig zu fahren. Du musst härter trainieren.
+TrackPosition 0
+Race Short
+Cars 5
+Car0 60
+Car1 42
+Car2 35
+Car3 22
+#Car4 43
+Car4 7
+#Car6 5
+#Car7 27
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

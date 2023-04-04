@@ -1,0 +1,21 @@
+Name Domina la pista
+# Darren Williams
+Description Velocità in curva contro potenza nei rettilinei. Conduci la Miller al primo posto nel Montana in questa gara di 12 giri. Perlomeno inizierai in pole position!
+Difficulty Media
+Track Montana
+Laps 15
+Cars 9
+Car0 48
+Car1 15
+Car2 58
+Car3 2
+Car4 41
+Car5 1
+Car6 29
+Car7 50
+Car8 4
+Goal Position
+TrackPosition 1
+SuccessValue 1
+SuccessString Hai portato alla vittoria un'auto su cui pochi avrebbero scommesso.
+FailureString Non sei stato abbastanza in gamba, riprova...

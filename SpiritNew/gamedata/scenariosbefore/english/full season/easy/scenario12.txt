@@ -1,0 +1,36 @@
+Name Full Season Miller
+Difficulty Easy
+Description Finish the season in fourth position or better
+Goal position
+SuccessValue 4
+SuccessString Good driving in a surprisingly good car! Now prove it again in harder scenarios!
+FailureString There's more to the Miller than you think. Try it again and you'll see!
+TrackPosition 0
+Race Short
+Cars 5
+Car0 2
+Car1 22
+Car2 11
+Car3 55
+Car4 43
+Car5 7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

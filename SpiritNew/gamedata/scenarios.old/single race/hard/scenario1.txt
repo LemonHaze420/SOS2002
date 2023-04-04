@@ -1,0 +1,23 @@
+Name Twin-Engined Supremacy
+Difficulty hard
+Description Use your Alfa Romeo Bimotore to beat the Germans at Avus. A podium finish should be enough to keep your sponsorship money rolling in - despite starting from the back of the grid.
+Goal Position
+SuccessValue 3
+SuccessString Congratulations, there's a new kid in town!! 
+FailureString The sponsors, let alone your fans, will chase you back to Italy!
+TrackPosition 9
+Track Avus
+Laps 5
+Cars 10
+Car0 66
+Car1 50
+Car2 23
+Car3 52
+Car4 18
+Car5 11
+car6 83
+Car7 58
+Car8 4
+
+
+

@@ -1,0 +1,28 @@
+Name Europa-Rennen
+Difficulty Mittel
+Description Sie fahren den Miller. Beenden Sie das Rennen auf einer der ersten drei Positionen. Leider starten Sie von ganz hinten.
+Goal Position
+SuccessValue 3
+SuccessString Sehr gut, Sie haben Ihr Ziel erreicht!
+FailureString Mehr Glück beim nächsten Versuch.
+TrackPosition 10
+Track Donington
+Laps 10
+Cars 10
+Car0 29
+Car1 31
+Car2 36
+Car3 35
+Car4 21
+Car5 49
+Car6 2
+Car7 39
+Car8 27
+Car9 44
+
+
+
+
+
+
+

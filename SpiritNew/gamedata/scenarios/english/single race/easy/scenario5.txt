@@ -1,0 +1,33 @@
+Name A Stroll In The Wilderness
+Difficulty Easy
+Description The gruelling lengthy track at Tripoli will take its toll on the best of drivers. Pit your wits against this harsh unforgiving landscape and aim to win in the Mercedes 154. You start in eighth position.
+Goal Position
+SuccessValue 1
+SuccessString Your victory evokes pride in the hearts of the colonial British.
+FailureString Defeat here surely sounds the bell for the British presence in this great continent.
+TrackPosition 8
+Track Tripoli
+Laps 6
+Cars 10
+Car0 15
+Car1 9
+Car2 12
+Car3 92
+Car4 16
+Car5 22
+Car6 7
+Car7 2
+Car8 1
+Car9 3
+
+
+
+
+
+
+
+
+
+
+
+

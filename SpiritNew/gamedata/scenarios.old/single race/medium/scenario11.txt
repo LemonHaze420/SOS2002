@@ -1,0 +1,22 @@
+Name Top 3 Finish
+# Phil Gilbert
+Description Driving the AutoUnion D, finish in the top 3 at Tripoli. You start fifth on the grid due to a poor qualification time.
+Goal Position
+Difficulty Medium
+SuccessValue 3
+SuccessString Well done...No problems there then!
+FailureString Try again...It can be done!
+TrackPosition 5
+Track Tripoli
+Laps 5
+Cars 10
+Car0 14
+Car1 15
+Car2 41
+Car3 50
+Car4 20
+Car5 32
+Car6 33
+Car7 24
+Car8 16
+Car9 57

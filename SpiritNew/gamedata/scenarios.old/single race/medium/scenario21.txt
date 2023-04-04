@@ -1,0 +1,28 @@
+Name Things Are Heating Up!
+Difficulty Medium
+Description Montlhery, in the South of France at the height of Summer. Aim to be placed in the top three using the Duesenberg. You start in third off the grid.
+Goal Position
+SuccessValue 3
+SuccessString Congratulations! You beat the cream of motorsport!
+FailureString The competition was pretty stiff, try again!
+TrackPosition 3
+Track Montlhery
+Laps 6
+Cars 6
+Car0 3
+Car1 49
+Car2 16
+Car3 36
+Car4 30
+Car5 48
+
+
+
+
+
+
+
+
+
+
+

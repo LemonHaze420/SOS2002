@@ -1,0 +1,470 @@
+Function HitReplayOptions
+Call CleanUpButtons
+Let CurrentScreen = String ReplayOptions
+
+Let CurrentReplayNumber = String 99
+Let CurrentReplayName = String "Save Replay"
+Let CurrentReplayFileName = String NULL
+
+Let CurrentReplayTrack = RegistryKey Key_ReplayTrack
+Let CurrentReplayTrack = String CurrentReplayTrack
+
+Let SelectedReplay = String NULL
+
+
+Call DrawReplayOptions
+
+Return
+
+
+
+Function DrawReplayOptions
+
+Call CleanUpButtons
+
+WriteLocale 290,62,279,HeaderFont
+
+Let ButtonText = LocaleString 280
+Let LoadReplayButton = Button 220,502,120,20,ButtonText,LeftFont,LeftFont,LoadReplay
+
+Let ButtonText = LocaleString 281
+Let SaveReplayButton = Button 360,502,120,20,ButtonText,LeftFont,LeftFont,SaveReplay
+
+Let ButtonText = LocaleString 282
+Let ShowReplayButton = Button 500,502,120,20,ButtonText,LeftFont,LeftFont,ShowReplay
+
+Let ButtonText = LocaleString 290
+Let DeleteReplayButton = Button 640,502,120,20,ButtonText,LeftFont,LeftFont,DeleteReplay
+
+WriteLocale 250,160,288,RightFont
+WriteLocale 250,181,283,RightFont
+WriteLocale 250,202,284,RightFont
+WriteLocale 250,223,285,RightFont
+
+WriteLocale 250,307,289,RightFont
+WriteLocale 250,328,283,RightFont
+WriteLocale 250,349,284,RightFont
+WriteLocale 250,370,285,RightFont
+
+Call CreateReplayTally
+
+Write 380,223,ListOfCars,RightFont,140
+
+WriteLocale 560,160,286,LeftFont
+
+Call DrawReplaySlots
+
+Call ShowLoadedReplay
+
+If CurrentReplayFileName != NULL
+{
+	Call ShowReplayInMemory
+}
+
+
+Return
+
+###############################################
+# "Load" a replay
+
+Function LoadReplay
+
+Let CurrentReplayFileName = String SaveGames\Replay#SelectedReplay
+Let CurrentReplayFileName = String CurrentReplayFileName#.rdf
+
+Let ReplayFileDescriptor = File CurrentReplayFileName
+
+DestroyString CurrentReplayName
+ReadStream ReplayFileDescriptor,Name,CurrentReplayName
+
+DestroyString CurrentReplayTrack
+ReadStream ReplayFileDescriptor,Track,CurrentReplayTrack
+
+DestroyString CurrentReplayCars
+ReadStream ReplayFileDescriptor,Cars,CurrentReplayCars
+
+SetRegistryKey Key_ReplayCars,CurrentReplayCars
+SetRegistryKey Key_ReplayTrack,CurrentReplayTrack
+
+DestroyString Count
+For Count = 0 to CurrentReplayCars-1
+{
+	DestroyString ReadCar
+	ReadStream ReplayFileDescriptor,ReplayCar#Count,ReadCar
+	SetRegistryKey Key_ReplayCar#Count,ReadCar
+}
+DestroyString Count
+DestroyString ReadCar
+
+Destroy ReplayFileDescriptor
+
+
+Let NewFileName = String SaveGames\Replay.dat
+Let OldFileName = String SaveGames\Replay#SelectedReplay
+# .ssr for Spirit of Speed Replay
+Let OldFileName = String OldFileName#.ssr
+
+CopyFile OldFileName,NewFileName
+
+DestroyString OldFileName
+DestroyString NewFileName
+
+Call DrawReplayOptions
+
+Return
+
+###############################################
+# "Save" a replay
+
+Function SaveReplay
+
+Let CurrentReplayFileName = String ..\SaveGames\Replay#SelectedReplay
+Let CurrentReplayFileName = String CurrentReplayFileName#.rdf
+
+Let ReplayFileDescriptor = File CurrentReplayFileName
+
+Let CurrentReplayTrack = RegistryKey Key_ReplayTrack
+
+WriteStream ReplayFileDescriptor,Name,CurrentReplayName
+WriteStream ReplayFileDescriptor,Track,CurrentReplayTrack
+
+Let CurrentReplayCars = RegistryKey Key_ReplayCars
+
+DestroyString Cars
+WriteStream ReplayFileDescriptor,Cars,CurrentReplayCars
+Let Cars = RegistryKey Key_ReplayCars
+
+DestroyString Count
+For Count = 0 to Cars-1
+{
+	DestroyString WrittenCar
+	Let CarNumber = RegistryKey Key_ReplayCar#Count
+	WriteStream ReplayFileDescriptor,ReplayCar#Count,CarNumber
+}
+DestroyString Count
+DestroyString CarNumber
+DestroyString Cars
+
+Destroy ReplayFileDescriptor
+
+Let OldFileName = String SaveGames\Replay.dat
+Let NewFileName = String SaveGames\Replay#SelectedReplay
+# .ssr for Spirit of Speed Replay
+Let NewFileName = String NewFileName#.ssr
+
+CopyFile OldFileName,NewFileName
+
+DestroyString OldFileName
+DestroyString NewFileName
+
+Let NewReplay = String SelectedReplay
+
+Call ChosenReplay
+
+Call DrawReplayOptions
+
+Return
+
+###############################################
+# Delete a replay
+
+Function DeleteReplay
+Let CurrentReplayFileName = String SaveGames\Replay#SelectedReplay
+Let CurrentReplayFileName = String CurrentReplayFileName#.rdf
+Destroy CurrentReplayFile
+DeleteFile CurrentReplayFileName
+
+Call DrawReplayOptions
+
+DestroyString CurrentReplayFileName
+
+Return
+
+
+###############################################
+# Draw the available replay slots
+
+Function DrawReplaySlots
+
+DestroyString CurrentSlot
+For CurrentSlot = 0 to 10
+{
+	Let FileName = String SaveGames\Replay#CurrentSlot
+	# .rdf for Replay Description File
+	Let FileName = String FileName#.rdf
+	Let ReplayFile = File FileName
+
+	DestroyString ReplayName
+	ReadStream ReplayFile,Name,ReplayName
+
+	If SelectedReplay = CurrentSlot
+	{
+		If ReplayName = NULL Let ReplayName = String None
+		Write 560,202+CurrentSlot*21,ReplayName,RightFont,140,20,63488
+	}
+	If SelectedReplay != CurrentSlot
+	{
+		If ReplayName != NULL
+		Let ReplayButton#CurrentSlot = Button 560,202+CurrentSlot*21,140,14,ReplayName,RightFont,RightFont,ChosenReplay,none,NewReplay=CurrentSlot
+
+		If ReplayName = NULL
+		{
+			Let ButtonText = LocaleString 287
+			Let ReplayButton#CurrentSlot = Button 560,202+CurrentSlot*21,140,14,ButtonText,RightFont,RightFont,ChosenReplay,none,NewReplay=CurrentSlot
+		}
+	}	
+
+	Destroy ReplayFile
+}
+DestroyString CurrentSlot
+
+Return
+
+###############################################
+# Select a replay file
+
+Function ChosenReplay
+
+Let FileName = String SaveGames\Replay#NewReplay
+Let FileName = String FileName#.rdf
+
+Let CurrentReplayFileName = String FileName
+Let SelectedReplay = String NewReplay
+
+Let CurrentReplayFile = File CurrentReplayFileName
+
+Destroy ReplayButton#NewReplay
+DestroyString ReplayName
+
+Destroy NewReplay
+Destroy CurrentReplayFile
+
+Call DrawReplayOptions
+
+Return
+
+###############################################
+# Show the replay last loaded
+
+Function ShowLoadedReplay
+
+Let ChangeReplayNameButton = Button 380,181,120,14,CurrentReplayName,RightFont,RightFont,ChangeReplayNameHit
+
+Write 380,202,CurrentReplayTrack,RightFont
+
+Return
+
+Function ChangeReplayNameHit
+Destroy ChangeReplayNameButton
+Let ChangeReplayNameDialogueBox = DialogueBox 380,181,120,14,RightFont,CurrentReplayName,ReplayNameChanged
+Return
+
+Function ReplayNameChanged
+Destroy ChangeReplayNameDialogueBox
+
+Call DrawReplayOptions
+
+Return
+
+###############################################
+# Show the details of the selected replay.
+
+Function ShowReplayInMemory
+
+Destroy CurrentReplayFile
+Let CurrentReplayFile = File CurrentReplayFileName
+
+DestroyString DummyString
+ReadStream CurrentReplayFile,Name,DummyString
+If DummyString = NULL Let DUmmyString = String "No File Present"
+Write 380,328,DummyString,RightFont
+
+DestroyString DummyString
+ReadStream CurrentReplayFile,Track,DummyString
+If DummyString = NULL Let DummyString = String " "
+Write 380,349,DummyString,RightFont
+
+DestroyString DummyString
+ReadStream CurrentReplayFile,Cars,DummyString
+Let Replay_NumberOfCars = String DummyString
+
+Let CarsInScenario = String Replay_NumberOfCars
+DestroyString CurrentCar
+For CurrentCar = 0 to CarsInScenario-1
+{
+	DestroyString CarBase
+	ReadStream CurrentReplayFile,ReplayCar#CurrentCar,CarBase
+	Let CarBase = String CarNumber#CarBase
+	Let CarBase = String Z_#CarBase#Number
+	Let NewTally = String Tally#CarBase
+	If NewTally = 0 Let NewTally = String 0
+	Let NewTally = String NewTally+1
+	Destroy Tally#CarBase
+	Let Tally#CarBase = String NewTally
+	DestroyString NewTally
+}
+DestroyString CurrentCar
+
+Let ListOfCars = String ""
+Let Comma = String ", "
+DestroyString CurrentCar
+For CurrentCar = 0 to NumberOfCarsAvailable
+{
+	Let ThisCarName = String Car#CurrentCar#LongString
+	Let ThisCarNumber = String Car#CurrentCar#ShortString
+	Let ThisCarNumber = String Z_#ThisCarNumber#Number
+	Let NumberOfThisCar = String Tally#ThisCarNumber
+	If NumberOfThisCar > 0
+	{
+		If ListOfCars != "" Let ListOfCars = String ListOfCars#Comma
+		Let ListOfCars = String ListOfCars#NumberOfThisCar
+		Let ListOfCars = String ListOfCars#x@
+		Let ListOfCars = String ListOfCars#ThisCarName
+	}
+	Destroy Tally#ThisCarNumber
+}
+DestroyString CurrentCar
+
+DestroyString CarsInScenario
+Let ListOfCars = String ListOfCars#.
+
+Write 380,370,ListOfCars,RightFont,140
+
+Return
+
+###############################################
+# Show a replay
+
+Function ShowReplay
+SetRegistryKey Replay,True
+
+EnableMouse Off
+
+StopMovie
+
+Let SelectedTrack = RegistryKey Key_ReplayTrack
+BitmapInclude .\GameData\PostCards
+LoadBackground SelectedTrack
+
+RestoreBackground 0,0,800,600
+
+RunGame ReplayDone
+
+Function ReplayDone
+
+Call InitialiseAll
+
+Call MakeTrackStrings
+Call MakeCarStrings
+Call InitialiseDrivers
+
+Call DrawBasicLayout
+Call DrawButtonValues
+
+Let SelectedTrack = RegistryKey Key_CurrentTrack
+Let PracticeDone = String True
+
+Call SelectTrackScreen
+
+EnableMouse On
+DisplayScreen
+EnableMouse On
+DisplayScreen
+
+Wait
+
+###############################################
+# Create a tally of the cars in the replay
+
+Function CreateReplayTally
+
+Let CarsInScenario = RegistryKey Key_ReplayCars
+DestroyString CurrentCar
+For CurrentCar = 0 to CarsInScenario-1
+{
+	DestroyString CarBase
+	Let CarBase = RegistryKey Key_ReplayCar#CurrentCar
+	Let CarBase = String CarNumber#CarBase
+	Let CarBase = String Z_#CarBase#Number
+	Let NewTally = String Tally#CarBase
+	If NewTally = 0 Let NewTally = String 0
+	Let NewTally = String NewTally+1
+	Destroy Tally#CarBase
+	Let Tally#CarBase = String NewTally
+	DestroyString NewTally
+}
+DestroyString CurrentCar
+
+Let ListOfCars = String ""
+Let Comma = String ", "
+DestroyString CurrentCar
+For CurrentCar = 0 to NumberOfCarsAvailable
+{
+	Let ThisCarName = String Car#CurrentCar#LongString
+	Let ThisCarNumber = String Car#CurrentCar#ShortString
+	Let ThisCarNumber = String Z_#ThisCarNumber#Number
+	Let NumberOfThisCar = String Tally#ThisCarNumber
+	If NumberOfThisCar > 0
+	{
+		If ListOfCars != "" Let ListOfCars = String ListOfCars#Comma
+		Let ListOfCars = String ListOfCars#NumberOfThisCar
+		Let ListOfCars = String ListOfCars#x@
+		Let ListOfCars = String ListOfCars#ThisCarName
+	}
+	Destroy Tally#ThisCarNumber
+}
+DestroyString CurrentCar
+
+DestroyString CarsInScenario
+Let ListOfCars = String ListOfCars#.
+Return
+
+###############################################
+# Make copies of the keys for the replay.
+
+Function CreateReplayKeys
+
+Let TempVariable = RegistryKey Track
+SetRegistryKey Key_ReplayTrack,TempVariable
+
+DestroyString NumberOfCars
+Let DummyVariable = RegistryKey NumberOfCars
+SetRegistryKey Key_ReplayCars,DummyVariable
+
+SetRegistryKey Key_ReplayCar0,SelectedCar
+
+DestroyString Count
+For Count = 1 to DummyVariable-1
+{
+	Let DummyVariable = String ComputerCar#Count
+	SetRegistryKey Key_ReplayCar#Count,DummyVariable
+}
+DestroyString Count
+
+DestroyString DummyVariable
+
+Return
+
+
+
+###############################################
+
+Function DestroyReplayOptionsButtons
+
+Destroy LoadReplayButton
+Destroy SaveReplayButton
+Destroy ShowReplayButton
+Destroy ChangeReplayNameButton
+
+DestroyString Count
+For Count = 0 to 10
+{
+	Destroy ReplayButton#Count
+}
+DestroyString Count
+
+Destroy DeleteReplayButton
+
+RestoreBackground 196,33,771,538
+Return
+

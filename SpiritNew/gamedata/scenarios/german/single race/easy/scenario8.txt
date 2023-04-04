@@ -1,0 +1,27 @@
+Name Italiener unter sich
+Difficulty Einfach
+Description Die besten italienischen Wagen tragen es auf dieser Teststrecke unter sich aus. Sie fahren den Bonner Special und ein Sieg sollte in Monza nicht schwer zu bewerkstelligen sein. Sie starten an der Spitze des Feldes.
+Goal Position
+SuccessValue 1
+SuccessString Gut gemacht! Sie haben überlebt - und gewonnen!
+FailureString Italien ist wirklich schön - bitte schauen Sie nächstes Mal auch auf die Straße...
+TrackPosition 1
+Track Monza
+Laps 8
+Cars 6
+Car0 55
+Car1 74
+Car2 30
+Car3 17
+Car4 83
+Car5 66
+
+
+
+
+
+
+
+
+
+

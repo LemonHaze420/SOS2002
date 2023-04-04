@@ -1,0 +1,28 @@
+Name Continental Battle
+Difficulty Hard
+Description 
+CAR TYPE : Alfa Romeo P3
+CIRCUIT : PAU (France)
+OBJECTIVE : TOP 1
+LAPS : 12
+START POSITION : 4/5
+Goal Position
+SuccessValue 1
+SuccessString Congratulations!
+FailureString Bad luck! Try again.
+TrackPosition 4
+Track Pau
+Laps 12
+Cars 5
+Car0 21
+Car1 83
+Car2 17
+Car3 11
+Car4 22
+#Car5 8
+
+
+
+
+
+

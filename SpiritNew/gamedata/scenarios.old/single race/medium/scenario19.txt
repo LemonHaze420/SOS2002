@@ -1,0 +1,30 @@
+Name If You Can't Stand The Heat...
+Difficulty Medium
+Description Test yourself in some of the harshest conditions. Using the Bugatti 59, start at the back and aim to be placed on the podium. 
+Goal Position
+SuccessValue 3
+SuccessString Fantastic win over some tough competition!
+FailureString Better luck next race - you didn't reach the podium this time...
+TrackPosition 6
+Track Tripoli
+Laps 3
+Cars 6
+Car0 44
+Car1 30
+Car2 74
+Car3 58
+Car4 16
+Car5 40
+
+
+
+
+
+
+
+
+
+
+
+
+

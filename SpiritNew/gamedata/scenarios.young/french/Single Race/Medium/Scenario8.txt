@@ -1,0 +1,21 @@
+Name La Maîtrise de l'Ovale
+# Darren Williams
+Description La vitesse en virage face à la puissance en ligne droite. Amenez la Miller à la première place dans le Montana durant cette course de 12 tours. Au moins, vous partirez en pole position !
+Difficulty Moyen
+Track Montana
+Laps 15
+Cars 9
+Car0 48
+Car1 15
+Car2 58
+Car3 2
+Car4 41
+Car5 1
+Car6 29
+Car7 50
+Car8 4
+Goal Position
+TrackPosition 1
+SuccessValue 1
+SuccessString Dans vos mains, la Miller devient une bête née pour gagner.
+FailureString Pas terrible cette fois-ci, retentez votre chance...

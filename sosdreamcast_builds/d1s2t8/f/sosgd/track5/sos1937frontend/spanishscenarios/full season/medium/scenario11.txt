@@ -1,0 +1,40 @@
+Name Full Season Duesenberg
+Difficulty medium
+Description Finaliza siendo uno de los tres primeros al final de la temporada
+Goal position
+SuccessValue 3
+SuccessString ¡Bien hecho! ¡Un gran logro por tu parte!
+FailureString Tus días están contados, tu carrera es un recuerdo lejano.
+TrackPosition 0
+Race Short
+Cars 5
+Car0 3
+Car1 12
+Car2 17
+Car3 60
+Car4 28
+#Car5 40
+#Car6 21
+#Car5 7
+#car8 11
+#Car9 44
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

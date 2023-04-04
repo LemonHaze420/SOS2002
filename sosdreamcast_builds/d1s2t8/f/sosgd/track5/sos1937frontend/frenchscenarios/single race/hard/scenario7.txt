@@ -1,0 +1,27 @@
+Name Continental circus
+Difficulty Hard
+Description Toutes les meilleures voitures européennes s'affrontent à Pau. Vous partez 4e avec votre Alfa P3 et devez remporter la victoire.
+Goal Position
+SuccessValue 1
+SuccessString Vous avez été extraordinaire ! C'est un don ?
+FailureString Cela ne peut pas être pire, de toute façon…
+TrackPosition 4
+Track Pau
+Laps 12
+Cars 5
+Car0 21
+Car1 83
+Car2 17
+Car3 11
+Car4 22
+#Car5 8
+
+
+
+
+
+
+
+
+
+

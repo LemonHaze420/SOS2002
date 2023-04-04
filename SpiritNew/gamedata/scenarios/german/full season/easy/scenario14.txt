@@ -1,0 +1,39 @@
+Name Volle Saison Watson Flyer
+Difficulty Einfach
+Description Beenden Sie die Saison mindestens als Vierter.
+Goal position
+SuccessValue 4
+SuccessString Eine erstklassige Saison!
+FailureString Versuchen Sie´s noch mal.
+TrackPosition 0
+Race Kurz
+Cars 8
+Car0 5
+Car1 17
+Car2 22
+Car3 11
+Car4 34
+Car5 18
+Car6 30
+Car7 31
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

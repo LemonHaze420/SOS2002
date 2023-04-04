@@ -1,0 +1,35 @@
+Name Full Season Mercedes 125
+Difficulty Easy
+Description Win the season and become champion
+Goal position
+SuccessValue 1
+SuccessString Fantastic - you've become season champion!
+FailureString Better luck next season!
+TrackPosition 0
+Race Long
+Cars 12
+Car0 33
+Car1 18
+Car2 35
+Car3 27
+Car4 25
+Car5 31
+Car6 22
+Car7 39
+Car8 40
+Car9 10
+Car10 53
+Car11 30
+
+
+
+
+
+
+
+
+
+
+
+
+

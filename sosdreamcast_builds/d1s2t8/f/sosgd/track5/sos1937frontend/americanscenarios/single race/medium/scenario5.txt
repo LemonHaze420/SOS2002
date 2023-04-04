@@ -1,0 +1,30 @@
+Name The Best Of German Engineering
+Difficulty Medium
+Description An all German race where the best of German motor racing compete for honours. Be placed third or better in the Mercedes 125 at Roosevelt. You start from second.
+Goal Position
+SuccessValue 3
+SuccessString Good Drive! You'll be getting a pay rise at this rate.
+FailureString Don't despair - better luck next race!
+TrackPosition 2
+Track Roosevelt
+Laps 6
+Cars 5
+Car0 33
+Car1 52
+Car2 15
+Car3 32
+Car4 50
+#Car5 9
+#Car6 24
+#Car7 58
+
+
+
+
+
+
+
+
+
+
+

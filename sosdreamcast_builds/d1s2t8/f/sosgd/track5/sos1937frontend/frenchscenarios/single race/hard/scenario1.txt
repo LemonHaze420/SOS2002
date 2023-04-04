@@ -1,0 +1,23 @@
+Name Deux c'est mieux qu'un
+Difficulty hard
+Description Essayez de battre les Allemands avec votre Bimotore à Avus. Vous partez dernier et vous devez décrocher un podium.
+Goal Position
+SuccessValue 3
+SuccessString Félicitations, vous vous imposez comme un grand champion ! 
+FailureString Nous vous souhaitons bonne chance pour votre retour en Italie…
+TrackPosition 5
+Track Avus
+Laps 5
+Cars 5
+Car0 66
+Car1 50
+Car2 23
+#Car3 52
+Car3 18
+Car4 11
+#car6 83
+#Car5 58
+#Car8 4
+
+
+

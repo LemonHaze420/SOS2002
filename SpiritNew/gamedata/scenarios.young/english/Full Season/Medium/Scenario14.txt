@@ -1,0 +1,40 @@
+Name Full Season Maserati V8Ri
+Difficulty Medium
+Description Complete the season second or better.
+Goal position
+SuccessValue 2
+SuccessString An excellent effort in an unforgiving car!
+FailureString Has the sun set on Maseratis' racing future?
+TrackPosition 0
+Race Short
+Cars 8
+Car0 42
+Car1 10
+Car2 60
+Car3 51
+Car4 53
+Car5 8
+Car6 18
+Car7 17
+Car8 27
+Car9 39
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

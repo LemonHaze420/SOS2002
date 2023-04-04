@@ -1,0 +1,19 @@
+Name Bonner contro Miller
+# Darren Williams
+Difficulty Media
+Description Il Montana ospita una battaglia fra due grandi squadre. Tu dovrai vincere su una Bonner Special partendo dalla quarta posizione sulla griglia.
+Goal Position
+TrackPosition 4
+SuccessValue 1
+SuccessString Ecco un'autentica vittoria ad alta velocità.
+FailureString Una sconfitta è una sconfitta, non importa se per poco.
+Track Montana
+Laps 15
+Cars 7
+Car0 10
+Car1 29
+Car2 37
+Car3 17
+Car4 55
+Car5 30
+Car6 2

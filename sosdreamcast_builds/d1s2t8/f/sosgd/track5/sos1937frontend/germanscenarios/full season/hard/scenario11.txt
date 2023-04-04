@@ -1,0 +1,40 @@
+Name Full Season Duesenberg
+Difficulty Hard
+Description Beende die Saison auf Rang 1 oder 2!
+Goal position
+SuccessValue 2
+SuccessString Geniesse die Stunde des Triumphs – Du hast den Beifall des Publikums verdient!
+FailureString Auch in einem starken Fahrerfeld ist eine derart schlechte Leistung unverzeihlich!
+TrackPosition 0
+Race Short
+Cars 6
+Car0 3
+Car1 12
+Car2 17
+Car3 60
+Car4 28
+#Car5 40
+#Car6 21
+#Car7 7
+car5 11
+#Car9 44
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

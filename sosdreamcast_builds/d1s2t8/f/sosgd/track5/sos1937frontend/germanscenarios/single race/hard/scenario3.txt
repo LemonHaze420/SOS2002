@@ -1,0 +1,35 @@
+Name Abenteuer Afrika
+Difficulty Hard
+Description Der Mercedes 125 ist für die Bedingungen in Tripolis denkbar ungeeignet. Trotzdem musst Du das Rennen gewinnen, da Dir Deine Verlobte ansonsten  wegen eines ägyptischen Millionärs den Laufpaß gibt. Zu allem Überfluss startest Du auch noch von der hinteren Startreihe.
+Goal Position
+SuccessValue 1
+SuccessString Ein grossartiger Sieg in einem harten Rennen! Jetzt aber schnell zum Traualtar!
+FailureString Du hast sie verloren! Ich fürchte, Du musst Dir eine neue Verlobte suchen!
+TrackPosition 5
+Track Tripoli
+Laps 6
+Cars 5
+Car0 57
+Car1 9
+Car2 50
+Car3 20
+Car4 1
+#Car5 4
+#Car5 14
+#Car7 58
+#Car8 23
+#Car9 41
+
+
+
+
+
+
+
+
+
+
+
+
+
+

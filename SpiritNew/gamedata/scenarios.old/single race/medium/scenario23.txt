@@ -1,0 +1,19 @@
+Name On Foreign Soil
+Description It may be in Britain but this is an all Italian affair. Win in the Maserati 8CM at Donington. You start from pole.
+Difficulty Medium
+Goal Position
+TrackPosition 1
+SuccessValue 1
+SuccessString Maserati will always overshadow Duesenberg thanks to your efforts.
+FailureString Maserati crawl back with their tail between their legs.
+Track Donington
+Laps 6
+Cars 8
+Car0 30
+Car1 25
+Car2 59
+Car3 3
+Car4 40
+Car5 55
+Car6 17
+Car7 10

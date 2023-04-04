@@ -1,0 +1,38 @@
+Name Full Season Bugatti 59
+Difficulty Medium
+Description Beende die Saison als 4. oder besser.
+Goal position
+SuccessValue 4
+SuccessString Du hast alle Erwartungen erfüllt! Großartig.
+FailureString Leider hast Du Dein Ziel nicht erreicht. Vielleicht im nächsten Jahr.
+TrackPosition 0
+Race Long
+Cars 5
+Car0 56
+Car1 17
+Car2 59
+Car3 29
+#Car4 46
+Car4 8
+#Car6 10
+#Car7 18
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

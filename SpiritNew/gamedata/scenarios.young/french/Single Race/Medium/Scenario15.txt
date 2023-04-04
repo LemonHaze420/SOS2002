@@ -1,0 +1,22 @@
+Name Marquez Un Point
+Description Au volant de la Bugatti 35, marquez un point au championnat sur la difficile piste de Pau. Vous avez éclaté un pneu lors des qualifications, et partirez donc du fond de la grille.
+Goal Position
+Difficulty Moyen
+SuccessValue 6
+SuccessString Excellent ! Bugatti vous a désormais en grande estime !
+FailureString Presque, mais pas tout à fait... Peut-être une autre fois.
+TrackPosition 10
+Track Pau
+Laps 8
+Cars 10
+Car0 7
+Car1 20
+Car2 33
+Car3 32
+Car4 14
+Car5 15
+Car6 24
+Car7 41
+Car8 50
+Car9 9
+

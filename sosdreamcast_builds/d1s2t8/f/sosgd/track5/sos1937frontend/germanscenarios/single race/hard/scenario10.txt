@@ -1,0 +1,22 @@
+Name Der Stolz Deutschlands
+# Andrew Stainer
+Description Überzeuge den Rest der Welt auf der Avus von der technischen Überlegenheit der Deutschen. Rolle das Feld mit dem Mercedes 154 von hinten auf und fahre als erster über die Ziellinie.
+Difficulty Medium
+Goal Position
+SuccessValue 1
+SuccessString Gut gemacht. Du bist der Stolz einer ganzen Nation.
+FailureString Du hast Dein Land lächerlich gemacht. Diese jämmerliche Vorstellung könnte Dich Deinen Job kosten.
+Track Avus
+TrackPosition 6
+Laps 10
+Cars 6
+Car0 15
+Car1 52
+Car2 19
+Car3 11
+Car4 24
+Car5 32
+#Car6 21
+#Car7 22
+#Car8 18
+#Car9 41

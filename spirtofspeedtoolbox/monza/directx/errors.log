@@ -1,0 +1,10 @@
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'D:\SPIRITOFSPEED\MONZA\TRACK\NEW FOLDER\AV-Road copy.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'D:\SPIRITOFSPEED\MONZA\TRACK\NEW FOLDER\64x256.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'D:\SPIRITOFSPEED\MONZA\TRACK\NEW FOLDER\64x128.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'D:\SPIRITOFSPEED\MONZA\TRACK\NEW FOLDER\128x128.psd'.
+[RECOVERABLE ERROR] PSDDecodeHeader(): Unsupported PhotoShop PSD image mode.  Must be Bitmap, Greyscale, Indexed, or RGB.
+[RECOVERABLE ERROR] ReadImageHeader(): Error decoding PhotoShop PSD file header from texture file 'D:\SPIRITOFSPEED\MONZA\TRACK\NEW FOLDER\256x256.psd'.

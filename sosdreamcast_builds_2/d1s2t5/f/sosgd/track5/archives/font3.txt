@@ -1,0 +1,26 @@
+#
+# A font file
+#
+
+bitmap:overlay00
+kerning:4
+lineheight:32
+space:20
+width:256
+height:256
+
+# numeric font 3 - large/medium ; y=168 h=29
+
+char-0	:	2,148,23,29	# 0
+char-1	:	45,148,14,29	# 1
+char-2	:	79,148,24,29	# 2
+char-3	:	119,148,23,29	# 3
+char-4	:	158,148,24,29	# 4
+char-5	:	197,148,23,29	# 5
+char-6	:	0,218,24,29	# 6
+char-7	:	40,218,24,29	# 7
+char-8	:	78,218,23,29	# 8
+char-9	:	118,218,24,29	# 9
+char-/	:	151,218,11,29	# /
+char-a	:	151,218,11,29	# /
+

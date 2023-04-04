@@ -1,0 +1,26 @@
+Name Her Montana 
+Difficulty Hawdd
+Description Ceisiwch guro'r Bugatti 35B a'r ERA gan ddefnyddio'r Duesenberg. Ddim yn rhy anodd o'r safle blaen. Does dim ond rhaid i chi orffen yn y pump cyntaf ac fe ddylai Montana weddu'ch car!
+Goal Position
+SuccessValue 5
+SuccessString Rydych chi wedi dofu'r car lleiaf maddeuol ar gylchffordd dwyllodrus o anodd. Mae gennych y Spirit Of Speed!
+FailureString Mae'r Duesenberg yn slic felly plis ceisiwch yrru'n fwy gofalus!!
+TrackPosition 1
+Track Montana
+Laps 30
+Cars 8
+Car0 40
+Car1 48
+Car2 2
+Car3 7
+Car4 25
+Car5 60
+Car6 34
+Car7 46
+
+
+
+
+
+
+

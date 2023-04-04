@@ -1,0 +1,39 @@
+Name Saison complète, ERA Remus
+Difficulty Moyen
+Description Finir dans les cinq premiers du championnat
+Goal Position
+SuccessValue 5
+SuccessString Vous vous êtes sans doute fait une place au soleil, savez-vous ?
+FailureString La chance est l'apanage des grands champions...
+TrackPosition 0
+Race Courte
+Cars 6
+Car0 53
+Car1 12
+Car2 39
+Car3 21
+#Car4 35
+#Car5 46
+Car4 51
+Car5 42
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

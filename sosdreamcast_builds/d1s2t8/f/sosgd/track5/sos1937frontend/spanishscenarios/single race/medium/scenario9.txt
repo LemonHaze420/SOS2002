@@ -1,0 +1,14 @@
+Name Velocidad a tope es la clave
+Difficulty Medio
+Description El supercoche de Mercedes Benz contra el poderoso Auto Union D. Toma los mandos del Mercedes 154 y bate al Auto Union D en una carrera de doce vueltas en Avus. Comienzas el primero en la parrilla.
+Goal Position
+SuccessValue 1
+SuccessString ¡Felicidades! En realidad, aprovechaste la potencia cuando era necesaria. 
+FailureString Mala suerte. La Unión Auto fue más rápida. ¡Buena suerte para la próxima vez!
+TrackPosition 1
+Track Avus
+Laps 10
+Cars 2
+Car0 15
+Car1 23
+

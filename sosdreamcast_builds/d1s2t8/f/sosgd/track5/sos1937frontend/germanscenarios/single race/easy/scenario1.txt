@@ -1,0 +1,21 @@
+Name Kampf der Titanen
+Difficulty Easy
+Description 5 der besten Autos der Welt gehen auf der Avus an den Start. Starte von der Pole-Position und beende das Rennen mit dem Alfa Romeo Bimotore auf Rang 3 oder besser.
+Goal Position
+SuccessValue 3
+SuccessString Glückwunsch, Du hast die Deutschen in ihrem Heimrennen geschlagen.
+FailureString So ein Pech. Die Deutschen sind auf ihrer Hausstrecke einfach zu stark.
+TrackPosition 1
+Track Avus
+Laps 5
+Cars 5
+Car0 83
+Car1 32
+Car2 20
+Car3 24
+#Car4 33
+Car4 1
+#Car5 9
+#Car7 41
+#Car8 14
+#Car9 74

@@ -1,0 +1,41 @@
+Name Saison Complète, Bugatti 35B
+Difficulty Moyen
+Description Terminez la saison dans les 7 premiers
+Goal Position
+SuccessValue 7
+SuccessString Excellent pilotage !
+FailureString Où avez-vous appris à conduire ?
+TrackPosition 0
+Race Longue
+Cars 10
+Car0 39
+Car1 12
+Car2 11
+Car3 59
+Car4 46
+Car5 5
+Car6 60
+Car7 22
+Car8 37
+Car9 43
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

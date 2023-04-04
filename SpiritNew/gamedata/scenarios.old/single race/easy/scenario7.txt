@@ -1,0 +1,20 @@
+Name Storming Around The Oval
+Difficulty Easy
+Description Try and beat a wide variety of European and American cars at Brooklands. You start at the back of the grid so get away cleanly.
+Goal Position
+SuccessValue 1
+SuccessString Congratulations! You blew a gale around Brooklands!
+FailureString It takes a real effort to lose on that circuit with this car! 
+TrackPosition 6
+Track Brooklands
+Laps 6
+Cars 6
+Car0 9
+Car1 24
+Car2 2
+Car3 40
+Car4 35
+Car5 18
+
+
+

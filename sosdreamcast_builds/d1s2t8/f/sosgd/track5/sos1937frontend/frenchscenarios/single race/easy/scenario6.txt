@@ -1,0 +1,23 @@
+Name Un jeu d'enfant
+Difficulty Easy
+Description Essayez de vous imposer à Donington au volant de la Mercedes 154. Vous partez 2e.
+Goal Position
+SuccessValue 1
+SuccessString Vous avez fait très forte impression !
+FailureString Ne vous laisser pas griser par la puissance de la 154, il faut savoir la maîtriser pour gagner ! 
+TrackPosition 2
+Track Donington
+Laps 10
+Cars 5
+Car0 15
+Car1 53
+Car2 10
+Car3 16
+Car4 9
+#Car5 1
+
+
+
+
+
+

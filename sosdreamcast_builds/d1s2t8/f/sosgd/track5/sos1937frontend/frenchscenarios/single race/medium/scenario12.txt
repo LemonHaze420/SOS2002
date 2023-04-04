@@ -1,0 +1,22 @@
+Name Donington, vous connaissez ?
+# Phil Gilbert
+Description Les Duesenberg ne sont pas les meilleures voitures du monde, saurez-vous rester en tête jusqu'au drapeau à damiers à Donington ?
+Difficulty Medium
+Goal Position
+SuccessValue 1
+SuccessString Vous avez été très impressionnant de maîtrise.
+FailureString Il va falloir aller plus vite que cela !
+TrackPosition 1
+Track Donington
+Laps 10
+Cars 5
+Car0 25
+Car1 8
+Car2 35
+Car3 56
+Car4 49
+#Car5 20
+#Car6 18
+
+
+

@@ -1,0 +1,20 @@
+Name Twist & Shout
+# Alan Clark
+Description Gelingt es Dir, mit dem Alfa Romeo 12 C in Monza als 1. Oder 2. über die Ziellinie zu fahren? Du gehst von der zweiten Startposition ins Rennen.
+Difficulty Hard
+Goal Position
+SuccessValue 2
+SuccessString An Deine Siegesfeier werden sich die Menschen lange erinnern.
+FailureString Die leidenschaftlichen Fans fordern Deinen Kopf.
+TrackPosition 2
+Track Monza
+Laps 5
+Cars 5
+Car0 8
+#Car1 49
+Car1 33
+Car2 40
+Car3 43
+Car4 42
+#Car6 26
+#Car7 12

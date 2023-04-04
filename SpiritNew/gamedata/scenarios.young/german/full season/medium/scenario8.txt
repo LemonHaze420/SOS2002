@@ -1,0 +1,38 @@
+Name Volle Saison Bugatti 35B
+Difficulty Mittel
+Description Beenden Sie die Saison mindestens als Siebter.
+Goal position
+SuccessValue 7
+SuccessString Eine saubere Leistung!
+FailureString Das können Sie besser!
+TrackPosition 0
+Race Long
+Cars 10
+Car0 39
+Car1 12
+Car2 11
+Car3 59
+Car4 46
+Car5 5
+Car6 60
+Car7 22
+Car8 37
+Car9 43
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

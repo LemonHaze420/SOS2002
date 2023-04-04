@@ -1,0 +1,23 @@
+Name Supremazia bimotore
+Difficulty Difficile
+Description Usa la tua Alfa Romeo Bimotore per battere i tedeschi sull'Avus. Se arriverai sul podio, nonostante la partenza in fondo allo schieramento, i soldi degli sponsor continueranno ad arrivare.
+Goal Position
+SuccessValue 3
+SuccessString Congratulazioni, abbiamo un nuovo asso! 
+FailureString Gli sponsor, per non parlare dei tuoi fan, ti fischieranno per tutto il viaggio di ritorno in Italia!
+TrackPosition 9
+Track Avus
+Laps 5
+Cars 9
+Car0 66
+Car1 50
+Car2 23
+Car3 52
+Car4 18
+Car5 11
+car6 83
+Car7 58
+Car8 4
+
+
+

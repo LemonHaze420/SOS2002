@@ -1,0 +1,28 @@
+Name El genio de la Velocidad
+Difficulty Medio
+Description Gana a los mejores italianos en Monza y termina entre los tres primeros usando el Auto Union C.
+Goal Position
+SuccessValue 3
+SuccessString Bien hecho - ¡lo invadiste!
+FailureString ¡Algo más de práctica y estarás allí!
+TrackPosition 1
+Track Monza
+Laps 8
+Cars 5
+Car0 4
+Car1 15
+Car2 50
+Car3 51
+Car4 32
+#Car5 11
+
+
+
+
+
+
+
+
+
+
+

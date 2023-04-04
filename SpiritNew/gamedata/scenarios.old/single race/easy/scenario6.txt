@@ -1,0 +1,21 @@
+Name Driving Made Easy
+Difficulty Easy
+Description You're in the powerful Auto Union D at Avus and face a tough challenge. Can you finish in the top 3 from grid position 6?
+Goal Position
+SuccessValue 3
+SuccessString An easy outing for the Autounion on it's home circuit.
+FailureString Come, come, this is the home of the Autounion afterall!!
+TrackPosition 6
+Track Avus
+Laps 5
+Cars 10
+Car0 23
+Car1 41
+Car2 20
+Car3 33
+Car4 16
+Car5 4
+Car6 52
+Car7 66
+Car8 9
+Car9 92

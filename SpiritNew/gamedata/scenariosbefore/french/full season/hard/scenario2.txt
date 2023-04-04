@@ -1,0 +1,35 @@
+Name Saison complète, Mercedes 154
+Difficulty Difficile
+Description Terminez la saison à la première place.
+Goal Position
+SuccessValue 1
+SuccessString Félicitations, Champion !
+FailureString Faites un peu plus d'efforts l'an prochain !
+TrackPosition 0
+Race Courte
+Cars 8
+Car0 15
+Car1 50
+Car2 32
+Car3 16
+Car4 74
+Car5 58
+Car6 66
+Car7 57
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

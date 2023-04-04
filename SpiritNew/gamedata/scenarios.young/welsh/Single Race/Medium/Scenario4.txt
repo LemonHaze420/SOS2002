@@ -1,0 +1,20 @@
+Name Gwyliau Haf 
+Description Rasiwch oreuon y byd rasio yn y ceir gorau o'i hamser. Gyrrwch eich 154 i fuddugoliaeth o gefn y grid.
+Difficulty Canolig 
+Goal Position
+SuccessValue 1
+SuccessString Roedd hynna yn ardderchog. Fe wnaethoch yrru'n dda a nawr rydych yn cael eich addoli gan filoedd.
+FailureString Rydych yn rhedeg o'r trac a'ch pen yn eich plu, gyda gormod o gywilydd i edrych ar bobl.
+TrackPosition 9
+Track Montlhery
+Laps 10
+Cars 9
+Car0 15
+Car1 16
+Car2 58
+Car3 1
+Car4 41
+Car5 33
+Car6 57
+Car7 50
+Car8 4

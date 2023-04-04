@@ -1,0 +1,26 @@
+Name Kontinentalkampf
+Difficulty Schwierig
+Description Eine große Auswahl europäischer Spitzenwagen haben den Sieg auf der Pau-Strecke vor Augen. Ihr Wagen ist der Alfa Romeo P3, und nur ein Sieg ist gut genug. Sie starten von der 4. Position.
+Goal Position
+SuccessValue 1
+SuccessString Erstklassig gefahren! Das haben Sie doch bestimmt schon mal geübt!
+FailureString Sie müssen härter trainieren! Es kann nur besser werden!
+TrackPosition 4
+Track Pau
+Laps 12
+Cars 6
+Car0 21
+Car1 83
+Car2 17
+Car3 11
+Car4 22
+Car5 8
+
+
+
+
+
+
+
+
+

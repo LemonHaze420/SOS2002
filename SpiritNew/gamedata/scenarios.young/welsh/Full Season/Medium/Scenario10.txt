@@ -1,0 +1,38 @@
+Name Tymor llawn ERA Remus
+Difficulty Canolig 
+Description Gorffennwch y tymor yn y pumed safle neu well. 
+Goal Safle 
+SuccessValue 5
+SuccessString Gyrru da y tymor hwn. 
+FailureString Gwell lwc y tymor nesaf. 
+TrackPosition 0
+Race Short
+Cars 8
+Car0 53
+Car1 12
+Car2 39
+Car3 21
+Car4 35
+Car5 46
+Car6 51
+Car7 42
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

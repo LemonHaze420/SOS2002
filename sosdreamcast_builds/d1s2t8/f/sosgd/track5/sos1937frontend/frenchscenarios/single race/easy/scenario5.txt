@@ -1,0 +1,33 @@
+Name Le fils du désert
+Difficulty Easy
+Description Le circuit de Tripoli est particulièrement sélectif. Saurez-vous surmonter tous ses pièges et remporter la victoire au volant de la Mercedes 154, sachant que vous vous élancez depuis la 8e place ?
+Goal Position
+SuccessValue 1
+SuccessString Le roi lui-même tient à vous féliciter !
+FailureString Votre lamentable prestation sonne le glas du sport automobile britannique.
+TrackPosition 6
+Track Tripoli
+Laps 6
+Cars 6
+Car0 15
+Car1 9
+Car2 12
+Car3 92
+Car4 16
+Car5 22
+#Car6 7
+#Car7 2
+#Car8 1
+#Car9 3
+
+
+
+
+
+
+
+
+
+
+
+

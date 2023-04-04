@@ -1,0 +1,39 @@
+Name Full Season Auto Union C
+Difficulty Medium
+Description Beende die Saison auf Rang 1 oder 2!
+Goal position
+SuccessValue 2
+SuccessString Geniesse den Triumph und ernte den Ruhm! Du hast es verdient!
+FailureString Neidvoll blickst Du auf die Sieger und schwörst, eines Tages selbst auf dem Siegertreppchen zu stehen.
+TrackPosition 0
+Race Short
+Cars 5
+Car0 58
+#Car1 1
+Car1 55
+Car2 9
+Car3 33
+Car4 28
+#Car5 35
+#Car7 10
+#Car8 16
+#car9 56
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

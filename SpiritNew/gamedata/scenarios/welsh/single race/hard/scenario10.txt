@@ -1,0 +1,22 @@
+Name Balchder yr Almaenwyr
+# Andrew Stainer
+Description Profwch ragoriaeth peirianneg eich gwlad i weddill Ewrop yn Avus. Gyrrwch y Mercedes 154 i'r brig o gefn y grid, a cynhaliwch y safle yna nes cyrrhaeddwch y llinell orffen.
+Difficulty Canolig
+Goal Position
+SuccessValue 1
+SuccessString Da iawn. Fe fydd eich gwlad yn falch ohonoch.
+FailureString Rydych wedi gwneud testun sbort o gyflawniadau eich gwlad. Mae'n bosib y collwch eich swydd am hyn.
+Track Avus
+TrackPosition 7
+Laps 10
+Cars 10
+Car0 15
+Car1 52
+Car2 19
+Car3 11
+Car4 24
+Car5 32
+Car6 21
+Car7 22
+Car8 18
+Car9 41

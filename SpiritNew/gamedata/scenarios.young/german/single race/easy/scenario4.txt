@@ -1,0 +1,19 @@
+Name Oval-Stürmer
+Difficulty Einfach
+Description Versuchen Sie, eine große Auswahl europäischer und amerikanischer Wagen in den Brooklands zu schlagen. Sie starten hinten, und ein Sieg wäre nett.
+Goal Position
+SuccessValue 1
+SuccessString Wunderbar! Das wird so schnell niemand vergessen!
+FailureString Nicht schlecht! Auf dieser Strecke und mit diesem Wagen zu verlieren, ist schon eine Leistung!
+TrackPosition 6
+Track Brooklands
+Laps 20
+Cars 6
+Car0 9
+Car1 24
+Car2 2
+Car3 40
+Car4 35
+Car5 18
+
+

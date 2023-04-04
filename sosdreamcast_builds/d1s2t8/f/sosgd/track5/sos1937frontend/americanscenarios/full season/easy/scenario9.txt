@@ -1,0 +1,38 @@
+Name Full Season Bugatti 59
+Difficulty Easy
+Description Finish second or better at the end of the season.
+Goal position
+SuccessValue 2
+SuccessString Your performance brings you the fame you deserve. Well done indeed!
+FailureString Bugatti management are reported to be considering your position. Let's hope you have the chance to impress them again!
+TrackPosition 0
+Race Medium
+Cars 5
+Car0 28
+Car1 21
+Car2 46
+Car3 7
+Car4 11
+#Car5 53
+#Car6 43
+#Car7 5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

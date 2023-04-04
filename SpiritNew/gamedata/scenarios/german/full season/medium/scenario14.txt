@@ -1,0 +1,38 @@
+Name Volle Saison Watson Flyer
+Difficulty Mittel
+Description Beenden Sie die Saison mindestens als Zweiter.
+Goal position
+SuccessValue 2
+SuccessString Eine saubere Saison! Gut gemacht!
+FailureString Geben Sie nicht auf!
+TrackPosition 0
+Race Short
+Cars 8
+Car0 42
+Car1 10
+Car2 60
+Car3 51
+Car4 53
+Car5 8
+Car6 18
+Car7 17
+Car8 27
+Car9 39
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

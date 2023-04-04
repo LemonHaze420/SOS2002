@@ -1,0 +1,36 @@
+Name Full Season Miller
+Difficulty Easy
+Description Finaliza el cuarto o mejor al final de la temporada
+Goal position
+SuccessValue 4
+SuccessString ¡Una buena conducción en un coche sorprendentemente bueno! ¡Ahora inténtalo de nuevo en circuitos más difíciles!
+FailureString Hay más para Miller de lo que piensas. ¡Inténtalo de nuevo y verás!
+TrackPosition 0
+Race Short
+Cars 6
+Car0 2
+Car1 22
+Car2 11
+Car3 55
+Car4 43
+Car5 7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

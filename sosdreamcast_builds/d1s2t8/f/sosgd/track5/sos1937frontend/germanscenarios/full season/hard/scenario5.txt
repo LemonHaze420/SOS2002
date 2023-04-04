@@ -1,0 +1,39 @@
+Name Full Season Alfa Romeo 12C
+Difficulty Hard
+Description Beende die Saison als neuer Champion!
+Goal position
+SuccessValue 1
+SuccessString Du bist ein bemerkenswerter Champion und der unangefochtene König dieser Klasse!
+FailureString In einem hart umkämpften Wettbewerb darf man nicht so kläglich versagen.
+TrackPosition 0
+Race Short
+Cars 5
+Car0 31
+Car1 30
+Car2 22
+#Car3 34
+Car3 16
+#Car5 10
+Car4 36
+#Car7 44
+#Car5 25
+#car9 40
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+Name Cat Amongst The Pigeons
+Description Italy's Alfa 12C aims to tame the Brooklands track and whoever attempts to get in it's way.
+Goal Poition
+SuccessValue 1
+SuccessString Nice drive! You've certainly proved the worth of the Alfa 12C.
+FailureString Looks like the opposition is just too strong at the moment!
+Difficulty Medium
+Track Brooklands
+TrackPosition 1
+Laps 10
+Cars 4
+Car0 12
+Car1 39
+Car2 44
+Car3 3

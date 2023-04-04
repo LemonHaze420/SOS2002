@@ -1,0 +1,28 @@
+Name Volle Saison Mercedes 125
+Difficulty Schwierig
+Description Gewinnen Sie die Saison und werden Sie der Champ!
+Goal position
+SuccessValue 1
+SuccessString Eine glänzende Leistung!
+FailureString Mehr Glück in der nächsten Saison!
+TrackPosition 0
+Race Kurz
+Cars 6
+Car0 24
+Car1 1
+Car2 14
+Car3 20
+Car4 15
+Car5 66
+
+
+
+
+
+
+
+
+
+
+
+

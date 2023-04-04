@@ -1,0 +1,37 @@
+Name Stagione sull'Alfa Romeo Bimotore
+Difficulty Facile
+Description Dovrai vincere il campionato.
+Goal Position
+SuccessValue 1
+SuccessString Hai guidato bene lungo tutta la stagione!
+FailureString La prossima stagione dovrai impegnarti di più!
+TrackPosition 0
+Race Lunga
+Cars 10
+Car0 74
+Car1 7
+Car2 48
+Car3 22
+Car4 32
+Car5 46
+Car6 83
+Car7 58
+car8 60
+Car9 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

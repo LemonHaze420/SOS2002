@@ -1,0 +1,40 @@
+Name Stagione sulla Watson Flyer
+Difficulty Difficile
+Description Termina la stagione in cima alla classifica.
+Goal Position
+SuccessValue 1
+SuccessString Bravissimo, campione!
+FailureString Che sfortuna!
+TrackPosition 0
+Race Corta
+Cars 10
+Car0 42
+Car1 55
+Car2 27
+Car3 34
+Car4 3
+Car5 51
+Car6 49
+Car7 30
+Car8 39
+Car9 53
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

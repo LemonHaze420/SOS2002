@@ -1,0 +1,20 @@
+Name L'égalité des sexes
+# Robert Ward
+Description La moitié des concurrents sont des femmes. Imposez-vous à Montlhéry sur votre Bugatti 35 en partant de la pole.
+Goal Position
+Difficulty Medium
+TrackPosition 1
+SuccessValue 1
+SuccessString Victoire ! Mais votre cote auprès des femmes vient de dégringoler.
+FailureString Vous fûtes lamentable, monsieur. Les femmes voteront avant longtemps à ce rythme-là…
+Track Montlhery
+Laps 4
+Cars 5
+Car0 27
+Car1 5
+Car2 28
+Car3 17
+Car4 2
+#Car5 3
+#Car6 18
+#car7 22

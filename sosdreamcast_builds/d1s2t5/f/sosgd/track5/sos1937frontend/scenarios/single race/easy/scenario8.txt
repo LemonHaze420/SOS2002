@@ -1,0 +1,35 @@
+Name Italians On Home Soil
+Difficulty Easy
+Description  
+CAR TYPE : Bonner Special
+CIRCUIT : Monza (Italy)
+OBJECTIVE : TOP 1
+LAPS : 8
+START POSITION : 1/6
+Goal Position
+SuccessValue 1
+SuccessString Congratulations!
+FailureString Bad luck! Try again.
+TrackPosition 1
+Track Monza
+Laps 8
+Cars 6
+Car0 55
+Car1 18
+Car2 30
+Car3 17
+Car4 49
+Car5 31
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,110 @@
+Function InitialiseAll
+
+FontInclude .\GameData\Fonts
+BitmapInclude .\GameData
+VideoInclude .\GameData\Video
+TextInclude .\GameData
+
+Call InitialiseBackground
+Call InitialiseFonts
+Call InitialiseMouse
+
+Call SetDefaultRegistryKey
+Call SetDefaultVariables
+
+Return
+
+
+
+
+Function InitialiseBackground
+LoadBackground Backdrops\MainBackdrop
+Return
+
+Function InitialiseFonts
+Let RightFont = Font avantgarde_right
+Let LeftFont = Font avantgarde_left
+Let HeaderFont = Font avantgarde_header
+Return
+
+Function InitialiseMouse
+LoadMouse Sprites\Mouse
+Return
+
+
+
+
+
+Function SetDefaultVariables
+
+Let SelectedTrack = RegistryKey Key_SelectedTrack
+Let SelectedCar = RegistryKey Key_SelectedCar
+Let SelectedRaceType = RegistryKey Key_RaceType
+
+SetRegistryKey Replay,False
+
+Return
+
+Function SetDefaultRegistryKey
+
+DefaultRegistryEntry 2
+Let DummyVariable = RegistryKey Key_SingleRaceCars
+
+DefaultRegistryEntry 4
+Let DummyVariable = RegistryKey Key_SelectedTrack
+Let DummyVariable = RegistryKey Key_SingleRaceTrack
+Let SelectedTrack = 4
+
+DefaultRegistryEntry 4
+Let DummyVariable = RegistryKey Key_SingleRaceLaps
+
+DefaultRegistryEntry 15
+Let DummyVariable = RegistryKey Key_SelectedCar
+Let SelectedCar = String 15
+
+DestroyString Count
+For Count = 0 to 11
+{
+	Let DummyVariable = RegistryKey Key_SingleRaceCar#Count
+}
+DestroyString Count
+
+DefaultRegistryEntry Manual
+Let DummyVariable = RegistryKey Gearbox
+
+DefaultRegistryEntry Player
+Let DummyVariable = RegistryKey Key_PlayerName
+
+DefaultRegistryEntry On
+Let DummyVariable = RegistryKey Music
+Let DummyVariable = RegistryKey SmokeSwitch
+Let DummyVariable = RegistryKey Sounds_VolumeSwitch
+Let DummyVariable = RegistryKey ShadowsSwitch
+Let DummyVariable = RegistryKey SteeringWheel
+Let DummyVariable = RegistryKey RearViewSwitch
+Let DummyVariable = RegistryKey EAX
+
+DefaultRegistryEntry High
+Let DummyVariable = RegistryKey DetailLevel
+Let DummyVariable = RegistryKey CarVolume
+
+DefaultRegistryEntry "Steering Wheel"
+Let DummyVariable = RegistryKey ControlMethod
+
+DefaultRegistryEntry 800x600
+Let DummyVariable = RegistryKey ScreenMode
+
+DefaultRegistryEntry Low
+Let DummyVariable = RegistryKey ForceFeedback
+
+DestroyString Count
+For Count = 0 to 11
+{
+	DefaultRegistryEntry Count+1
+	Let DummyVariable = RegistryKey QualifiedPosition#Count
+}
+DestroyString Count
+
+DestroyString DummyVariable
+
+Return

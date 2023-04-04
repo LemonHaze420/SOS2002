@@ -1,0 +1,262 @@
+Function DrawBasicLayout
+
+# Shade in some parts. Permanent shades.
+Shade 14,0,196,600,70
+RestoreBackground 0,0,800,600
+Shade 0,33,771,538,60
+RestoreBackground 0,0,800,600
+
+Call DrawPermanentButtons
+
+DefaultRegistryEntry NULL
+Let MusicPiece = RegistryKey Key_MusicPiece
+If MusicPiece = NULL
+{
+	PlayMusic .\GameData\Audio\FE_Ambi1.wav
+	SetRegistryKey Key_MusicPiece,1
+}
+If MusicPiece != NULL
+{
+	If MusicPiece < 6
+	{
+		SetRegistryKey Key_MusicPiece,MusicPiece+1
+		PlayMusic .\GameData\Audio\FE_Ambi2.wav
+	}
+	If MusicPiece >= 6
+	{
+		SetRegistryKey Key_MusicPiece,1
+		PlayMusic .\GameData\Audio\FE_Ambi3.wav
+	}
+}
+DestroyString MusicPiece
+Return
+
+###################################################
+# show the attract mode
+
+Function Demo
+SetRegistryKey Replay,True
+
+CopyFile .\SaveGames\Replay.dat .\SaveGames\Replay.old
+CopyFile .\SaveGames\Demo.dat .\SaveGames\Replay.dat
+
+RunGame DoneDemo
+
+Function DoneDemo
+
+Call InitialiseAll
+
+Call MakeTrackStrings
+Call MakeCarStrings
+Call InitialiseDrivers
+
+Call DrawBasicLayout
+Call DrawButtonValues
+
+CopyFile .\SaveGames\Replay.old .\SaveGames\Replay.dat
+DeleteFile .\SaveGames\Replay.old
+
+Let SelectedTrack = RegistryKey Key_SelectedTrack
+Let PracticeDone = String True
+
+Call SelectTrackScreen
+
+EnableMouse Off
+DisplayScreen
+EnableMouse On
+DisplayScreen
+
+Wait
+
+##########################################################
+# Draw the buttons such as Select Track ##################
+##########################################################
+
+
+Function DrawPermanentButtons
+
+Let SelectTrackText = LocaleString 212
+Let SelectTrackButton = Button 42,68,150,14,SelectTrackText,LeftFont,LeftFont,SelectTrackScreen
+DestroyString SelectTrackText
+
+Let SelectCarText = LocaleString 213
+Let SelectCarButton = Button 42,130,150,14,SelectCarText,LeftFont,LeftFont,SelectCarScreen
+DestroyString SelectCarText
+
+Let RaceTypeText = LocaleString 214
+Let RaceTypeButton = Button 42,192,150,14,RaceTypeText,LeftFont,LeftFont,RaceTypeScreen
+DestroyString RaceTypeText
+
+Let OptionsText = LocaleString 215
+Let OptionsButton = Button 42,254,150,14,OptionsText,LeftFont,LeftFont,OptionsScreen
+DestroyString OptionsText
+
+Let LoadGameText = LocaleString 216
+Let LoadGameButton = Button 42,316,150,14,LoadGameText,LeftFont,LeftFont,HitLoadGame
+DestroyString LoadGameText
+
+Let SaveGameText = LocaleString 217
+Let SaveGameButton = Button 42,378,150,14,SaveGameText,LeftFont,LeftFont,HitSaveGame
+DestroyString SaveGameText
+
+Let ReplayOptionsText = LocaleString 218
+Let ReplayOptionsButton = Button 42,440,150,14,ReplayOptionsText,LeftFont,LeftFont,HitReplayOptions
+DestroyString ReplayOptionsText
+
+Let QuitText = LocaleString 219
+Let QuitButton = Button 42,502,150,14,QuitText,LeftFont,LeftFont,HitQuit
+DestroyString QuitText
+
+Return
+
+Function EnablePermanentButtons
+Enable SelectTrackButton
+Enable SelectCarButton
+Enable RaceTypeButton
+Enable OptionsButton
+Enable LoadGameButton
+Enable SaveGameButton
+Enable ReplayOptionsButton
+Enable QuitButton
+Return
+
+Function HitQuit
+Let ConfirmCallBack = String ReallyQuit
+Let DenyCallBack = String CancelQuit
+Call ConfirmSelection
+Return
+
+Function ReallyQuit
+Destroy YesButton
+Destroy NoButton
+Destroy ConfirmShade
+Call ShowCredits
+Quit
+
+Function DrawButtonValues
+
+RestoreBackground 42,88,192,128
+
+Let SelectedTrack = RegistryKey Key_SelectedTrack
+Write 42,88,Track#SelectedTrack#Name,RightFont
+
+Let SelectedCar = RegistryKey Key_SelectedCar
+
+Let DisplayedCarString = String CarNumber#SelectedCar
+Let DisplayedCarString = String DisplayedCarString#FullName
+
+RestoreBackground 42,150,192,190
+Write 42,150,DisplayedCarString,RightFont,150,40
+DestroyString DisplayedCarString
+
+Return
+
+Function CancelQuit
+Destroy YesButton
+Destroy NoButton
+Destroy ConfirmShade
+DestroyString ConfirmCallBack
+DestroyString DenyCallBack
+
+Call EnablePermanentButtons
+
+If CurrentScreen = SelectTrack Call SelectTrackScreen
+If CurrentScreen = SelectCar Call SelectCarScreen
+If CurrentScreen = RaceType Call RaceTypeScreen
+If CurrentScreen = Options Call OptionsScreen
+If CurrentScreen = LoadScenario Call LoadSingleRaceScenario
+If CurrentScreen = Championship Call ContinueChampionship
+If CurrentScreen = PreChampionship Call RaceTypeScreen
+If CurrentScreen = ReplayOptions Call DrawReplayOptions
+If CurrentScreen = LoadSave Call LoadAndSave
+If CurrentScreen = SingleRace Call SingleRaceScreen
+Return
+
+Function CleanUpButtons
+If CurrentScreen = SelectTrack Call DestroySelectTrackButtons
+If CurrentScreen = SelectCar Call DestroySelectCarButtons
+If CurrentScreen = RaceType Call DestroyRaceTypeButtons
+If CurrentScreen = Options Call DestroyOptionsButtons
+If CurrentScreen = LoadScenario Call DestroyLoadScenarioButtons
+If CurrentScreen = Championship Call DestroyChampionshipButtons
+If CurrentScreen = PreChampionship Call DestroyChampionshipButtons
+If CurrentScreen = ReplayOptions Call DestroyReplayOptionsButtons
+If CurrentScreen = LoadSave Call DestroyLoadOrSaveButtons
+If CurrentScreen = SingleRace Call DestroySingleRaceButtons
+
+
+If CurrentScreen = Default RestoreBackground 196,33,771,538
+Return
+
+Function CreateOKButton
+Line 642,557,714,557,65535
+Line 714,557,714,578,65535
+Line 714,578,642,578,65535
+Line 642,578,642,557,65535
+Let OKText = LocaleString 220
+Let OKButton = Button 667,561,25,14,OKText,LeftFont,LeftFont,HitOK
+DestroyString OKText
+Return
+
+##################################################
+# Sure you want to do this?
+
+Function ConfirmSelection
+StopMovie
+Disable SelectTrackButton
+Disable SelectCarButton
+Disable RaceTypeButton
+Disable OptionsButton
+Disable LoadGameButton
+Disable SaveGameButton
+Disable ReplayOptionsButton
+Disable QuitButton
+
+Call CleanUpButtons
+
+Let ConfirmShade = Shade 375,230,172,70,50
+WriteLocale 380,240,301,HeaderFont,190
+Let ButtonText = LocaleString 302
+Let YesButton = Button 380,280,30,30,ButtonText,LeftFont,LeftFont,ConfirmCallBack
+Let ButtonText = LocaleString 303
+Let NoButton = Button 515,280,30,30,ButtonText,LeftFont,LeftFont,DenyCallBack
+Return
+
+#########################################################
+# Show the credits
+
+Function ShowCredits
+DefaultButton ShowCredit2
+EnableMouse Off
+
+LoadBackground Backdrops\SpiritCredits1
+RestoreBackground 0,0,800,600
+
+StartNoActionTimer 30*1000,ShowCredit2
+
+Wait
+
+Function ShowCredit2
+DefaultButton ShowCredit3
+LoadBackground Backdrops\SpiritCredits2
+RestoreBackground 0,0,800,600
+
+StartNoActionTimer 30*1000,ShowCredit3
+
+Wait
+
+Function ShowCredit3
+DefaultButton FinishCredits
+LoadBackground Backdrops\SpiritCredits3
+RestoreBackground 0,0,800,600
+
+StartNoActionTimer 30*1000,FinishCredits
+
+Wait
+
+Function FinishCredits
+Quit
+
+
+Function Splatto
+Return

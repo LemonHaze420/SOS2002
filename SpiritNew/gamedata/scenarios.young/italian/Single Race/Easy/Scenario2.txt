@@ -1,0 +1,28 @@
+Name Vive la France!
+Difficulty Einfach
+Description Eine wundervolle französische Landschaft bildet den Hintergrund für dieses Europarennen, das Sie mit den Auto Union D gewinnen müssen.
+Goal Position
+SuccessValue 1
+SuccessString Sehr schön, da haben Sie´s einer feinen Konkurrenz gezeigt.
+FailureString Das Glück war offenbar nicht auf Ihrer Seite - probieren Sie´s noch mal!
+TrackPosition 0
+Track Montlhery
+Laps 5
+Cars 8
+Car0 52
+Car1 35
+Car2 15
+Car3 21
+Car4 9
+Car5 36
+Car6 20
+Car7 44
+
+
+
+
+
+
+
+
+

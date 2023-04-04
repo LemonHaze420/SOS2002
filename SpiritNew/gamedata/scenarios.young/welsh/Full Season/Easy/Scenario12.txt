@@ -1,0 +1,36 @@
+Name Tymor llawn Miller
+Difficulty Hawdd 
+Description Gorffennwch y tymor yn y pedwarydd safle neu well 
+Goal Safle 
+SuccessValue 4
+SuccessString Gyrru da iawn! 
+FailureString Peidiwch a phoeni! Gwell lwc y tymor nesaf. 
+TrackPosition 0
+Race Short
+Cars 5
+Car0 2
+Car1 22
+Car2 11
+Car3 55
+Car4 43
+Car5 7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

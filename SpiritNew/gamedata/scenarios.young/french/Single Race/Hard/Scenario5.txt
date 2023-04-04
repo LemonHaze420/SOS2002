@@ -1,0 +1,32 @@
+Name Dans le Mille !
+Difficulty Difficile
+Description Des voitures américaines et britanniques s'affrontent sur l'éprouvant circuit de Roosevelt. Tâchez de gagner au volant de l'ERA. Ce sera difficile, mais vous partirez en pole position !
+Goal Position
+SuccessValue 1
+SuccessString Excellent pilotage ! La foule vous adore !
+FailureString Vous ferez mieux la prochaine fois !
+TrackPosition 1
+Track Roosevelt
+Laps 7
+Cars 9
+Car0 22
+Car1 36
+Car2 44
+Car3 53
+Car4 2
+Car5 60
+Car6 37
+Car7 56
+Car8 48
+
+
+
+
+
+
+
+
+
+
+
+

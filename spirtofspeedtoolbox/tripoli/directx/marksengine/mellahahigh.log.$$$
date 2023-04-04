@@ -1,0 +1,127 @@
+> cd P:\SpirtOfSpeedToolbox\Tripoli\DirectX\MarksEngine
+> mulder Hi_Mellaha_14-8-98.x -oMellahaHigh.mul
+
+
+P:\SpirtOfSpeedToolbox\Tripoli\DirectX\MarksEngine>mulder Hi_Mellaha_14-8-98.x -oMellahaHigh.mul
+MULDER v6.0 (c) Broadsword Interactive 1997/1998
+material-texture 0 xof_default NONE
+material-texture 1 Skids TR_TrackSkids[g].tga
+material-texture 2 SandBank TR_SandBank2[gc].tga
+material-texture 3 FarTrees TR_BackgroundTrees[agc].tga
+material-texture 4 Fence TR_Fence[agc].tga
+material-texture 5 CliffFace TR_CliffFace[agc].tga
+material-texture 6 Track TR_Track[g].tga
+material-texture 7 Desert TR_Desert[g].tga
+material-texture 8 Gr_Wall TR_Gr_Wall[agc].tga
+material-texture 9 StartingGrid TR_StartingGrid[g].tga
+material-texture 10 Chqrs TR_Chqrs[g].tga
+material-texture 11 N_BushL TR_BushL[adgc].tga
+material-texture 12 N_BushR TR_BushR[adgc].tga
+material-texture 13 Bollard2 TR_Bollard[adgc].tga
+material-texture 14 BollardTop TR_BollardTop[gc].tga
+material-texture 15 ArrowSign TR_ArrowSign[adc].tga
+material-texture 16 Pyramids TR_CreamC[g].tga
+material-texture 17 Concrete WhiteBorder.tga
+material-texture 18 Telegraph_Pole TelegraphPole.tga
+material-texture 19 GreyConcrete wall17.tga
+material-texture 20 Local_ArchDoor localbuildsingle01.tga
+material-texture 21 Local_1Roof localbuildroof01.tga
+material-texture 22 Local_SqDoor localbuildsingle02.tga
+material-texture 23 T_TowerSide TR_TTowerSide[gc].tga
+material-texture 24 Local_Side localbuild01.tga
+material-texture 25 Gr_Crowd TR_Crowd[g].tga
+material-texture 26 Gr_Back TR_Gr_Back[ag].tga
+material-texture 27 Gr_Front TR_Gr_Front[ag].tga
+material-texture 28 T_TowerFront TR_TTowerFront[gc].tga
+material-texture 29 T_TowerGallery TR_TTowerGallery[gc].tga
+material-texture 30 T_TowerPanel TR_TTowerPanel[gc].tga
+material-texture 31 advAuto TR_AdvAuto[dgc].tga
+material-texture 32 PitsSide pitsside01.tga
+material-texture 33 Pits_Comp TR_Pits_comp[gc].tga
+material-texture 34 PitsRoof pitsroof01.tga
+material-texture 35 TR_Palm_L__sub_ TR_Palm_L[adgc].tga
+material-texture 36 TR_Palm_R__sub_ TR_Palm_R[adgc].tga
+material-texture 37 advLegs TR_advLegs.tga
+material-texture 38 advHotel TR_AdvHotelP[dgc].tga
+material-texture 39 adv1927 TR_1927[dgc].tga
+material-texture 40 adv1941 TR_1941[dgc].tga
+material-texture 41 adv1939 TR_1939[dgc].tga
+material-texture 42 advHunter TR_AdvHunters[dgc].tga
+material-texture 43 adv1933 TR_1933[dgc].tga
+material-texture 44 advLumi TR_AdvLumi[dgc].tga
+material-texture 45 adv1936 TR_1936[dgc].tga
+material-texture 46 adv1935 TR_1935[dgc].tga
+material-texture 47 advReed TR_advReed[dgc].tga
+material-texture 48 Dunes TR_Dunes[agc].tga
+material-texture 49 Eagle TR_Eagle[adg].tga
+material-texture 50 Flag TR_Flag[d].tga
+material-texture 51 Gr_Lights TR_Gr_Lights[d].tga
+material-texture 52 Gr_Pole TR_Gr_Pole[adgc].tga
+material-texture 53 FlatPalm TR_FlatPalm[adgc].tga
+Got 23624 vertices, 12075 polygons
+got 53 materials, 12075 polygon entries - incomplete?? (this isn't a problem)
+4503 normals, 12075 vertices processed
+23624 texture coords processed
+File processed OK
+scale set to 1.000000
+written 16604 geoverts
+written 4503 normals
+TEXTURES REQUIRED
+TR_TrackSkids[g].3df
+TR_SandBank2[gc].3df
+TR_BackgroundTrees[agc].3df
+TR_Fence[agc].3df
+TR_CliffFace[agc].3df
+TR_Track[g].3df
+TR_Desert[g].3df
+TR_Gr_Wall[agc].3df
+TR_StartingGrid[g].3df
+TR_Chqrs[g].3df
+TR_BushL[adgc].3df
+TR_BushR[adgc].3df
+TR_Bollard[adgc].3df
+TR_BollardTop[gc].3df
+TR_ArrowSign[adc].3df
+TR_CreamC[g].3df
+WhiteBorder.3df
+TelegraphPole.3df
+wall17.3df
+localbuildsingle01.3df
+localbuildroof01.3df
+localbuildsingle02.3df
+TR_TTowerSide[gc].3df
+localbuild01.3df
+TR_Crowd[g].3df
+TR_Gr_Back[ag].3df
+TR_Gr_Front[ag].3df
+TR_TTowerFront[gc].3df
+TR_TTowerGallery[gc].3df
+TR_TTowerPanel[gc].3df
+TR_AdvAuto[dgc].3df
+pitsside01.3df
+TR_Pits_comp[gc].3df
+pitsroof01.3df
+TR_Palm_L[adgc].3df
+TR_Palm_R[adgc].3df
+TR_advLegs.3df
+TR_AdvHotelP[dgc].3df
+TR_1927[dgc].3df
+TR_1941[dgc].3df
+TR_1939[dgc].3df
+TR_AdvHunters[dgc].3df
+TR_1933[dgc].3df
+TR_AdvLumi[dgc].3df
+TR_1936[dgc].3df
+TR_1935[dgc].3df
+TR_advReed[dgc].3df
+TR_Dunes[agc].3df
+TR_Eagle[adg].3df
+TR_Flag[d].3df
+TR_Gr_Lights[d].3df
+TR_Gr_Pole[adgc].3df
+TR_FlatPalm[adgc].3df
+offset : 3f7d4
+Extents : -1148.006348<x<2358.985107 -19.416380<y<57.120327 -2946.591309<z<3043.064453
+
+P:\SpirtOfSpeedToolbox\Tripoli\DirectX\MarksEngine>
+

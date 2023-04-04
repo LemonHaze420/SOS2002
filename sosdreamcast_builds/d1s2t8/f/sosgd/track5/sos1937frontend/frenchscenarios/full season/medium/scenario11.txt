@@ -1,0 +1,41 @@
+Name Saison complète, Duesenberg
+Difficulty Moyen
+Description Finir sur le podium du championnat
+Goal Position
+SuccessValue 3
+SuccessString Très bien joué, félicitations !
+FailureString Votre carrière de pilote risque de s'interrompre brutalement.
+TrackPosition 0
+Race Courte
+Cars 5
+Car0 3
+Car1 12
+Car2 17
+Car3 60
+Car4 28
+#Car5 40
+#Car6 21
+#Car7 7
+#car8 11
+#Car9 44
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

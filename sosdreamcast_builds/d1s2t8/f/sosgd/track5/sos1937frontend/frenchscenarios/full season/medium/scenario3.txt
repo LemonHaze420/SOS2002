@@ -1,0 +1,36 @@
+Name Saison complète, Alfa Romeo P3
+Difficulty Moyen
+Description Finir dans les deux premiers du championnat
+Goal Position
+SuccessValue 2
+SuccessString Vous avez éclaboussé le paddock de votre classe !
+FailureString Espérons que cela ne restera qu'une erreur de parcours !
+TrackPosition 0
+Race Moyenne
+Cars 5
+Car0 12
+Car1 35
+Car2 28
+Car3 51
+Car4 7
+#Car5 36
+#Car6 42
+#Car7 3
+#car8 27
+#Car9 25
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

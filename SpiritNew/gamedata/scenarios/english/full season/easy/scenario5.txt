@@ -1,0 +1,37 @@
+Name Full Season Alfa Romeo 12C
+Difficulty Easy
+Description To finish at the end of the season in the top six.
+Goal position
+SuccessValue 6
+SuccessString Good little car isn't it? But you played your part too. Well done.
+FailureString Dear oh dear. What's the world coming to if you can't drive this car?
+TrackPosition 0
+Race Short
+Cars 8
+Car0 8
+Car1 22
+Car2 5
+Car3 17
+Car4 27
+Car5 34
+Car6 43
+Car7 46
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

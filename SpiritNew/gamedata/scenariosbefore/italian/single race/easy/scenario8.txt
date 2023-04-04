@@ -1,0 +1,28 @@
+Name Italiani in patria 
+Difficulty Facile
+Description Le migliori auto italiane si affrontano su questo circuito di prova. Tu guiderai la Bonner Special e non dovresti avere grandi problemi a vincere a Monza. Partirai dalla pole.
+Goal Position
+SuccessValue 1
+SuccessString Bel colpo! Sei riuscito non solo a restare in gara, ma addirittura a vincere!
+FailureString Va bene che lo scenario italiano è stupendo, ma ogni tanto guarda la pista...
+TrackPosition 1
+Track Monza
+Laps 8
+Cars 6
+Car0 55
+Car1 74
+Car2 30
+Car3 17
+Car4 83
+Car5 66
+
+
+
+
+
+
+
+
+
+
+

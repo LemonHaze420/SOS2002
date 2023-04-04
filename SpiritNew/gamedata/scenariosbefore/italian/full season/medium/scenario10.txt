@@ -1,0 +1,38 @@
+Name Stagione sulla ERA Remus
+Difficulty Media
+Description Termina la stagione come minimo al quinto posto in classifica.
+Goal Position
+SuccessValue 5
+SuccessString Hai guidato bene questa stagione!
+FailureString Andrà meglio la prossima stagione!
+TrackPosition 0
+Race Corta
+Cars 8
+Car0 53
+Car1 12
+Car2 39
+Car3 21
+Car4 35
+Car5 46
+Car6 51
+Car7 42
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

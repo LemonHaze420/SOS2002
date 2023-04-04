@@ -1,0 +1,26 @@
+Name El Desafío Europeo en Inglaterra
+Difficulty Difícil
+Description Usando el Mercedes 154, finaliza el primero en Donington para asegurar tu reputación de conductor temerario. Sólo hay una pega, debes comenzar al final de la parrilla.
+Goal Position
+SuccessValue 1
+SuccessString Tu potente actuación pone a los fanfarrones en su sitio!
+FailureString Tu reputación está en entredicho.
+TrackPosition 5
+Track Donington
+Laps 15
+Cars 5
+Car0 20
+Car1 4
+Car2 12
+Car3 41
+#Car4 43
+Car4 16
+#Car6 58
+#Car7 33
+
+
+
+
+
+
+

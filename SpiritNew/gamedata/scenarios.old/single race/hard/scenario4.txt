@@ -1,0 +1,32 @@
+Name Challenge Of A Lifetime. 
+Difficulty Hard
+Description  The British take on the best of the Italians at Monza. A finish in the top 6 may sound easy, but this isn't the worlds easiest car to drive - especially when starting from near the back of the grid.
+Goal Position
+SuccessValue 6
+SuccessString Good Work! You'll be a national hero after that performance.
+FailureString Keep practising! Things can only get better and you don't want to let your fans down.
+TrackPosition 7
+Track Monza
+Laps 4
+Cars 10
+Car0 22
+Car1 18
+Car2 21
+Car3 31
+Car4 11
+Car5 30
+Car6 55
+Car7 35
+car8 60
+Car9 51
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+Name La sfida dei novellini
+Difficulty Facile
+Description Prova a battere tante diverse auto europee con la Mercedes 154. Sei a Donington e parti secondo. Facile!
+Goal Position
+SuccessValue 1
+SuccessString È stata una piccola e amena passeggiata, vero?
+FailureString La potenza della 154 non deve farti dimenticare che per vincere è necessario pilotare bene!
+TrackPosition 2
+Track Donington
+Laps 10
+Cars 6
+Car0 15
+Car1 53
+Car2 10
+Car3 16
+Car4 9
+Car5 1
+
+
+
+
+
+

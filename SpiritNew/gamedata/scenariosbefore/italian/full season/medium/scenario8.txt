@@ -1,0 +1,40 @@
+Name Stagione sulla Bugatti 35B
+Difficulty Media
+Description Termina la stagione almeno al settimo posto in classifica.
+Goal Position
+SuccessValue 7
+SuccessString Hai guidato bene!
+FailureString Hai guidato davvero male!
+TrackPosition 0
+Race Lunga
+Cars 10
+Car0 39
+Car1 12
+Car2 11
+Car3 59
+Car4 46
+Car5 5
+Car6 60
+Car7 22
+Car8 37
+Car9 43
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

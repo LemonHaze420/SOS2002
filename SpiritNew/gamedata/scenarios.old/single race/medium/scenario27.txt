@@ -1,0 +1,21 @@
+Name Find The Ideal Line
+# Darren Williams
+Description Prove that the ideal racing line can beat power by winning in the Maserati V8Ri at Roosevelt. You start in pole position.
+Track Roosevelt
+Difficulty Medium
+Laps 6
+Cars 8
+Car0 11
+Car1 21
+Car2 25
+Car3 48
+Car4 5
+Car5 40
+Car6 43
+Car7 37
+
+Goal Position
+TrackPosition 1
+SuccessValue 1
+SuccessString A textbook display of how to take a corner.
+FailureString Work on the slower corners to gain more speed.

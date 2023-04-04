@@ -1,0 +1,22 @@
+Name A fond !
+# Phil Gilbert
+Description Saurez-vous finir dans les quatre premiers à Montlhéry, au volant de la Miller ?
+Difficulty Medium
+Goal Position
+SuccessValue 4
+SuccessString Pas mal, pas mal du tout !
+FailureString Oh la la… Oserez-vous recommencer ?
+TrackPosition 1
+Track Montlhery
+Laps 5
+Cars 5
+Car0 29
+Car1 15
+Car2 33
+Car3 10
+Car4 1
+#Car5 18
+#Car6 54
+#Car7 22
+#Car8 12
+#Car9 20

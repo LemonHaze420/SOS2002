@@ -1,0 +1,40 @@
+Name Full Season Auto Union D
+Difficulty Medium
+Description Versuche am Saisonende auf dem Siegertreppchen zu stehen!
+Goal position
+SuccessValue 3
+SuccessString Ein wohlverdienter Platz auf dem Podium! Glückwunsch!
+FailureString Etwas mehr Konzentration und Du fährst ganz nach vorne.
+TrackPosition 0
+Race Long
+Cars 5
+Car0 14
+Car1 15
+#Car2 20
+Car2 12
+Car3 4
+#Car5 35
+#Car6 23
+Car4 57
+#Car5 83
+#car9 58
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

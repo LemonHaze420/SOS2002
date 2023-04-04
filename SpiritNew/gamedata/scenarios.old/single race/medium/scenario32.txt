@@ -1,0 +1,20 @@
+Name American Classic
+# Darren Williams
+Description The Miller and Mercedes 154 battle for supremacy amongst slow moving traffic. You were however, unlucky to only qualify in last place in the Miller.
+Difficulty Medium
+Goal Position
+SuccessValue 1
+SuccessString A fabulous result through a congested circuit.
+FailureString The idea is to go around the slower cars.
+TrackPosition 8
+Track Roosevelt
+Laps 10
+Cars 8
+Car0 2
+Car1 21
+Car2 12
+Car3 59
+Car4 27
+Car5 46
+Car6 41
+Car7 3

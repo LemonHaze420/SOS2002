@@ -1,0 +1,26 @@
+Name Italien gegen Deutschland
+Difficulty Easy
+Description Wer kann dieses Rennen im französischen Pau für sich entscheiden? Italien oder Deutschland? Fahre mit dem Mercedes 125 auf Rang 1 oder 2, um Deine Ehre zu retten! Es gibt nur ein Problem: Du hast einen schlechten Startplatz.
+Goal Position
+SuccessValue 2
+SuccessString Gut gemacht! In Berlin erwarten Dich 10 Flaschen Schnaps und ein leckeres Schweineschnitzel!
+FailureString Vielleicht solltest Du besser Busfahrer werden ...
+TrackPosition 5
+Track Pau
+Laps 12
+Cars 5
+Car0 33
+Car1 43
+#Car2 16
+Car2 32
+#Car4 58
+Car3 10
+#Car6 17
+Car4 35
+
+
+
+
+
+
+

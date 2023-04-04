@@ -1,0 +1,14 @@
+Name Rennen um die Ehre
+# Andrew Stainer
+Description Ein Zeitungsschmierfink hat Dich als schlechten Fahrer bezeichnet! Du muﬂt also Deinen guten Ruf verteidigen! Setze dich ans Steuer des Watson Flyer und zeige dem Alfa Romeo P3 in Monza seine Grenzen.
+Difficulty Medium
+Goal Position
+SuccessValue 1
+SuccessString Du hast Deine Ehre gerettet und Dein Rivale bitten Dich um Verzeihung. 
+FailureString Diese Niederlage wird Dich noch Jahre verfolgen.
+TrackPosition 1
+Track Monza
+Laps 6
+Cars 2
+Car0 42
+Car1 12

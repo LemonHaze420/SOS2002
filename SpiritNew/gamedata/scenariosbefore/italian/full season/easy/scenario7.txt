@@ -1,0 +1,41 @@
+Name Stagione sull'Auto Union D
+Difficulty Facile
+Description Concludi la stagione fra i primi cinque in graduatoria.
+Goal Position
+SuccessValue 5
+SuccessString Sei stato bravo!
+FailureString Dovrai continuare ad allenarti.
+TrackPosition 0
+Race Media
+Cars 12
+Car0 23
+Car1 43
+Car2 20
+Car3 24
+Car4 52
+Car5 50
+Car6 16
+Car7 35
+Car8 1
+car9 40
+Car10 29
+Car11 60
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

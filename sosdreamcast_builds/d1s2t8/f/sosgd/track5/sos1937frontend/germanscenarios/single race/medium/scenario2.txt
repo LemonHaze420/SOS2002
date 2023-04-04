@@ -1,0 +1,13 @@
+Name Rundenrekord
+Description Unterbiete mit dem Alfa Romeo P3 auf der Strecke von Brooklands den Rundenrekord von 1:07. Du hast 3 Runden Zeit.
+Goal LapTime
+Difficulty Medium
+SuccessValue 6700
+SuccessString Zuerst der Rundenrekord und dann die Schallmauer!
+FailureString Ah gut. Zum Glück gibt es immer ein Morgen.
+TrackPosition 1
+Track Brooklands
+Laps 3
+Cars 2
+Car0 43
+Car1 31

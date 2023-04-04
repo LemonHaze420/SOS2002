@@ -1,0 +1,30 @@
+Name Twin-Engined Supremacy
+Difficulty hard
+Description 
+CAR TYPE : Alfa Romeo Bimotore
+CIRCUIT : Avus (Germany)
+OBJECTIVE : TOP 3
+LAPS : 5
+START POSITION : 5/5
+Goal Position
+SuccessValue 3
+SuccessString Congratulations! 
+FailureString Bad luck! Try again.
+TrackPosition 5
+Track Avus
+Laps 5
+Cars 5
+Car0 66
+Car1 50
+Car2 23
+#Car3 52
+Car3 18
+Car4 11
+#car6 83
+#Car5 58
+#Car8 4
+
+
+
+
+

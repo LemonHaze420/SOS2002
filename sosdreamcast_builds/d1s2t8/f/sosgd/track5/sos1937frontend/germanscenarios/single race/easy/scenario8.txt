@@ -1,0 +1,28 @@
+Name Heimspiel für Italien
+Difficulty Easy
+Description Die besten Autos Italiens sind auf dieser Teststrecke am Start. Du sitzt am Steuer des Bonner Special. Ein Sieg in Monza sollte kein Problem sein, zumal Du von der Pole-Position startest.
+Goal Position
+SuccessValue 1
+SuccessString Was für eine Fahrt! Du hast gewonnen – und überlebt!
+FailureString Ja, Italien ist schön, Du solltest allerdings gelegentlich auf die Strasse schauen ...
+TrackPosition 1
+Track Monza
+Laps 8
+Cars 6
+Car0 55
+Car1 18
+Car2 30
+Car3 17
+Car4 49
+Car5 31
+
+
+
+
+
+
+
+
+
+
+

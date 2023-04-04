@@ -1,0 +1,30 @@
+Name Y gorau o beirianneg Almaeneg 
+Difficulty Canolig 
+Description Ras hollol Almaeneg lle mae'r goreuon o'r Almaenwyr yn cystadlu am anrhydedd. Gorffennwch yn y pedwarydd safle neu well yn y Mercedes 125 yn  Roosevelt. Dechreuwch o'r ail safle. 
+Goal Position
+SuccessValue 4
+SuccessString Gyrru da! Byddwch yn cael codiad cyflog cyn hir.
+FailureString Peidiwch digalonni - gwell lwc y tro nesa'.
+TrackPosition 2
+Track Roosevelt
+Laps 6
+Cars 8
+Car0 33
+Car1 52
+Car2 15
+Car3 32
+Car4 50
+Car5 9
+Car6 24
+Car7 58
+
+
+
+
+
+
+
+
+
+
+

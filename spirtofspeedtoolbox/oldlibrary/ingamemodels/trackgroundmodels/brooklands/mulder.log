@@ -1,0 +1,27 @@
+MULDER v2.2 (c) Broadsword Interactive 1997/1998
+Got 11021 vertices, 6385 polygons
+got 17 materials, 6385 polygon entries - incomplete?? (this isn't a problem)
+3500 normals, 6385 vertices processed
+11021 texture coords processed
+File processed OK
+scale set to 1.000000
+TEXTURES REQUIRED
+Track2[G].3df
+MHRockFaceLeft.3df
+MHRockFace.3df
+Grass.3df
+MHRockFaceRight.3df
+Track1[G].3df
+MWall.3df
+concrete.3df
+brick.3df
+vickerslogo.3df
+Bridge2.3df
+Skyhi.3df
+Fence1.3df
+River.3df
+Track3[G].3df
+Track4[G].3df
+Ash[L].3df
+BackTRE.3df
+Extents : -986.003418<x<854.985413 -5.733011<y<40.141323 -678.231201<z<565.922974

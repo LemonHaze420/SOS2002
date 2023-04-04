@@ -1,0 +1,41 @@
+Name Stagione sull'Alfa Romeo 12C
+Difficulty Media
+Description Dovrai arrivare alla fine della stagione in una delle quattro prime posizioni in classifica.
+Goal Position
+SuccessValue 4
+SuccessString Hai guidato bene tutta la stagione!
+FailureString Andrà meglio la prossima stagione, ma dovrai allenarti.
+TrackPosition 0
+Race Media
+Cars 12
+Car0 49
+Car1 7
+Car2 42
+Car3 21
+Car4 22
+Car5 5
+Car6 53
+Car7 3
+Car8 55
+car9 46
+Car10 37
+Car11 40
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

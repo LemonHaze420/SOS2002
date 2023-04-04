@@ -1,0 +1,22 @@
+Name Lap Record
+Description 
+CAR TYPE : Alfa Romeo P3
+CIRCUIT : Brooklands (UK)
+OBJECTIVE : 1:07:00
+LAPS : 3
+START POSITION : 1/2
+Goal LapTime
+Difficulty Medium
+SuccessValue 6700
+SuccessString Congratulations!
+FailureString Bad luck! Try again.
+TrackPosition 1
+Track Brooklands
+Laps 3
+Cars 2
+Car0 43
+Car1 31
+
+
+
+

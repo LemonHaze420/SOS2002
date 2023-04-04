@@ -1,0 +1,41 @@
+Name Full Season Bugatti 59
+Difficulty Hard
+Description 
+CAR TYPE : Bugatti 59
+RACE TYPE : Short
+OBJECTIVE : TOP 1
+NUMBER OF CARS : 5
+Goal position
+SuccessValue 1
+SuccessString Congratulations!
+FailureString Bad luck! Try again.
+TrackPosition 0
+Race Short
+Cars 5
+Car0 36
+Car1 16
+Car2 1
+Car3 74
+Car4 3
+#Car5 55
+#Car6 37
+#Car7 22
+#car8 31
+#car9 20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+Name Für die Ehre
+# Andrew Stainer
+Description Sie wurden öffentlich von einem kleinen Gauner entehrt. Um Ihre Ehre zurückzugewinnen, müssen Sie den Alfa Romeo P3 in Ihrem Maserati V8Ri in Monza schlagen.
+Difficulty Mittel
+Goal Position
+SuccessValue 1
+SuccessString Ihre Ehre ist wieder intakt. Ihr Rivale bittet Sie um Verzeihung.
+FailureString Diese Schande schadet dem Ruf Ihrer gesamten Familie.
+TrackPosition 1
+Track Monza
+Laps 6
+Cars 2
+Car0 42
+Car1 12

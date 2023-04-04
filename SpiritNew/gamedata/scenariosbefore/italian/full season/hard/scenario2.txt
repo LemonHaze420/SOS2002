@@ -1,0 +1,34 @@
+Name Stagione sulla Mercedes 154
+Difficulty Difficile
+Description Termina la stagione al primo posto in graduatoria.
+Goal Position
+SuccessValue 1
+SuccessString Congratulazioni, campione!
+FailureString Impegnati di più la prossima stagione!
+TrackPosition 0
+Race Corta
+Cars 8
+Car0 15
+Car1 50
+Car2 32
+Car3 16
+Car4 74
+Car5 58
+Car6 66
+Car7 57
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

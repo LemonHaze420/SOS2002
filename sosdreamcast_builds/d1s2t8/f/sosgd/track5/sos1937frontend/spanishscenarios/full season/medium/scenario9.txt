@@ -1,0 +1,38 @@
+Name Full Season Bugatti 59
+Difficulty Medium
+Description Finaliza el cuarto o mejor al final de la temporada
+Goal position
+SuccessValue 4
+SuccessString ¡Lograste los objetivos de una temporada penosa! ¡Un gran esfuerzo!
+FailureString Esta vez el objetivo estaba por encima de ti. Vuelve el año que viene. 
+TrackPosition 0
+Race Long
+Cars 5
+Car0 56
+Car1 17
+Car2 59
+Car3 29
+#Car4 46
+Car4 8
+#Car6 10
+#Car7 18
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

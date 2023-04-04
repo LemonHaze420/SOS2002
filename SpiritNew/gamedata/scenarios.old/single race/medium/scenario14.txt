@@ -1,0 +1,23 @@
+Name Bugatti Heaven
+Description A classic competition between the Bugattis and the Alfa Romeos, with the American Duesenberg making an appearance. Race the Bugatti 35B, and get a top three position to win at Brooklands. Good job you're starting from pole!
+Goal Position
+SuccessValue 3
+TrackPosition 1
+Track Brooklands
+Difficulty Medium
+SuccessString Things just get better and better for Bugatti, thanks to you.
+FailureString Looks like Bugatti are thinking of replacing their star driver.
+Laps 10
+Cars 12
+Car0 7
+Car1 39
+Car2 28
+Car3 3
+Car4 44
+Car5 46
+Car6 59
+Car7 21
+Car8 12
+Car9 36
+Car10 27
+Car11 25

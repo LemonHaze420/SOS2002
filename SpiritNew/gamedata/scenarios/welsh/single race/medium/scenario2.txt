@@ -1,0 +1,13 @@
+Name Record Lap
+Description Torrwch y record lap o un munud saith eiliad yn Brooklands, ond dim ond tair lap sydd gennych i wneud hyn. Eich car yw'r Alfa Romeo P3.
+Goal LapTime
+Difficulty Canolig
+SuccessValue 6700
+SuccessString Da iawn! Rydych wedi cyflawni'r senario.
+FailureString Mor agos! Gwell lwc tro nesa.
+TrackPosition 1
+Track Brooklands
+Laps 3
+Cars 2
+Car0 43
+Car1 31

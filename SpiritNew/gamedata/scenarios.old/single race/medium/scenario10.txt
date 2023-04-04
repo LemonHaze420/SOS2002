@@ -1,0 +1,17 @@
+Name Sub 57 Second Lap At Brooklands?
+# Phil Gilbert
+Description You're in the AutoUnion D at Brooklands. A best lap of under 57 seconds shouldn't be a problem in the 5 laps before you.
+Difficulty Medium
+Goal Laptime
+SuccessValue 5690
+SuccessString Mr. Speedfreak rules again. How cool are you?
+FailureString It's tough out there. Try again.
+TrackPosition 1
+Track Brooklands
+Laps 5
+Cars 4
+Car0 14
+Car1 20
+Car2 24
+Car3 17
+

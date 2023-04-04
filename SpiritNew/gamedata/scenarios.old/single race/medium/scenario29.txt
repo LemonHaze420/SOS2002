@@ -1,0 +1,20 @@
+Name Sir Charles Winston-Smythe Invitational
+# Darren Williams
+Difficulty Medium
+Description No Continental Europeans allowed at Donington as the Miller tries to beat the bigger Auto Union family at Donington. Finish first to bring the glory days back to Miller HQ. Your grid position is confirmed as 4.
+Track Donington
+Laps 6
+Cars 8
+Car0 37
+Car1 1
+Car2 53
+Car3 32
+Car4 48
+Car5 34
+Car6 23
+Car7 14
+Goal Position
+TrackPosition 4
+SuccessValue 1
+SuccessString Pip pip and a hearty backslap to you.
+FailureString Sir, you could do with a lesson or two.

@@ -1,0 +1,461 @@
+Function SingleRaceScreen
+
+Call CleanUpButtons
+Let CurrentScreen = String SingleRace
+
+SetRegistryKey Key_SingleRaceCar0,SelectedCar
+Let NumberOfLaps = RegistryKey Key_SingleRaceLaps
+SetRegistryKey Laps,NumberOfLaps
+DestroyString NumberOfLaps
+
+WriteLocale 350,65,294,HeaderFont
+WriteLocale 250,99,295,RightFont
+WriteLocale 450,99,297,RightFont
+WriteLocale 250,120,298,RightFont
+
+Let ButtonText = LocaleString 296
+Let StartRaceButton = Button 400,502,120,19,ButtonText,LeftFont,LeftFont,StartSingleRace
+
+DestroyString NumberOfCars
+Let NumberOfCars = RegistryKey Key_SingleRaceCars
+Call DrawNumberOfCarsButton
+Call DrawSingleRaceTrackButton
+Call DrawSingleRaceLapsButton
+Call DrawSingleRaceGrid
+
+Let SelectedTrack = RegistryKey Key_SingleRaceTrack
+SetRegistryKey Key_SelectedTrack,SelectedTrack
+Call DrawButtonValues
+
+Return
+
+#######################################################
+# Start a race!
+
+Function StartSingleRace
+
+
+DestroyString Count
+For Count = 0 to NumberOfCars-1
+{
+	Let ThisCarNumber = RegistryKey Key_SingleRaceCar#Count
+	Let CarString = String CarNumber#ThisCarNumber
+	Let CarString = String CarString#_
+	Let CarString = String CarString#ThisCarNumber
+	SetRegistryKey RaceCar#Count,CarString
+	SetRegistryKey Key_ReplayCar#Count,ThisCarNumber
+}
+DestroyString Count
+DestroyString CarString
+DestroyString ThisCarNumber
+
+Let ThisTrack = RegistryKey Key_SingleRaceTrack
+Let ThisTrack = String Track#ThisTrack#Name
+SetRegistryKey Track,ThisTrack
+SetRegistryKey Key_ReplayTrack,ThisTrack
+DestroyString ThisTrack
+
+Let NewCars = String NumberOfCars
+DestroyString NumberOfCars
+SetRegistryKey NumberOfCars,NewCars
+SetRegistryKey Key_ReplayCars,NewCars
+DestroyString NewCars
+
+DestroyString RaceType
+SetRegistryKey RaceType,SingleRace
+
+EnableMouse Off
+StopMovie
+BitmapInclude .\GameData\Postcards
+LoadBackground Track#SelectedTrack#Name
+
+RestoreBackground 0,0,800,600
+
+RunGame SingleRaceDone
+
+Function SingleRaceDone
+
+Call InitialiseAll
+
+Call MakeTrackStrings
+Call MakeCarStrings
+Call InitialiseDrivers
+
+Call DrawBasicLayout
+Call DrawButtonValues
+
+Call SingleRaceScreen
+
+
+EnableMouse On
+DisplayScreen
+EnableMouse On
+DisplayScreen
+
+Wait
+
+Return
+
+#######################################################
+# Draw the grid.
+
+Function DrawSingleRaceGrid
+
+RestoreBackground 196,140,771,501
+
+DestroyString Count
+For Count = 1 to 12
+{
+	If Count <= NumberOfCars
+	{
+		Let DrawnPosition = String Count
+		Call DrawGridPosition
+	}
+	If Count > NumberOfCars
+	{
+		Destroy ChangeCarButton#Count
+		Destroy ChangeDriverButton#Count
+	}
+}
+DestroyString Count
+Return
+
+#######################################################
+# Draw a grid member.
+
+Function DrawGridPosition
+
+Let YPosition = String DrawnPosition
+Let YPosition = String YPosition-1
+Let YPosition = String YPosition*30
+Let YPosition = String YPosition+160
+
+Let XPosition = String 250
+
+If 2*DrawnPosition/2 = DrawnPosition
+{
+	Let YPosition = String YPosition-20
+	Let XPosition = String 450
+}
+
+Line XPosition,YPosition,XPosition+150,YPosition,65535
+
+Write XPosition+70,YPosition-15,DrawnPosition,RightFont
+
+If DrawnPosition = 1
+{
+	Let CarText = String CarNumber#SelectedCar
+	Let DriverText = RegistryKey Key_PlayerName
+}
+If DrawnPosition != 1
+{
+	Let LessNumber = String DrawnPosition-1
+	Let CarText = RegistryKey Key_SingleRaceCar#LessNumber
+	Let DriverText = String DriverNumber#CarText
+	Let CarText = String CarNumber#CarText
+}
+
+DestroyString CarNumber
+DestroyString DriverNumber
+
+If DrawnPosition != 1
+	Let ChangeCarButton#DrawnPosition = Button XPosition,YPosition+2,150,14,CarText#FullName,RightFont,RightFont,ChangedCar,none,ChangedCarNumber=DrawnPosition
+If DrawnPosition = 1
+	Write XPosition,YPosition+2,CarText#FullName,RightFont
+If DrawnPosition != 1
+	Let ChangeDriverButton#DrawnPosition = Button XPosition,YPosition+15,150,14,DriverText,RightFont,RightFont,ChangedDriver,none,ChangedDriverNumber=DrawnPosition
+If DrawnPosition = 1
+	Write XPosition,YPosition+15,DriverText,RightFont
+
+Return
+
+######################################################
+# Player has chosen a different car
+
+Function ChangedCar
+
+Let ChangedCarNumber = String ChangedCarNumber-1
+
+# Find the current car name.
+
+Let CarText = RegistryKey Key_SingleRaceCar#ChangedCarNumber
+Let CarText = String CarNumber#CarText
+
+# Find the sequential number of this car (i.e. AlfaP3 is 0)
+
+Let FoundCar = String NULL
+DestroyString Count
+For Count = 0 to NumberOfCarsChooseable-1
+{
+	If Car#Count#ShortString = CarText
+	{
+		Let FoundCar = String Count
+		Let Count = String NumberOfCarsChooseable
+	}
+}
+DestroyString Count
+
+If FoundCar = NULL Let FoundCar = String -1
+
+# Increase this number and use this.
+Let FoundCar = String FoundCar+1
+
+DestroyString Car
+Let CarText = String Car#FoundCar#ShortString
+Let NewNumber = String Z_#CarText#Number
+
+SetRegistryKey Key_SingleRaceCar#ChangedCarNumber,NewNumber
+
+Let ChangedDriverNumber = String ChangedCarNumber+1
+Call ChangedDriver
+
+DestroyString CarText
+DestroyString NewNumber
+DestroyString FoundCar
+DestroyString ChangedCarNumber
+
+
+Call DrawButtonValues
+
+Call DrawSingleRaceGrid
+
+Return
+
+######################################################
+# Player has chosen a different driver
+
+Function ChangedDriver
+
+Let ChangedDriverNumber = String ChangedDriverNumber-1
+
+Let DriverName = RegistryKey Key_SingleRaceCar#ChangedDriverNumber
+Let OldCarNumber = String DriverName
+Let DriverName = String DriverNumber#DriverName
+
+DestroyString Chance
+For Chance = 1 to 4
+{
+	Let InvalidDriver = String FALSE
+
+	Call FindNextDriver
+	SetRegistryKey Key_SingleRaceCar#ChangedDriverNumber,NewDriverNumber
+	Let OldCarNumber = String NewDriverNumber
+
+	DestroyString Count
+	For Count = 0 to NumberOfCars-1
+	{
+		If Count != ChangedDriverNumber
+		{
+			Let TestedDriver = RegistryKey Key_SingleRaceCar#Count
+			If TestedDriver = NewDriverNumber
+			{
+				Let InvalidDriver = String TRUE
+			}
+		}
+	}
+	DestroyString Count
+	
+	If InvalidDriver = FALSE Let Chance = String 10
+}
+
+# If we've not found a new name...
+If Chance < 9
+{
+	Let ChangedCarNumber = String ChangedDriverNumber+1
+	Call ChangedCar
+}
+
+DestroyString Chance
+
+DestroyString CarName
+DestroyString NewDriverNumber
+DestroyString OldCarNumber
+DestroyString ChangedDriverNumber
+DestroyString InvalidDriver
+
+Call DrawSingleRaceGrid
+Return
+
+#######################################################
+# Find the next available driver
+
+Function FindNextDriver
+
+Let NewDriverNumber = String NULL
+
+DestroyString Count
+For Count = OldCarNumber+1 to 99
+{
+	if CarNumber#Count = CarNumber#OldCarNumber
+	{
+		Let NewDriverNumber = String Count
+		Let Count = String 99
+	}
+}
+DestroyString Count
+
+If NewDriverNumber = NULL
+{
+	Let CarName = String CarNumber#OldCarNumber
+	Let NewDriverNumber = String Z_#CarName#Number
+}
+
+Return
+
+#######################################################
+# Draw the button for the amount of cars in the race.
+
+Function DrawNumberOfCarsButton
+
+Let NewNumber = String NumberOfCars+1
+If NewNumber > 12 Let NewNumber = String 2
+
+Destroy NumberOfCarsButton
+Let NumberOfCarsButton = Button 380,99,30,14,NumberOfCars,RightFont,RightFont,ChangedNumberOfCars,none,NumberOfCars=NewNumber
+
+Return
+
+#######################################################
+# They've changed the number of cars in the race.
+
+Function ChangedNumberOfCars
+SetRegistryKey Key_SingleRaceCars,NumberOfCars
+Call DrawNumberOfCarsButton
+Let CheckedCar = String NumberOfCars-1
+Call CheckLastCar
+DestroyString CheckedCar
+SetRegistryKey Key_SingleRaceCars,NumberOfCars
+Call DrawSingleRaceGrid
+Return
+
+#######################################################
+# Check that the car they've created isn`t a duplicate
+
+Function CheckLastCar
+Let ThisCarString = RegistryKey Key_SingleRaceCar#CheckedCar
+DestroyString Count
+For Count = 0 to CheckedCar-1
+{
+	Let CheckedCarNumber = RegistryKey Key_SingleRaceCar#Count
+	If CheckedCarNumber = ThisCarString
+	{
+		Let ChangedDriverNumber = String CheckedCar+1
+		Call ChangedDriver
+		Let Count = String CheckedCar
+	}
+}
+DestroyString Count
+Return
+
+#######################################################
+# Draw the button to change the track.
+
+Function DrawSingleRaceTrackButton
+
+Let NewTrack = RegistryKey Key_SingleRaceTrack
+Let TrackName = String Track#NewTrack
+Let TrackName = String TrackName#Name
+Let NextTrack = String NewTrack+1
+
+Destroy NextTrackButton
+Let NextTrackButton = Button 550,99,150,14,TrackName,RightFont,RightFont,ChangedSingleRaceTrack,none,SelectedTrack=NextTrack
+
+DestroyString NewTrack
+DestroyString TrackName
+DestroyString NextTrack
+
+Return
+
+
+Function ChangedSingleRaceTrack
+
+If SelectedTrack > NumberOfTracks
+	Let SelectedTrack = String 0 
+
+SetRegistryKey Key_SelectedTrack,SelectedTrack
+SetRegistryKey Key_SingleRaceTrack,SelectedTrack
+
+Call DrawButtonValues
+
+Call DrawSingleRaceTrackButton
+Return
+
+#######################################################
+# Draw the button to change the number of laps
+
+Function DrawSingleRaceLapsButton
+Destroy IncreaseLapsButton
+DestroyString NumberOfLaps
+Let OldLaps = RegistryKey Key_SingleRaceLaps
+Let NewLaps = String 1
+If OldLaps < 10
+{
+	Let NewLaps = String OldLaps+1
+}
+If NewLaps = 1
+{
+	If OldLaps < 19
+	{
+		Let NewLaps = String OldLaps+2
+	}
+}
+If NewLaps = 1
+{
+	If OldLaps < 50
+	{
+		Let NewLaps = String OldLaps+5
+	}
+}
+If NewLaps = 1
+{
+	If OldLaps < 100
+	{
+		Let NewLaps = String OldLaps+10
+	}
+}
+If NewLaps = 1
+{
+	If OldLaps < 200
+	{
+		Let NewLaps = String OldLaps+50
+	}
+}
+If NewLaps = 250 Let NewLaps = String 1
+
+Let IncreaseLapsButton = Button 380,120,30,14,OldLaps,RightFont,RightFont,ChangeSingleRaceLaps,none,NewNumberOfLaps=NewLaps
+DestroyString NewLaps
+DestroyString OldLaps
+Return
+
+Function ChangeSingleRaceLaps
+DestroyString NumberOfLaps
+SetRegistryKey Laps,NewNumberOfLaps
+SetRegistryKey Key_SingleRaceLaps,NewNumberOfLaps
+DestroyString NewNumberOfLaps
+
+Call DrawSingleRaceLapsButton
+Return
+
+################################################
+
+Function DestroySingleRaceButtons
+
+Destroy NumberOfCarsButton
+
+DestroyString Count
+For Count = 0 To 12
+{
+	Destroy ChangeCarButton#Count
+	Destroy ChangeDriverButton#Count
+}
+DestroyString Count
+
+Destroy StartRaceButton
+Destroy IncreaseLapsButton
+Destroy NextTrackButton
+Destroy NumberOfCarsButton
+
+RestoreBackground 196,33,771,538
+
+Return
+

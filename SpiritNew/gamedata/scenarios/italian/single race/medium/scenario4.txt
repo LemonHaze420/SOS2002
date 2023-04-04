@@ -1,0 +1,20 @@
+Name Vacanza estiva
+Description Affronta i più grandi campioni a bordo delle auto più avanzate del loro tempo. Porta la 154 alla vittoria partendo dal fondo dello schieramento.
+Difficulty Media
+Goal Position
+SuccessValue 1
+SuccessString È stato uno spettacolo grandioso. Hai guidato benissimo e ora il pubblico ti adora.
+FailureString Scappi via dal circuito a testa bassa, troppo imbarazzato per guardare chiunque negli occhi.
+TrackPosition 9
+Track Montlhery
+Laps 10
+Cars 9
+Car0 15
+Car1 16
+Car2 58
+Car3 1
+Car4 41
+Car5 33
+Car6 57
+Car7 50
+Car8 4

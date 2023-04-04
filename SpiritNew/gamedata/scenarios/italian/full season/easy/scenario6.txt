@@ -1,0 +1,39 @@
+Name Stagione sull'Auto Union C
+Difficulty Facile
+Description Termina la stagione almeno al secondo posto in classifica.
+Goal Position
+SuccessValue 2
+SuccessString Eccellente!
+FailureString Dovrai continuare ad allenarti.
+TrackPosition 0
+Race Media
+Cars 10
+Car0 32
+Car1 8
+Car2 21
+Car3 16
+Car4 28
+Car5 60
+Car6 59
+Car7 55
+Car8 22
+car9 17
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

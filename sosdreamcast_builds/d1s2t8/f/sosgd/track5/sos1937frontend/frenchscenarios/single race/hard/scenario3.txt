@@ -1,0 +1,35 @@
+Name Ah, l'Afrique
+Difficulty Hard
+Description La Mercedes 125 n'y est pas très à l'aise. Remportez la victoire en partant du fond de la grille du circuit de Tripoli.
+Goal Position
+SuccessValue 1
+SuccessString Une victoire vraiment fantastique ! Nous vous souhaitons beaucoup de bonheur.
+FailureString Vous l'avez perdue ! Ah, les femmes
+TrackPosition 5
+Track Tripoli
+Laps 6
+Cars 5
+Car0 57
+Car1 9
+Car2 50
+Car3 20
+Car4 1
+#Car5 4
+#Car5 14
+#Car7 58
+#Car8 23
+#Car9 41
+
+
+
+
+
+
+
+
+
+
+
+
+
+

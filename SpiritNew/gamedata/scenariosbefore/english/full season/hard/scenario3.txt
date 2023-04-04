@@ -1,0 +1,37 @@
+Name Full Season Alfa Romeo P3
+Difficulty Hard
+Description Be placed third overall at the end of the season or better.
+Goal position
+SuccessValue 3
+SuccessString Your performance secures you a long and prosperous carerr with Alfa! Well done!
+FailureString Forced to scratch around the karting circuit, perhaps you should retire!
+TrackPosition 0
+Race Medium
+Cars 10
+Car0 35
+Car1 7
+Car2 15
+Car3 36
+Car4 27
+Car5 21
+Car6 20
+Car7 44
+car8 58
+Car9 32
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

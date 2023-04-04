@@ -1,0 +1,40 @@
+Name Saison complète, Alfa Bimotore
+Difficulty Moyen
+Description Finir sur le podium du championnat
+Goal Position
+SuccessValue 3
+SuccessString Une très belle saison, félicitations !
+FailureString Il vous faudra être meilleur la saison prochaine !
+TrackPosition 0
+Race Moyenne
+Cars 5
+Car0 92
+Car1 9
+Car2 50
+Car3 11
+#Car4 15
+Car4 58
+#Car6 10
+#Car7 3
+#car8 23
+#Car9 59
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

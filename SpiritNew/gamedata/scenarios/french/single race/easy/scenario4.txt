@@ -1,0 +1,20 @@
+Name Tempête sur la piste
+Difficulty Facile
+Description Tâchez de battre diverses voitures américaines et européennes à Brooklands. Vous partirez du fond de la grille, alors ne traînez pas.
+Goal Position
+SuccessValue 1
+SuccessString Félicitations ! Vous êtes la tornade de Brooklands !
+FailureString Il faut presque le faire exprès pour perdre sur ce circuit avec une telle voiture ! 
+TrackPosition 6
+Track Brooklands
+Laps 20
+Cars 6
+Car0 9
+Car1 24
+Car2 2
+Car3 40
+Car4 35
+Car5 18
+
+
+

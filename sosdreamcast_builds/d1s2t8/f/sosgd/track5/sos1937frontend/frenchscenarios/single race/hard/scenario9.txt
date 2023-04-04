@@ -1,0 +1,20 @@
+Name Twist & Shout
+# Alan Clark
+Description Finissez dans les deux premiers à Monza avec votre Alfa 12C. Vous partez déjà 2e, il ne vous reste qu'à rallier l'arrivée…
+Difficulty Hard
+Goal Position
+SuccessValue 2
+SuccessString La célébration de votre victoire restera dans toutes les mémoires.
+FailureString Ne vous attardez pas dans la région, conseil d'ami.
+TrackPosition 2
+Track Monza
+Laps 5
+Cars 5
+Car0 8
+#Car1 49
+Car1 33
+Car2 40
+Car3 43
+Car4 42
+#Car6 26
+#Car7 12

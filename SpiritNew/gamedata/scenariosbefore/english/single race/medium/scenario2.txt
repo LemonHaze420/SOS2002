@@ -1,0 +1,13 @@
+Name Lap Record
+Description Break the lap record of one minute seven seconds at Brooklands, with only 3 laps to do it! Your car is the Alfa Romeo P3.
+Goal LapTime
+Difficulty Medium
+SuccessValue 6700
+SuccessString First the lap record, next stop the sound barrier!
+FailureString Ah well. At least there's always tomorrow.
+TrackPosition 1
+Track Brooklands
+Laps 3
+Cars 2
+Car0 43
+Car1 31

@@ -1,0 +1,35 @@
+Name Volle Saison Alfa Romeo 12C
+Difficulty Einfach
+Description Beenden Sie die Saison mindestens als Sechster.
+Goal position
+SuccessValue 6
+SuccessString Glückwunsch zu dieser erfolgreichen Rennsaison!
+FailureString Probieren Sie´s noch mal!
+TrackPosition 0
+Race Short
+Cars 8
+Car0 8
+Car1 22
+Car2 5
+Car3 17
+Car4 27
+Car5 34
+Car6 43
+Car7 46
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

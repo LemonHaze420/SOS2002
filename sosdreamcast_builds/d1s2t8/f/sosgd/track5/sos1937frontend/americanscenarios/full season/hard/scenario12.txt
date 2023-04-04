@@ -1,0 +1,40 @@
+Name Full Season Miller
+Difficulty Hard
+Description Finish the season in the top two.
+Goal position
+SuccessValue 2
+SuccessString Your place on the podium is fully deserved! Great effort!
+FailureString Your failure must sting deeply. Can you prove us wrong?
+TrackPosition 0
+Race Medium
+Cars 5
+Car0 48
+Car1 44
+Car2 57
+Car3 59
+Car4 1
+#Car5 46
+#Car6 30
+#Car7 51
+#Car8 29
+#Car9 12
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

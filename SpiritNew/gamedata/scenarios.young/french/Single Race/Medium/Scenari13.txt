@@ -1,0 +1,28 @@
+Name Le Génie de la Vitesse
+Difficulty Moyen
+Description Battez les meilleurs Italiens à Monza et terminez dans les 3 premiers au volant de l'Auto Union C.
+Goal Position
+SuccessValue 3
+SuccessString Bien joué ! Une vraie tornade !
+FailureString Encore un peu d'entraînement et vous y arriverez !
+TrackPosition 1
+Track Monza
+Laps 8
+Cars 6
+Car0 4
+Car1 15
+Car2 50
+Car3 51
+Car4 32
+Car5 11
+
+
+
+
+
+
+
+
+
+
+

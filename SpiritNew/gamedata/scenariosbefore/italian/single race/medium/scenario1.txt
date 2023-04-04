@@ -1,0 +1,16 @@
+Name Soldi facili
+# Robert Ward
+Description Un brutto rovescio di fortuna alla roulette ti costringe ad affrontare Donington per cercare di vincere i soldi del premio. Batti il giro record di 1:30:01 in soli 3 giri per pagare il tuo debito.
+Goal LapTime
+Difficulty Media
+SuccessValue 9000
+TrackPosition 3
+SuccessString Cinquecento ghinee, un posto nel libro dei record e tanti meritati applausi...
+FailureString Ti conviene almeno imparare a fuggire dai creditori più velocemente di così!
+Track Donington
+Laps 3
+Cars 4
+Car0 8
+Car1 11
+Car2 55
+Car3 7

@@ -1,0 +1,13 @@
+Name Record du Tour
+Description Faites exploser le record du tour de Brooklands (une minutes et sept secondes) en seulement trois tours ! Vous piloterez l'Alfa Romeo P3.
+Goal Temps au tour
+Difficulty Moyen
+SuccessValue 6700
+SuccessString Bien joué ! Vous avez réussi ce scénario !
+FailureString Pas loin ! Vous aurez plus de chance la prochaine fois.
+TrackPosition 1
+Track Brooklands
+Laps 3
+Cars 2
+Car0 43
+Car1 31

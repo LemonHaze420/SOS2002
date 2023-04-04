@@ -1,0 +1,30 @@
+Name Stagione sulla Mercedes 125
+Difficulty Difficile
+Description Domina la stagione e diventa il nuovo campione.
+Goal Position
+SuccessValue 1
+SuccessString Hai guidato benissimo per tutta la stagione!
+FailureString Andrà meglio la prossima stagione!
+TrackPosition 0
+Race Corta
+Cars 6
+Car0 24
+Car1 1
+Car2 14
+Car3 20
+Car4 15
+Car5 66
+
+
+
+
+
+
+
+
+
+
+
+
+
+

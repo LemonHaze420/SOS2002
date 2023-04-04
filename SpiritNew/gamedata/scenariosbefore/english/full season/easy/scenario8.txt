@@ -1,0 +1,37 @@
+Name Full Season Bugatti 35B
+Difficulty Easy
+Description Finish the season in sixth position or better
+Goal position
+SuccessValue 6
+SuccessString That was as good as it gets in the 35B! A good effort on your part!
+FailureString What's worse - the car or your driving?
+TrackPosition 0
+Race Short
+Cars 8
+Car0 7
+Car1 34
+Car2 24
+Car3 27
+Car4 11
+Car5 22
+Car6 5
+Car7 16
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

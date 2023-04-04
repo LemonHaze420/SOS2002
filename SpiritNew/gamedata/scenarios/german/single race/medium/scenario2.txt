@@ -1,0 +1,13 @@
+Name Rundenrekord
+Description Brechen Sie den Rundenrekord von einer Minute und sieben Sekunden in den Brooklands - in nur drei Runden! Sie fahren den Alfa Romeo P3.
+Goal LapTime
+Difficulty Mittel
+SuccessValue 6700
+SuccessString Sehr gut! Sie haben das Szenario erfolgreich absolviert!
+FailureString Dicht dran! Nächstes Mal schaffen Sie es!
+TrackPosition 1
+Track Brooklands
+Laps 3
+Cars 2
+Car0 43
+Car1 31

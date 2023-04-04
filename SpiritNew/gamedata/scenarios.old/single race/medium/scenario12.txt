@@ -1,0 +1,33 @@
+Name The Heat Is On...
+Difficulty Medium
+Description This gruelling lengthy track will take its toll on the best of drivers. Pit your wits against this harsh unforgiving landscape and aim to win in the Auto Union D. You start in ninth position so be quick off the mark!
+Goal Position
+SuccessValue 1
+SuccessString Fantastic win over some tough competition!
+FailureString Maybe that was a bit too gruelling. Better luck next time!
+TrackPosition 9
+Track Tripoli
+Laps 2
+Cars 10
+Car0 23
+Car1 43
+Car2 39
+Car3 20
+Car4 24
+Car5 25
+Car6 4
+Car7 31
+Car8 83
+Car9 10
+
+
+
+
+
+
+
+
+
+
+
+

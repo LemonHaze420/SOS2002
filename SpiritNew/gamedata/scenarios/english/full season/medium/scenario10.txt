@@ -1,0 +1,38 @@
+Name Full Season ERA Remus
+Difficulty Medium
+Description Finish the season in fifth position or better
+Goal position
+SuccessValue 5
+SuccessString You met the challenge head on and deserve all due credit!
+FailureString A little more luck, effort and skill next season will see you succeed.!
+TrackPosition 0
+Race Short
+Cars 8
+Car0 53
+Car1 12
+Car2 39
+Car3 21
+Car4 35
+Car5 46
+Car6 51
+Car7 42
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

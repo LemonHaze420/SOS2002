@@ -1,0 +1,40 @@
+Name Saison complète, Bonner Special
+Difficulty Facile
+Description Finir dans les quatre premiers du championnat
+Goal Position
+SuccessValue 4
+SuccessString Une saison bien agréable à suivre ! Allez, passons aux choses sérieuses.
+FailureString N'abandonnez pas ! Vous pouvez y arriver !
+TrackPosition 0
+Race Longue
+Cars 6
+Car0 10
+Car1 5
+Car2 21
+Car3 24
+Car4 32
+Car5 60
+#Car6 2
+#Car7 49
+#Car8 40
+#Car9 7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,33 @@
+Name Ein Ausflug in die Wildnis
+Difficulty Easy
+Description Diese spektakuläre Strecke verlangt den Fahrern alles ab. Setze Dein ganzes Können ein, um auf dieser harten und unbarmherzigen Strecke zu gewinnen. Du gehst mit einem Mercedes 154 auf dem 6. Startplatz ins Rennen.
+Goal Position
+SuccessValue 1
+SuccessString Dein Sieg erfüllt die Herzen der Briten mit Stolz.
+FailureString Deine Niederlage auf diesem grossen Kontinent hast Du das Zeichen zum Abzug der Briten gesetzt.
+TrackPosition 6
+Track Tripoli
+Laps 6
+Cars 6
+Car0 15
+Car1 9
+Car2 12
+Car3 92
+Car4 16
+Car5 22
+#Car6 7
+#Car7 2
+#Car8 1
+#Car9 3
+
+
+
+
+
+
+
+
+
+
+
+

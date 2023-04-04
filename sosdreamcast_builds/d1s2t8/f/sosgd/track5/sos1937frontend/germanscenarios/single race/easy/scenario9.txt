@@ -1,0 +1,26 @@
+Name In den Bergen Montanas
+Difficulty Easy
+Description Setze dich in Deinem Duesenberg gegen den starken Bugatti 35B durch! Da Du von der Pole-Position ins Rennen gehst, sollte das kein grosses Problem sein. Ein 3. Platz in diesem Rennen vor den Bergen Montanas ist völlig ausreichend. 
+Goal Position
+SuccessValue 3
+SuccessString Du hast auf der gefährlichsten Strecke der Welt das schwierigste Auto gezähmt. Das ist der Spirit Of Speed!
+FailureString Der Duesenberg ist kein Panzer, also fahr' gefälligst etwas vorsichtiger!
+TrackPosition 1
+Track Montana
+Laps 30
+Cars 5
+Car0 40
+Car1 48
+Car2 2
+Car3 7
+Car4 25
+#Car5 60
+#Car6 34
+#Car7 46
+
+
+
+
+
+
+

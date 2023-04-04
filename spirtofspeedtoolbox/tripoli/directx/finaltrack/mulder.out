@@ -1,0 +1,68 @@
+MULDER v6.0 (c) Broadsword Interactive 1997/1998
+no output filename given, using object.vo
+material-texture 0 xof_default NONE
+material-texture 1 n_2Dirt 2Dirt.tga
+material-texture 2 Telegraph_Pole TelegraphPole.tga
+material-texture 3 Bollard2 Bollard2.tga
+material-texture 4 Gr_Wall Gr_Wall.tga
+material-texture 5 n_2Skids 2TrackSkids.tga
+material-texture 6 Str_Grid StartingGrid.tga
+material-texture 7 n_2Track 2Track.tga
+material-texture 8 SandBank SandBank.tga
+material-texture 9 GrassSand GrassSand.tga
+material-texture 10 N_BushL N_BushL.tga
+material-texture 11 N_BushR N_BushR.tga
+material-texture 12 Concrete WhiteBorder.tga
+material-texture 13 Gr_Crowd crowd.tga
+material-texture 14 GreyConcrete wall17.tga
+material-texture 15 T_TowerSide01 timetowertower1.tga
+material-texture 16 T_TowerGallery timingtowergallery01.tga
+material-texture 17 T_TowerPanel timetower01.tga
+material-texture 18 T_TowerSide timetowerside.tga
+material-texture 19 AL_FarTrees TR-BackgroundTrees.tga
+material-texture 20 advAuto log01a.tga
+material-texture 21 PitsSide pitsside01.tga
+material-texture 22 Pits_comp Pits_comp.tga
+material-texture 23 PitsRoof pitsroof01.tga
+material-texture 24 Gr_Lights Gr_Lights.tga
+material-texture 25 Gr_Pole Gr_Pole.tga
+material-texture 26 N_Palm_R Palm[R]-NEW.tga
+material-texture 27 N_Palm_L Palm[L]-NEW.tga
+Got 25717 vertices, 16024 polygons
+got 27 materials, 16024 polygon entries - incomplete?? (this isn't a problem)
+4626 normals, 16024 vertices processed
+25717 texture coords processed
+File processed OK
+scale set to 1.000000
+written 17183 geoverts
+written 4626 normals
+TEXTURES REQUIRED
+2Dirt.3df
+TelegraphPole.3df
+Bollard2.3df
+Gr_Wall.3df
+2TrackSkids.3df
+StartingGrid.3df
+2Track.3df
+SandBank.3df
+GrassSand.3df
+N_BushL.3df
+N_BushR.3df
+WhiteBorder.3df
+crowd.3df
+wall17.3df
+timetowertower1.3df
+timingtowergallery01.3df
+timetower01.3df
+timetowerside.3df
+TR-BackgroundTrees.3df
+log01a.3df
+pitsside01.3df
+Pits_comp.3df
+pitsroof01.3df
+Gr_Lights.3df
+Gr_Pole.3df
+Palm[R]-NEW.3df
+Palm[L]-NEW.3df
+offset : 40c24
+Extents : -1011.564148<x<2491.131348 -3.172723<y<55.102318 -3096.723389<z<3488.416504

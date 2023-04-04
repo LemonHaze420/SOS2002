@@ -1,0 +1,38 @@
+Name Tymor llawn Bugatti 59
+Difficulty Canolig 
+Description Gorffennwch yn y perwarydd safle neu well ar ddiwedd y tymor. 
+Goal Position
+SuccessValue 4
+SuccessString Gyrru da, medrus! 
+FailureString Fe frwydroch yn ddewr, hen dro! 
+TrackPosition 0
+Race Long
+Cars 8
+Car0 56
+Car1 17
+Car2 59
+Car3 29
+Car4 46
+Car5 8
+Car6 10
+Car7 18
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,363 @@
+Function LoadSingleRaceScenario
+
+Call CleanUpButtons
+Let CurrentScreen = String LoadScenario
+
+Disable SelectTrackButton
+Disable SelectCarButton
+Disable RaceTypeButton
+Disable OptionsButton
+
+
+WriteLocale 350,65,269,HeaderFont
+WriteLocale 250,120,241,RightFont,100
+
+Let DifficultyLevel = String Easy
+Let SelectionOffset = String 0
+
+Call Scenario_DrawAvailableScenarios
+
+Return
+
+###############################################
+# The scenario has been raced!
+
+Function Scenario_DoneScenario
+
+Call DoneScenarioRace
+
+Let CurrentScreen = String LoadScenario
+
+EnableMouse Off
+DisplayScreen
+EnableMouse On
+DisplayScreen
+
+
+Wait
+
+
+Function DoneScenarioRace
+Let ScenarioName = RegistryKey Key_ScenarioFileName
+Let ScenarioFile = File ScenarioName
+DestroyString ScenarioName
+
+# Find out what type of scenario this is.
+ReadStream ScenarioFile,Goal,ScenarioGoal
+ReadStream ScenarioFile,SuccessValue,ScenarioTarget
+If ScenarioGoal = LapTime Call DoneLapTimeRace
+If ScenarioGoal = Position Call DonePositionRace
+If ScenarioGoal = FastestLap Call DoneFastestLapRace
+
+Write 235,146,Text,LeftFont,350,100
+
+DestroyString Text
+DestroyString ScenarioTarget
+Destroy ScenarioFile
+Return
+
+#######################################
+# Success/Failure of Scenarios ########
+#######################################
+
+Function DoneLapTimeRace
+If ScenarioTarget = NULL Return
+Let BestLapTime = RegistryKey BestLap_0
+If BestLapTime < ScenarioTarget Call ScenarioPassed
+If BestLapTime >= ScenarioTarget Call ScenarioFailed
+Return
+
+Function DonePositionRace
+If ScenarioTarget = NULL Return
+Let ActualPosition = RegistryKey PositionInRace_0
+If ActualPosition <= ScenarioTarget Call ScenarioPassed
+If ActualPosition > ScenarioTarget Call ScenarioFailed
+Return
+
+Function DoneFastestLapRace
+If ScenarioTarget = NULL Let ScenarioTarget = String 1
+
+Let ActualLap = RegistryKey BestLap_0
+Let NumberOfDrivers = RegistryKey NumberOfCars
+Let Counter = String NumberOfDrivers
+DestroyString CurrentCar
+For CurrentCar = 1 to NumberOfDrivers-1
+{
+	Let ComputerLap = RegistryKey BestLap_#CurrentCar
+	If ActualLap < ComputerLap Let Counter = String Counter-1
+}
+
+# Counter holds the n-th best lap (i.e. 3 = 3rd best)
+If Counter <= ScenarioTarget Call ScenarioPassed
+If Counter > ScenarioTarget Call ScenarioFailed
+
+DestroyString CurrentCar
+DestroyString Counter
+Return
+
+Function ScenarioPassed
+WriteLocale 300,100,276,HeaderFont
+ReadStream ScenarioFile,SuccessString,Text
+Return
+
+Function ScenarioFailed
+WriteLocale 300,100,277,HeaderFont
+ReadStream ScenarioFile,FailureString,Text
+Return
+
+
+###############################################
+# Show the scenarios available to load ########
+###############################################
+
+Function Scenario_DrawAvailableScenarios
+
+Call Scenario_DrawDifficultyButton
+Let SelectionOffset = String 0
+
+Call Scenario_DrawScenarioSelection
+
+Return
+
+Function Scenario_DrawScenarioSelection
+
+Destroy NextPageButton
+
+RestoreBackground 500,120,750,620
+DestroyString Count
+For Count = 0 to 15
+{
+	Destroy Scenario#Count#Button
+}
+DestroyString Count
+
+DestroyString Count
+For Count = 1 to 15
+{
+	Let TempScenarioNumber = String Count+SelectionOffset
+	Let CheckedFileName = String "Scenarios\Single Race\"
+	Let CheckedFileName = String CheckedFileName#DifficultyLevel#\Scenario
+	Let CheckedFileName = String CheckedFileName#TempScenarioNumber#.txt
+
+	Let CheckedFile = File CheckedFileName
+	DestroyString NameString
+	ReadStream CheckedFile,Name,NameString
+	If NameString != NULL
+	{
+		Let Scenario#Count#Button = Button 500,120+Count*21,262,15,NameString,RightFont,RightFont,Scenario_ChosenScenario,none,NewScenario=CheckedFileName
+	}
+	Destroy CheckedFile
+}
+DestroyString Count
+
+Let TempScenarioNumber = String TempScenarioNumber+1
+Let CheckedFileName = String "Scenarios\Single Race\"
+Let CheckedFileName = String CheckedFileName#DifficultyLevel#\Scenario
+Let CheckedFileName = String CheckedFileName#TempScenarioNumber#.txt
+
+Let CheckedFile = File CheckedFileName
+DestroyString NameString
+ReadStream CheckedFile,Name,NameString
+If NameString != NULL
+{
+	Let ButtonText = LocaleString 270
+	Let NewSelectionOffset = String SelectionOffset+15
+	Let NextPageButton = Button 500,477,250,18,ButtonText,LeftFont,LeftFont,Scenario_DrawScenarioSelection,none,SelectionOffSet=NewSelectionOffset
+}
+If NameString = NULL
+{
+	If SelectionOffset != 0
+	{
+		Let ButtonText = LocaleString 271
+		Let NewSelectionOffset = String 0
+		Let NextPageButton = Button 500,477,250,18,ButtonText,LeftFont,LeftFont,Scenario_DrawScenarioSelection,none,SelectionOffSet=NewSelectionOffset
+	}
+}
+
+DestroyString NewSelectionOffset
+
+Destroy CheckedFile
+
+DestroyString CheckedFileName
+Return
+
+###############################################
+# Selected a scenario.
+
+Function Scenario_ChosenScenario
+RestoreBackground 250,160,499,560
+Let ScenarioFileName = String NewScenario
+DestroyString NewScenario
+Let ScenarioFile = File ScenarioFileName
+
+DestroyString ScenarioName
+ReadStream ScenarioFile,Name,ScenarioName
+Write 250,160,ScenarioName,RightFont
+DestroyString ScenarioName
+
+DestroyString ScenarioDescription
+ReadStream ScenarioFile,Description,ScenarioDescription
+Write 250,181,ScenarioDescription,RightFont,220,211
+DestroyString ScenarioDescription
+
+DestroyString ScenarioRaceLength
+ReadStream ScenarioFile,Laps,ScenarioRaceLength
+WriteLocale 250,371,246,RightFont
+Write 360,371,ScenarioRaceLength,RightFont
+WriteLocale 380,371,273,RightFont
+DestroyString ScenarioRaceLength
+
+DestroyString ScenarioTrack
+ReadStream ScenarioFile,Track,ScenarioTrack
+WriteLocale 250,392,272,RightFont
+Write 360,392,ScenarioTrack,RightFont
+DestroyString ScenarioTrack
+
+DestroyString CarsInScenario
+ReadStream ScenarioFile,Cars,CarsInScenario
+
+DestroyString CurrentCar
+For CurrentCar = 0 to CarsInScenario-1
+{
+	DestroyString CarBase
+	ReadStream ScenarioFile,Car#CurrentCar,CarBase
+	Let CarBase = String CarNumber#CarBase
+	Let CarBase = String Z_#CarBase#Number
+	Let NewTally = String Tally#CarBase
+	If NewTally = 0 Let NewTally = String 0
+	Let NewTally = String NewTally+1
+	Destroy Tally#CarBase
+	Let Tally#CarBase = String NewTally
+	DestroyString NewTally
+}
+DestroyString CurrentCar
+
+Let ListOfCars = String ""
+Let Comma = String ", "
+DestroyString CurrentCar
+For CurrentCar = 0 to NumberOfCarsAvailable
+{
+	Let ThisCarName = String Car#CurrentCar#LongString
+	Let ThisCarNumber = String Car#CurrentCar#ShortString
+	Let ThisCarNumber = String Z_#ThisCarNumber#Number
+	Let NumberOfThisCar = String Tally#ThisCarNumber
+	If NumberOfThisCar > 0
+	{
+		If ListOfCars != "" Let ListOfCars = String ListOfCars#Comma
+		Let ListOfCars = String ListOfCars#NumberOfThisCar
+		Let ListOfCars = String ListOfCars#x@
+		Let ListOfCars = String ListOfCars#ThisCarName
+	}
+	Destroy Tally#ThisCarNumber
+}
+DestroyString CurrentCar
+
+Let ListOfCars = String ListOfCars#.
+Write 250,413,ListOfCars,RightFont,220,150
+
+Let ConfirmScenarioText = LocaleString 247
+Let ConfirmScenarioButton = Button 290,520,140,14,ConfirmScenarioText,LeftFont,LeftFont,Scenario_ScenarioConfirmed,none,ChosenScenario=ScenarioFileName
+DestroyString ConfirmScenarioText
+Return
+
+#####################################################
+# Confirmed the choice.
+
+Function Scenario_ScenarioConfirmed
+SetRegistryKey Key_RaceType,Scenario
+SetRegistryKey Key_ScenarioFileName,ChosenScenario
+
+# Set up the data required
+Let ScenarioFile = File ChosenScenario
+DestroyString Qualification
+ReadStream ScenarioFile,TrackPosition,Qualification
+
+If Qualification = 0
+{
+	DestroyString NumberOfCars
+	ReadStream ScenarioFile,Cars,NumberOfCars
+	Let Qualification = String NumberOfCars
+	DestroyString NumberOfCars
+}
+DestroyString ChosenScenario
+
+SetRegistryKey QualifiedPosition0,Qualification
+DestroyString Qualification
+
+
+Let QualifyDone = String True
+Let PracticeDone = String True
+
+DestroyString TrackName
+ReadStream ScenarioFile,Track,TrackName
+Call FindChosenTrack
+DestroyString TrackName
+SetRegistryKey Key_CurrentTrack,ChosenTrack
+DestroyString ChosenTrack
+
+DestroyString ScenarioLaps
+ReadStream ScenarioFile,Laps,ScenarioLaps
+SetRegistryKey Laps,ScenarioLaps
+DestroyString ScenarioLaps
+
+Destroy ScenarioFile
+
+# Jump into the full season code.
+Call ScenarioConfirmed
+Return
+
+#####################################################
+# Choose the difficulty.
+
+Function Scenario_DrawDifficultyButton
+
+Destroy DifficultyButton
+
+If DifficultyLevel = Easy
+{
+	Let ButtonText = LocaleString 242
+	Let DifficultyButton = Button 360,120,100,14,ButtonText,RightFont,RightFont,Scenario_NewDifficulty,none,DifficultyLevel=Medium
+}
+If DifficultyLevel = Medium
+{
+	Let ButtonText = LocaleString 243
+	Let DifficultyButton = Button 360,120,100,14,ButtonText,RightFont,RightFont,Scenario_NewDifficulty,none,DifficultyLevel=Hard
+}
+If DifficultyLevel = Hard
+{
+	Let ButtonText = LocaleString 244
+	Let DifficultyButton = Button 360,120,100,14,ButtonText,RightFont,RightFont,Scenario_NewDifficulty,none,DifficultyLevel=Easy
+}
+
+# for the demo
+Disable DifficultyButton
+
+DestroyString ButtonText
+Return
+
+Function Scenario_NewDifficulty
+Call Scenario_DrawDifficultyButton
+
+Call Scenario_DrawAvailableScenarios
+Return
+
+#####################################################
+
+Function DestroyLoadScenarioButtons
+
+DestroyString Count
+For Count = 0 to 15
+{
+	Destroy Scenario#Count#Button
+}
+DestroyString Count
+
+Destroy ConfirmScenarioButton
+Destroy NextPageButton
+Destroy DifficultyButton
+
+RestoreBackground 196,33,771,538
+Return
+
+
+

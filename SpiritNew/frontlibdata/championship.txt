@@ -1,0 +1,903 @@
+Function StartChampionship
+Call CleanUpButtons
+Let CurrentScreen = String Championship
+
+SetRegistryKey Key_RaceType Championship
+
+# Disable the buttons
+Disable SelectTrackButton
+Disable SelectCarButton
+Disable RaceTypeButton
+Disable OptionsButton
+
+SetRegistryKey Key_RaceState,Championship
+
+Call LoadScenario
+Return
+
+Function EndChampionship
+Enable SelectTrackButton
+Enable SelectCarButton
+Enable RaceTypeButton
+Return
+
+#############################################
+# Continue the championship
+
+Function ContinueChampionship
+
+Let CurrentScreen = String Championship
+
+Call LoadScenarioCompetitors
+
+DestroyString Count
+For Count = 1 to NumberOfCars
+{
+	Let TempCarNo = String Count-1
+	Let CarInPosition#Count = RegistryKey Key_CarInPosition#Count
+	Let PositionOfCar#TempCarNo = Key_PositionOfCar#TempCarNo
+	Let PointsOfCar#TempCarNo = RegistryKey Key_PointsOfCar#TempCarNo
+}
+DestroyString Count
+
+Let SelectedTrack = RegistryKey Key_CurrentTrack
+
+Let RaceType = RegistryKey Key_RaceType
+If RaceType = Scenario
+	WriteLocale 400,80,275,HeaderFont
+If RaceType != Scenario
+	WriteLocale 370,80,248,HeaderFont
+
+Let ShowGridText = LocaleString 249
+If RaceType != Scenario
+	Let ShowPositionsText = LocaleString 250
+If RaceType = Scenario
+	Let ShowPositionsText = LocaleString 278
+Let ShowTrackText = LocaleString 251
+Let ShowCarText = LocaleString 252
+Let ShowGridButton = Button 220,130,112,15,ShowGridText,LeftFont,LeftFont,Champ_ShowGrid
+Let ShowPositionsButton = Button 335,130,152,15,ShowPositionsText,LeftFont,LeftFont,Champ_ShowPositions
+Let ShowTrackButton = Button 490,130,132,15,ShowTrackText,LeftFont,LeftFont,Champ_ShowTrack
+Let ShowCarButton = Button 625,130,132,15,ShowCarText,LeftFont,LeftFont,Champ_ShowCar
+DestroyString ShowGridText
+DestroyString ShowPositionsText
+DestroyString ShowTrackText
+DestroyString ShowCarText
+
+Let RaceType = RegistryKey Key_RaceType
+Let ExitText = LocaleString 258
+If RaceType = Scenario
+{
+	Let ExitText = LocaleString 274
+}
+DestroyString RaceType
+Let PracticeText = LocaleString 259
+Let QualifyText = LocaleString 260
+Let RaceText = LocaleString 261
+Let ExitButton = Button 220,520,112,15,ExitText,LeftFont,LeftFont,Champ_ExitSeason
+Let PracticeButton = Button 365,520,120,15,PracticeText,LeftFont,LeftFont,Champ_Practice
+Let QualifyButton = Button 510,520,105,15,QualifyText,LeftFont,LeftFont,Champ_Qualify
+Let RaceButton = Button 640,520,120,15,RaceText,LeftFont,LeftFont,Champ_Race
+DestroyString ExitText
+DestroyString PracticeText
+DestroyString QualifyText
+DestroyString RaceText
+
+If PracticeDone = True Disable PracticeButton
+If QualifyDone = True
+{
+	Disable PracticeButton
+	Disable QualifyButton
+}
+
+Call Champ_ShowTrack
+
+Return
+
+#############################################
+# Exit the season/scenario
+
+Function Champ_ExitSeason
+Call SelectTrackScreen
+Return
+
+#############################################
+# Load the competitors' cars
+
+Function LoadScenarioCompetitors
+Let ScenarioFileName = RegistryKey Key_ScenarioFileName
+
+Let ScenarioFile = File ScenarioFileName
+
+DestroyString SelectedCar
+ReadStream ScenarioFile,Car0,SelectedCar
+
+DestroyString NumberOfCars
+ReadStream ScenarioFile,Cars,NumberOfCars
+
+DestroyString Count
+For Count = 1 to NumberOfCars-1
+{
+	Destroy ComputerCar#Count
+	ReadStream ScenarioFile,Car#Count,ComputerCar#Count
+	SetRegistryKey Key_ComputerCar#Count,ComputerCar#Count
+}
+DestroyString Count
+
+DestroyString ScenarioFileName
+
+Return
+
+#############################################
+# Show Season Grid
+
+Function Champ_ShowGrid
+StopMovie
+RestoreBackground 220,172,760,519
+
+WriteLocale 320,172,263,HeaderFont
+
+DestroyString Count
+For Count = 1 to NumberOfCars
+{
+	Let TextColour = String 65535
+
+	Let ThisCar = RegistryKey Key_CarInPosition#Count
+	If ThisCar != 0 Let ThisCar = String ComputerCar#ThisCar
+	Let ThisDriverName = String DriverNumber#ThisCar
+	Let ThisCarName = String CarNumber#ThisCar
+	If ThisCar = 0
+	{
+		Let ThisCar = String SelectedCar 
+		Let ThisDriverName = RegistryKey Key_PlayerName
+		Let ThisCarName = String CarNumber#SelectedCar
+		Let TextColour = String 63488
+	}
+	Write 265,184+Count*22,Count,RightFont,0,0,TextColour
+	Write 220,197+Count*22,ThisDriverName,RightFont,0,0,TextColour
+	Write 220,212+Count*22,ThisCarName#FullName,RightFont,0,0,TextColour
+
+	Let TextColour = String 65535
+
+	Let Count = String Count+1
+	If Count <= NumberOfCars
+	{
+		Let ThisCar = RegistryKey Key_CarInPosition#Count
+		If ThisCar != 0 Let ThisCar = String ComputerCar#ThisCar
+		Let ThisDriverName = String DriverNumber#ThisCar
+		Let ThisCarName = String CarNumber#ThisCar
+		If ThisCar = 0
+		{
+			Let ThisCar = String SelectedCar
+			Let ThisDriverName = RegistryKey Key_PlayerName
+			Let ThisCarName = String CarNumber#SelectedCar
+			Let TextColour = String 63488
+		}
+		Write 465,192+Count*22,Count,RightFont,0,0,TextColour
+		Write 420,205+Count*22,ThisDriverName,RightFont,0,0,TextColour
+		Write 420,220+Count*22,ThisCarName#FullName,RightFont,0,0,TextColour
+	}
+}
+DestroyString Count
+
+DestroyString ThisCar
+DestroyString ThisDriverName
+DestroyString ThisCarName
+DestroyString TextColour
+
+Return
+
+#############################################
+# Show Season Positions
+
+Function Champ_ShowPositions
+
+Let RaceType = RegistryKey Key_RaceType
+If RaceType = Scenario
+{
+	Call ShowScenarioDetails
+	Return
+}
+
+StopMovie
+RestoreBackground 220,172,760,519
+
+WriteLocale 320,172,262,HeaderFont
+
+DestroyString Count
+For Count = 0 to NumberOfCars-1
+{
+	Let TempPosition = String Count+1
+
+	Let TextColour = String 65535
+	Let TempCar = RegistryKey Key_CarInPosition#TempPosition
+
+	If TempCar = 0 Let TextColour = String 63488
+
+	Write 220,204+Count*21,TempPosition,RightFont,0,0,TextColour
+
+	Let TempCarNumber = String TempCar
+	If TempCarNumber != 0
+		Let TempCarNumber = String ComputerCar#TempCarNumber
+	If TempCarNumber = 0
+		Let TempCarNumber = String SelectedCar
+	Write 239,204+Count*21,TempCarNumber,RightFont,0,0,TextColour
+
+	If TextColour = 63488
+		Let TempDriverName = RegistryKey Key_PlayerName
+	If TextColour != 63488
+		Let TempDriverName = String DriverNumber#TempCarNumber
+	Write 279,204+Count*21,TempDriverName,RightFont,0,0,TextColour
+	
+	Let TempShortString = String CarNumber#TempCarNumber
+	Write 487,204+Count*21,TempShortString#FullName,RightFont,0,0,TextColour
+
+	Let TempPoints = RegistryKey Key_PointsOfCar#Count
+	Write 700,204+Count*21,TempPoints,RightFont,0,0,TextColour
+}
+DestroyString Count
+DestroyString TempPosition
+DestroyString TempShortString
+DestroyString TempDriverName
+DestroyString TempCar
+
+Return
+
+#############################################
+# Show the scenario details
+
+Function ShowScenarioDetails
+StopMovie
+RestoreBackground 220,172,760,519
+Let ScenarioFileName = RegistryKey Key_ScenarioFileName
+Let ScenarioFile = File ScenarioFileName
+
+DestroyString ScenarioName
+ReadStream ScenarioFile,Name,ScenarioName
+Write 250,172,ScenarioName,RightFont
+DestroyString ScenarioName
+
+DestroyString ScenarioDescription
+ReadStream ScenarioFile,Description,ScenarioDescription
+Write 250,202,ScenarioDescription,RightFont,220,190
+DestroyString ScenarioDescription
+
+DestroyString ScenarioRaceLength
+ReadStream ScenarioFile,Laps,ScenarioRaceLength
+WriteLocale 250,371,246,RightFont
+Write 360,371,ScenarioRaceLength,RightFont
+WriteLocale 380,371,273,RightFont
+DestroyString ScenarioRaceLength
+
+DestroyString ScenarioTrack
+ReadStream ScenarioFile,Track,ScenarioTrack
+WriteLocale 250,392,272,RightFont
+Write 360,392,ScenarioTrack,RightFont
+DestroyString ScenarioTrack
+
+DestroyString CarsInScenario
+ReadStream ScenarioFile,Cars,CarsInScenario
+
+DestroyString CurrentCar
+For CurrentCar = 0 to CarsInScenario-1
+{
+	DestroyString CarBase
+	ReadStream ScenarioFile,Car#CurrentCar,CarBase
+	Let CarBase = String CarNumber#CarBase
+	Let CarBase = String Z_#CarBase#Number
+	Let NewTally = String Tally#CarBase
+	If NewTally = 0 Let NewTally = String 0
+	Let NewTally = String NewTally+1
+	Destroy Tally#CarBase
+	Let Tally#CarBase = String NewTally
+	DestroyString NewTally
+}
+DestroyString CurrentCar
+
+Let ListOfCars = String ""
+Let Comma = String ", "
+DestroyString CurrentCar
+For CurrentCar = 0 to NumberOfCarsAvailable
+{
+	Let ThisCarName = String Car#CurrentCar#LongString
+	Let ThisCarNumber = String Car#CurrentCar#ShortString
+	Let ThisCarNumber = String Z_#ThisCarNumber#Number
+	Let NumberOfThisCar = String Tally#ThisCarNumber
+	If NumberOfThisCar > 0
+	{
+		If ListOfCars != "" Let ListOfCars = String ListOfCars#Comma
+		Let ListOfCars = String ListOfCars#NumberOfThisCar
+		Let ListOfCars = String ListOfCars#x@
+		Let ListOfCars = String ListOfCars#ThisCarName
+	}
+	Destroy Tally#ThisCarNumber
+}
+DestroyString CurrentCar
+
+Let ListOfCars = String ListOfCars#.
+Write 250,413,ListOfCars,RightFont,220,150
+
+Return
+
+#############################################
+# Show Track details
+
+Function Champ_ShowTrack
+RestoreBackground 220,172,760,519
+
+Write 250,172,Track#SelectedTrack#Name,HeaderFont
+
+Line 493,172,734,172,65535
+Line 734,172,734,354,65535
+Line 734,354,493,354,65535
+Line 493,354,493,172,65535
+PlayMovie 494,173,Track#SelectedTrack#Name,20
+
+WriteLocale 220,202,253,RightFont
+WriteLocale 220,244,254,RightFont
+WriteLocale 220,265,255,RightFont
+WriteLocale 220,286,256,RightFont
+WriteLocale 220,307,257,RightFont
+
+Write 320,202,Track#SelectedTrack#Type,RightFont,155,34
+Write 320,244,Track#SelectedTrack#Length,RightFont
+Write 320,265,Track#SelectedTrack#Country,RightFont
+Write 320,286,Track#SelectedTrack#Direction,RightFont
+Write 320,307,Track#SelectedTrack#Features,RightFont,155
+
+Return
+
+#############################################
+# Show Car Details
+
+Function Champ_ShowCar
+RestoreBackground 220,172,760,519
+
+Let BaseCarString = String CarNumber#SelectedCar
+Write 250,172,BaseCarString#FullName,HeaderFont
+
+Line 493,172,734,172,65535
+Line 734,172,734,354,65535
+Line 734,354,493,354,65535
+Line 493,354,493,172,65535
+PlayMovie 494,173,BaseCarString,20
+
+WriteLocale 220,202,229,RightFont
+WriteLocale 220,223,230,RightFont
+WriteLocale 220,244,231,RightFont
+WriteLocale 220,265,232,RightFont
+WriteLocale 220,286,233,RightFont
+WriteLocale 220,307,234,RightFont
+
+Let CarTypeNumber = String CarNumber#SelectedCar
+Let ChosenCar = String CarTypeNumber
+Call FindChosenCar
+Let CarTypeNumber = String ChosenCar
+DestroyString ChosenCar
+
+Write 320,202,Car#CarTypeNumber#mph,RightFont
+Write 320,223,Car#CarTypeNumber#Engine,RightFont
+Write 320,244,Car#CarTypeNumber#bhp,RightFont
+Write 320,265,Car#CarTypeNumber#Revs,RightFont
+Write 320,286,Car#CarTypeNumber#Weight,RightFont
+Let SelectedGears = RegistryKey Gearbox
+Write 320,307,SelectedGears,RightFont
+
+Write 220,328,Car#CarTypeNumber#Description,RightFont,207,200
+
+DestroyString CarTypeNumber
+
+Return
+
+#############################################
+# Load a season scenario
+
+Function LoadScenario
+WriteLocale 360,80,240,HeaderFont
+
+WriteLocale 250,120,241,RightFont,100
+
+Let DifficultyLevel = String Easy
+
+Call CreateDifficultyButton
+
+Call DisplayAvailableScenarios
+
+SetRegistryKey Key_CurrentTrack,0
+
+Return
+
+#############################################
+# Race!
+
+Function Champ_Race
+Let CarString = String CarNumber#SelectedCar
+Let CarString = String CarString#_#SelectedCar
+SetRegistryKey RaceCar0,CarString
+SetRegistryKey Laps,3
+SetRegistryKey RollingStart,True
+Let NewCars = String NumberOfCars
+DestroyString NumberOfCars
+SetRegistryKey NumberOfCars,NewCars
+DestroyString Count
+Let NumberOfCars = String NewCars
+
+For Count = 1 to NumberOfCars-1
+{
+	Let ThisCarString = String ComputerCar#Count
+	Let CarString = String CarNumber#ThisCarString
+	Let CarString = String CarString#_#ThisCarString
+
+	DestroyString RaceCar
+	SetRegistryKey RaceCar#Count,CarString
+
+	DestroyString CarString
+	DestroyString ThisCarString
+}
+DestroyString Count
+
+SetRegistryKey Track,Track#SelectedTrack#Name
+
+DestroyString RaceType
+SetRegistryKey RaceType,SingleRace
+
+EnableMouse Off
+
+StopMovie
+BitmapInclude .\GameData\PostCards
+LoadBackground Track#SelectedTrack#Name
+
+RestoreBackground 0,0,800,600
+
+RunGame Champ_RaceDone
+
+Function Champ_RaceDone
+
+Call InitialiseAll
+
+Call MakeTrackStrings
+Call MakeCarStrings
+Call InitialiseDrivers
+
+Call DrawBasicLayout
+Call DrawButtonValues
+
+Let RaceType = RegistryKey Key_RaceType
+If RaceType = Scenario
+{
+	Call Scenario_DoneScenario
+	Wait
+}
+
+Let SelectedTrack = RegistryKey Key_CurrentTrack
+Let SelectedTrack = String SelectedTrack+1
+SetRegistryKey Key_CurrentTrack,SelectedTrack
+DestroyString QualifyDone
+DestroyString PracticeDone
+
+Let Qualification = String 12
+SetRegistryKey PositionQualified0,12
+
+Call ContinueChampionship
+
+Call SetQualificationPositions
+
+Let TempScoredCar = RegistryKey Position_1
+Let OldPoints = RegistryKey Key_PointsOfCar#TempScoredCar
+Let OldPoints = String OldPoints+10
+SetRegistryKey Key_PointsOfCar#TempScoredCar,OldPoints
+
+Let TempScoredCar = RegistryKey Position_2
+Let OldPoints = RegistryKey Key_PointsOfCar#TempScoredCar
+Let OldPoints = String OldPoints+6
+SetRegistryKey Key_PointsOfCar#TempScoredCar,OldPoints
+
+Let TempScoredCar = RegistryKey Position_3
+Let OldPoints = RegistryKey Key_PointsOfCar#TempScoredCar
+Let OldPoints = String OldPoints+4
+SetRegistryKey Key_PointsOfCar#TempScoredCar,OldPoints
+
+Let TempScoredCar = RegistryKey Position_4
+Let OldPoints = RegistryKey Key_PointsOfCar#TempScoredCar
+Let OldPoints = String OldPoints+3
+SetRegistryKey Key_PointsOfCar#TempScoredCar,OldPoints
+
+Let TempScoredCar = RegistryKey Position_5
+Let OldPoints = RegistryKey Key_PointsOfCar#TempScoredCar
+Let OldPoints = String OldPoints+2
+SetRegistryKey Key_PointsOfCar#TempScoredCar,OldPoints
+
+Let TempScoredCar = RegistryKey Position_6
+Let OldPoints = RegistryKey Key_PointsOfCar#TempScoredCar
+Let OldPoints = String OldPoints+1
+SetRegistryKey Key_PointsOfCar#TempScoredCar,OldPoints
+DestroyString OldPoints
+
+DestroyString Count
+For Count = 0 to NumberOfCars-1
+{
+	Let PointsOfCar#Count = RegistryKey Key_PointsOfCar#Count
+}
+DestroyString Count
+
+Let PointsOfCar#NumberOfCars = String 99999
+Sort PointsOfCar?,CarInPosition?
+
+DestroyString Count
+For Count = 0 to NumberOfCars-1
+{
+	SetRegistryKey Key_CarInPosition#Count,CarInPosition#Count
+	Destroy PointsOfCar#Count
+}
+DestroyString Count
+DestroyString PointsOfCar#NumberOfCars
+
+EnableMouse On
+DisplayScreen
+EnableMouse On
+DisplayScreen
+
+Wait
+
+#############################################
+# Practice the race
+
+Function Champ_Practice
+
+Let CarString = String CarNumber#SelectedCar
+Let CarString = String CarString#_#SelectedCar
+SetRegistryKey RaceCar0,CarString
+SetRegistryKey Laps,99
+DestroyString NumberOfCars
+SetRegistryKey NumberOfCars,1
+SetRegistryKey Track,Track#SelectedTrack#Name
+DestroyString RaceType
+SetRegistryKey RaceType,Practice
+
+EnableMouse Off
+
+StopMovie
+BitmapInclude .\GameData\PostCards
+LoadBackground Track#SelectedTrack#Name
+
+RestoreBackground 0,0,800,600
+
+RunGame Champ_PracticeDone
+
+Function Champ_PracticeDone
+Call InitialiseAll
+
+Call MakeTrackStrings
+Call MakeCarStrings
+Call InitialiseDrivers
+
+Call DrawBasicLayout
+Call DrawButtonValues
+
+Let SelectedTrack = RegistryKey Key_CurrentTrack
+Let PracticeDone = String True
+Call ContinueChampionship
+
+EnableMouse On
+DisplayScreen
+EnableMouse On
+DisplayScreen
+
+Wait
+
+#############################################
+# Qualify for the race
+
+Function Champ_Qualify
+
+Let CarString = String CarNumber#SelectedCar
+Let CarString = String CarString#_#SelectedCar
+SetRegistryKey RaceCar0,CarString
+SetRegistryKey Laps,3
+SetRegistryKey RollingStart,True
+DestroyString NumberOfCars
+SetRegistryKey NumberOfCars,1
+DestroyString Count
+For Count = 1 to NumberOfCars-1
+{
+	Let ThisCarString = String ComputerCar#Count
+	Let CarString = String CarNumber#ThisCarString
+	Let CarString = String CarString#_#ThisCarString
+
+	SetRegistryKey RaceCar#Count,CarString
+
+	DestroyString CarString
+	DestroyString ThisCarString
+}
+DestroyString Count
+
+SetRegistryKey Track,Track#SelectedTrack#Name
+
+DestroyString RaceType
+SetRegistryKey RaceType,Qualify
+
+EnableMouse Off
+
+StopMovie
+BitmapInclude .\GameData\PostCards
+LoadBackground Track#SelectedTrack#Name
+
+RestoreBackground 0,0,800,600
+
+RunGame Champ_QualificationDone
+
+Function Champ_QualificationDone
+Call InitialiseAll
+
+Call MakeTrackStrings
+Call MakeCarStrings
+Call InitialiseDrivers
+
+Call DrawBasicLayout
+Call DrawButtonValues
+
+Let SelectedTrack = RegistryKey Key_CurrentTrack
+Let QualifyDone = String True
+
+Call ContinueChampionship
+
+Let QualifyThreshold = String QualifyTime#SelectedTrack
+Let ActualTime = RegistryKey BestLap_0
+Let Qualification = String 12
+DestroyString Count
+For Count = 0 to 11
+{
+	If ActualTime < QualifyThreshold
+	{
+		Let Qualification = String Count+1
+		Let Count = String 11
+	}
+	Let ThisQualifyGap = String QualifyGap#SelectedTrack
+	Let QualifyThreshold = String QualifyThreshold+ThisQualifyGap
+}
+DestroyString Count
+DestroyString QualifyThreshold
+DestroyString ActualTime
+DestroyString ThisQualifyGap
+
+SetRegistryKey QualifiedPosition0,Qualification
+
+Call SetQualificationPositions
+
+EnableMouse On
+DisplayScreen
+EnableMouse On
+DisplayScreen
+Wait
+
+#############################################
+# Display the scenarios playable
+
+Function DisplayAvailableScenarios
+RestoreBackground 500,120,250,500
+
+DestroyString Count
+For Count = 0 to 30
+{
+	Let CheckedFileName = String "Scenarios\Full Season\"
+	Let CheckedFileName = String CheckedFileName#DifficultyLevel#\Scenario
+	Let CheckedFileName = String CheckedFileName#Count#.txt
+
+	Let CheckedFile = File CheckedFileName
+	DestroyString NameString
+	ReadStream CheckedFile,Name,NameString
+	If NameString != NULL
+	{
+		Let Scenario#Count#Button = Button 500,120+Count*21,250,15,NameString,RightFont,RightFont,ChosenScenario,none,NewScenario=CheckedFileName
+	}
+	Destroy CheckedFile
+}
+DestroyString Count
+DestroyString CheckedFileName
+Return
+
+Function ChosenScenario
+RestoreBackground 250,160,499,560
+Let ScenarioFileName = String NewScenario
+DestroyString NewScenario
+Let ScenarioFile = File ScenarioFileName
+
+DestroyString ScenarioName
+ReadStream ScenarioFile,Name,ScenarioName
+Write 250,160,ScenarioName,RightFont
+DestroyString ScenarioName
+
+DestroyString ScenarioDescription
+ReadStream ScenarioFile,Description,ScenarioDescription
+Write 250,181,ScenarioDescription,RightFont,220,211
+DestroyString ScenarioDescription
+
+DestroyString ScenarioRaceLength
+ReadStream ScenarioFile,Race,ScenarioRaceLength
+WriteLocale 250,392,246,RightFont
+Write 360,392,ScenarioRaceLength,RightFont
+DestroyString ScenarioRaceLength
+
+DestroyString CarsInScenario
+ReadStream ScenarioFile,Cars,CarsInScenario
+
+DestroyString CurrentCar
+For CurrentCar = 0 to CarsInScenario-1
+{
+	DestroyString CarBase
+	ReadStream ScenarioFile,Car#CurrentCar,CarBase
+	Let CarBase = String CarNumber#CarBase
+	Let CarBase = String Z_#CarBase#Number
+	Let NewTally = String Tally#CarBase
+	If NewTally = 0 Let NewTally = String 0
+	Let NewTally = String NewTally+1
+	Destroy Tally#CarBase
+	Let Tally#CarBase = String NewTally
+	DestroyString NewTally
+}
+DestroyString CurrentCar
+
+Let ListOfCars = String ""
+Let Comma = String ", "
+DestroyString CurrentCar
+For CurrentCar = 0 to NumberOfCarsAvailable
+{
+	Let ThisCarName = String Car#CurrentCar#LongString
+	Let ThisCarNumber = String Car#CurrentCar#ShortString
+	Let ThisCarNumber = String Z_#ThisCarNumber#Number
+	Let NumberOfThisCar = String Tally#ThisCarNumber
+	If NumberOfThisCar > 0
+	{
+		If ListOfCars != "" Let ListOfCars = String ListOfCars#Comma
+		Let ListOfCars = String ListOfCars#NumberOfThisCar
+		Let ListOfCars = String ListOfCars#x@
+		Let ListOfCars = String ListOfCars#ThisCarName
+	}
+	Destroy Tally#ThisCarNumber
+}
+DestroyString CurrentCar
+
+Let ListOfCars = String ListOfCars#.
+Write 250,413,ListOfCars,RightFont,220,150
+
+Let ConfirmScenarioText = LocaleString 247
+Let ConfirmScenarioButton = Button 290,520,140,14,ConfirmScenarioText,LeftFont,LeftFont,ScenarioConfirmed,none,ChosenScenario=ScenarioFileName
+DestroyString ConfirmScenarioText
+Return
+
+Function ScenarioConfirmed
+Call CleanUpButtons
+
+Let TempValue = RegistryKey Key_RaceType
+If TempValue = Championship
+{
+	SetRegistryKey Key_ScenarioFileName,ChosenScenario
+	DestroyString ChosenScenario
+
+	DestroyString PracticeDone
+	DestroyString QualifyDone
+
+	Let Qualification = String 12
+}
+
+DestroyString Count
+For Count = 1 to 12
+{
+	Let TempCarNo = String Count-1
+	Let CarInPosition#Count = String TempCarNo
+	Let PositionOfCar#TempCarNo = String Count
+	Let PointsOfCar#TempCarNo = String 0
+	SetRegistryKey Key_CarInPosition#Count,TempCarNo
+	SetRegistryKey Key_PointsOfCar#TempCarNo,0
+	SetRegistryKey Key_PositionOfCar#TempCarNo,Count
+}
+DestroyString Count
+DestroyString TempCarNo
+
+Call ContinueChampionship
+
+Call SetQualificationPositions
+
+Return
+
+##############################################
+# Set the starting position
+
+Function SetQualificationPositions
+
+Let Qualification = RegistryKey QualifiedPosition0
+
+DestroyString Count
+For Count = 1 to NumberOfCars-1
+{
+	Let TempPosition = String Count+1
+	If Qualification <= Count SetRegistryKey QualifiedPosition#Count,TempPosition
+	If Qualification > Count SetRegistryKey QualifiedPosition#Count,Count
+}
+DestroyString Count
+
+For Count = 1 to NumberOfCars
+{
+	Let TempCarNo = String Count-1
+	Let TempPositionNo = RegistryKey QualifiedPosition#TempCarNo
+	SetRegistryKey Key_CarInPosition#TempPositionNo,TempCarNo
+	SetRegistryKey Key_PositionOfCar#TempCarNo,TempPositionNo
+}
+DestroyString Count
+DestroyString TempCarNo
+DestroyString TempPositionNo
+
+Return
+
+Function CreateDifficultyButton
+Destroy DifficultyButton
+If DifficultyLevel = Easy Let DifficultyString = LocaleString 242
+If DifficultyLevel = Medium Let DifficultyString = LocaleString 243
+If DifficultyLevel = Hard Let DifficultyString = LocaleString 244
+
+Let DifficultyButton = Button 360,120,100,14,DifficultyString,RightFont,RightFont,ChangedDifficultyLevel
+DestroyString DifficultyString
+Return
+
+Function ChangedDifficultyLevel
+
+Destroy DifficultyButton
+DestroyString Count
+For Count = 0 to 30
+{
+	Destroy Scenario#Count#Button
+}
+DestroyString Count
+Destroy ConfirmScenarioButton
+RestoreBackground 250,160,499,560
+
+If DifficultyLevel = Easy
+{
+	Let DifficultyLevel = String Medium
+	Call CreateDifficultyButton
+	Call DisplayAvailableScenarios
+	Return
+}
+If DifficultyLevel = Medium
+{
+	Let DifficultyLevel = String Hard
+	Call CreateDifficultyButton
+	Call DisplayAvailableScenarios
+	Return
+}
+If DifficultyLevel = Hard
+{
+	Let DifficultyLevel = String Easy
+	Call CreateDifficultyButton
+	Call DisplayAvailableScenarios
+	Return
+}
+Return
+
+
+#############################################
+
+Function DestroyChampionshipButtons
+Destroy DifficultyButton
+DestroyString Count
+For Count = 0 to 30
+{
+	Destroy Scenario#Count#Button
+}
+DestroyString Count
+Destroy ConfirmScenarioButton
+
+Destroy ShowGridButton
+Destroy ShowPositionsButton
+Destroy ShowTrackButton
+Destroy ShowCarButton
+
+Destroy ExitButton
+Destroy PracticeButton
+Destroy Qualifybutton
+Destroy RaceButton
+
+StopMovie
+RestoreBackground 196,33,771,538
+Return
+

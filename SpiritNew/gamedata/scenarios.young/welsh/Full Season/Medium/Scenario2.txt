@@ -1,0 +1,35 @@
+Name Tymor llawn  Mercedes 154
+Difficulty Canolig 
+Description Mynnwch eich lleoli yn ail dros y cyfan neu well ar ddiwedd y tymor. 
+Goal Safle 
+SuccessValue 2
+SuccessString Gyrru da, cadarn drwy gydol y tymor! 
+FailureString Ceisiwch wneud yn well y tymor nesaf. 
+TrackPosition 0
+Race Medium
+Cars 10
+Car0 50
+Car1 1
+Car2 92
+Car3 4
+Car4 41
+Car5 16
+Car6 52
+Car7 33
+car8 23
+Car9 66
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

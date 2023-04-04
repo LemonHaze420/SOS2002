@@ -1,0 +1,33 @@
+Name Volle Saison Mercedes 154
+Difficulty Mittel
+Description Beenden Sie die Saison mindestens als Zweiter.
+Goal position
+SuccessValue 2
+SuccessString Das war eine ordentliche Fahrsaison!
+FailureString Legen Sie sich in der nächsten Saison noch mehr ins Zeug!
+TrackPosition 0
+Race Mittel
+Cars 10
+Car0 50
+Car1 1
+Car2 92
+Car3 4
+Car4 41
+Car5 16
+Car6 52
+Car7 33
+car8 23
+Car9 66
+
+
+
+
+
+
+
+
+
+
+
+
+

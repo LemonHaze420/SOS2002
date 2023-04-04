@@ -1,0 +1,37 @@
+Name Saison complète, Miller
+Difficulty Facile
+Description Finir dans les quatre premiers du championnat
+Goal Position
+SuccessValue 4
+SuccessString Quel talent ! Qui aurait pu croire que vous sauriez aussi bien piloter cette machine ?
+FailureString La Miller peut s’avérer une excellente voiture pour qui sait la maîtriser, vous verrez !
+TrackPosition 0
+Race Courte
+Cars 6
+Car0 2
+Car1 22
+Car2 11
+Car3 55
+Car4 43
+Car5 7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

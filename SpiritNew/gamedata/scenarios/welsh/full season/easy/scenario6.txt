@@ -1,0 +1,39 @@
+Name Tymor llawn Auto Union C
+Difficulty Hawdd 
+Description Gorffennwch y tymor yn yr ail safle neu uwch. 
+Goal Position
+SuccessValue 2
+SuccessString Gwych! 
+FailureString Fe wnaethoch yn weddol dda, cadwch i ymarfer. 
+TrackPosition 0
+Race Medium
+Cars 10
+Car0 32
+Car1 8
+Car2 21
+Car3 16
+Car4 28
+Car5 60
+Car6 59
+Car7 55
+Car8 22
+car9 17
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+Name De l'argent rapide
+# Robert Ward
+Description Un revers de fortune à la roulette vous expédie à Donington pour y ramasser la récompense. Battez le record du tour établi à 1:30:01 en seulement trois tours pour rembourser un prêteur qui ne plaisante pas...
+Goal LapTime
+Difficulty Moyen
+SuccessValue 9000
+Trackposition 3
+SuccessString 500 guinées, une place dans les livres des records... Vous revoilà à flot !
+FailureString Vous feriez mieux de quitter la ville au plus vite !
+Track Donington
+Laps 3
+Cars 4
+Car0 8
+Car1 11
+Car2 55
+Car3 7

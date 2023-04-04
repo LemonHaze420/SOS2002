@@ -1,0 +1,28 @@
+Name Il sogno americano
+Difficulty Difficile
+Description Partirai al secondo posto della griglia e dovrai vincere sulla Miller. Il Montana ti attende!
+Goal Position
+SuccessValue 1
+SuccessString Nonostante le difficoltà sei riuscito a dominare la gara!
+FailureString La gente ama i piloti soltanto quando vincono.
+TrackPosition 2
+Track Montana
+Laps 20
+Cars 8
+Car0 2
+Car1 15
+Car2 9
+Car3 41
+Car4 55
+Car5 52
+Car6 16
+Car7 57
+
+
+
+
+
+
+
+
+

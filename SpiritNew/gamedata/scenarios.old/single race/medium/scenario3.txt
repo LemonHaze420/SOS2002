@@ -1,0 +1,22 @@
+Name Desert Convoy
+# Darren Williams
+Description The Spirit of Speed circus decamps to Tripoli for a charge through the dunes. Take the Alfa 12C into fourth place, a gain of 1 position from the grid.
+Difficulty Medium
+Track Tripoli
+Laps 4
+Cars 9
+Car0 18
+Car1 20
+Car2 54
+Car3 29
+Car4 17
+Car5 34
+Car6 39
+Car7 44
+Car8 9
+
+Goal Position
+TrackPosition 5
+SuccessValue 4
+SuccessString Heat and dust obviously doesn't bother you Sir.
+FailureString This sand is for racing, not building castles. Try again.

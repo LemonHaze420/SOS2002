@@ -1,0 +1,38 @@
+Name Saison complète, Auto Union D
+Difficulty Difficile
+Description Remportez le championnat.
+Goal Position
+SuccessValue 1
+SuccessString Excellent pilotage, voilà un titre bien mérité !
+FailureString Vous êtes encore faible sur certains circuits.
+TrackPosition 0
+Race Courte
+Cars 8
+Car0 52
+Car1 41
+Car2 14
+Car3 10
+Car4 2
+Car5 50
+Car6 66
+Car7 74
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

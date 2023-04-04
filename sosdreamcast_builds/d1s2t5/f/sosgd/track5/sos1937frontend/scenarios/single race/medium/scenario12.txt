@@ -1,0 +1,29 @@
+Name Can You Handle Donington?
+# Phil Gilbert
+Description 
+CAR TYPE : Duesenberg
+CIRCUIT : Donington (UK)
+OBJECTIVE : TOP 1
+LAPS : 10
+START POSITION : 1/5
+Difficulty Medium
+Goal Position
+SuccessValue 1
+SuccessString Congratulations!
+FailureString Bad luck! Try again.
+TrackPosition 1
+Track Donington
+Laps 10
+Cars 5
+Car0 25
+Car1 8
+Car2 35
+Car3 56
+Car4 49
+#Car5 20
+#Car6 18
+
+
+
+
+

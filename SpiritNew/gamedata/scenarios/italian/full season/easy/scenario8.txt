@@ -1,0 +1,37 @@
+Name Stagione sulla Bugatti 35B
+Difficulty Facile
+Description Concludi la stagione perlomeno al sesto posto.
+Goal Position
+SuccessValue 6
+SuccessString Guidi proprio bene!
+FailureString Hai guidato male!
+TrackPosition 0
+Race Corta
+Cars 8
+Car0 7
+Car1 34
+Car2 24
+Car3 27
+Car4 11
+Car5 22
+Car6 5
+Car7 16
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

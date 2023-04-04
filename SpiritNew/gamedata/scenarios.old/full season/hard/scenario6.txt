@@ -1,0 +1,39 @@
+Name Full Season Auto Union C
+Difficulty Hard
+Description Finish the season as champion.
+Goal position
+SuccessValue 2
+SuccessString Excellent!
+FailureString You did quite well, keep practising
+TrackPosition 0
+Race Short
+Cars 10
+Car0 4
+Car1 33
+Car2 9
+Car3 20
+Car4 52
+Car5 35
+Car6 41
+Car7 16
+Car8 24
+car9 57
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

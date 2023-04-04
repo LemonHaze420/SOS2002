@@ -1,0 +1,38 @@
+Name Full Season Alfa Romeo Bimotore
+Difficulty Hard
+Description Beende die Saison auf Rang 1 oder 2!
+Goal position
+SuccessValue 2
+SuccessString Was für eine souveräne Vorstellung im neuen Superauto von Alfa! Tolle Leistung!
+FailureString Kann es sein, daß Du dieses grandiose Auto nicht verdienst? Nur zu, überzeuge uns vom Gegenteil!
+TrackPosition 0
+Race Short
+Cars 5
+Car0 74
+Car1 23
+Car2 14
+Car3 15
+#Car4 9
+#Car5 41
+Car4 36
+#Car7 50
+#car5 28
+#Car9 44
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

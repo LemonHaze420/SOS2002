@@ -1,0 +1,29 @@
+Name Les Italiens sur leur terrain
+Difficulty Facile
+Description  Les meilleures voitures italiennes s'affrontent sur ce circuit éprouvant. Vous piloterez la Bonner Special, mais la victoire ne devrait pas vous poser de problème à Monza. Vous partirez en tête.
+Goal Position
+SuccessValue 1
+SuccessString Bravo ! Vous avez réussi à survivre, et même à gagner !
+FailureString Les paysages italiens sont superbes, mais tâchez de regarder la route de temps à autre...
+TrackPosition 1
+Track Monza
+Laps 8
+Cars 6
+Car0 55
+Car1 74
+Car2 30
+Car3 17
+Car4 83
+Car5 66
+
+
+
+
+
+
+
+
+
+
+
+

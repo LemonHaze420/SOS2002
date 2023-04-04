@@ -1,0 +1,28 @@
+Name Il genio della velocità
+Difficulty Media
+Description Supera i migliori italiani a Monza e piazzati fra i primi tre con l'Auto Union C.
+Goal Position
+SuccessValue 3
+SuccessString Bel lavoro... ti sei imposto d'autorità!
+FailureString Con un po' più di pratica dovresti farcela!
+TrackPosition 1
+Track Monza
+Laps 8
+Cars 6
+Car0 4
+Car1 15
+Car2 50
+Car3 51
+Car4 32
+Car5 11
+
+
+
+
+
+
+
+
+
+
+

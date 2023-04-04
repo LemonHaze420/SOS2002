@@ -1,0 +1,36 @@
+Name Saison Complète, Miller
+Difficulty Facile
+Description Terminez la saison dans les 4 premiers
+Goal Position
+SuccessValue 4
+SuccessString Excellent pilotage !
+FailureString Vous ferez mieux l'an prochain !
+TrackPosition 0
+Race Courte
+Cars 5
+Car0 2
+Car1 22
+Car2 11
+Car3 55
+Car4 43
+Car5 7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

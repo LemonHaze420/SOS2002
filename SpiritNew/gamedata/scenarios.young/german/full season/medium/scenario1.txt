@@ -1,0 +1,32 @@
+Name Volle Saison Mercedes 125
+Difficulty Mittel
+Description Fahren Sie alle neun Strecken mit dem Mercedes 125 und beenden Sie die Saison mindestens als Zweiter.
+Goal position
+SuccessValue 2
+SuccessString Eine fantastische Rennsaison!
+FailureString Mehr Glück in der nächsten Saison!
+TrackPosition 0
+Race Medium
+Cars 10
+Car0 57
+Car1 9
+Car2 14
+Car3 4
+Car4 15
+Car5 92
+Car6 16
+Car7 41
+Car8 83
+Car9 32
+
+
+
+
+
+
+
+
+
+
+
+

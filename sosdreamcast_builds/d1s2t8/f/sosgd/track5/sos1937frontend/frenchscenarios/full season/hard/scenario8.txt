@@ -1,0 +1,38 @@
+Name Saison complète, Bugatti 35B
+Difficulty Difficile
+Description Etre couronné champion à la fin de la saison
+Goal Position
+SuccessValue 1
+SuccessString Vous avez fait l'unanimité cette saison, félicitations !
+FailureString Vous a-t-on dit que vous courriez chez les professionnels ?
+TrackPosition 0
+Race Moyenne
+Cars 5
+Car0 27
+Car1 40
+Car2 21
+Car3 22
+Car4 51
+#Car5 7
+#Car6 35
+#Car7 5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

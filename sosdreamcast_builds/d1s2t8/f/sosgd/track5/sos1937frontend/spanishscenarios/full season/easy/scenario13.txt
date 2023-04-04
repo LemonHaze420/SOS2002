@@ -1,0 +1,40 @@
+Name Full Season Bonner Special
+Difficulty Easy
+Description Finaliza el cuarto o mejor al final de la temporada
+Goal position
+SuccessValue 4
+SuccessString ¡Un trabajo agradable de pequeña temporada! Ahora intenta el siguiente escalón en habilidad.
+FailureString ¡No lo abandones! ¡Aún hay vida en este coche! 
+TrackPosition 0
+Race Long
+Cars 6
+Car0 10
+Car1 5
+Car2 21
+Car3 24
+Car4 32
+Car5 60
+#Car6 2
+#Car7 49
+#Car8 40
+#Car9 7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,40 @@
+Name Stagione sulla Miller
+Difficulty Difficile
+Description Termina la stagione in testa o al secondo posto.
+Goal Position
+SuccessValue 2
+SuccessString Hai guidato benissimo questa stagione!
+FailureString Non ti arrendere!
+TrackPosition 0
+Race Media
+Cars 10
+Car0 48
+Car1 44
+Car2 57
+Car3 59
+Car4 1
+Car5 46
+Car6 30
+Car7 51
+Car8 29
+Car9 12
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+Name Bataille continentale
+Difficulty Difficile
+Description Les meilleures voitures européennes s'affrontent pour la victoire sur l'intéressant circuit urbain de Pau. Vous piloterez l'Alfa Romeo P3, et ne viserez que la victoire. Vous partirez en quatrième position.
+Goal Position
+SuccessValue 1
+SuccessString Excellent pilotage ! Vous êtes déjà venu ici, non ?
+FailureString Continuez l'entraînement, et les choses iront mieux !
+TrackPosition 4
+Track Pau
+Laps 12
+Cars 6
+Car0 21
+Car1 83
+Car2 17
+Car3 11
+Car4 22
+Car5 8
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+Name ¡Quémalo!
+# Phil Gilbert
+Description Estás en el Miller. ¿Puedes terminar entre los cuatro primeros en Montlhery? Comienzas en la Pole position.
+Goal Position
+SuccessValue 4
+SuccessString ¡Escúchame! ¡En absoluto ha estado mal, sino muy bien hecho!
+FailureString Querido amigo. ¿Vas a intentarlo de nuevo?
+TrackPosition 1
+Track Montlhery
+Laps 5
+Cars 5
+Car0 29
+Car1 15
+Car2 33
+Car3 10
+Car4 1
+#Car5 18
+#Car6 54
+#Car7 22
+#Car8 12
+#Car9 20

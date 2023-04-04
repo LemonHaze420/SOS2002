@@ -1,0 +1,22 @@
+Name Bist Du gut genug für Donington?
+# Phil Gilbert
+Description Der Duesenberg ist sicher nicht das beste Auto der Welt. Kann er mit den Topautos, die in Donington an den Start gehen, mithalten? Du startest von der Pole-Position – verteidige diese Führung!
+Difficulty Medium
+Goal Position
+SuccessValue 1
+SuccessString Tolle Show. Das war fast schon zu einfach.
+FailureString Du musst wesentlich schneller werden. Versuch es noch einmal.
+TrackPosition 1
+Track Donington
+Laps 10
+Cars 5
+Car0 25
+Car1 8
+Car2 35
+Car3 56
+Car4 49
+#Car5 20
+#Car6 18
+
+
+

@@ -1,0 +1,38 @@
+Name Full Season Bugatti 59
+Difficulty Easy
+Description Beende die Saison auf Rang 1 oder 2!
+Goal position
+SuccessValue 2
+SuccessString Dein Ruhm als Rennfahrer eilt Dir voraus. Du bist grossartig!
+FailureString Das Management bei Bugatti berät über die derzeitige Situation. Hoffen wir, dass Du eine zweite Chance bekommst!
+TrackPosition 0
+Race Medium
+Cars 5
+Car0 28
+Car1 21
+Car2 46
+Car3 7
+Car4 11
+#Car5 53
+#Car6 43
+#Car7 5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

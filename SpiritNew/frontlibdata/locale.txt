@@ -1,0 +1,468 @@
+1 The P3 was the first genuine single-seat racing car powered by an 8-cylinder engine.
+2 A twin-engined supercar, designed to compete directly with the Mercedes and Auto Unions.
+3 This car had a trailing front suspension and swing-axle rear.
+4 Notorious for its difficult handling, but what power!
+5 The updated type C conforming to the new standards of 3 litre supercharged, 4.5 litre unsupercharged.
+6 Popular with privateers for its ability to race straight from the factory.
+7 More powerful Bugatti, with a fuel tank for a passenger.
+8 Built for Count Trossi of Scuderia Ferrari for the European Grand Prix, it held the Class C record at Brooklands outer circuit.
+9 Sporting the national racing colours of Thailand, yellow chassis and light blue body.
+10 These super-charged cars were the finest of the central-seated Maseratis.
+11 Developed in response to the Mercedes W25, this Maserati had a V8 engine and all-independent suspension.
+12 This sensation of the motor racing world was constructed to last for 500 miles and was completely overhauled for each race.
+13 The Mercedes was built to a new formula that limited the car without driver, fuel and oil to 750kg without restricting the engine size. This proved to be one of the most successful cars of the era.
+14 This highly adaptable Miller dominated the American racing scene, often in combination with Ofenhauser engines.
+15 The 24 litre Napier aero-engined car holds the Brooklands outer circuit lap record at 143.44mph.
+16 The Stream-lined Auto Union, used for racing at Avus.
+
+# Alfa Romeo P3
+17 140 mph
+18 3165 cc
+19 265 bhp
+20 5,400 rpm
+22 725kg
+23 Manual 4-speed
+24 High
+
+# Alfa Romeo Bimotore
+25 205 mph
+26 2 x 3,165 cc
+27 2 x 270 bhp
+28 5,400 rpm
+30 1030kg
+31 Manual 3-speed
+32 High
+
+# Alfa Romeo 12C
+33 150 mph
+34 4064 cc
+35 370 bhp
+36 6,600 rpm
+38 820kg
+39 Manual 4-speed
+40 High
+
+# AutoUnion C
+41 190 mph
+42 6000 cc
+43 520 bhp
+44 5,000 rpm
+46 750kg
+47 Manual 5-speed
+48 High
+
+# AutoUnion D
+49 170 mph
+50 3000 cc
+51 485 bhp
+52 7,000 rpm
+54 850kg
+55 Manual 4-speed
+56 High
+
+# Bugatti 35B
+57 140 mph
+58 2300 cc
+59 120 bhp
+60 5,100 rpm
+62 750kg
+63 Manual 4-speed
+64 High
+
+# Bugatti 59
+65 150 mph
+66 3,300 cc
+67 250 bhp
+68 6,600 rpm
+70 750kg
+71 Manual 4-speed
+72 High
+
+# Dusenberg
+73 150 mph
+74 4250 cc
+75 150 bhp
+76 5,000 rpm
+78 950kg
+79 Manual 4-speed
+80 High
+
+# ERA Remus
+81 135 mph
+82 1,500 cc
+83 166 bhp
+84 6,500 rpm
+86 915 kg
+87 Manual 4-speed
+88 High
+
+# Maserati 8CM
+89 145 mph
+90 2992 cc
+91 150 bhp
+92 5,800 rpm
+94 785kg
+95 Manual 4-speed
+96 High
+
+# Maserati V8Ri
+97 140 mph
+98 4,800 cc
+99 320 bhp
+100 5,300 rpm
+102 750kg
+103 Manual 4-speed
+104 Medium
+
+# Mercedes 125
+105 166 mph
+106 5660 cc
+107 646 bhp
+108 5,800 rpm
+110 750kg
+111 Manual 4-speed
+112 High
+
+# Mercedes 154
+113 186 mph
+114 2,962 cc
+115 483 bhp
+116 7,800 rpm
+118 750kg
+119 Manual 5-speed
+120 High
+
+# Miller
+121 150 mph
+122 1478 cc
+123 230 bhp
+124 8,000 rpm
+126 635kg
+127 Manual 4-speed
+128 High
+
+# Napier-Railton
+129 168 mph
+130 24,000 cc
+131 590 bhp
+132 2,700 rpm
+134 1,000kg
+135 Manual 3-speed
+136 High
+
+# AutoUnion SL
+137 212 mph
+138 6000 cc
+139 520 bhp
+140 5,000 rpm
+142 820kg
+143 Manual 5-speed
+144 High
+
+
+# Function labels
+145 Max Speed:
+146 Engine Size:
+147 Bhp:
+148 Max Revs:
+150 Weight:
+151 Gears:
+152 Gear Ratios:
+
+# Track labels
+153 Type:
+154 Length:
+155 Country:
+156 Direction:
+157 Features:
+
+# Avus
+158 High Speed Oval
+159 11.98 miles
+160 Germany
+161 Anti-clockwise
+162 Consists of two, two-lane 8 metre wide carriageways separated by 8 metres of grass. Fastest banked corner in the world, with a width of 12 metres and an angle of 43 degrees.
+
+# Brooklands
+163 High Speed Circuit
+164 2.75 miles
+165 England
+166 Anti-clockwise
+167 Set in the midst of rural English countryside. It has a unique start/finish straight that runs through the centre of the track. 100 feet wide with 20 feet high banking and includes 90 degree turns.
+
+# Donington
+168 Road Circuit
+169 3.125 miles
+170 England
+171 Clockwise
+172 Partly wooded parkland circuit in the Heart of England.
+
+# Montana
+173 High Speed Oval
+174 1.25 miles
+175 U.S.A.
+176 Anti-Clockwise
+177 Simple short oval...with a twist.  Tight competitive racing in the mountains of Montana.
+
+# Montlhery
+178 Road and High Speed Circuit
+179 7.8 miles
+180 France
+181 Clockwise
+182 The fabulous French countryside forms the background for this part banked circuit, part country road race.
+
+# Monza
+183 Road and High Speed Circuit
+184 4.35 miles
+185 Italy
+186 Clockwise
+187 Confront the challenging chicanes and the sweeping banking of the famous Northern Italian circuit. 
+
+# Pau
+188 Around the Houses
+189 1.72 miles
+190 France
+191 Clockwise
+192 Set against the dramatic Pyrenees, the gradients and tight curves contribute to a challenging race.
+
+# Roosevelt
+193 F1 Style Racing Track
+194 3.97 miles
+195 U.S.A.
+196 Anti-clockwise
+197 The hard-packed sand and gravel Long Island track was a real test of racing skill with its banked curves and tight corners.
+
+# Tripoli
+198 High Speed Desert Road
+199 8.14 miles
+200 Libya
+201 Clockwise
+202 Racing through the sand and the heat of Tripoli, probably the most challenging circuit of the era.
+
+# The dates of the tracks.
+203 9th May 1937
+204 30th May 1937
+205 13th June 1937
+206 3rd July 1937
+207 11th July 1937
+208 25th July 1937
+209 8th August 1937
+210 12th September 1937
+211 26th September 1937
+
+# The permanent buttons
+212 Select Track
+213 Select Car
+214 New Race
+215 Options
+216 Load Game
+217 Save Game
+218 Replay Options
+219 Quit
+220 OK
+
+# Values for Race Type
+221 Championship
+222 Single Race
+223 Scenario
+
+# Labels for the track description.
+224 Type:
+225 Length:
+226 Country:
+227 Direction:
+228 Features:
+
+# Labels for the car description.
+229 Max Speed:
+230 Engine Size:
+231 Power:
+232 Max Revs:
+233 Weight:
+234 Gears:
+235 Enter Name
+
+# race type descriptions
+236 Select Race Type
+237 New Championship
+238 Load Scenario
+239 Single Race
+
+# Load a season scenario
+240 Select Season Scenario
+241 Difficulty Level:
+242 Easy
+243 Medium
+244 Hard
+245 Name:
+246 Race Length:
+247 Confirm Scenario
+
+# The championship screen
+248 Championship
+249 Race Grid
+250 Season Standings
+251 Track Details
+252 Car Details
+253 Type:
+254 Length:
+255 Country:
+256 Direction:
+257 Features:
+258 Exit Season
+259 Practice
+260 Qualify
+261 Race
+262 Season Standings
+263 Grid Positions
+
+# Load a scenario
+264 Load Scenario
+265 Difficulty Level:
+266 Easy
+267 Medium
+268 Hard
+
+269 Load Race Scenario
+270 Next Page
+271 First Page
+272 Track:
+273 Laps
+
+# Scenario screen
+274 Exit Scenario
+275 Scenario
+276 Scenario Passed
+277 Scenario Failed
+278 Scenario Details
+
+# Replay Options Screen
+279 Replay Options
+280 Load Replay
+281 Save Replay
+282 Show Replay
+283 Replay Name:
+284 Replay Track:
+285 Cars in Replay:
+286 Free Replay Slots
+287 None
+288 Replay in memory:
+289 Selected Replay:
+290 Delete Replay
+
+# Load or Save game
+291 Load Game
+292 Save Game
+293 Delete Game
+
+# Single Race
+294 Single Race
+295 Number Of Cars:
+296 Start Race
+297 Current Track:
+298 Number of Laps:
+
+299 Game Name:
+300 Resume Game
+
+301 Are You Sure?
+302 Yes
+303 No
+
+304 Pos.
+305 Driver
+306 Car
+307 No.
+308 Lap Time
+309 Race Time
+
+310 Ultra Hard
+
+311 Continue Championship
+
+312 Race Results
+
+313 Credits
+
+314 Throttle
+315 Brake
+316 Left
+317 Right
+318 Gear Up
+319 Gear Down
+320 Accentuate
+321 Glance Behind
+
+322 Automatic
+323 Manual
+
+# Options screen
+
+500 Options
+501 Music:
+502 Rear View Mirrors:
+503 Shadows:
+504 Sky:
+505 Detail Level:
+506 Smoke:
+507 Controller:
+508 Screen Resolution:
+509 Force Feedback:
+
+510 MENU SOUND
+511 MIRRORS
+512 CAR SHADOW
+513 COCKPIT STEERING WHEEL
+514 LEVEL OF DETAIL
+515 SMOKE EFFECTS
+516 CONTROLLER
+517 SCREEN RESOLUTION
+518 FORCE FEEDBACK
+
+519 Configure
+
+520 On
+521 Off
+523 On
+524 Off
+525 On
+526 Off
+527 On
+528 Off
+529 Low
+530 Medium
+531 High
+532 On
+533 Off
+534 Steering Wheel
+535 Joystick
+536 Keyboard
+537 Custom
+538 Joypad
+539 320x200
+540 512x384
+541 640x480
+542 800x600
+543 1024x768
+544 1280x1024
+545 1600x1200
+546 Off
+547 Low
+548 High
+549 On
+550 Off
+
+551 ALL SOUND
+552 CAR VOLUME
+553 ENVIRONMENTAL AUDIO
+
+554 Retry Race
+
+555 Graphic Options
+556 Game Options
+557 Sound Options
+
+558 Configure Controller
+559 Press Any Key or Controller Button
+
+end

@@ -1,0 +1,30 @@
+Name Testing Times Ahead!
+Difficulty Hard
+Description  The French countryside at Montlhery provides a beautiful backdrop for this European challenge. Can you take the Bugatti 59 to a podium finish. Its a tough to drive but you did qualify in first place.
+Goal Position
+SuccessValue 3
+SuccessString Well done! This triumph will gladden your heart during the years of your dotage.
+FailureString You will never lose the bilious taste of this embittering defeat.
+TrackPosition 1
+Track Montlhery
+Laps 6
+Cars 5
+Car0 44
+Car1 9
+Car2 43
+Car3 56
+Car4 50
+#Car5 52
+#Car6 41
+#Car7 35
+
+
+
+
+
+
+
+
+
+
+

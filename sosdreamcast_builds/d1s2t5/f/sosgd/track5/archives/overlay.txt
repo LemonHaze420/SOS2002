@@ -1,0 +1,51 @@
+cockpitoffset:	31,304
+cockpitrotate:	400,0
+cockpitparts:	6
+cockpit0:	0,0,255,255
+cockpit1:	256,0,255,255
+cockpit2:	512,0,255,255
+cockpit3:	0,256,255,63
+cockpit4:	256,256,255,63
+cockpit5:	512,256,255,63
+
+camposzMod:	0.6
+
+needles:		2
+needleswidth:		63
+needlesheight:		63
+needle0img:	24,28,7,33
+needle0pivot:	27,56
+needle1img:	13,1,9,60
+needle1pivot:	17,55
+
+kph:	0,492,124
+kphmin:	0,3.57
+kphmax:	280,8.97
+
+rpm:	1,366,140
+rpmmin:	0,0.64
+rpmmax:	8000,5.65
+
+temp:	0,563,197
+tempmin:	0,4.87
+tempmax:	110,7.70
+
+oil:	0,240,123
+oilmin:	20,3.95
+oilmax:	80,8.60
+
+fuel:	0,171,198
+fuelmin:	0,4.33
+fuelmax:	5,8.22
+
+wheelparts:	1
+
+wheel0:	0,0,256,256
+wheeloffset:	400,600
+wheelcentre:	128,128
+dialorigin:	74,71,145,138
+dialscreenpos:	647,398
+mirrortype:	2,130,302,150,115
+mirrorpos:	133,243,361,306,269,157,355,407
+mirrortype2:	4,525,302,150,115
+mirrorpos2:	530,556,356,306,667,641,361,411

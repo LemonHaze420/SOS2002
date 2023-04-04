@@ -1,0 +1,65 @@
+#
+#	Track texture parameters.
+#	1	-	TEX_WALLTYPE	(it's a wall, you can hit it)
+#	2	-	TEX_GRASSTYPE	(it's grass)
+#	4	-	TEX_TRACKTYPE	(it's track)
+
+
+
+Ash[L].3df	:	0
+Ash[R].3df	:	0
+AshShadow.3df	:	0
+Bush[L].3df	:	0
+Bush[R].3df	:	0
+BushShadow.3df	:	0
+Pine[L].3df	:	0
+Pine[R].3df	:	0
+PineShadow.3df	:	0
+RearTrees.3df	:	1
+BackgroundLandscape.3df	:	1
+Shell-S&M.3df	:	1
+Bridgeside.3df	:	1
+MetalGrill.3df	:	1
+VicersBridgeShadow.3df	:	0
+DunlopSide.3df	:	1
+ShellPagodaRoof.3df	:	0
+PitSide.3df	:	1
+GrastandCrowd.3df	:	1
+FlightTicketRoof.3df	:	0
+PressHutSide.3df	:	1
+JacksonSide.3df	:	1
+ShellPagodaFront.3df	:	0
+ClubhouseFront.3df	:	1
+ClubHouse2Side.3df	:	1
+ClubHouseSide.3df	:	1
+ClubhouseTower.3df	:	1
+LBBmotorsSide.3df	:	1
+CambellShedFront.3df	:	1
+CambellShedRoof&Side.3df	:	1
+BPPagodaSide.3df	:	0
+Bk-RoadSideGrass.3df	:	2
+Bk-RoadSideGrass-Out.3df	:	2
+BK-Fence.3df	:	1
+BK-RoadSurface.3df	:	4
+BK-RoadBridge.3df	:	4
+BK-RoadBridgeSide.3df	:	1
+BK-WhiteFence.3df	:	1
+BK-Concrete.3df	:	4
+BK-RiverBank.3df	:	1
+BK-River.3df	:	4
+Bk-ConcreteWall.3df	:	1
+BK-RockFace.3df	:	1
+BK-TelegraphPole.3df	:	0
+BK-TelegraphPoleShadow.3df	:	0
+VicersSideLogo.3df	:	0
+VicersRoof.3df	:	1
+VicersSide.3df	:	1
+MotorRover.3df	:	1
+HangerSide.3df	:	1
+Shell-A-Cyl.3df	:	1
+BrooklandsLogo.3df	:	1
+BrickWall.3df	:	1
+StartTower.3df	:	1
+controlwall1.3df	:	1
+
+

@@ -1,0 +1,13 @@
+Name Record del giro
+Description Infrangi il record di Brooklands (1:07) entro tre soli giri! Piloterai l'Alfa Romeo P3.
+Goal LapTime
+Difficulty Media
+SuccessValue 6700
+SuccessString Bel lavoro! Hai terminato lo scenario!
+FailureString Peccato! Andrà meglio la prossima volta.
+TrackPosition 1
+Track Brooklands
+Laps 3
+Cars 2
+Car0 43
+Car1 31

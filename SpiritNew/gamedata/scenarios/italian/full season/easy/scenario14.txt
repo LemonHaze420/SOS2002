@@ -1,0 +1,39 @@
+Name Stagione sulla Watson Flyer
+Difficulty Facile
+Description Termina la stagione almeno al quarto posto in classifica.
+Goal Position
+SuccessValue 4
+SuccessString Hai guidato bene in tutta la stagione!
+FailureString Non ti arrendere!
+TrackPosition 0
+Race Corta
+Cars 8
+Car0 5
+Car1 17
+Car2 22
+Car3 11
+Car4 34
+Car5 18
+Car6 30
+Car7 31
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

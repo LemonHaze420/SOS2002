@@ -1,0 +1,17 @@
+Name Record Breakers
+# Andrew Stainer
+Description A group record breaking attempt at England's premier circuit, Donington. Beat a laptime of 1 minute 30 seconds in less than 5 laps.
+Goal LapTime
+Difficulty Medium
+SuccessValue 9000
+SuccessString Jolly good show. You have achieved a new circuit record.
+FailureString Bad luck old chap. Better luck next time.
+Track Donington
+TrackPosition 2
+Laps 5
+Cars 5
+Car0 1
+Car1 26
+Car2 58
+Car3 9
+Car4 34

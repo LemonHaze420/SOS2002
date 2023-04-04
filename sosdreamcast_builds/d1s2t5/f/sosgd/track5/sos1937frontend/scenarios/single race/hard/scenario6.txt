@@ -1,0 +1,32 @@
+Name Testing Times Ahead!
+Difficulty Hard
+Description 
+CAR TYPE : Bugatti 59
+CIRCUIT : Montlhery (France)
+OBJECTIVE : TOP 3
+LAPS : 6
+START POSITION : 1/5
+Goal Position
+SuccessValue 3
+SuccessString Congratulations!
+FailureString Bad luck! Try again.
+TrackPosition 1
+Track Montlhery
+Laps 6
+Cars 5
+Car0 44
+Car1 9
+Car2 43
+Car3 56
+Car4 50
+#Car5 52
+#Car6 41
+#Car7 35
+
+
+
+
+
+
+
+

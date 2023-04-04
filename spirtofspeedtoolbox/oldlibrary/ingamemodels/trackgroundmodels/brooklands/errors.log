@@ -1,0 +1,1 @@
+[RECOVERABLE ERROR] convert_colour(): Normalized RGB color out of range (0.0-1.0). Color in question is (1.044e+034,3.64338e-044,1.4013e-045). Setting all color components to 1.

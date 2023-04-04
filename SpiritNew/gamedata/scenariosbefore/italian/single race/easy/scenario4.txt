@@ -1,0 +1,20 @@
+Name Frecce sull'anello
+Difficulty Facile
+Description Cerca di battere tante diverse auto europee e americane a Brooklands. Partirai dal fondo della griglia, dunque cerca di partire in modo pulito.
+Goal Position
+SuccessValue 1
+SuccessString Congratulazioni! Sei stato un vero ciclone a Brooklands!
+FailureString Bisogna essere veramente incapaci per perdere su quel circuito con quest'auto! 
+TrackPosition 6
+Track Brooklands
+Laps 20
+Cars 6
+Car0 9
+Car1 24
+Car2 2
+Car3 40
+Car4 35
+Car5 18
+
+
+

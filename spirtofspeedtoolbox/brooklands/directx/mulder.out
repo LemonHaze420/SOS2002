@@ -1,0 +1,153 @@
+MULDER v6.0 (c) Broadsword Interactive 1997/1998
+no output filename given, using object.vo
+material-texture 0 xof_default NONE
+material-texture 1 Ash_Tree_Left__sub_ Ash[L].tga
+material-texture 2 Ash_Tree_Right__sub_ Ash[R].tga
+material-texture 3 Ash_Tree_Shadow__sub_ AshShadow.tga
+material-texture 4 Bush_Left__sub_ Bush[L].tga
+material-texture 5 Bush_Right__sub_ Bush[R].tga
+material-texture 6 Bush_Shadow__sub_ BushShadow.tga
+material-texture 7 Pine_Tree_Left__sub_ Pine[L].tga
+material-texture 8 Pine_Tree_Right__sub_ Pine[R].tga
+material-texture 9 Pine_Tree_Shadow__sub_ PineShadow.tga
+material-texture 10 BK_Rear_Trees RearTrees.tga
+material-texture 11 BK_Background_Landscape BackgroundLandscape.tga
+material-texture 12 BK_Shell_Advert Shell-S&M.tga
+material-texture 13 BK_Vicers_Bridge_Side__sub_ Bridgeside.tga
+material-texture 14 Top_Railings__sub_ BridgeSide.tga
+material-texture 15 Metal_Grill__sub_ MetalGrill.tga
+material-texture 16 a VicersBridgeShadow.tga
+material-texture 17 Dunlop_Side__sub_ DunlopSide.tga
+material-texture 18 Dunlop_Chimney__sub_ ShellPagodaRoof.tga
+material-texture 19 Grandstand_Side__sub_ PitSide.tga
+material-texture 20 Grandstand_Crowd__sub_ GrastandCrowd.tga
+material-texture 21 Pit_Side__sub_ PitSide.tga
+material-texture 22 Pit_Roof__sub_ ShellPagodaRoof.tga
+material-texture 23 Material FlightTicketRoof.tga
+material-texture 24 Press_Hut_Side__sub_ PressHutSide.tga
+material-texture 25 Jackson_Wall__sub_ JacksonSide.tga
+material-texture 26 Jackson_Roof__sub_ FlightTicketRoof.tga
+material-texture 27 Shell_Pagoda_Roof__sub_ ShellPagodaRoof.tga
+material-texture 28 Shell_Pagoda_SIde__sub_ ShellPagodaFront.tga
+material-texture 29 Club_Front__sub_ ClubhouseFront.tga
+material-texture 30 Club_X_Side__sub_ ClubHouse2Side.tga
+material-texture 31 Club_Side__sub_ ClubHouseSide.tga
+material-texture 32 Club_Roof__sub_ FlightTicketRoof.tga
+material-texture 33 Club_Tower__sub_ ClubhouseTower.tga
+material-texture 34 LBB_Sides__sub_ LBBmotorsSide.tga
+material-texture 35 LBB_Roof__sub_ FlightTicketRoof.tga
+material-texture 36 Air_Control_Top__sub_ CambellShedFront.tga
+material-texture 37 Cambell_Shed_Side__sub_ CambellShedRoof&Side.tga
+material-texture 38 BP_Fagoda_Side__sub_ BPPagodaSide.tga
+material-texture 39 BP_Pagoda_Roof__sub_ FlightTicketRoof.tga
+material-texture 40 BK_Road_Side_Grass Bk-RoadSideGrass.tga
+material-texture 41 BK_Road_Side_Out Bk-RoadSideGrass-Out.tga
+material-texture 42 BK_Fence BK-Fence.tga
+material-texture 43 BK_Road_Surface BK-RoadSurface.tga
+material-texture 44 BK_Road_Bridge__sub_ BK-RoadBridge.tga
+material-texture 45 Bk_Road_Bridge_Side__sub_ BK-RoadBridgeSide.tga
+material-texture 46 BK_Cambell_Fence BK-WhiteFence.tga
+material-texture 47 BK_Concrete_Surface BK-Concrete.tga
+material-texture 48 BK_River_Bank BK-RiverBank.tga
+material-texture 49 BK_River_Bed BK-River.tga
+material-texture 50 BK_Concrete_Wall Bk-ConcreteWall.tga
+material-texture 51 BK_Rock_Face BK-RockFace.tga
+material-texture 52 BK_Telegraph_Pole__sub_ BK-TelegraphPole.tga
+material-texture 53 BK_Telegraph_Pole_Shadow__sub_ BK-TelegraphPoleShadow.tga
+material-texture 54 Bk_Vicers_Logo_Side VicersSideLogo.tga
+material-texture 55 BK_Vicers_Roof VicersRoof.tga
+material-texture 56 Bk_Vicers_Side VicersSide.tga
+material-texture 57 BK_Vicers_Advert MotorRover.tga
+material-texture 58 Vicers_Bridge_Shadow VicersBridgeShadow.tga
+material-texture 59 Grandstand_Roof__sub_ ShellPagodaRoof.tga
+material-texture 60 Crowd__sub_ GrastandCrowd.tga
+material-texture 61 Airport_Roof FlightTicketRoof.tga
+material-texture 62 Airport_Building JacksonSide.tga
+material-texture 63 Hanger_Roof ShellPagodaRoof.tga
+material-texture 64 Hanger_Side HangerSide.tga
+material-texture 65 BK_Airport_Bridge_Shadow VicersBridgeShadow.tga
+material-texture 66 BK_Shell_A_Cyl Shell-A-Cyl.tga
+material-texture 67 BK_Advert_Start___Finish_Bridge BrooklandsLogo.tga
+material-texture 68 BK_Start_Finish_Bridge_Shadow VicersBridgeShadow.tga
+material-texture 69 BK_MH_Bridge_Side__sub_ Bridgeside.tga
+material-texture 70 BK_Members_Hill_Bridge_Brick__sub_ BrickWall.tga
+material-texture 71 BK_Members_Hill_Shadow VicersBridgeShadow.tga
+material-texture 72 Vicers_Building_Sides__sub_ StartTower.tga
+material-texture 73 Vicers_Pavillion_Roof__sub_ FlightTicketRoof.tga
+material-texture 74 Vicers_Building_Fenc__sub_ StartTower.tga
+material-texture 75 Vicers_Building_Crowd__sub_ GrastandCrowd.tga
+material-texture 76 Vicers_Building_Conc__sub_ ShellPagodaRoof.tga
+material-texture 77 Start_Building_Roof__sub_ FlightTicketRoof.tga
+material-texture 78 Start_Building_Side__sub_ PressHutSide.tga
+material-texture 79 Start_Building_Front__sub_ StartTower.tga
+material-texture 80 BK_Control_Tower__sub_ controlwall1.tga
+material-texture 81 BK_Control_Tower_2__sub_ controlwall1.tga
+material-texture 82 BK_Control_Tower_3__sub_ controlwall1.tga
+material-texture 83 BK_Control_Tower_4__sub_ controlwall1.tga
+Got 15610 vertices, 11136 polygons
+got 83 materials, 11136 polygon entries - incomplete?? (this isn't a problem)
+5344 normals, 11136 vertices processed
+15610 texture coords processed
+File processed OK
+scale set to 1.000000
+written 10502 geoverts
+written 5344 normals
+TEXTURES REQUIRED
+Ash[L].3df
+Ash[R].3df
+AshShadow.3df
+Bush[L].3df
+Bush[R].3df
+BushShadow.3df
+Pine[L].3df
+Pine[R].3df
+PineShadow.3df
+RearTrees.3df
+BackgroundLandscape.3df
+Shell-S&M.3df
+Bridgeside.3df
+BridgeSide.3df
+MetalGrill.3df
+VicersBridgeShadow.3df
+DunlopSide.3df
+ShellPagodaRoof.3df
+PitSide.3df
+GrastandCrowd.3df
+FlightTicketRoof.3df
+PressHutSide.3df
+JacksonSide.3df
+ShellPagodaFront.3df
+ClubhouseFront.3df
+ClubHouse2Side.3df
+ClubHouseSide.3df
+ClubhouseTower.3df
+LBBmotorsSide.3df
+CambellShedFront.3df
+CambellShedRoof&Side.3df
+BPPagodaSide.3df
+Bk-RoadSideGrass.3df
+Bk-RoadSideGrass-Out.3df
+BK-Fence.3df
+BK-RoadSurface.3df
+BK-RoadBridge.3df
+BK-RoadBridgeSide.3df
+BK-WhiteFence.3df
+BK-Concrete.3df
+BK-RiverBank.3df
+BK-River.3df
+Bk-ConcreteWall.3df
+BK-RockFace.3df
+BK-TelegraphPole.3df
+BK-TelegraphPoleShadow.3df
+VicersSideLogo.3df
+VicersRoof.3df
+VicersSide.3df
+MotorRover.3df
+HangerSide.3df
+Shell-A-Cyl.3df
+BrooklandsLogo.3df
+BrickWall.3df
+StartTower.3df
+controlwall1.3df
+offset : 30b88
+Extents : -1296.548706<x<1099.679077 -72.882492<y<88.527222 -1066.923096<z<1048.630859

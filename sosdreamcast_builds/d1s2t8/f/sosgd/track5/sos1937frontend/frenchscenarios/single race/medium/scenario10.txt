@@ -1,0 +1,14 @@
+Name Pour l'honneur
+# Andrew Stainer
+Description Redorez votre blason au volant de votre Watson Flyer et imposez-vous aux Alfa P3 à Monza.
+Difficulty Medium
+Goal Position
+SuccessValue 1
+SuccessString Vous avez lavé l'affront avec superbe. 
+FailureString La honte rejaillira sur vos descendants pendant treize générations.
+TrackPosition 1
+Track Monza
+Laps 6
+Cars 2
+Car0 42
+Car1 12

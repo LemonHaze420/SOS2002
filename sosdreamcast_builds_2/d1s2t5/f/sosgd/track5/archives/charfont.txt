@@ -1,0 +1,43 @@
+#
+# A font file
+#
+
+bitmap:charfont
+kerning:2
+lineheight:20
+space:8
+width:256
+height:256
+
+
+# character font
+
+char-a	:	24,60,14,16
+char-b	:	46,60,12,16
+char-c	:	65,60,13,16
+char-d	:	86,60,12,16
+char-e	:	106,60,11,16
+char-f	:	125,60,10,16
+char-g	:	142,60,14,16
+char-h	:	164,60,13,16
+char-i	:	185,60,4,16
+char-j	:	197,60,11,16
+char-k	:	216,60,14,16
+
+char-l	:	26,104,11,16
+char-m	:	44,104,15,16
+char-n	:	67,104,13,16
+char-o	:	87,104,14,16
+char-p	:	109,104,11,16
+char-q	:	127,104,14,16
+char-r	:	149,104,13,16
+char-s	:	168,104,12,16
+char-t	:	187,104,12,16
+char-u	:	207,104,13,16
+
+char-v	:	24,148,14,16
+char-w	:	44,148,19,16
+char-x	:	69,148,14,16
+char-y	:	88,148,14,16
+char-z	:	109,148,13,16
+

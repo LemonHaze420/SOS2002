@@ -1,0 +1,30 @@
+Name Full Season Mercedes 125
+Difficulty Hard
+Description 
+CAR TYPE : Mercedes-Benz 125
+RACE TYPE : Short
+OBJECTIVE : TOP 1
+NUMBER OF CARS : 4
+Goal position
+SuccessValue 1
+SuccessString Congratulations!
+FailureString Bad luck! Try again.
+TrackPosition 0
+Race Short
+Cars 4
+Car0 24
+Car1 1
+Car2 14
+Car3 20
+#Car4 15
+#Car5 66
+
+
+
+
+
+
+
+
+
+

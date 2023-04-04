@@ -1,0 +1,21 @@
+Name Tempête sur l'ovale
+Difficulty Easy
+Description Vous partez en fin de grille et devez vous imposer sur le circuit de Brooklands.
+Goal Position
+SuccessValue 1
+SuccessString Félicitations ! Vous êtes le roi de Brooklands !
+FailureString Comment avez-vous fait pour ne pas remporter cette course ?
+
+TrackPosition 5
+Track Brooklands
+Laps 20
+Cars 5
+Car0 9
+Car1 24
+Car2 2
+Car3 40
+Car4 35
+#Car5 18
+
+
+

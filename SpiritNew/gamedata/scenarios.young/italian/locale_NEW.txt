@@ -1,0 +1,466 @@
+1 Der P3 war der erste wahre Einsitzer-Rennwagen, der von einem Achtzylinder-Motor angetrieben wurde.
+2 Ein Zwillingsmotor-Superwagen, gedacht um sich direkt mit Mercedes und Auto Unions zu messen.
+3 Dieser Wagen hatte eine neuartige Vorderradaufhängung sowie eine Schwingachsen-Hinterradaufhängung.
+4 Schwer zu beherrschen, aber enorm leistungsstark!
+5 Der Typ C auf dem neuesten Standard: 3 Liter mit Kompressor, 4,5 Liter ohne.
+6 Bei freien Fahrern aufgrund seiner Fähigkeit, ab Werk renntauglich zu sein hochgeschätzt.
+7 Ein stärkerer Bugatti, mit Extratank statt Beifahrer.
+8 Dieser von Scuderia Ferrari für Graf Trossis Teilnahme am Großen Preis von Europa gebaute Wagen hielt den C-Klasse-Rekord auf dem Brooklands Outer Circuit.
+9 Die National-Rennfarben Thailands: Gelbes Chassis und hellblaue Karosserie.
+10 Diese mit Kompressor ausgestatteten Wagen waren die besten der Mittelsitzer-Maseratis.
+11 Als Antwort auf den Mercedes W25 hatte dieser Maserati einen V8-Motor und Einzelradaufhängung.
+12 Diese Sensation des Motorsports wurde gebaut, um 500 Meilen zu halten und wurde vor jedem Rennen vollständig überholt.
+13 Dieser Mercedes wurde für eine neue Formel gebaut, die den Wagen ohne Fahrer, Treibstoff und Öl auf 750 kg beschränkte, ohne die Motorgröße zu begrenzen. Er war einer der erfolgreichsten Rennwagen der Ära.
+14 Dieser äußerst anpassungsfähige Miller dominierte die US-Rennszene, oftmals in Kombination mit Ofenhauser-Motoren.
+15 Der 24-Liter-Napier mit Flugzeugmotor hält den Brooklands Outer Circuit-Rekord mit 143.44 mph (230,79 hm/h).
+16 Der stromlinienförmige Auto Union fuhr seine Rennen auf dem Avus.
+
+# Alfa Romeo P3
+17.140 mph (270,31 km/h)
+18 3165 ccm
+19.265 PS
+20 5.400 (U/min)
+22.725kg
+23 4-Gang-Getriebe, manuell
+24 Hoch
+
+# Alfa Romeo Bimotore
+25.205 mph (270,31 km/h)
+26 2mal 3.165 ccm
+27 2mal 270 PS
+28 5.400 (U/min)
+30 1.030kg
+31 3-Gang-Getriebe, manuell
+32 Hoch
+
+# Alfa Romeo 12C
+33.150 mph (270,31 km/h)
+34 4064 ccm
+35.370 PS
+36 6.600 (U/min)
+38.820kg
+39 4-Gang-Getriebe, manuell
+40 Hoch
+
+# Auto Union C
+41.190 mph (270,31 km/h)
+42 6000 ccm
+43.520 PS
+44 5.000 (U/min)
+46.750kg
+47 5-Gang-Getriebe, manuell
+48 Hoch
+
+# Auto Union D
+49.170 mph (270,31 km/h)
+50 3000 ccm
+51.485 PS
+52 7.000 (U/min)
+54.850kg
+55 4-Gang-Getriebe, manuell
+56 Hoch
+
+# Bugatti 35B
+57.140 mph (270,31 km/h)
+58 2300 ccm
+59.120 PS
+60 5.100 (U/min)
+62.750kg
+63 4-Gang-Getriebe, manuell
+64 Hoch
+
+# Bugatti 59
+65.150 mph (270,31 km/h)
+66 3.300 ccm
+67.250 PS
+68 6.600 (U/min)
+70.750kg
+71 4-Gang-Getriebe, manuell
+72 Hoch
+
+# Dusenberg
+73.150 mph (270,31 km/h)
+74 4250 ccm
+75.150 PS
+76 5.000 (U/min)
+78.950kg
+79 4-Gang-Getriebe, manuell
+80 Hoch
+
+# ERA Remus
+81.135 mph (270,31 km/h)
+82 1.500 ccm
+83.166 PS
+84 6.500 (U/min)
+86.915 kg
+87 4-Gang-Getriebe, manuell
+88 Hoch
+
+# Maserati 8CM
+89.145 mph (270,31 km/h)
+90 2992 ccm
+91.150 PS
+92 5.800 (U/min)
+94.785kg
+95 4-Gang-Getriebe, manuell
+96 Hoch
+
+# Maserati V8Ri
+97.140 mph (270,31 km/h)
+98 4.800 ccm
+99.320 PS
+100 5.300 (U/min)
+102.750kg
+103 4-Gang-Getriebe, manuell
+104 Mittel
+
+# Mercedes 125
+105.166 mph (270,31 km/h)
+106 5660 ccm
+107.646 PS
+108 5.800 (U/min)
+110.750kg
+111 4-Gang-Getriebe, manuell
+112 Hoch
+
+# Mercedes 154
+113.186 mph (270,31 km/h)
+114 2.962 ccm
+115.483 PS
+116 7.800 (U/min)
+118.750kg
+119 5-Gang-Getriebe, manuell
+120 Hoch
+
+# Miller
+121 150 mph (270,31 km/h)
+122 1478 ccm
+123 230 PS
+124 8.000 (U/min)
+126.635kg
+127 4-Gang-Getriebe, manuell
+128 Hoch
+
+# Napier-Railton
+129 168 mph (270,31 km/h)
+130 24.000 ccm
+131 590 PS
+132 2.700 (U/min)
+134 1.000kg
+135 3-Gang-Getriebe, manuell
+136 Hoch
+
+# Auto Union SL
+137 212 mph (270,31 km/h)
+138 6000 ccm
+139 520 PS
+140 5.000 (U/min)
+142 820kg
+143 5-Gang-Getriebe, manuell
+144 Hoch
+
+
+# Function labels
+145 Höchsttempo:
+146 Motorgröße:
+147 PS:
+148 Max. Umdrehung:
+150 Gewicht:
+151 Getriebe:
+152 Übersetzung:
+
+# Track labels
+153 Art:
+154 Länge:
+155 Land:
+156 Richtung:
+157 Besonderheiten:
+
+# Avus
+158 Hochgeschwindigkeitsoval
+159 19,28 km
+160 Deutschland
+161 Gegen den Uhrzeigersinn
+162 Besteht aus zwei zweispurigen, 8 Meter breiten Bahnen, die durch 8 Meter Rasen voneinander getrennt sind. Schnellste Steilkurve der Welt mit einer Breite von 12 Metern und einem Winkel von 43 Grad.
+
+# Brooklands
+163 Hochgeschwindigkeitsstrecke
+164 4,43 km
+165 England
+166 Gegen den Uhrzeigersinn
+167 Inmitten einer ländlichen englischen Gegend. Hat eine einmalige Start-/Zielgerade, die durch die Mitte der Strecke läuft. 100 Fuß (30,48m)breit mit 20 Fuß hoher Steilkurve und 90-Grad-Kurven.
+
+# Donington
+168 Straßenstrecke
+169 5,029 km
+170 England
+171 Im Uhrzeigersinn
+172 Teileweise bewaldete Parkstrecke im Herzen Englands.
+
+# Montana
+173 Hochgeschwindigkeitsoval
+174 2,01 km
+175 U.S.A.
+176 Gegen den Uhrzeigersinn
+177 Einfaches kurzes Oval... mit einer Besonderheit.  Dichte Nervenkitzelrennen in den Bergen Montanas.
+
+# Montlhery
+178 Straßen-Hochgeschwindigkeitsstrecke
+179 12,55 km
+180 Frankreich
+181 Im Uhrzeigersinn
+182 Die fantastische französische Landschaft ist der Hintergrund für diese mit Steilkurven versehene Strecke.
+
+# Monza
+183 Straßen- und Hochgeschwindigkeitsstrecke
+184 7,00 km
+185 Italien
+186 Im Uhrzeigersinn
+187 Gehen Sie die kniffligen Schikanen und die Schrägen der berühmten norditalienischen Strecke an. 
+
+# Pau
+188 Um die Häuser
+189 2,77 km
+190 Frankreich
+191 Im Uhrzeigersinn
+192 Vor den beeindruckenden Pyrenäen gelegen hat diese Strecke mit ihren engen Kurven viel zu bieten.
+
+# Roosevelt
+193 F1-artige Rennstrecke
+194 6,39 km
+195 U.S.A.
+196 Gegen den Uhrzeigersinn
+197 Die feste Sand- und Kiesstrecke von Long Island war mit ihren steilen und teilweise sehr engen Kurven eine stete Prüfung für die Fahrer.
+
+# Tripolis
+198 Hochgeschwindigkeits-Wüstenstraße
+199 13,10 km
+200 Libyen
+201 Im Uhrzeigersinn
+202 Rennen durch den Sand und die Hitze von Tripolis, vermutlich die forderndste Strecke dieser Ära.
+
+# The dates of the tracks.
+203 9. Mai 1937
+204 30. Mai 1937
+205 13. Juni 1937
+206 3. Juli 1937
+207 11. Juli 1937
+208 25. Juli 1937
+209 8. August 1937
+210 12. September 1937
+211 26. September 1937
+
+# The permanent buttons
+212 Strecke wählen
+213 Wagen wählen
+214 Neues Rennen
+215 Optionen
+216 Spiel laden
+217 Spiel speichern
+218 Wiederholungs-Optionen
+219 Ende
+220 OK
+
+# Values for Race Type
+221 Meisterschaft
+222 Einzelrennen
+223 Szenario
+
+# Labels for the track description.
+224 Art:
+225 Länge:
+226 Land:
+227 Richtung:
+228 Besonderheit:
+
+# Labels for the car description.
+229 Max Tempo:
+230 Motorgröße:
+231 Kraft:
+232 Max U/min:
+233 Gewicht:
+234 Gänge:
+235 Name eingeben
+
+# race type descriptions
+236 Art des Rennens wählen
+237 Neue Meisterschaft
+238 Szenario laden
+239 Einzelrennen
+
+# Load a season scenario
+240 Szenario laden
+241 Schwierigkeitsgrad:
+242 Einfach
+243 Mittel
+244 Schwer
+245 Name:
+246 Rennlänge:
+247 Szenario wählen
+
+# The championship screen
+248 Meisterschaft
+249 Startfeld
+250 Saisonstand
+251 Streckendetails
+252 Wagendetails
+253 Art:
+254 Länge:
+255 Land:
+256 Richtung:
+257 Besonderheit:
+258 Saison beenden
+259 Training
+260 Qualifikation
+261 Rennen
+262 Saisonstand
+263 Startfeld-Positionen
+
+
+# Load a scenario
+264 Szenario laden
+265 Schwierigkeitsgrad:
+266 Einfach
+267 Mittel
+268 Schwierig
+
+269 Rennszenario laden
+270 Nächste Seite
+271 Erste Seite
+272 Strecke:
+273 Runden
+
+# Scenario screen
+274 Szenario beenden
+275 Szenario
+276 Szenario abgeschlossen
+277 Szenario gescheitert
+278 Szenario-Details
+
+# Replay Options Screen
+279 Wiederholungs-Optionen
+280 Wiederholung laden
+281 Wiederholung speichern
+282 Wiederholung zeigen
+283 Name:
+284 Strecke:
+285 Wagen:
+286 Freie Speicherplätze
+287 Keine
+288 Im Speicher:
+289 Gewählt:
+290 Wiederholung löschen
+
+# Load or Save game
+291 Spiel laden
+292 Spiel speichern
+293 Spiel löschen
+
+# Single Race
+294 Einzelrennen
+295 Anzahl Wagen:
+296 Rennstart
+297 Gewählte Strecke:
+298 Anzahl Runden:
+
+299 Spielname:
+300 Fortsetzen
+
+301 Ganz sicher?
+302 Ja
+303 Nein
+
+304 Pos.
+305 Fahrer
+306 Wagen
+307 Nr.
+308 Rundenzeit
+309 Rennzeit
+
+310 Extrem schwierig
+
+311 Meisterschaft fortsetzen
+
+312 Rennergebnis
+
+313 Mitwirkende
+
+314 Gas
+315 Bremse
+316 Links
+317 Rechts
+318 Gang Rauf
+319 Gang Runter
+320 Turbo
+321 Blick nach hinten
+
+# Options screen
+
+500 Optionen
+501 Musik:
+502 Rückspiegel:
+503 Schatten:
+504 Himmel:
+505 Detailgrad:
+506 Rauch:
+507 Steuergerät:
+508 Bildauflösung:
+509 Force Feedback:
+
+510 MENÜMUSIK
+511 SPIEGEL
+512 WAGENSCHATTEN
+513 COCKPIT-LENKRAD
+514 DETAILGRAD
+515 RAUCHEFFEKTE
+516 STEUERGERÄT
+517 BILDAUFLÖSUNG
+518 FORCE FEEDBACK
+
+519 Konfiguration
+
+520 An
+521 Aus
+523 An
+524 Aus
+525 An
+526 Aus
+527 An
+528 Aus
+529 Wenige
+530 Mittel
+531 Viele
+532 An
+533 Aus
+534 Lenkrad
+535 Joystick
+536 Tastatur
+537 Maus
+538 Joypad
+539 320x200
+540 512x384
+541 640x480
+542 800x600
+543 1024x768
+544 1280x1024
+545 1600x1200
+546 Aus
+547 Schwach
+548 Stark
+549 An
+550 Aus
+
+551 SOUND GESAMT
+552 WAGEN-LAUTSTÄRKE
+553 UMGEBUNGSGERÄUSCHE
+
+554 Erneut fahren
+
+555 Grafikoptionen
+556 Spieloptionen
+557 Soundoptionen
+
+558 Steuerung konfigurieren
+559 Taste oder Button drücken
+
+end

@@ -1,0 +1,36 @@
+Name Volle Saison Alfa Romeo Bimotore
+Difficulty Schwierig
+Description Beenden Sie die Saison mindestens als Zweiter.
+Goal position
+SuccessValue 2
+SuccessString Eine saubere Leistung!
+FailureString Strengen Sie sich nächstes Mal mehr an!
+TrackPosition 0
+Race Kurz
+Cars 10
+Car0 74
+Car1 23
+Car2 14
+Car3 15
+Car4 9
+Car5 41
+Car6 36
+Car7 50
+car8 28
+Car9 44
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

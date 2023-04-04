@@ -1,0 +1,21 @@
+Name Scontro dei titani 
+Difficulty Facile
+Description Dieci delle più potenti auto si battono per la supremazia sull'Avus. Guida l'Alfa Romeo Bimotore e cerca di finire fra i primi 4. Potrai almeno partire dalla pole!
+Goal Position
+SuccessValue 4
+SuccessString Congratulazioni: hai battuto i tedeschi in casa loro.
+FailureString Che sfortuna: non sei riuscito a battere i tedeschi in casa loro.
+TrackPosition 1
+Track Avus
+Laps 5
+Cars 10
+Car0 83
+Car1 32
+Car2 20
+Car3 24
+Car4 33
+Car5 1
+Car6 9
+Car7 41
+Car8 14
+Car9 74

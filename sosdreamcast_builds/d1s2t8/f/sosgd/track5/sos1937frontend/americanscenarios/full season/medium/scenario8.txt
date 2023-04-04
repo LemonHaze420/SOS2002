@@ -1,0 +1,40 @@
+Name Full Season Bugatti 35B
+Difficulty Medium
+Description Finish the season in fourth position or better
+Goal position
+SuccessValue 4
+SuccessString You have performed above par and secured a drive for next year!
+FailureString Your future in Team Bugatti must be in doubt!
+TrackPosition 0
+Race Long
+Cars 5
+Car0 39
+Car1 12
+Car2 11
+Car3 59
+#Car4 46
+#Car5 5
+Car4 60
+#Car7 22
+#Car5 37
+#Car9 43
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

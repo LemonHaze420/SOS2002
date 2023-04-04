@@ -1,0 +1,34 @@
+Name Tymor llawn Mercedes 125
+Difficulty Canolig 
+Description Rasiwch y naw trac yn defnyddio'r Mercedes 125 ac yn gorffen yn un o'r ddau cyntaf ar ddiwedd y tymor. 
+Goal Safle 
+SuccessValue 2
+SuccessString Rasio bendigedig y tymor hwn.
+FailureString Gwell lwc y tymor nesaf' 
+TrackPosition 0
+Race Medium
+Cars 10
+Car0 57
+Car1 9
+Car2 14
+Car3 4
+Car4 15
+Car5 92
+Car6 16
+Car7 41
+Car8 83
+Car9 32
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+Name Germania contro Italia
+Difficulty Facile
+Description La Germania compete contro l'Italia in questa gara urbana francese. Cerca di arrivare primo o secondo con la tua Mercedes 125 a Pau per tenere sempre alto l'orgoglio nazionale. C'è un problema: partirai dal fondo.
+Goal Position
+SuccessValue 2
+SuccessString Bel lavoro! Al tuo ritorno ti attendono dieci bottiglie di schnaps e uno schnitzel di maiale!
+FailureString A quanto pare, diventerai un conducente di autobus a Düsseldorf...
+TrackPosition 8
+Track Pau
+Laps 12
+Cars 8
+Car0 33
+Car1 43
+Car2 16
+Car3 32
+Car4 58
+Car5 10
+Car6 17
+Car7 35
+
+
+
+
+
+
+

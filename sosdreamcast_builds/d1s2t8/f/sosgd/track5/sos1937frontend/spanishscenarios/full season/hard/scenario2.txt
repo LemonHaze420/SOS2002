@@ -1,0 +1,34 @@
+Name Full Season Mercedes 154
+Difficulty Hard
+Description Gana la Temporada y proclámate Campeón
+Goal position
+SuccessValue 1
+SuccessString ¡La última recompensa en el último coche!
+FailureString ¡El implacable mundo de las carreras te rechazará de ahora en adelante!
+TrackPosition 0
+Race Short
+Cars 4
+Car0 15
+#Car1 50
+Car1 32
+Car2 16
+Car3 74
+#Car5 58
+#Car4 66
+#Car7 57
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

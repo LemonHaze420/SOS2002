@@ -1,0 +1,22 @@
+Name Gib Gas!
+# Phil Gilbert
+Description Du sitzt am Steuer des Miller. Kannst Du dich in Monthlery unter den Top 4 plazieren? Du startest von der Pole-Position.
+Difficulty Medium
+Goal Position
+SuccessValue 4
+SuccessString Du Teufelskerl. Das war eine tolle Fahrt. Weiter so!
+FailureString Oh, das ging daneben! Möchtest Du es noch einmal versuchen?
+TrackPosition 1
+Track Montlhery
+Laps 5
+Cars 5
+Car0 29
+Car1 15
+Car2 33
+Car3 10
+Car4 1
+#Car5 18
+#Car6 54
+#Car7 22
+#Car8 12
+#Car9 20

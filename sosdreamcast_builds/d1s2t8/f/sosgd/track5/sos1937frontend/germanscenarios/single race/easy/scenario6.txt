@@ -1,0 +1,23 @@
+Name Der Grosse Preis der Neulinge
+Difficulty Easy
+Description Versuche, die starke europ‰ische Konkurrenz mit dem Mercedes 154 in Donington hinter Dir zu lassen. Du stehst auf dem zweiten Startplatz. Ein Kinderspiel!
+Goal Position
+SuccessValue 1
+SuccessString Das war wirklich eine ansprechende Leistung.
+FailureString Lass Dich von der Kraft der 154er nicht beeindrucken. Du muﬂt einfach gut fahren, um zu gewinnen!
+TrackPosition 2
+Track Donington
+Laps 10
+Cars 5
+Car0 15
+Car1 53
+Car2 10
+Car3 16
+Car4 9
+#Car5 1
+
+
+
+
+
+

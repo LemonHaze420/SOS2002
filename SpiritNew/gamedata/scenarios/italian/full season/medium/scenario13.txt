@@ -1,0 +1,39 @@
+Name Stagione sulla Bonner Special
+Difficulty Media
+Description Termina la stagione almeno al terzo posto.
+Goal Position
+SuccessValue 3
+SuccessString Hai guidato bene per tutta la stagione!
+FailureString Non ti arrendere!
+TrackPosition 0
+Race Media
+Cars 8
+Car0 10
+Car1 1
+Car2 24
+Car3 11
+Car4 40
+Car5 43
+Car6 44
+Car7 49
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

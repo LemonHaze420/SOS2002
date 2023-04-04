@@ -1,0 +1,20 @@
+Name Summer Holiday
+Description Race the cream of world motor sport champions in the ultimate race machines of their time. Drive your 154 to victory from the back of the grid.
+Difficulty Medium
+Goal Position
+SuccessValue 1
+SuccessString That was a cool drive. You drove well and are now adored by thousands.
+FailureString You run from the track with your head covered, too embarrassed to look anyone straight in the eye.
+TrackPosition 5
+Track Montlhery
+Laps 10
+Cars 5
+Car0 15
+Car1 16
+Car2 58
+Car3 1
+Car4 41
+#Car5 33
+#Car6 57
+#Car7 50
+#Car8 4

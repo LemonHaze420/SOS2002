@@ -1,0 +1,39 @@
+Name Full Season Bonner Special
+Difficulty Hard
+Description Finaliza siendo uno de los dos primeros al final de la temporada
+Goal position
+SuccessValue 2
+SuccessString ¡Has sobrepasado todas nuestras expectativas! Disfruta de cada momento de tu victoria.
+FailureString ¡Un caso grave de mala actuación!
+TrackPosition 0
+Race Short
+Cars 5
+Car0 55
+Car1 58
+Car2 44
+Car3 48
+Car4 53
+#Car5 57
+#Car6 42
+#Car7 49
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

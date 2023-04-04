@@ -1,0 +1,31 @@
+#
+# A font file
+#
+
+bitmap:overlay00
+kerning:1
+lineheight:22
+space:10
+width:256
+height:256
+
+#
+# numeric font 1 - smallest ; y=193, h=19
+#
+
+char-0	:	15,193,15,19	# 0
+char-1	:	43,193,9,19	# 1
+char-2	:	64,193,15,19	# 2
+char-3	:	89,193,15,19	# 3
+char-4	:	114,193,15,19	# 4
+char-5	:	138,193,15,19	# 5
+char-6	:	163,193,15,19	# 6
+char-7	:	189,193,16,19	# 7
+char-8	:	212,193,15,19	# 8
+char-9	:	237,193,15,19	# 9
+char-colon : 	191,223,11,29	# colon
+char-/	:	407,168,11,29	# /
+char-+	:	192,85,16,19	# +
+char--	:	215,85,16,19	# -
+
+

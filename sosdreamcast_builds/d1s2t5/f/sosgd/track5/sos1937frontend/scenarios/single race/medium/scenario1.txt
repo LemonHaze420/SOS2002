@@ -1,0 +1,24 @@
+Name Fast Money
+# Robert Ward
+Description 
+CAR TYPE : Alfa Romeo 12C
+CIRCUIT : Donington (UK)
+OBJECTIVE : 1:30:01
+LAPS : 3
+START POSITION : 1/4
+Goal LapTime
+Difficulty Medium
+SuccessValue 9000
+SuccessString Congratulations!
+FailureString Bad luck! Try again.
+Track Donington
+Laps 3
+Cars 4
+Car0 8
+Car1 11
+Car2 55
+Car3 7
+
+
+
+

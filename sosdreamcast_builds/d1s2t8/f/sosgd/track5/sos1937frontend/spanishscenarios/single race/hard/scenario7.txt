@@ -1,0 +1,27 @@
+Name Batalla Continental
+Difficulty Difícil
+Description Una amplia variedad de los mejores coches europeos compiten por la victoria en el interesante circuito urbano de Pau. Tu coches es el Alfa Romeo P3 y solo se admite la victoria. Comienza desde la cuarta posición en la parrilla.
+Goal Position
+SuccessValue 1
+SuccessString ¡Excelente conducción! ¿Seguro que no lo has hecho antes?
+FailureString ¡Sigue practicando! ¡Seguro que se hace más fácil!
+TrackPosition 4
+Track Pau
+Laps 12
+Cars 5
+Car0 21
+Car1 83
+Car2 17
+Car3 11
+Car4 22
+#Car5 8
+
+
+
+
+
+
+
+
+
+

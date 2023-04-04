@@ -1,0 +1,20 @@
+Name Rhuthro o gwmpas yr Oval
+Difficulty Hawdd
+Description Ceisiwch guro amrywiaeth o geir Ewropeaidd ac Americanaidd yn Brooklands. Rydych yn dechrau o gefn y grid felly dechreuwch yn lân.
+Goal Position
+SuccessValue 1
+SuccessString Llongyfarchiadau! Fe chwythoch storm o amgylch Brooklands!
+FailureString Mae'n cymryd ymdrech fawr i golli ar y cylchffordd yna gyda'r car yma! 
+TrackPosition 6
+Track Brooklands
+Laps 20
+Cars 6
+Car0 9
+Car1 24
+Car2 2
+Car3 40
+Car4 35
+Car5 18
+
+
+

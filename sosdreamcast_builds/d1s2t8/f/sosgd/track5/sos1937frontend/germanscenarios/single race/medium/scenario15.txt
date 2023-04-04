@@ -1,0 +1,22 @@
+Name Ein Punkt genügt
+Description Erobere auf der spektakulären Strecke von Pau mit einem Bugatti 35 einen Meisterschaftspunkt! Aufgrund eines geplatzten Reifens in der Qualifikation gehst Du leider von der letzten Startreihe ins Rennen.
+Goal Position
+Difficulty Medium
+SuccessValue 4
+SuccessString Ausgezeichnet! Jetzt betet Bugatti Dich an!
+FailureString So nah und doch so fern ... vielleicht beim nächsten Mal.
+TrackPosition 5
+Track Pau
+Laps 8
+Cars 5
+Car0 7
+Car1 20
+Car2 33
+Car3 32
+Car4 14
+#Car5 15
+#Car6 24
+#Car7 41
+#Car8 50
+#Car9 9
+

@@ -1,0 +1,23 @@
+Name Full Season Alfa Romeo Bimotore
+Difficulty Easy
+Description Win the season 
+Goal position
+SuccessValue 1
+SuccessString This was the expected result, especially in this awesome car. However, well done!
+FailureString What underperformed? You or the car?
+TrackPosition 0
+Race Long
+Cars 10
+Car0 74
+Car1 7
+Car2 48
+Car3 22
+Car4 32
+Car5 46
+Car6 83
+Car7 58
+car8 60
+Car9 2
+car10 30
+car11 55
+

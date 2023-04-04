@@ -1,0 +1,37 @@
+Name Full Season Auto Union D
+Difficulty Hard
+Description Win the championship.
+Goal position
+SuccessValue 1
+SuccessString Excellent driving, a championship well deserved!
+FailureString Competition at this level is unforgiving. You were good, but just not good enough.
+TrackPosition 0
+Race Short
+Cars 5
+Car0 52
+Car1 41
+#Car2 14
+Car2 10
+Car3 2
+#Car5 50
+Car4 66
+#Car7 74
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

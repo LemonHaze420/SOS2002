@@ -1,0 +1,40 @@
+Name Saison Complète, Auto Union D
+Difficulty Facile
+Description Terminez la saison dans les 5 premiers.
+Goal Position
+SuccessValue 5
+SuccessString Excellent pilotage !
+FailureString Pas mal,continuez à vous entraîner.
+TrackPosition 0
+Race Moyenne
+Cars 10
+Car0 23
+Car1 43
+Car2 20
+Car3 24
+Car4 52
+Car5 50
+Car6 16
+Car7 35
+Car8 1
+car9 40
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

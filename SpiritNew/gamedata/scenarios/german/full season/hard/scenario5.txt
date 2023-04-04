@@ -1,0 +1,37 @@
+Name Volle Saison Alfa Romeo 12C
+Difficulty Schwierig
+Description Beenden Sie die Saison als Champ.
+Goal position
+SuccessValue 1
+SuccessString Fantastisch! Sie sind der Champ!
+FailureString Ihnen fehlt es scheinbar an Übung.
+TrackPosition 0
+Race Kurz
+Cars 10
+Car0 31
+Car1 30
+Car2 22
+Car3 34
+Car4 16
+Car5 10
+Car6 36
+Car7 44
+Car8 25
+car9 40
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

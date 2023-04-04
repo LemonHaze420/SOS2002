@@ -1,0 +1,35 @@
+Name Stagione sull'Alfa Romeo P3
+Difficulty Media
+Description Classificati almeno secondo alla fine della stagione.
+Goal Position
+SuccessValue 2
+SuccessString Hai guidato bene per tutta la stagione!
+FailureString Impegnati di più la prossima stagione!
+TrackPosition 0
+Race Media
+Cars 10
+Car0 12
+Car1 35
+Car2 28
+Car3 51
+Car4 7
+Car5 36
+Car6 42
+Car7 3
+car8 27
+Car9 25
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

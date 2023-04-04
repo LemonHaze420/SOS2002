@@ -1,0 +1,40 @@
+Name Saison complète, Auto Union C
+Difficulty Moyen
+Description Finir dans les deux premiers du championnat
+Goal Position
+SuccessValue 2
+SuccessString Vous méritez vos lauriers ! Profitez-en !
+FailureString Il faut savoir perdre, mais il faut savoir gagner aussi.
+TrackPosition 0
+Race Courte
+Cars 5
+Car0 58
+Car1 1
+Car2 55
+Car3 9
+Car4 33
+#Car5 28
+#Car6 35
+#Car7 10
+#Car8 16
+#car9 56
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

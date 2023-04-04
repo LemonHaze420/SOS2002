@@ -1,0 +1,39 @@
+Name Full Season Bonner Special
+Difficulty Hard
+Description Beende die Saison auf Rang 1 oder 2!
+Goal position
+SuccessValue 2
+TrackPosition 0
+Race Short
+SuccessString Du hast alle Erwartungen übertroffen! Genieße jede Sekunde Deines Triumphes.
+FailureString Das war alles andere als eine Meisterleistung!
+Cars 5
+Car0 55
+Car1 58
+Car2 44
+Car3 48
+Car4 53
+#Car5 57
+#Car6 42
+#Car7 49
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

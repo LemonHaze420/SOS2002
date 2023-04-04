@@ -1,0 +1,35 @@
+Name Desmadre africano
+Difficulty Difícil
+Description El Mercedes 125 no es el coche más adecuado para este tipo de parajes. Debes vencer en Trípoli, porque tu prometida amenaza con largarse con un millonario egipcio si no lo consigues. Comienza al final de la parrilla.
+Goal Position
+SuccessValue 1
+SuccessString ¡Una victoria fantástica en una competición dura! Si surgiera un matrimonio, no estarías más contento.
+FailureString ¡La has perdido! Parece que tendrás que buscar otra chica!
+TrackPosition 5
+Track Tripoli
+Laps 6
+Cars 5
+Car0 57
+Car1 9
+Car2 50
+Car3 20
+Car4 1
+#Car5 4
+#Car5 14
+#Car7 58
+#Car8 23
+#Car9 41
+
+
+
+
+
+
+
+
+
+
+
+
+
+

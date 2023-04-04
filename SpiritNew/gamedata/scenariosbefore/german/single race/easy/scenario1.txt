@@ -1,0 +1,21 @@
+Name Kampf der Titanen
+Difficulty Einfach
+Description Zehn der mächtigsten Rennmaschinen treffen auf der Avus aufeinander. Fahren Sie den Alfa Romeo Bimotore mindestens auf Platz 4. Immerhin starten Sie ganz vorn ...
+Goal Position
+SuccessValue 4
+SuccessString Fantastisch! Sie haben Mercedes trotz Heimvorteil geschlagen!
+FailureString Kein Glück. Die Deutschen sind zu Hause kaum zu schlagen.
+TrackPosition 1
+Track Avus
+Laps 5
+Cars 10
+Car0 83
+Car1 32
+Car2 20
+Car3 24
+Car4 33
+Car5 1
+Car6 9
+Car7 41
+Car8 14
+Car9 74

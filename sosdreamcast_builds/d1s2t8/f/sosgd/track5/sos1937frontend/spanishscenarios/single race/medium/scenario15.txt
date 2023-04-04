@@ -1,0 +1,22 @@
+Name Gana un punto
+Description Conduciendo un Bugatti 35, gana un punto de campeonato en la desafiante pista de Pau. Debes comenzar atrás en la parrilla a causa de un reventón una rueda en la eliminatoria.
+Goal Position
+Difficulty Medio
+SuccessValue 4
+SuccessString ¡Excelente! ¡Bugatti te adorará desde este momento!
+FailureString Tan cerca y tan lejos … puede que otro día. 
+TrackPosition 5
+Track Pau
+Laps 8
+Cars 5
+Car0 7
+Car1 20
+Car2 33
+Car3 32
+Car4 14
+#Car5 15
+#Car6 24
+#Car7 41
+#Car8 50
+#Car9 9
+

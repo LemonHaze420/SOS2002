@@ -1,0 +1,41 @@
+Name Full Season Auto Union D
+Difficulty Easy
+Description Finish in the top five at the end of the season.
+Goal position
+SuccessValue 5
+SuccessString Good solid driving!
+FailureString You did quite well, keep practising
+TrackPosition 0
+Race Medium
+Cars 12
+Car0 23
+Car1 43
+Car2 20
+Car3 24
+Car4 52
+Car5 50
+Car6 16
+Car7 35
+Car8 1
+car9 40
+Car10 29
+Car11 60
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,40 @@
+Name Saison Complète, Maserati V8Ri
+Difficulty Moyen
+Description Terminez la saison à la première ou deuxième place.
+Goal Position
+SuccessValue 2
+SuccessString Bon pilotage cette saison !
+FailureString Ne vous laissez pas abattre !
+TrackPosition 0
+Race Courte
+Cars 8
+Car0 42
+Car1 10
+Car2 60
+Car3 51
+Car4 53
+Car5 8
+Car6 18
+Car7 17
+Car8 27
+Car9 39
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

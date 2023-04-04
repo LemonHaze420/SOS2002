@@ -1,0 +1,34 @@
+Name Promenade au Soleil
+Difficulty Facile
+Description Le difficile et long circuit de Tripoli va exiger beaucoup des pilotes. Vous allez devoir affronter ce paysage désolé pour gagner à bord de votre Mercedes 154. Vous partirez en huitième position.
+Goal Position
+SuccessValue 1
+SuccessString Votre victoire réveille la fierté des colons britanniques.
+FailureString Votre défaite sonne certainement le glas de la présence britannique sur ce continent.
+TrackPosition 8
+Track Tripoli
+Laps 6
+Cars 10
+Car0 15
+Car1 9
+Car2 12
+Car3 92
+Car4 16
+Car5 22
+Car6 7
+Car7 2
+Car8 1
+Car9 3
+
+
+
+
+
+
+
+
+
+
+
+
+

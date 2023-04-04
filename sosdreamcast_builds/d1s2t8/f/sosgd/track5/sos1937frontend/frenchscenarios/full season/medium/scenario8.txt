@@ -1,0 +1,41 @@
+Name Saison complète, Bugatti 35B
+Difficulty Moyen
+Description Finir dans les quatre premiers du championnat
+Goal Position
+SuccessValue 4
+SuccessString Vous vous êtes assuré un volant pour la prochaine saison !
+FailureString Ne vous étonnez pas si vous ne conduisez plus une Bugatti à l'avenir !
+TrackPosition 0
+Race Longue
+Cars 5
+Car0 39
+Car1 12
+Car2 11
+Car3 59
+#Car4 46
+#Car5 5
+Car4 60
+#Car7 22
+#Car8 37
+#Car9 43
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

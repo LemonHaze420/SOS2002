@@ -1,0 +1,18 @@
+Name War Between The Families
+# Darren Williams
+Description A power vacuum leaves two families battling to be Capo Regime. Make the Maserati V8Ri head of the family at Monza by finishing in the top 2 from a back of the grid start.
+Difficulty Medium
+TrackPosition 6
+Track Monza
+Laps 6
+Cars 6
+Car0 5
+Car1 11
+Car2 12
+Car3 21
+Car4 18
+Car5 49
+Goal Position
+SuccessValue 2
+SuccessString Don Maserati may I pay my respects to you and your children.
+FailureString You have shown disrespect and now must make good your pledge to Don Alfa. All of your territories are gone.

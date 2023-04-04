@@ -1,0 +1,14 @@
+Name Shocks And Shares
+# Robert Ward
+Description To boost your flagging finances you make an attempt on the lap record at Montana, which stands at 0:32:00. The Mercedes 154 could give you the prize money you desperately need.
+Difficulty Hard
+TrackPosition 2
+Goal LapTime
+SuccessValue 3200
+SuccessString You did it! One thousand dollars and a place in history are yours.
+FailureString Oh dear - it may be time to sell your collection of silk scarves.
+Track Montana
+Laps 3
+Cars 2
+Car0 15
+Car1 33

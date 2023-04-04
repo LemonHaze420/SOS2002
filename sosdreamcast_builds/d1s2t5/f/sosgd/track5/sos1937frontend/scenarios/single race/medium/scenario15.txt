@@ -1,0 +1,30 @@
+Name Get A Point
+Description 
+CAR TYPE : Bugatti 35B
+CIRCUIT : Pau (France)
+OBJECTIVE : TOP 4
+LAPS : 8
+START POSITION : 5/5
+Goal Position
+Difficulty Medium
+SuccessValue 4
+SuccessString Congratulations!
+FailureString Bad luck! Try again.
+TrackPosition 5
+Track Pau
+Laps 8
+Cars 5
+Car0 7
+Car1 20
+Car2 33
+Car3 32
+Car4 14
+#Car5 15
+#Car6 24
+#Car7 41
+#Car8 50
+#Car9 9
+
+
+
+

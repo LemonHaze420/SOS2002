@@ -1,0 +1,41 @@
+Name Saison complète, Watson Special
+Difficulty Moyen
+Description Finir dans les deux premiers du championnat
+Goal Position
+SuccessValue 2
+SuccessString Une superbe performance malgré une voiture difficile !
+FailureString Vous n'aurez effectué qu'une courte apparition dans la course automobile.
+TrackPosition 0
+Race Courte
+Cars 5
+Car0 42
+Car1 10
+Car2 60
+Car3 51
+Car4 53
+Car5 8
+#Car6 18
+#Car7 17
+Car6 27
+#Car9 39
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

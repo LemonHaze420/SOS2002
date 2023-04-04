@@ -1,0 +1,37 @@
+Name Volle Saison Auto Union D
+Difficulty Einfach
+Description Beenden Sie die Saison mindestens als Fünfter.
+Goal position
+SuccessValue 5
+SuccessString Eine saubere Leistung!
+FailureString Das war ganz gut - üben Sie weiter!
+TrackPosition 0
+Race Mittel
+Cars 10
+Car0 23
+Car1 43
+Car2 20
+Car3 24
+Car4 52
+Car5 50
+Car6 16
+Car7 35
+Car8 1
+car9 40
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

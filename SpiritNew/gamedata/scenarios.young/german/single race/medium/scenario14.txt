@@ -1,0 +1,20 @@
+Name Vive la Difference
+# Robert Ward
+Description Aufgrund eines Protests der Frauenbewegung treten in diesem Rennen viele Damen an. Fahren Sie wie ein echter Gentleman - aber sichern Sie sich den Sieg mit allen Mitteln. Sie fahren den Bugatti 35 in Montlhery und starten vorn.
+Goal Position
+Difficulty Mittel
+TrackPosition 1
+SuccessValue 1
+SuccessString Victoire! Dummerweise können die Damen Sie jetzt nicht mehr leiden.
+FailureString Verehrter Sir, die Frauen fahren besser als Sie! Was wird man in Ihrem Club dazu sagen?
+Track Montlhery
+Laps 4
+Cars 8
+Car0 27
+Car1 5
+Car2 28
+Car3 17
+Car4 2
+Car5 3
+Car6 18
+car7 22

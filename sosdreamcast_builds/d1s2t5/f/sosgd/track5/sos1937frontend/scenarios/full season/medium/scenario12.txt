@@ -1,0 +1,39 @@
+Name Full Season Miller
+Difficulty Medium
+Description 
+CAR TYPE : Miller
+RACE TYPE : Long
+OBJECTIVE : TOP 3
+NUMBER OF CARS : 5
+Goal position
+SuccessValue 3
+SuccessString Congratulations!
+FailureString Bad luck! Try Again.
+TrackPosition 0
+Race Long
+Cars 5
+Car0 48
+Car1 40
+Car2 51
+Car3 53
+Car4 56
+#Car5 21
+#Car6 10
+#Car7 39
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

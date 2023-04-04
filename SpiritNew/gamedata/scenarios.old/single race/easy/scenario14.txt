@@ -1,0 +1,28 @@
+Name Record Attempt
+Difficulty Easy
+Description Achieve a fastest lap of 2:20:00 or better using the Mercedes 125. Roosevelt is a great track for lap record attempts.
+Goal LapTime
+SuccessValue 14000
+SuccessString Excellent drive! There's more one Mercedes on the block afterall.
+FailureString Why not be obvious and drive the 154??
+TrackPosition 1
+Track Roosevelt
+Laps 8
+Cars 6
+Car0 16
+Car1 46
+Car2 35
+Car3 55
+Car4 22
+Car5 48
+
+
+
+
+
+
+
+
+
+
+

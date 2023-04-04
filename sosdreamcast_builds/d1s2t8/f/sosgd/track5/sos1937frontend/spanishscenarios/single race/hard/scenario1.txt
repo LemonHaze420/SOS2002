@@ -1,0 +1,23 @@
+Name La supremacía del doble motor
+Difficulty Difícil
+Description Usa tu Alfa Romeo Bimotore para ganar a los alemanes en Avus. Acabar en el podio será suficiente para que tus patrocinadores te sigan proporcionando dinero para correr –aunque comiences desde el fondo de la parrilla.
+Goal Position
+SuccessValue 3
+SuccessString Felicidades, ¡ha llegado un chico nuevo a la ciudad!! 
+FailureString ¡Los patrocinadores, y por supuesto tus aficionados, te perseguirán hasta Italia de vuelta!
+TrackPosition 5
+Track Avus
+Laps 5
+Cars 5
+Car0 66
+Car1 50
+Car2 23
+#Car3 52
+Car3 18
+Car4 11
+#car6 83
+#Car5 58
+#Car8 4
+
+
+

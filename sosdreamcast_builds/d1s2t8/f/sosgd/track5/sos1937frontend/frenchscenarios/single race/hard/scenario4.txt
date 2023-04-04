@@ -1,0 +1,28 @@
+Name Le rêve américain
+Difficulty Hard
+Description Vous partez 2e au volant de la Miller. Essayez donc de remporter la course du Montana !
+Goal Position
+SuccessValue 1
+SuccessString Mais qui pourra vous arrêter ?
+FailureString Le public n'applaudit que les vainqueurs.
+TrackPosition 2
+Track Montana
+Laps 20
+Cars 5
+Car0 2
+Car1 15
+Car2 9
+Car3 41
+Car4 55
+#Car5 52
+#Car5 16
+#Car7 57
+
+
+
+
+
+
+
+
+

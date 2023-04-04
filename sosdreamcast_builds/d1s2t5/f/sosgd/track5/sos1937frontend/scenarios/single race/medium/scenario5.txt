@@ -1,0 +1,35 @@
+Name The Best Of German Engineering
+Difficulty Medium
+Description 
+CAR TYPE : Mercedes-Benz 125
+CIRCUIT : Roosevelt (USA)
+OBJECTIVE : TOP 3
+LAPS : 6
+START POSITION : 2/5
+Goal Position
+SuccessValue 3
+SuccessString Congratulations!
+FailureString Bad luck! Try again.
+TrackPosition 2
+Track Roosevelt
+Laps 6
+Cars 5
+Car0 33
+Car1 52
+Car2 15
+Car3 32
+Car4 50
+#Car5 9
+#Car6 24
+#Car7 58
+
+
+
+
+
+
+
+
+
+
+

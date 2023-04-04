@@ -1,0 +1,14 @@
+Name Racing For Honour
+# Andrew Stainer
+Description You have been disrespected in public by a local hoodlum. You must win back your honour on the track. Beat the Alfa Romeo P3 in your Watson Flyer at Monza.
+Difficulty Medium
+Goal Position
+SuccessValue 1
+SuccessString Your honour remains intact. Your rival begs your forgiveness. 
+FailureString Your failure hangs over your family name for years to come.
+TrackPosition 1
+Track Monza
+Laps 6
+Cars 2
+Car0 42
+Car1 12

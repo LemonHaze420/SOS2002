@@ -1,0 +1,21 @@
+Name Twist & Shout
+# Alan Clark
+Description Pourrez-vous amener votre Alfa Romeo 12C dans les deux premières places à Monza ? Vous partirez en deuxième position, il vous suffit donc de ne pas vous laisser doubler.
+Difficulty Difficile
+Goal Position
+SuccessValue 2
+SuccessString La fête qui a suivi votre victoire restera dans les annales.
+FailureString Pourrez-vous éviter le lynchage ?
+TrackPosition 2
+Track Monza
+Laps 5
+Cars 8
+Car0 8
+Car1 49
+Car2 33
+Car3 40
+Car4 43
+Car5 42
+Car6 26
+Car7 12
+

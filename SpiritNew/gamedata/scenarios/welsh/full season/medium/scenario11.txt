@@ -1,0 +1,40 @@
+Name Tymor llawn Duesenberg
+Difficulty Canolig 
+Description Gorffennwch yn y trydydd safle neu well ar ddiwedd y tymor. 
+Goal Position
+SuccessValue 3
+SuccessString Da iawn! 
+FailureString Peidiwch poeni, gwell lwc y tymor nesaf. 
+TrackPosition 0
+Race Short
+Cars 10
+Car0 3
+Car1 12
+Car2 17
+Car3 60
+Car4 28
+Car5 40
+Car6 21
+Car7 7
+car8 11
+Car9 44
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

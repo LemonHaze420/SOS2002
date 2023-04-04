@@ -1,0 +1,40 @@
+Name Saison complète, Bonner Special
+Difficulty Difficile
+Description Finir dans les deux premiers du championnat
+Goal Position
+SuccessValue 2
+SuccessString Vous avez dépassé toutes nos espérances ! Vous avez le droit de savourer votre triomphe.
+FailureString Vous frôlez la faute professionnelle !
+TrackPosition 0
+Race Courte
+Cars 5
+Car0 55
+Car1 58
+Car2 44
+Car3 48
+Car4 53
+#Car5 57
+#Car6 42
+#Car7 49
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

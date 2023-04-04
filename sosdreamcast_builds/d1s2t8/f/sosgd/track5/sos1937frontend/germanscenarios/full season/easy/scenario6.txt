@@ -1,0 +1,39 @@
+Name Full Season Auto Union C
+Difficulty Easy
+Description Beende die Saison auf Rang 1 oder 2!
+Goal position
+SuccessValue 2
+SuccessString Eine perfekte Vorstellung. Aber kannst Du auch in den höheren Klassen bestehen? Fahre zukünftig schwierigere Szenarien!
+FailureString Mit einer derartigen Leistung hast Du in den höheren Klassen keine Chance. Worauf wartest Du noch: Ab ins Training!
+TrackPosition 0
+Race Medium
+Cars 5
+Car0 32
+Car1 8
+Car2 21
+Car3 16
+Car4 28
+#Car5 60
+#Car6 59
+#Car7 55
+#Car8 22
+#car9 17
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

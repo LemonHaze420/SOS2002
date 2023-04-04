@@ -1,0 +1,38 @@
+Name Full Season Auto Union D
+Difficulty Hard
+Description 
+CAR TYPE : Auto Union D
+RACE TYPE : Short
+OBJECTIVE : TOP 1
+NUMBER OF CARS : 5
+Goal position
+SuccessValue 1
+SuccessString Congratulations!
+FailureString Bad luck! Try again.
+TrackPosition 0
+Race Short
+Cars 5
+Car0 52
+Car1 41
+#Car2 14
+Car2 10
+Car3 2
+#Car5 50
+Car4 66
+#Car7 74
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

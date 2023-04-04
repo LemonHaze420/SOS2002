@@ -1,0 +1,27 @@
+Name Défi dans le Montana
+Difficulty Facile
+Description Tâchez de battre la Bugatti 35B et l'ERA au volant de la Duesenberg. Ce ne devrait pas être trop difficile en partant en pole position. Il vous suffit de terminer dans les 5 premiers, et le Montana devrait convenir à votre voiture !
+Goal Position
+SuccessValue 5
+SuccessString Vous avez dompté la voiture la plus délicate sur un circuit plutôt traître. Vous êtes fait pour la vitesse !
+FailureString Le pilotage de la Duesenberg est délicat, alors conduisez avec plus d'attention !!
+TrackPosition 1
+Track Montana
+Laps 30
+Cars 8
+Car0 40
+Car1 48
+Car2 2
+Car3 7
+Car4 25
+Car5 60
+Car6 34
+Car7 46
+
+
+
+
+
+
+
+

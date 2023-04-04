@@ -1,0 +1,14 @@
+Name Gara d'onore
+# Andrew Stainer
+Description Un bulletto locale ti ha mancato di rispetto in pubblico e dovrai riguadagnare l'onore in pista. Batti l'Alfa Romeo P3 con la tua Watson Flyer a Monza.
+Difficulty Media
+Goal Position
+SuccessValue 1
+SuccessString Il tuo onore è rimasto intatto. Il tuo rivale implora perdono. 
+FailureString Questo fallimento ha macchiato il nome della tua famiglia per gli anni a venire.
+TrackPosition 1
+Track Monza
+Laps 6
+Cars 2
+Car0 42
+Car1 12

@@ -1,0 +1,21 @@
+Name Meister des Ovals
+# Darren Williams
+Description Tempo in der Kurve gegen Kraft auf der Geraden. Gewinnen Sie mit dem Miller in diesem Zwölfrunden-Rennen in Montana. Na, immerhin starten Sie ganz vorn!
+Difficulty Mittel
+Track Montana
+Laps 15
+Cars 9
+Car0 48
+Car1 15
+Car2 58
+Car3 2
+Car4 41
+Car5 1
+Car6 29
+Car7 50
+Car8 4
+Goal Position
+TrackPosition 1
+SuccessValue 1
+SuccessString Sie haben mit dem hässlichen Entlein gewonnen!
+FailureString Dieses Mal waren Sie nicht gut genug, aber vielleicht nächstes Mal ...

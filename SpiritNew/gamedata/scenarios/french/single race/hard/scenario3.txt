@@ -1,0 +1,35 @@
+Name Razzia en Afrique
+Difficulty Difficile
+Description Ce n'est pas sur ce terrain que la Mercedes 125 se sent le plus à l'aise. Mais votre fiancée a menacé de s'enfuir avec un milliardaire égyptien si vous ne gagnez pas. Vous partirez du fond de la grille.
+Goal Position
+SuccessValue 1
+SuccessString Victoire extraordinaire face à des adversaires coriaces. Le mariage est pour bientôt.
+FailureString Elle vous a quitté ! Vous allez devoir vous trouver une autre petite amie...
+TrackPosition 8
+Track Tripoli
+Laps 6
+Cars 10
+Car0 57
+Car1 9
+Car2 50
+Car3 20
+Car4 1
+Car5 4
+Car6 14
+Car7 58
+Car8 23
+Car9 41
+
+
+
+
+
+
+
+
+
+
+
+
+
+

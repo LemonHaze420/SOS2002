@@ -1,0 +1,32 @@
+Name Lassù fra le montagne
+Difficulty Difficile
+Description Le auto americane e inglesi si affrontano in una lotta per la supremazia sul circuito americano di Roosevelt. Tu guiderai la ERA Remus e dovrai arrivare in testa. Si preannuncia difficile, ma almeno partirai in testa!
+Goal Position
+SuccessValue 1
+SuccessString Che pilota! La folla ti ama!
+FailureString Non importa, andrà meglio la prossima volta!
+TrackPosition 1
+Track Roosevelt
+Laps 7
+Cars 9
+Car0 22
+Car1 36
+Car2 44
+Car3 53
+Car4 2
+Car5 60
+Car6 37
+Car7 56
+Car8 48
+
+
+
+
+
+
+
+
+
+
+
+

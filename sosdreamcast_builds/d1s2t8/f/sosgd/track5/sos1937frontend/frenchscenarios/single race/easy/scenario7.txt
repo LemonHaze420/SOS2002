@@ -1,0 +1,26 @@
+Name Défi germano-italien
+Difficulty Easy
+Description L'Allemagne affronte l'Italie dans les rues de France. Finissez au moins 2e à Pau au volant de la Mercedes 125 pour laver l'affront. Ah, vous partez dernier…
+Goal Position
+SuccessValue 2
+SuccessString Bravo ! Votre retour à Berlin sera fêté comme il se doit !
+FailureString Nous vous avons trouvé un emploi de chauffeur de bus à Cologne…
+TrackPosition 5
+Track Pau
+Laps 12
+Cars 5
+Car0 33
+Car1 43
+#Car2 16
+Car2 32
+#Car4 58
+Car3 10
+#Car6 17
+Car4 35
+
+
+
+
+
+
+

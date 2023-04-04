@@ -1,0 +1,28 @@
+Name La situazione si riscalda!
+Difficulty Media
+Description Sei a Montlhéry, nel sud della Francia, in piena estate. Cerca di piazzarti fra i primi tre usando la Duesenberg. Partirai al terzo posto.
+Goal Position
+SuccessValue 3
+SuccessString Congratulazioni! Hai battuto la crema dei piloti da corsa!
+FailureString La concorrenza era veramente difficile. Riprova!
+TrackPosition 3
+Track Montlhery
+Laps 6
+Cars 6
+Car0 3
+Car1 49
+Car2 16
+Car3 36
+Car4 30
+Car5 48
+
+
+
+
+
+
+
+
+
+
+

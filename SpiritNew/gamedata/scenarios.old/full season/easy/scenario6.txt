@@ -1,0 +1,41 @@
+Name Full Season Auto Union C
+Difficulty Easy
+Description Finish the season in second place or higher.
+Goal position
+SuccessValue 2
+SuccessString Excellent!
+FailureString You did quite well, keep practising
+TrackPosition 0
+Race Medium
+Cars 12
+Car0 32
+Car1 8
+Car2 21
+Car3 16
+Car4 28
+Car5 60
+Car6 59
+Car7 55
+Car8 22
+car9 17
+Car10 44
+car11 25
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+Name Full Season Mercedes 154
+Difficulty Medium
+Description Finaliza siendo uno de los dos primeros al final de la temporada
+Goal position
+SuccessValue 2
+SuccessString Una temporada cómoda en el que quizás sea ¡EL coche de la era!
+FailureString ¡Cómo has podido hacerlo tan mal en este coche? ¡cómo se enteren tus jefes de equipo...!
+TrackPosition 0
+Race Medium
+Cars 5
+Car0 50
+Car1 1
+Car2 92
+Car3 4
+#Car4 41
+Car4 16
+#Car5 52
+#Car7 33
+#car8 23
+#Car9 66
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

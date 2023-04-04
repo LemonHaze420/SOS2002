@@ -1,0 +1,40 @@
+Name Tymor llawn Watson Flyer
+Difficulty Canolig  
+Description Gorffennwch y tymor yn yr ail safle neu well. 
+Goal Position
+SuccessValue 2
+SuccessString Gyrru da drwy'r tymor. 
+FailureString Peidiwch digalonni! 
+TrackPosition 0
+Race Short
+Cars 8
+Car0 42
+Car1 10
+Car2 60
+Car3 51
+Car4 53
+Car5 8
+Car6 18
+Car7 17
+Car8 27
+Car9 39
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

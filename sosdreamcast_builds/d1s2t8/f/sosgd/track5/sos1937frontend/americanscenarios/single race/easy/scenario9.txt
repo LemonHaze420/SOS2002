@@ -1,0 +1,26 @@
+Name Montana Challenge
+Difficulty Easy
+Description Aim to beat Bugatti 35B and ERA using the Duesenberg. Shouldn't be too hard from pole position. You only have to finish in the top three and Montana should suit your car!
+Goal Position
+SuccessValue 3
+SuccessString You have tamed the least forgiving car on a deceptively tricky circuit. You have the Spirit Of Speed!
+FailureString The Duesenberg is slick so please try to drive it more carefully!!
+TrackPosition 1
+Track Montana
+Laps 30
+Cars 5
+Car0 40
+Car1 48
+Car2 2
+Car3 7
+Car4 25
+#Car5 60
+#Car6 34
+#Car7 46
+
+
+
+
+
+
+

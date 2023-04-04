@@ -1,0 +1,23 @@
+Name Challenge de Novices
+Difficulty Facile
+Description Tâchez de vaincre diverses voitures européennes à bord de la Mercedes 154. Vous courrez à Donington et partirez en seconde position. Du gâteau !
+Goal Position
+SuccessValue 1
+SuccessString Une promenade de santé dans la campagne anglaise.
+FailureString Ne vous laissez pas tromper par la puissance de la 154. Il faut conduire avec brio pour gagner !
+TrackPosition 2
+Track Donington
+Laps 10
+Cars 6
+Car0 15
+Car1 53
+Car2 10
+Car3 16
+Car4 9
+Car5 1
+
+
+
+
+
+

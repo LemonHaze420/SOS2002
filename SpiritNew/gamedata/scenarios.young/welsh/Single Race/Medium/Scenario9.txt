@@ -1,0 +1,14 @@
+Name Cyflymdra yw yr enw. 
+Difficulty Canolig 
+Description Mercedes Benz yn rasio ei car gorau yn erbyn yr Auto Union pwerus. Cymrwch ofal yr Mercedes 154 a curwch y Auto Union D mewn ras 10 lap yn Avus.
+Goal Safle 
+SuccessValue 1
+SuccessString Llongyfarchiadau! Roedd ganddoch y pwer pan oedd ei eisiau. 
+FailureString Lwc ddrwg, roedd y Auto Union yng nghynt, ond gwell lwc tro nesa'. 
+TrackPosition 1
+Track Avus
+Laps 10
+Cars 2
+Car0 15
+Car1 23
+

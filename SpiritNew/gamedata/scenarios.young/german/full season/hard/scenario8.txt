@@ -1,0 +1,36 @@
+Name Volle Saison Bugatti 35B
+Difficulty Schwierig
+Description Beenden Sie die Saison als Meister!
+Goal position
+SuccessValue 1
+SuccessString Eine erstklassige Leistung!
+FailureString Sie haben sich wacker geschlagen - doch leider nicht wacker genug...
+TrackPosition 0
+Race Medium
+Cars 8
+Car0 27
+Car1 40
+Car2 21
+Car3 22
+Car4 51
+Car5 7
+Car6 35
+Car7 5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

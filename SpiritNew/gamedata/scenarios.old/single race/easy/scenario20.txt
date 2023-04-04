@@ -1,0 +1,12 @@
+Name The Italian Challenger
+Description Alfa Romeo's BiMotore takes on your Napier Railton in its bid for out and out speed at Brooklands. You must win at all costs.
+Difficulty Easy
+Track Brooklands
+Goal Position
+SuccessValue 1
+SuccessString Superb driving! Our reputation remanins intact...for now.
+FailureString Nooo! The Italians prove themselves and you should hang your head in shame.
+Laps 10
+Cars 2
+Car0 26
+Car1 18

@@ -1,0 +1,21 @@
+Name Meistr yr Oval
+# Darren Williams
+Description Cyflymdra ar y corneli yn erbyn pwer ar y ffordd syth. Ewch a'r Miller i'r safle cyntaf yn y ras 12 lap yma yn Montana.  O leiaf cewch ddechrau o'r safle blaen ar y grid.
+Difficulty Canolig 
+Track Montana
+Laps 15
+Cars 9
+Car0 48
+Car1 15
+Car2 58
+Car3 2
+Car4 41
+Car5 1
+Car6 29
+Car7 50
+Car8 4
+Goal Position
+TrackPosition 1
+SuccessValue 1
+SuccessString Rydych wedi gwneud y car annewisiol yn ennillydd.
+FailureString Nid oeddech ddigon da y tro hwn,  rhowch dro arall arni....

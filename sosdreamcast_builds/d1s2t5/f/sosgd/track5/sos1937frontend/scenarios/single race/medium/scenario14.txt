@@ -1,0 +1,29 @@
+Name Vive la Difference
+# Robert Ward
+Description 
+CAR TYPE : Bugatti 35B
+CIRCUIT : Montlhery (France)
+OBJECTIVE : TOP 1
+LAPS : 4
+START POSITION : 1/5
+Goal Position
+Difficulty Medium
+TrackPosition 1
+SuccessValue 1
+SuccessString Congratulations!
+FailureString Bad luck! Try again.
+Track Montlhery
+Laps 4
+Cars 5
+Car0 27
+Car1 5
+Car2 28
+Car3 17
+Car4 2
+#Car5 3
+#Car6 18
+#car7 22
+
+
+
+

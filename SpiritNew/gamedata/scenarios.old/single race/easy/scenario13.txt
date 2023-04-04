@@ -1,0 +1,26 @@
+Name A German Italian Challenge
+Difficulty Easy
+Description Germany competes against Italy in this urban French race. Finish in the top two with Mercedes 125 at Pau to keep your pride intact. One problem - you start from the back of the grid.
+Goal Position
+SuccessValue 2
+SuccessString Well done! Ten bottles of schnaps and a pork schnitzel await you back in Berlin!
+FailureString Your destiny is to become a bus driver in Dusseldorf...
+TrackPosition 8
+Track Pau
+Laps 8
+Cars 8
+Car0 33
+Car1 43
+Car2 16
+Car3 32
+Car4 58
+Car5 10
+Car6 17
+Car7 35
+
+
+
+
+
+
+

@@ -1,0 +1,55 @@
+#
+#	Track texture parameters.
+#	1	-	TEX_WALLTYPE	(it's a wall, you can hit it)
+#	2	-	TEX_GRASSTYPE	(it's grass)
+#	4	-	TEX_TRACKTYPE	(it's track)
+
+BK-BackgroundLandscape[256x64].3df : 0
+BK-BackgroundTrees[256x64].3df : 0
+BK-Fence[64x64].3df : 1
+BK-TelegraphPole.3df : 0
+BK-TreeA[128x128].3df : 0
+BK-TreeB[128x128].3df : 0
+BK-TreeC[128x128].3df : 0
+BridgeSide.3df : 1
+PitSide.3df : 1
+BK-Grass[128x128].3df : 2
+BK-River[64x32].3df : 0
+BK-RoadBridge[64x32].3df : 1
+BK-RockFace[64x32].3df : 1
+BK-Track[128x128].3df : 4
+BK-TrackCambell[128x128].3df : 4
+BK-Track-NoGrassRight[128x128].3df : 4
+BK-Track-NoMarkings[128x128].3df : 4
+BPPagodaSide.3df : 1
+BrickWall.3df : 1
+BrooklandsLogo.3df : 0
+CambellShedFront.3df : 1
+CambellShedRoof&Side.3df : 1
+ClubHouse2Side.3df : 0
+ClubhouseFront.3df : 0
+ClubHouseSide.3df : 0
+ClubhouseTower.3df : 0
+controlwall1.3df : 0
+DunlopSide.3df : 0
+FlightTicketFront.3df : 0
+FlightTicketRoof.3df : 0
+FlightTicketSide.3df : 0
+GrastandCrowd.3df : 0
+HangerSide.3df : 0
+JacksonSide.3df : 0
+LBBExtensionSide.3df : 0
+LBBmotorsSide.3df : 0
+MetalGrill.3df : 0
+MotorRover.3df : 0
+PressHutSide.3df : 0
+Shell-A-Cyl.3df : 0
+ShellPagodaFront.3df : 0
+ShellPagodaRoof.3df : 0
+Shell-S&M.3df : 0
+StartTower.3df : 0
+VicersBridgeShadow.3df : 0
+VicersRoof.3df : 0
+VicersSide.3df : 0
+VicersSideLogo.3df : 0
+

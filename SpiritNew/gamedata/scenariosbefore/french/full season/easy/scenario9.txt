@@ -1,0 +1,39 @@
+Name Saison complète, Bugatti 59
+Difficulty Facile
+Description Terminez premier ou deuxième de la saison.
+Goal Position
+SuccessValue 2
+SuccessString Excellent pilotage !
+FailureString Dommage, vous vous êtes pourtant bien battu !
+TrackPosition 0
+Race Moyenne
+Cars 8
+Car0 28
+Car1 21
+Car2 46
+Car3 7
+Car4 11
+Car5 53
+Car6 43
+Car7 5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+Name Full Season Watson Flyer
+Difficulty Easy
+Description Beende die Saison als 4. oder besser.
+Goal position
+SuccessValue 4
+SuccessString Mit dem langsamsten Auto im Feld auf diese Position zu fahren, spricht für Dich. Eine beeindruckende Leistung.
+FailureString Das ist kein einfaches Auto. Es gibt also keinen Grund, sich zu schämen.
+TrackPosition 0
+Race Short
+Cars 5
+Car0 5
+Car1 17
+Car2 22
+Car3 11
+#Car4 34
+Car4 18
+#Car6 30
+#Car7 31
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

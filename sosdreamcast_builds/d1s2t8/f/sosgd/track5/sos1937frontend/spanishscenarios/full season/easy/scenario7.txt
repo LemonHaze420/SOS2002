@@ -1,0 +1,40 @@
+Name Full Season Auto Union D
+Difficulty Easy
+Description Finaliza el cuarto o mejor al final de la temporada
+Goal position
+SuccessValue 4
+SuccessString ¡Tu habilidad ha sobrepasado la reputación de un supercoche!. Ahora entra en la clase. 
+FailureString Un world class car no se deja vencer por una conducción sin clase. ¡Nunca permitas que te vea cambiar una rueda otra vez!
+TrackPosition 0
+Race Medium
+Cars 5
+Car0 23
+Car1 43
+Car2 20
+Car3 24
+#Car4 52
+#Car5 50
+#Car6 16
+#Car7 35
+Car4 1
+#Car5 40
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

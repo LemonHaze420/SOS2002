@@ -1,0 +1,29 @@
+Name Da tutto il mondo
+Difficulty Facile
+Description In questa sfida americana partecipano auto provenienti da tutto il mondo. Cerca di arrivare primo con l'Auto Union.
+Goal Position
+SuccessValue 1
+SuccessString Il tuo talento ha scavalcato l'Atlantico e ha lasciato gli avversari di sasso.
+FailureString Durante il tuo viaggio di ritorno, sarai perseguitato dallo spettro di questa sconfitta americana.
+TrackPosition 0
+Track Roosevelt
+Laps 10
+Cars 6
+Car0 14
+Car1 83
+Car2 7
+Car3 48
+Car4 28
+Car5 22
+
+
+
+
+
+
+
+
+
+
+
++
